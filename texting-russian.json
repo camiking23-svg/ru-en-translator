@@ -1,0 +1,195 @@
+[
+  {
+    "ru": "спс",
+    "say": "spasíba",
+    "speak": "спасибо",
+    "en": "Thanks (texting shorthand for спасибо)",
+    "ex": "Спс за помощь!",
+    "exEn": "Thanks for the help!"
+  },
+  {
+    "ru": "пасиб",
+    "say": "pasíp",
+    "speak": "пасиб",
+    "en": "Thx (casual спасибо)",
+    "ex": "Пасиб, ты лучший!",
+    "exEn": "Thx, you're the best!"
+  },
+  {
+    "ru": "пжлст / плз",
+    "say": "pazhálusta / plz",
+    "speak": "пожалуйста",
+    "en": "Please (shorthand)",
+    "ex": "Скинь фото плз.",
+    "exEn": "Send the photo pls."
+  },
+  {
+    "ru": "нзч",
+    "say": "nyé za shta",
+    "speak": "не за что",
+    "en": "You're welcome (не за что)",
+    "ex": "— Спс! — Нзч.",
+    "exEn": "— Thanks! — NP."
+  },
+  {
+    "ru": "прив",
+    "say": "priv",
+    "en": "Hi (short for привет)",
+    "ex": "Прив! Чё делаешь?",
+    "exEn": "Hi! What are you doing?"
+  },
+  {
+    "ru": "пока / покеда",
+    "say": "paká / pakyéda",
+    "en": "Bye / bye-bye",
+    "ex": "Ладно, покеда!",
+    "exEn": "OK, bye-bye!"
+  },
+  {
+    "ru": "спок",
+    "say": "spok",
+    "speak": "спокойной ночи",
+    "en": "Good night (спокойной ночи)",
+    "ex": "Всем спок!",
+    "exEn": "Good night, everyone!"
+  },
+  {
+    "ru": "норм",
+    "say": "norm",
+    "en": "Fine, OK",
+    "ex": "— Как ты? — Норм.",
+    "exEn": "— How are you? — Fine."
+  },
+  {
+    "ru": "ок / окей",
+    "say": "ok / akéy",
+    "en": "OK",
+    "ex": "Ок, до вечера!",
+    "exEn": "OK, see you tonight!"
+  },
+  {
+    "ru": "+",
+    "say": "plyus",
+    "speak": "плюс",
+    "en": "Yes / agreed / I'm in",
+    "ex": "— Идём в кино? — +",
+    "exEn": "— Going to the movies? — I'm in."
+  },
+  {
+    "ru": "лол",
+    "say": "lol",
+    "en": "LOL",
+    "ex": "Лол, это смешно.",
+    "exEn": "LOL, that's funny."
+  },
+  {
+    "ru": "ахах / хаха",
+    "say": "akhákh / khakhá",
+    "en": "Haha",
+    "ex": "Ахах, точно!",
+    "exEn": "Haha, exactly!"
+  },
+  {
+    "ru": "ору",
+    "say": "arú",
+    "en": "LMAO (literally 'I'm screaming')",
+    "ex": "Ору с этого видео!",
+    "exEn": "I'm dying at this video!"
+  },
+  {
+    "ru": "др",
+    "say": "dyen' razhdyéniya",
+    "speak": "день рождения",
+    "en": "Birthday (день рождения)",
+    "ex": "С др тебя!",
+    "exEn": "Happy birthday!"
+  },
+  {
+    "ru": "кст",
+    "say": "kstáti",
+    "speak": "кстати",
+    "en": "By the way (кстати)",
+    "ex": "Кст, ты завтра занят?",
+    "exEn": "BTW, are you busy tomorrow? (to a guy)"
+  },
+  {
+    "ru": "мб",
+    "say": "mózhyet byt'",
+    "speak": "может быть",
+    "en": "Maybe (может быть)",
+    "ex": "Мб встретимся вечером?",
+    "exEn": "Maybe meet up tonight?"
+  },
+  {
+    "ru": "оч",
+    "say": "och",
+    "speak": "очень",
+    "en": "Very (очень)",
+    "ex": "Оч круто!",
+    "exEn": "So cool!"
+  },
+  {
+    "ru": "скок",
+    "say": "skok",
+    "en": "How much / how many (сколько)",
+    "ex": "Скок стоит?",
+    "exEn": "How much is it?"
+  },
+  {
+    "ru": "щас / ща",
+    "say": "shchas / shcha",
+    "en": "Now / one sec (сейчас)",
+    "ex": "Ща, пять минут.",
+    "exEn": "One sec, five minutes."
+  },
+  {
+    "ru": "чё",
+    "say": "chyo",
+    "en": "What (casual что)",
+    "ex": "Чё делаешь?",
+    "exEn": "What are you doing?"
+  },
+  {
+    "ru": "тип",
+    "say": "tip",
+    "en": "Like (filler, short for типа)",
+    "ex": "Он тип обиделся.",
+    "exEn": "He's, like, offended."
+  },
+  {
+    "ru": "ваще",
+    "say": "vashché",
+    "en": "Totally / at all (вообще)",
+    "ex": "Ваще не понял.",
+    "exEn": "Didn't get it at all."
+  },
+  {
+    "ru": "чел",
+    "say": "chel",
+    "en": "Dude / a person",
+    "ex": "Чел, ты где?",
+    "exEn": "Dude, where are you?"
+  },
+  {
+    "ru": "го",
+    "say": "go",
+    "en": "Let's go / wanna…?",
+    "ex": "Го гулять?",
+    "exEn": "Wanna go for a walk?"
+  },
+  {
+    "ru": "имхо",
+    "say": "ímkha",
+    "en": "IMO",
+    "ex": "Имхо, это лучший фильм.",
+    "exEn": "IMO, it's the best movie."
+  },
+  {
+    "ru": "лс",
+    "say": "líchnyye saabshchyéniya",
+    "speak": "личные сообщения",
+    "en": "DMs (личные сообщения)",
+    "ex": "Напиши мне в лс.",
+    "exEn": "Message me in DMs."
+  }
+]

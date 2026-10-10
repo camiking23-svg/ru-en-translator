@@ -1,0 +1,177 @@
+[
+  {
+    "ru": "Я бы хотел / хотела заказать…",
+    "say": "ya by khatyél / khatyéla zakazát'",
+    "en": "I'd like to order… (хотел if you're a man, хотела if you're a woman)",
+    "ex": "Я бы хотела заказать борщ.",
+    "exEn": "I'd like to order the borscht. (said by a woman)"
+  },
+  {
+    "ru": "Меню, пожалуйста",
+    "say": "myenyú, pazhálusta",
+    "en": "The menu, please",
+    "ex": "Добрый вечер! Меню, пожалуйста.",
+    "exEn": "Good evening! The menu, please."
+  },
+  {
+    "ru": "Что вы посоветуете?",
+    "say": "shto vy pasavyétuyetye",
+    "en": "What do you recommend?",
+    "ex": "Что вы посоветуете из горячего?",
+    "exEn": "What would you recommend for a main course?"
+  },
+  {
+    "ru": "Столик на двоих",
+    "say": "stólik na dvaíkh",
+    "en": "A table for two",
+    "ex": "У вас есть столик на двоих?",
+    "exEn": "Do you have a table for two?"
+  },
+  {
+    "ru": "Я забронировал / забронировала столик",
+    "say": "ya zabraníraval / zabraníravala stólik",
+    "en": "I booked a table (man / woman)",
+    "ex": "Я забронировала столик на семь часов.",
+    "exEn": "I booked a table for seven o'clock. (said by a woman)"
+  },
+  {
+    "ru": "Счёт, пожалуйста",
+    "say": "shchyot, pazhálusta",
+    "en": "The check, please",
+    "ex": "Спасибо, было вкусно. Счёт, пожалуйста.",
+    "exEn": "Thank you, it was delicious. The check, please."
+  },
+  {
+    "ru": "Можно оплатить картой?",
+    "say": "mózhna aplatít' kártay",
+    "en": "Can I pay by card?",
+    "ex": "Можно оплатить картой или только наличными?",
+    "exEn": "Can I pay by card, or cash only?"
+  },
+  {
+    "ru": "Это очень вкусно!",
+    "say": "éta óchyen' fkúsna",
+    "en": "This is delicious!",
+    "ex": "Спасибо, это очень вкусно!",
+    "exEn": "Thank you, this is delicious!"
+  },
+  {
+    "ru": "Можно воды?",
+    "say": "mózhna vadý",
+    "en": "Could I have some water?",
+    "ex": "Можно воды без газа?",
+    "exEn": "Could I have some still water?"
+  },
+  {
+    "ru": "С газом / без газа",
+    "say": "s gázam / byez gáza",
+    "en": "Sparkling / still (water)",
+    "ex": "Вам воду с газом или без газа?",
+    "exEn": "Would you like sparkling or still water?"
+  },
+  {
+    "ru": "Можно ещё…?",
+    "say": "mózhna yeshchyó",
+    "en": "Could I have more…?",
+    "ex": "Можно ещё хлеба?",
+    "exEn": "Could we have more bread?"
+  },
+  {
+    "ru": "Я вегетарианец / вегетарианка",
+    "say": "ya vyegyetariányets / vyegyetariánka",
+    "en": "I'm vegetarian (man / woman)",
+    "ex": "Я вегетарианка. У вас есть блюда без мяса?",
+    "exEn": "I'm vegetarian. Do you have dishes without meat?"
+  },
+  {
+    "ru": "У меня аллергия на…",
+    "say": "u myenyá allyergíya na",
+    "en": "I'm allergic to…",
+    "ex": "У меня аллергия на орехи.",
+    "exEn": "I'm allergic to nuts."
+  },
+  {
+    "ru": "Это острое?",
+    "say": "éta óstraye",
+    "en": "Is it spicy?",
+    "ex": "Это блюдо острое?",
+    "exEn": "Is this dish spicy?"
+  },
+  {
+    "ru": "Без сахара",
+    "say": "byez sákhara",
+    "en": "Without sugar",
+    "ex": "Чёрный кофе без сахара, пожалуйста.",
+    "exEn": "Black coffee without sugar, please."
+  },
+  {
+    "ru": "Чай / кофе",
+    "say": "chay / kófye",
+    "en": "Tea / coffee",
+    "ex": "Чай с лимоном, пожалуйста.",
+    "exEn": "Tea with lemon, please."
+  },
+  {
+    "ru": "Здесь или с собой?",
+    "say": "zdyes' íli s sabóy",
+    "en": "For here or to go?",
+    "ex": "— Здесь или с собой? — С собой.",
+    "exEn": "— For here or to go? — To go."
+  },
+  {
+    "ru": "На вынос",
+    "say": "na výnas",
+    "en": "To go / takeaway",
+    "ex": "Капучино на вынос, пожалуйста.",
+    "exEn": "A cappuccino to go, please."
+  },
+  {
+    "ru": "Завтрак / обед / ужин",
+    "say": "záftrak / abyét / úzhyn",
+    "en": "Breakfast / lunch / dinner",
+    "ex": "Во сколько у вас завтрак?",
+    "exEn": "What time is breakfast?"
+  },
+  {
+    "ru": "Мясо / курица / рыба",
+    "say": "myása / kúritsa / rýba",
+    "en": "Meat / chicken / fish",
+    "ex": "Я буду рыбу.",
+    "exEn": "I'll have the fish."
+  },
+  {
+    "ru": "Овощи и фрукты",
+    "say": "óvashchi i frúkty",
+    "en": "Vegetables and fruit",
+    "ex": "Где у вас овощи и фрукты?",
+    "exEn": "Where are the vegetables and fruit?"
+  },
+  {
+    "ru": "Хлеб / молоко / яйца",
+    "say": "khlyep / malakó / yáytsa",
+    "en": "Bread / milk / eggs",
+    "ex": "Мне нужно купить хлеб, молоко и яйца.",
+    "exEn": "I need to buy bread, milk and eggs."
+  },
+  {
+    "ru": "Пакет нужен?",
+    "say": "pakyét núzhyen",
+    "en": "Do you need a bag? (asked at checkout)",
+    "ex": "— Пакет нужен? — Нет, спасибо.",
+    "exEn": "— Do you need a bag? — No, thank you."
+  },
+  {
+    "ru": "Сдачи не надо",
+    "say": "zdáchi nye náda",
+    "en": "Keep the change",
+    "ex": "Вот, пожалуйста. Сдачи не надо.",
+    "exEn": "Here you go. Keep the change."
+  },
+  {
+    "ru": "Приятного аппетита",
+    "say": "priyátnava appyetíta",
+    "en": "Enjoy your meal",
+    "ex": "Всё готово. Приятного аппетита!",
+    "exEn": "Everything's ready. Enjoy your meal!"
+  }
+]

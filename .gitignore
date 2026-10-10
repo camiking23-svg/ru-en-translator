@@ -1,0 +1,10 @@
+# Installed by the host itself — never upload
+node_modules/
+
+# Local-only files
+.env
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini

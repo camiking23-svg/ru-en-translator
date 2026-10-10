@@ -1,0 +1,16 @@
+{
+  "name": "ru-en-translator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Russian ⇄ English translator with voices, phrase lists and learning sections",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "msedge-tts": "^2.0.9"
+  }
+}

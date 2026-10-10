@@ -1,0 +1,282 @@
+[
+  {
+    "ru": "Чё как?",
+    "say": "chyo kak",
+    "en": "What's up? / How's it going?",
+    "ex": "Привет! Чё как?",
+    "exEn": "Hey! What's up?"
+  },
+  {
+    "ru": "Здорово!",
+    "say": "zdaróva",
+    "en": "Hey! (casual hello, mostly between friends)",
+    "ex": "Здорово, бро!",
+    "exEn": "Hey, bro!"
+  },
+  {
+    "ru": "Как сам? / Как сама?",
+    "say": "kak sam / kak samá",
+    "en": "How are you? (to a guy / to a girl)",
+    "ex": "Давно не виделись! Как сама?",
+    "exEn": "Long time no see! How are you?"
+  },
+  {
+    "ru": "Норм",
+    "say": "norm",
+    "en": "Fine, OK, decent",
+    "ex": "— Как фильм? — Норм.",
+    "exEn": "— How was the movie? — It was OK."
+  },
+  {
+    "ru": "Круто",
+    "say": "krúta",
+    "en": "Cool, awesome",
+    "ex": "Круто выглядишь!",
+    "exEn": "You look cool!"
+  },
+  {
+    "ru": "Огонь",
+    "say": "agón'",
+    "en": "Fire, amazing",
+    "ex": "Этот трек — огонь!",
+    "exEn": "This track is fire!"
+  },
+  {
+    "ru": "Имба",
+    "say": "ímba",
+    "en": "OP, insanely good (from gaming)",
+    "ex": "Новый телефон — просто имба.",
+    "exEn": "The new phone is just insane."
+  },
+  {
+    "ru": "Жесть",
+    "say": "zhest'",
+    "en": "Crazy, intense, harsh",
+    "ex": "Жесть, какие пробки сегодня!",
+    "exEn": "Traffic is crazy today!"
+  },
+  {
+    "ru": "Капец",
+    "say": "kapéts",
+    "en": "Damn / total disaster (mild)",
+    "ex": "Капец, я опоздал!",
+    "exEn": "Damn, I'm late!"
+  },
+  {
+    "ru": "Блин",
+    "say": "blin",
+    "en": "Dang, shoot (mild; literally 'pancake')",
+    "ex": "Блин, забыл ключи.",
+    "exEn": "Dang, I forgot my keys."
+  },
+  {
+    "ru": "Кринж",
+    "say": "krinzh",
+    "en": "Cringe",
+    "ex": "Это видео — такой кринж.",
+    "exEn": "That video is so cringe."
+  },
+  {
+    "ru": "Зашквар",
+    "say": "zashkvár",
+    "en": "Embarrassing, totally uncool",
+    "ex": "Носить это — зашквар.",
+    "exEn": "Wearing that is embarrassing."
+  },
+  {
+    "ru": "Вайб",
+    "say": "vayp",
+    "en": "Vibe",
+    "ex": "У этого места классный вайб.",
+    "exEn": "This place has a great vibe."
+  },
+  {
+    "ru": "Краш",
+    "say": "krash",
+    "en": "Crush (someone you like)",
+    "ex": "Он мой краш.",
+    "exEn": "He's my crush."
+  },
+  {
+    "ru": "Ну такое",
+    "say": "nu takóye",
+    "en": "Meh, so-so",
+    "ex": "— Понравилось? — Ну такое.",
+    "exEn": "— Did you like it? — Meh."
+  },
+  {
+    "ru": "Прикольно",
+    "say": "prikól'na",
+    "en": "Cool, fun, funny",
+    "ex": "Прикольно придумал!",
+    "exEn": "Cool idea!"
+  },
+  {
+    "ru": "Прикол",
+    "say": "prikól",
+    "en": "A joke, a funny thing",
+    "ex": "В чём прикол?",
+    "exEn": "What's the joke? / What's the point?"
+  },
+  {
+    "ru": "Ржу не могу",
+    "say": "rzhu ne magú",
+    "en": "LMAO, I can't stop laughing",
+    "ex": "Ахаха, ржу не могу!",
+    "exEn": "Hahaha, I'm dying!"
+  },
+  {
+    "ru": "Рофл",
+    "say": "rofl",
+    "en": "A joke, trolling (from ROFL)",
+    "ex": "Это был рофл, не обижайся.",
+    "exEn": "It was a joke, don't be mad."
+  },
+  {
+    "ru": "Сто пудов",
+    "say": "sto pudóf",
+    "en": "For sure, 100%",
+    "ex": "Он придёт, сто пудов.",
+    "exEn": "He's coming, for sure."
+  },
+  {
+    "ru": "Изи",
+    "say": "ízi",
+    "en": "Easy",
+    "ex": "Экзамен был изи.",
+    "exEn": "The exam was easy."
+  },
+  {
+    "ru": "Го!",
+    "say": "go",
+    "en": "Let's go!",
+    "ex": "Го в кино!",
+    "exEn": "Let's go to the movies!"
+  },
+  {
+    "ru": "Тусить",
+    "say": "tusít'",
+    "en": "To hang out, to party",
+    "ex": "Пойдём тусить в субботу?",
+    "exEn": "Wanna hang out on Saturday?"
+  },
+  {
+    "ru": "Чилить",
+    "say": "chílit'",
+    "en": "To chill",
+    "ex": "Сегодня просто чилю дома.",
+    "exEn": "Just chilling at home today."
+  },
+  {
+    "ru": "Залипать",
+    "say": "zalipát'",
+    "en": "To zone out on / binge something",
+    "ex": "Опять залип в телефоне.",
+    "exEn": "Zoned out on my phone again."
+  },
+  {
+    "ru": "Шарить",
+    "say": "shárit'",
+    "en": "To know your stuff, to get it",
+    "ex": "Ты шаришь в машинах?",
+    "exEn": "Do you know much about cars?"
+  },
+  {
+    "ru": "Тащить",
+    "say": "tashchít'",
+    "en": "To carry (the team), do great",
+    "ex": "Ты сегодня тащишь!",
+    "exEn": "You're killing it today!"
+  },
+  {
+    "ru": "Бесит",
+    "say": "bésit",
+    "en": "It annoys me / drives me nuts",
+    "ex": "Меня это бесит.",
+    "exEn": "That drives me nuts."
+  },
+  {
+    "ru": "Не парься",
+    "say": "ne pár'sya",
+    "en": "Don't worry about it",
+    "ex": "Не парься, всё будет норм.",
+    "exEn": "Don't worry, it'll be fine."
+  },
+  {
+    "ru": "Сорян",
+    "say": "saryán",
+    "en": "Sorry (casual)",
+    "ex": "Сорян, не увидел сообщение.",
+    "exEn": "Sorry, didn't see your message."
+  },
+  {
+    "ru": "Чувак",
+    "say": "chuvák",
+    "en": "Dude",
+    "ex": "Чувак, это гениально!",
+    "exEn": "Dude, that's genius!"
+  },
+  {
+    "ru": "Братан",
+    "say": "bratán",
+    "en": "Bro",
+    "ex": "Спасибо, братан!",
+    "exEn": "Thanks, bro!"
+  },
+  {
+    "ru": "Чел",
+    "say": "chel",
+    "en": "A guy, a person ('dude')",
+    "ex": "Какой-то чел мне написал.",
+    "exEn": "Some guy texted me."
+  },
+  {
+    "ru": "Типа",
+    "say": "típa",
+    "en": "Like, kind of (filler word)",
+    "ex": "Он типа обиделся.",
+    "exEn": "He's, like, offended."
+  },
+  {
+    "ru": "Короче",
+    "say": "karóche",
+    "en": "Anyway, long story short",
+    "ex": "Короче, я опоздал.",
+    "exEn": "Long story short, I was late."
+  },
+  {
+    "ru": "Ваще",
+    "say": "vashché",
+    "en": "Totally / at all (casual 'вообще')",
+    "ex": "Ваще не понял.",
+    "exEn": "Didn't get it at all."
+  },
+  {
+    "ru": "Ща",
+    "say": "shcha",
+    "en": "One sec / right now (casual 'сейчас')",
+    "ex": "Ща приду.",
+    "exEn": "Be right there."
+  },
+  {
+    "ru": "Давай",
+    "say": "daváy",
+    "en": "OK / see ya (to end a chat)",
+    "ex": "Ладно, давай, пока!",
+    "exEn": "OK, see ya, bye!"
+  },
+  {
+    "ru": "Хайп",
+    "say": "khayp",
+    "en": "Hype",
+    "ex": "Столько хайпа вокруг этого фильма.",
+    "exEn": "So much hype around this movie."
+  },
+  {
+    "ru": "Имхо",
+    "say": "ímkha",
+    "en": "IMO (in my opinion)",
+    "ex": "Имхо, первая часть лучше.",
+    "exEn": "IMO, the first part is better."
+  }
+]

@@ -1,0 +1,10 @@
+# Render reads this file automatically (New → Blueprint), so you don't have to type any settings.
+services:
+  - type: web
+    name: ru-en-translator
+    runtime: node
+    plan: free
+    # --ignore-scripts skips a developer-only install step in the voice add-on that breaks on hosts
+    buildCommand: npm install --ignore-scripts
+    startCommand: npm start
+    autoDeploy: true

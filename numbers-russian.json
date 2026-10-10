@@ -1,0 +1,264 @@
+[
+  {
+    "ru": "ноль",
+    "say": "nol'",
+    "en": "0 — zero",
+    "ex": "Ноль градусов.",
+    "exEn": "Zero degrees."
+  },
+  {
+    "ru": "один",
+    "say": "adín",
+    "en": "1 — one",
+    "ex": "Один кофе, пожалуйста.",
+    "exEn": "One coffee, please."
+  },
+  {
+    "ru": "два",
+    "say": "dva",
+    "en": "2 — two",
+    "ex": "Мне два билета, пожалуйста.",
+    "exEn": "Two tickets for me, please."
+  },
+  {
+    "ru": "три",
+    "say": "tri",
+    "en": "3 — three"
+  },
+  {
+    "ru": "четыре",
+    "say": "chyetýrye",
+    "en": "4 — four"
+  },
+  {
+    "ru": "пять",
+    "say": "pyat'",
+    "en": "5 — five",
+    "ex": "Пять минут.",
+    "exEn": "Five minutes."
+  },
+  {
+    "ru": "шесть",
+    "say": "shest'",
+    "en": "6 — six"
+  },
+  {
+    "ru": "семь",
+    "say": "syem'",
+    "en": "7 — seven"
+  },
+  {
+    "ru": "восемь",
+    "say": "vósyem'",
+    "en": "8 — eight"
+  },
+  {
+    "ru": "девять",
+    "say": "dyévyat'",
+    "en": "9 — nine"
+  },
+  {
+    "ru": "десять",
+    "say": "dyésyat'",
+    "en": "10 — ten"
+  },
+  {
+    "ru": "одиннадцать",
+    "say": "adínatsat'",
+    "en": "11 — eleven"
+  },
+  {
+    "ru": "двенадцать",
+    "say": "dvyenátsat'",
+    "en": "12 — twelve"
+  },
+  {
+    "ru": "тринадцать",
+    "say": "trinátsat'",
+    "en": "13 — thirteen"
+  },
+  {
+    "ru": "четырнадцать",
+    "say": "chyetýrnatsat'",
+    "en": "14 — fourteen"
+  },
+  {
+    "ru": "пятнадцать",
+    "say": "pyatnátsat'",
+    "en": "15 — fifteen"
+  },
+  {
+    "ru": "шестнадцать",
+    "say": "shysnátsat'",
+    "en": "16 — sixteen"
+  },
+  {
+    "ru": "семнадцать",
+    "say": "syemnátsat'",
+    "en": "17 — seventeen"
+  },
+  {
+    "ru": "восемнадцать",
+    "say": "vasyemnátsat'",
+    "en": "18 — eighteen"
+  },
+  {
+    "ru": "девятнадцать",
+    "say": "dyevyatnátsat'",
+    "en": "19 — nineteen"
+  },
+  {
+    "ru": "двадцать",
+    "say": "dvátsat'",
+    "en": "20 — twenty",
+    "ex": "Двадцать один, двадцать два…",
+    "exEn": "Twenty-one, twenty-two… (just put the numbers together)"
+  },
+  {
+    "ru": "тридцать",
+    "say": "trítsat'",
+    "en": "30 — thirty"
+  },
+  {
+    "ru": "сорок",
+    "say": "sórak",
+    "en": "40 — forty"
+  },
+  {
+    "ru": "пятьдесят",
+    "say": "pyad'dyesyát",
+    "en": "50 — fifty"
+  },
+  {
+    "ru": "шестьдесят",
+    "say": "shyz'dyesyát",
+    "en": "60 — sixty"
+  },
+  {
+    "ru": "семьдесят",
+    "say": "syém'dyesyat",
+    "en": "70 — seventy"
+  },
+  {
+    "ru": "восемьдесят",
+    "say": "vósyem'dyesyat",
+    "en": "80 — eighty"
+  },
+  {
+    "ru": "девяносто",
+    "say": "dyevyanósta",
+    "en": "90 — ninety"
+  },
+  {
+    "ru": "сто",
+    "say": "sto",
+    "en": "100 — one hundred",
+    "ex": "Это стоит сто рублей.",
+    "exEn": "It costs a hundred rubles."
+  },
+  {
+    "ru": "двести / пятьсот",
+    "say": "dvyésti / pyat'sót",
+    "en": "200 / 500",
+    "ex": "Пятьсот рублей, пожалуйста.",
+    "exEn": "Five hundred rubles, please."
+  },
+  {
+    "ru": "тысяча",
+    "say": "týsyacha",
+    "en": "1000 — one thousand",
+    "ex": "Две тысячи рублей.",
+    "exEn": "Two thousand rubles."
+  },
+  {
+    "ru": "Сколько это стоит?",
+    "say": "skól'ka éta stóit",
+    "en": "How much does it cost?",
+    "ex": "Сколько стоит этот кофе?",
+    "exEn": "How much is this coffee?"
+  },
+  {
+    "ru": "рубль / рубля / рублей",
+    "say": "rubl' / rublyá / rubléy",
+    "en": "Ruble — the ending changes: 1 рубль, 2–4 рубля, 5+ рублей",
+    "ex": "Один рубль, два рубля, пять рублей.",
+    "exEn": "One ruble, two rubles, five rubles."
+  },
+  {
+    "ru": "Это дорого / дёшево",
+    "say": "éta dóraga / dyóshyeva",
+    "en": "That's expensive / cheap",
+    "ex": "Это слишком дорого.",
+    "exEn": "That's too expensive."
+  },
+  {
+    "ru": "Можно скидку?",
+    "say": "mózhna skítku",
+    "en": "Can I get a discount?",
+    "ex": "Если возьму два, можно скидку?",
+    "exEn": "If I take two, can I get a discount?"
+  },
+  {
+    "ru": "Который час?",
+    "say": "katóryy chas",
+    "en": "What time is it?",
+    "ex": "Извините, который час?",
+    "exEn": "Excuse me, what time is it?"
+  },
+  {
+    "ru": "Сколько времени?",
+    "say": "skól'ka vryémyeni",
+    "en": "What time is it? (casual)",
+    "ex": "Сколько времени? Я опаздываю.",
+    "exEn": "What time is it? I'm running late."
+  },
+  {
+    "ru": "Сейчас три часа",
+    "say": "syeychás tri chasá",
+    "en": "It's three o'clock",
+    "ex": "Сейчас ровно три часа.",
+    "exEn": "It's exactly three o'clock."
+  },
+  {
+    "ru": "в пять часов",
+    "say": "f pyat' chasóf",
+    "en": "at five o'clock",
+    "ex": "Встретимся в пять часов.",
+    "exEn": "Let's meet at five o'clock."
+  },
+  {
+    "ru": "через полчаса",
+    "say": "chyéryez polchasá",
+    "en": "in half an hour",
+    "ex": "Я буду через полчаса.",
+    "exEn": "I'll be there in half an hour."
+  },
+  {
+    "ru": "полдень",
+    "say": "póldyen'",
+    "en": "noon",
+    "ex": "Обед в полдень.",
+    "exEn": "Lunch is at noon."
+  },
+  {
+    "ru": "полночь",
+    "say": "pólnach'",
+    "en": "midnight",
+    "ex": "Метро работает до полуночи.",
+    "exEn": "The metro runs until midnight."
+  },
+  {
+    "ru": "утром / днём / вечером / ночью",
+    "say": "útram / dnyom / vyéchyeram / nóch'yu",
+    "en": "in the morning / afternoon / evening / at night",
+    "ex": "Позвони мне вечером.",
+    "exEn": "Call me in the evening."
+  },
+  {
+    "ru": "первый / второй / третий",
+    "say": "pyérvyy / ftaróy / tryétiy",
+    "en": "first / second / third",
+    "ex": "Это мой первый раз в России.",
+    "exEn": "It's my first time in Russia."
+  }
+]

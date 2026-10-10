@@ -1,0 +1,233 @@
+[
+  {
+    "ru": "Здравствуйте",
+    "say": "zdrástvuytye",
+    "en": "Hello (formal, the safe choice with anyone older)",
+    "ex": "Здравствуйте, Анна Петровна!",
+    "exEn": "Hello, Anna Petrovna!"
+  },
+  {
+    "ru": "Иван Петрович / Анна Петровна",
+    "say": "iván pyetróvich / ánna pyetróvna",
+    "en": "How to address elders: first name + patronymic (father's name)",
+    "ex": "Иван Петрович, можно вас на минутку?",
+    "exEn": "Ivan Petrovich, may I have a minute?"
+  },
+  {
+    "ru": "Доброе утро",
+    "say": "dóbraye útra",
+    "en": "Good morning",
+    "ex": "Доброе утро! Как вам спалось?",
+    "exEn": "Good morning! How did you sleep?"
+  },
+  {
+    "ru": "Добрый день",
+    "say": "dóbryy dyen'",
+    "en": "Good afternoon / Good day",
+    "ex": "Добрый день! Чем могу помочь?",
+    "exEn": "Good afternoon! How can I help?"
+  },
+  {
+    "ru": "Добрый вечер",
+    "say": "dóbryy vyéchyer",
+    "en": "Good evening",
+    "ex": "Добрый вечер, проходите, пожалуйста.",
+    "exEn": "Good evening, please come in."
+  },
+  {
+    "ru": "Как вы поживаете?",
+    "say": "kak vy pazhyváyetye",
+    "en": "How are you doing? (formal)",
+    "ex": "Давно не виделись! Как вы поживаете?",
+    "exEn": "Long time no see! How are you doing?"
+  },
+  {
+    "ru": "Как ваше здоровье?",
+    "say": "kak váshe zdaróv'ye",
+    "en": "How is your health? (caring, often asked of elders)",
+    "ex": "Как ваше здоровье? Всё хорошо?",
+    "exEn": "How's your health? Is everything OK?"
+  },
+  {
+    "ru": "Как вас зовут?",
+    "say": "kak vas zavút",
+    "en": "What is your name? (formal)",
+    "ex": "Простите, как вас зовут?",
+    "exEn": "Excuse me, what is your name?"
+  },
+  {
+    "ru": "Разрешите представиться",
+    "say": "razryeshýtye pryedstávit'sya",
+    "en": "Allow me to introduce myself",
+    "ex": "Разрешите представиться: меня зовут Ками.",
+    "exEn": "Allow me to introduce myself: my name is Cami."
+  },
+  {
+    "ru": "Очень приятно",
+    "say": "óchyen' priyátna",
+    "en": "Nice to meet you (reply after a name)",
+    "ex": "— Меня зовут Ольга. — Очень приятно!",
+    "exEn": "— My name is Olga. — Nice to meet you!"
+  },
+  {
+    "ru": "Приятно познакомиться",
+    "say": "priyátna paznakómit'sya",
+    "en": "Pleased to meet you",
+    "ex": "Приятно с вами познакомиться.",
+    "exEn": "Pleased to meet you."
+  },
+  {
+    "ru": "Рад / Рада с вами познакомиться",
+    "say": "rat / ráda s vámi paznakómit'sya",
+    "en": "Glad to meet you (рад if you're a man, рада if you're a woman)",
+    "ex": "Я очень рада с вами познакомиться.",
+    "exEn": "I'm very glad to meet you. (said by a woman)"
+  },
+  {
+    "ru": "Извините",
+    "say": "izvinítye",
+    "en": "Excuse me / Sorry",
+    "ex": "Извините, вы не подскажете, который час?",
+    "exEn": "Excuse me, could you tell me the time?"
+  },
+  {
+    "ru": "Простите",
+    "say": "prastítye",
+    "en": "Pardon me / Forgive me",
+    "ex": "Простите за опоздание.",
+    "exEn": "Sorry for being late."
+  },
+  {
+    "ru": "Прошу прощения",
+    "say": "prashú prashchyéniya",
+    "en": "I beg your pardon / My apologies",
+    "ex": "Прошу прощения за беспокойство.",
+    "exEn": "Sorry to bother you."
+  },
+  {
+    "ru": "Будьте добры",
+    "say": "bút'tye dabrý",
+    "en": "Would you be so kind…",
+    "ex": "Будьте добры, передайте соль.",
+    "exEn": "Would you kindly pass the salt."
+  },
+  {
+    "ru": "Будьте любезны",
+    "say": "bút'tye lyubyézny",
+    "en": "Would you be so kind… (very polite)",
+    "ex": "Будьте любезны, закройте дверь.",
+    "exEn": "Would you be so kind as to close the door."
+  },
+  {
+    "ru": "Не могли бы вы…?",
+    "say": "nye maglí by vy",
+    "en": "Could you please…?",
+    "ex": "Не могли бы вы говорить помедленнее?",
+    "exEn": "Could you speak a little more slowly?"
+  },
+  {
+    "ru": "Подскажите, пожалуйста",
+    "say": "patskazhýtye, pazhálusta",
+    "en": "Could you tell me, please…",
+    "ex": "Подскажите, пожалуйста, где здесь аптека?",
+    "exEn": "Could you tell me where the pharmacy is?"
+  },
+  {
+    "ru": "Можно вас спросить?",
+    "say": "mózhna vas sprasít'",
+    "en": "May I ask you something?",
+    "ex": "Можно вас спросить? Вы здесь живёте?",
+    "exEn": "May I ask you something? Do you live here?"
+  },
+  {
+    "ru": "Вы не против…?",
+    "say": "vy nye prótif",
+    "en": "Do you mind…?",
+    "ex": "Вы не против, если я сяду здесь?",
+    "exEn": "Do you mind if I sit here?"
+  },
+  {
+    "ru": "Пожалуйста",
+    "say": "pazhálusta",
+    "en": "Please / You're welcome",
+    "ex": "— Спасибо! — Пожалуйста.",
+    "exEn": "— Thank you! — You're welcome."
+  },
+  {
+    "ru": "Спасибо большое",
+    "say": "spasíba bal'shóye",
+    "en": "Thank you very much",
+    "ex": "Спасибо большое за помощь!",
+    "exEn": "Thank you very much for your help!"
+  },
+  {
+    "ru": "Благодарю вас",
+    "say": "blagadaryú vas",
+    "en": "I thank you (very respectful)",
+    "ex": "Благодарю вас за гостеприимство.",
+    "exEn": "Thank you for your hospitality."
+  },
+  {
+    "ru": "Приятного аппетита",
+    "say": "priyátnava appyetíta",
+    "en": "Enjoy your meal",
+    "ex": "Всё готово. Приятного аппетита!",
+    "exEn": "Everything's ready. Enjoy your meal!"
+  },
+  {
+    "ru": "Поздравляю вас",
+    "say": "pazdravlyáyu vas",
+    "en": "Congratulations (to you)",
+    "ex": "Поздравляю вас с днём рождения!",
+    "exEn": "Happy birthday to you!"
+  },
+  {
+    "ru": "С праздником!",
+    "say": "s práznikam",
+    "en": "Happy holiday!",
+    "ex": "С праздником вас! Всего самого доброго!",
+    "exEn": "Happy holiday! All the very best!"
+  },
+  {
+    "ru": "Примите мои соболезнования",
+    "say": "primítye mayí sabalyéznavaniya",
+    "en": "Please accept my condolences",
+    "ex": "Примите мои искренние соболезнования.",
+    "exEn": "Please accept my sincere condolences."
+  },
+  {
+    "ru": "Берегите себя",
+    "say": "byeryegítye syebyá",
+    "en": "Take care of yourself",
+    "ex": "Берегите себя и своё здоровье.",
+    "exEn": "Take care of yourself and your health."
+  },
+  {
+    "ru": "Всего доброго",
+    "say": "fsyevó dóbrava",
+    "en": "All the best (a warm goodbye)",
+    "ex": "Спасибо за всё. Всего доброго!",
+    "exEn": "Thank you for everything. All the best!"
+  },
+  {
+    "ru": "Всего хорошего",
+    "say": "fsyevó kharóshyeva",
+    "en": "All the best / Have a good day",
+    "ex": "До встречи! Всего хорошего!",
+    "exEn": "See you! Have a good day!"
+  },
+  {
+    "ru": "Мирного вам дня",
+    "say": "mírnava vam dnya",
+    "en": "Have a peaceful day (warm, respectful)",
+    "ex": "Спасибо за всё. Мирного вам дня!",
+    "exEn": "Thank you for everything. Have a peaceful day!"
+  },
+  {
+    "ru": "До свидания",
+    "say": "da svidániya",
+    "en": "Goodbye (formal)",
+    "ex": "До свидания, ждём вас снова!",
+    "exEn": "Goodbye, we hope to see you again!"
+  }
+]

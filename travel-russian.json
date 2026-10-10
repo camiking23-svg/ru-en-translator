@@ -1,0 +1,184 @@
+[
+  {
+    "ru": "Как пройти к…?",
+    "say": "kak praytí k",
+    "en": "How do I get to…? (on foot)",
+    "ex": "Извините, как пройти к вокзалу?",
+    "exEn": "Excuse me, how do I get to the train station?"
+  },
+  {
+    "ru": "Где находится…?",
+    "say": "gdye nakhóditsa",
+    "en": "Where is…?",
+    "ex": "Где находится Красная площадь?",
+    "exEn": "Where is Red Square?"
+  },
+  {
+    "ru": "Это далеко?",
+    "say": "éta dalyekó",
+    "en": "Is it far?",
+    "ex": "Это далеко отсюда?",
+    "exEn": "Is it far from here?"
+  },
+  {
+    "ru": "Направо / налево / прямо",
+    "say": "napráva / nalyéva / pryáma",
+    "en": "Right / left / straight ahead",
+    "ex": "Идите прямо, потом налево.",
+    "exEn": "Go straight, then turn left."
+  },
+  {
+    "ru": "Где станция метро?",
+    "say": "gdye stántsiya myetró",
+    "en": "Where's the metro station?",
+    "ex": "Подскажите, где ближайшая станция метро?",
+    "exEn": "Could you tell me where the nearest metro station is?"
+  },
+  {
+    "ru": "Сколько стоит билет?",
+    "say": "skól'ka stóit bilyét",
+    "en": "How much is a ticket?",
+    "ex": "Сколько стоит билет до Москвы?",
+    "exEn": "How much is a ticket to Moscow?"
+  },
+  {
+    "ru": "Один билет до…",
+    "say": "adín bilyét da",
+    "en": "One ticket to…",
+    "ex": "Один билет до Петербурга, пожалуйста.",
+    "exEn": "One ticket to St. Petersburg, please."
+  },
+  {
+    "ru": "Вызовите такси",
+    "say": "výzavitye taksí",
+    "en": "Call a taxi",
+    "ex": "Вызовите, пожалуйста, такси.",
+    "exEn": "Please call a taxi."
+  },
+  {
+    "ru": "Остановите здесь, пожалуйста",
+    "say": "astanavítye zdyes', pazhálusta",
+    "en": "Please stop here (in a taxi)",
+    "ex": "Остановите здесь, пожалуйста. Спасибо!",
+    "exEn": "Please stop here. Thank you!"
+  },
+  {
+    "ru": "Где аптека?",
+    "say": "gdye aptyéka",
+    "en": "Where's a pharmacy?",
+    "ex": "Извините, где здесь аптека?",
+    "exEn": "Excuse me, where's a pharmacy around here?"
+  },
+  {
+    "ru": "Мне нужно лекарство от…",
+    "say": "mnye núzhna lyekárstva at",
+    "en": "I need medicine for…",
+    "ex": "Мне нужно лекарство от головной боли.",
+    "exEn": "I need medicine for a headache."
+  },
+  {
+    "ru": "Мне плохо",
+    "say": "mnye plókha",
+    "en": "I feel unwell",
+    "ex": "Мне плохо, вызовите врача.",
+    "exEn": "I feel unwell, please call a doctor."
+  },
+  {
+    "ru": "Вызовите скорую!",
+    "say": "výzavitye skóruyu",
+    "en": "Call an ambulance! (emergency number in Russia: 112)",
+    "ex": "Человеку плохо, вызовите скорую!",
+    "exEn": "Someone's unwell, call an ambulance!"
+  },
+  {
+    "ru": "Помогите, пожалуйста",
+    "say": "pamagítye, pazhálusta",
+    "en": "Please help me",
+    "ex": "Помогите, пожалуйста, я не знаю, куда идти.",
+    "exEn": "Please help me, I don't know where to go."
+  },
+  {
+    "ru": "Я заблудился / заблудилась",
+    "say": "ya zabludílsya / zabludílas'",
+    "en": "I'm lost (man / woman)",
+    "ex": "Извините, я заблудилась. Где эта улица?",
+    "exEn": "Excuse me, I'm lost. Where is this street? (said by a woman)"
+  },
+  {
+    "ru": "Вы говорите по-английски?",
+    "say": "vy gavarítye pa-anglíyski",
+    "en": "Do you speak English?",
+    "ex": "Извините, вы говорите по-английски?",
+    "exEn": "Excuse me, do you speak English?"
+  },
+  {
+    "ru": "Я не понимаю",
+    "say": "ya nye panimáyu",
+    "en": "I don't understand",
+    "ex": "Я не понимаю. Повторите, пожалуйста.",
+    "exEn": "I don't understand. Could you repeat that, please?"
+  },
+  {
+    "ru": "Говорите медленнее, пожалуйста",
+    "say": "gavarítye myédlyennyeye, pazhálusta",
+    "en": "Please speak more slowly",
+    "ex": "Говорите медленнее, пожалуйста, я только учусь.",
+    "exEn": "Please speak more slowly, I'm just learning."
+  },
+  {
+    "ru": "Сколько это стоит?",
+    "say": "skól'ka éta stóit",
+    "en": "How much does this cost?",
+    "ex": "Сколько стоит эта куртка?",
+    "exEn": "How much is this jacket?"
+  },
+  {
+    "ru": "Можно примерить?",
+    "say": "mózhna primyérit'",
+    "en": "Can I try it on?",
+    "ex": "Можно примерить это платье?",
+    "exEn": "Can I try on this dress?"
+  },
+  {
+    "ru": "Где примерочная?",
+    "say": "gdye primyérachnaya",
+    "en": "Where's the fitting room?",
+    "ex": "Подскажите, где примерочная?",
+    "exEn": "Could you tell me where the fitting room is?"
+  },
+  {
+    "ru": "У меня бронь",
+    "say": "u myenyá bron'",
+    "en": "I have a reservation",
+    "ex": "Здравствуйте, у меня бронь на имя Ками.",
+    "exEn": "Hello, I have a reservation under the name Cami."
+  },
+  {
+    "ru": "Во сколько выезд?",
+    "say": "va skól'ka výyezd",
+    "en": "What time is check-out?",
+    "ex": "Скажите, во сколько выезд?",
+    "exEn": "Could you tell me what time check-out is?"
+  },
+  {
+    "ru": "Где туалет?",
+    "say": "gdye tualyét",
+    "en": "Where's the restroom?",
+    "ex": "Извините, где здесь туалет?",
+    "exEn": "Excuse me, where's the restroom?"
+  },
+  {
+    "ru": "Какой пароль от вай-фая?",
+    "say": "kakóy paról' at vay-fáya",
+    "en": "What's the Wi-Fi password?",
+    "ex": "Извините, какой пароль от вай-фая?",
+    "exEn": "Excuse me, what's the Wi-Fi password?"
+  },
+  {
+    "ru": "Я из Америки",
+    "say": "ya iz amyériki",
+    "en": "I'm from America",
+    "ex": "Я из Америки, я здесь в первый раз.",
+    "exEn": "I'm from America, it's my first time here."
+  }
+]
