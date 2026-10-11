@@ -1,0 +1,184 @@
+[
+  {
+    "pt": "Onde fica…?",
+    "say": "OHN-jee FEE-kah",
+    "en": "Where is…?",
+    "ex": "Com licença, onde fica a estação?",
+    "exEn": "Excuse me, where is the station?"
+  },
+  {
+    "pt": "Como chego a…?",
+    "say": "KOH-moo SHEH-goo ah",
+    "en": "How do I get to…?",
+    "ex": "Como chego ao Cristo Redentor?",
+    "exEn": "How do I get to Christ the Redeemer?"
+  },
+  {
+    "pt": "É longe?",
+    "say": "eh LOHN-zhee",
+    "en": "Is it far?",
+    "ex": "É longe daqui?",
+    "exEn": "Is it far from here?"
+  },
+  {
+    "pt": "À esquerda / à direita / em frente",
+    "say": "ah ees-KEHR-dah / ah jee-RAY-tah / ayng FREN-chee",
+    "en": "Left / right / straight ahead",
+    "ex": "Siga em frente e vire à direita.",
+    "exEn": "Go straight and turn right."
+  },
+  {
+    "pt": "A estação de metrô",
+    "say": "ah ees-tah-SOWNG jee meh-TROH",
+    "en": "The subway station",
+    "ex": "Onde fica a estação de metrô mais próxima?",
+    "exEn": "Where's the nearest subway station?"
+  },
+  {
+    "pt": "Uma passagem, por favor",
+    "say": "OO-mah pah-SAH-zhayng, poor fah-VOR",
+    "en": "One ticket, please",
+    "ex": "Uma passagem para o Rio, por favor.",
+    "exEn": "One ticket to Rio, please."
+  },
+  {
+    "pt": "Ida e volta",
+    "say": "EE-dah ee VOHL-tah",
+    "en": "Round trip (só ida = one way)",
+    "ex": "Uma passagem de ida e volta.",
+    "exEn": "A round-trip ticket."
+  },
+  {
+    "pt": "A rodoviária",
+    "say": "ah hoh-doh-vee-AH-ryah",
+    "en": "The bus station (long-distance buses)",
+    "ex": "Me leva para a rodoviária, por favor.",
+    "exEn": "Take me to the bus station, please."
+  },
+  {
+    "pt": "Que horas sai…?",
+    "say": "kee OH-rahs SAI",
+    "en": "What time does … leave?",
+    "ex": "Que horas sai o ônibus para Santos?",
+    "exEn": "What time does the bus to Santos leave?"
+  },
+  {
+    "pt": "Tenho uma reserva",
+    "say": "TEN-yoo OO-mah heh-ZEHR-vah",
+    "en": "I have a reservation",
+    "ex": "Boa noite, tenho uma reserva no nome de Cami.",
+    "exEn": "Good evening, I have a reservation under the name Cami."
+  },
+  {
+    "pt": "O café da manhã está incluído?",
+    "say": "oo kah-FEH dah mahn-YAHNG ehs-TAH eeng-kloo-EE-doo",
+    "en": "Is breakfast included?",
+    "ex": "O café da manhã está incluído na diária?",
+    "exEn": "Is breakfast included in the nightly rate?"
+  },
+  {
+    "pt": "Qual é a senha do wi-fi?",
+    "say": "kwow eh ah SEN-yah doo wai-FAI",
+    "en": "What's the wifi password?",
+    "ex": "Com licença, qual é a senha do wi-fi?",
+    "exEn": "Excuse me, what's the wifi password?"
+  },
+  {
+    "pt": "Onde fica o banheiro?",
+    "say": "OHN-jee FEE-kah oo bahn-YAY-roo",
+    "en": "Where's the restroom?",
+    "ex": "Desculpe, onde fica o banheiro?",
+    "exEn": "Sorry, where's the restroom?"
+  },
+  {
+    "pt": "A farmácia",
+    "say": "ah far-MAH-syah",
+    "en": "The pharmacy (drogaria also)",
+    "ex": "Tem uma farmácia aqui perto?",
+    "exEn": "Is there a pharmacy nearby?"
+  },
+  {
+    "pt": "Estou com dor de cabeça",
+    "say": "ehs-TOH kohng dohr jee kah-BEH-sah",
+    "en": "I have a headache",
+    "ex": "Estou com dor de cabeça, tem algum remédio?",
+    "exEn": "I have a headache, do you have any medicine?"
+  },
+  {
+    "pt": "Socorro!",
+    "say": "soh-KOH-hoo",
+    "en": "Help! (emergency)",
+    "ex": "Socorro! Chamem a ambulância!",
+    "exEn": "Help! Call an ambulance!"
+  },
+  {
+    "pt": "Ligue para o 190 / 192",
+    "say": "LEE-gee PAH-rah oo SENG-too ee no-VEN-tah / no-VEN-tah ee DOYS",
+    "en": "Call 190 (police) / 192 (ambulance) — Brazil's emergency numbers",
+    "ex": "Houve um acidente, ligue para o 192!",
+    "exEn": "There's been an accident, call 192!"
+  },
+  {
+    "pt": "Estou perdido / perdida",
+    "say": "ehs-TOH per-JEE-doo / per-JEE-dah",
+    "en": "I'm lost (man / woman)",
+    "ex": "Com licença, estou perdido. Onde fica a praia?",
+    "exEn": "Excuse me, I'm lost. Where's the beach?"
+  },
+  {
+    "pt": "Pode me ajudar?",
+    "say": "POH-jee mee ah-zhoo-DAR",
+    "en": "Can you help me?",
+    "ex": "Desculpe, pode me ajudar?",
+    "exEn": "Sorry, can you help me?"
+  },
+  {
+    "pt": "Falo pouco português",
+    "say": "FAH-loo POH-koo por-too-GEHS",
+    "en": "I speak a little Portuguese",
+    "ex": "Desculpe, falo pouco português.",
+    "exEn": "Sorry, I speak a little Portuguese."
+  },
+  {
+    "pt": "Mais devagar, por favor",
+    "say": "MAIS jee-vah-GAR, poor fah-VOR",
+    "en": "More slowly, please",
+    "ex": "Pode falar mais devagar, por favor?",
+    "exEn": "Can you speak more slowly, please?"
+  },
+  {
+    "pt": "Só estou olhando",
+    "say": "soh ehs-TOH oh-LYAHN-doo",
+    "en": "I'm just looking (in shops)",
+    "ex": "Obrigada, só estou olhando.",
+    "exEn": "Thanks, I'm just looking."
+  },
+  {
+    "pt": "Posso experimentar?",
+    "say": "POH-soo ehs-peh-ree-men-TAR",
+    "en": "Can I try it on?",
+    "ex": "Posso experimentar este vestido?",
+    "exEn": "Can I try on this dress?"
+  },
+  {
+    "pt": "Quanto custa?",
+    "say": "KWAHN-too KOOS-tah",
+    "en": "How much does it cost?",
+    "ex": "Quanto custa a corrida até o hotel?",
+    "exEn": "How much is the ride to the hotel?"
+  },
+  {
+    "pt": "Tem um caixa eletrônico perto?",
+    "say": "tayng oong KAI-shah eh-leh-TROH-nee-koo PEHR-too",
+    "en": "Is there an ATM nearby?",
+    "ex": "Com licença, tem um caixa eletrônico perto?",
+    "exEn": "Excuse me, is there an ATM nearby?"
+  },
+  {
+    "pt": "Aberto / Fechado",
+    "say": "ah-BEHR-too / feh-SHAH-doo",
+    "en": "Open / Closed (on signs)",
+    "ex": "Fechado aos domingos.",
+    "exEn": "Closed on Sundays."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "it": "Ciao!",
+    "say": "CHOW",
+    "en": "Hi! / Bye! (casual, both ways)",
+    "ex": "Ciao, come va?",
+    "exEn": "Hi, how's it going?"
+  },
+  {
+    "it": "Come va?",
+    "say": "KOH-meh VAH",
+    "en": "How's it going?",
+    "ex": "Ehi, come va?",
+    "exEn": "Hey, how's it going?"
+  },
+  {
+    "it": "Che si dice?",
+    "say": "keh see DEE-cheh",
+    "en": "What's up? (literally 'what's being said?')",
+    "ex": "Ciao! Che si dice?",
+    "exEn": "Hey! What's up?"
+  },
+  {
+    "it": "Figo",
+    "say": "FEE-goh",
+    "en": "Cool, good-looking (careful: the feminine form is vulgar slang — say 'figo' for things)",
+    "ex": "Che figo il tuo telefono!",
+    "exEn": "Your phone is so cool!"
+  },
+  {
+    "it": "Fico",
+    "say": "FEE-koh",
+    "en": "Cool (Rome / central Italy — literally 'fig')",
+    "ex": "Che fico!",
+    "exEn": "How cool!"
+  },
+  {
+    "it": "Forte!",
+    "say": "FOR-teh",
+    "en": "Awesome! Great! (literally 'strong')",
+    "ex": "Il concerto è stato forte!",
+    "exEn": "The concert was awesome!"
+  },
+  {
+    "it": "Bello!",
+    "say": "BEL-loh",
+    "en": "Nice! / Hey, buddy (in Rome)",
+    "ex": "Bello, come stai?",
+    "exEn": "Hey buddy, how are you?"
+  },
+  {
+    "it": "Mitico!",
+    "say": "MEE-tee-koh",
+    "en": "Legendary, amazing",
+    "ex": "Sei mitico!",
+    "exEn": "You're a legend!"
+  },
+  {
+    "it": "Spettacolo!",
+    "say": "spet-TAH-koh-loh",
+    "en": "Fantastic! (literally 'show')",
+    "ex": "Questa pizza è uno spettacolo!",
+    "exEn": "This pizza is fantastic!"
+  },
+  {
+    "it": "Tipo",
+    "say": "TEE-poh",
+    "en": "Like (filler word)",
+    "ex": "Era tipo bellissimo.",
+    "exEn": "It was, like, beautiful."
+  },
+  {
+    "it": "Boh",
+    "say": "boh",
+    "en": "Dunno (with a shrug)",
+    "ex": "— Dov'è Marco? — Boh.",
+    "exEn": "— Where's Marco? — Dunno."
+  },
+  {
+    "it": "Magari!",
+    "say": "mah-GAH-ree",
+    "en": "I wish! / If only! / Maybe",
+    "ex": "— Vinci la lotteria? — Magari!",
+    "exEn": "— Winning the lottery? — I wish!"
+  },
+  {
+    "it": "Dai!",
+    "say": "DYE",
+    "en": "Come on! / No way!",
+    "ex": "Dai, andiamo!",
+    "exEn": "Come on, let's go!"
+  },
+  {
+    "it": "Vabbè",
+    "say": "vahb-BEH",
+    "en": "Oh well, whatever, OK",
+    "ex": "Vabbè, ci vediamo domani.",
+    "exEn": "Oh well, see you tomorrow."
+  },
+  {
+    "it": "Ci sta",
+    "say": "chee STAH",
+    "en": "Fair enough / that works",
+    "ex": "— Pizza stasera? — Ci sta!",
+    "exEn": "— Pizza tonight? — Sounds good!"
+  },
+  {
+    "it": "Che palle!",
+    "say": "keh PAHL-leh",
+    "en": "What a drag! How annoying! (rude-ish)",
+    "ex": "Piove ancora, che palle!",
+    "exEn": "It's raining again, what a drag!"
+  },
+  {
+    "it": "Che figata!",
+    "say": "keh fee-GAH-tah",
+    "en": "How awesome!",
+    "ex": "Andiamo al mare? Che figata!",
+    "exEn": "We're going to the beach? Awesome!"
+  },
+  {
+    "it": "Non ci posso credere",
+    "say": "nohn chee POHS-soh KREH-deh-reh",
+    "en": "I can't believe it",
+    "ex": "Hai vinto? Non ci posso credere!",
+    "exEn": "You won? I can't believe it!"
+  },
+  {
+    "it": "Ma dai!",
+    "say": "mah DYE",
+    "en": "No way! / Come on!",
+    "ex": "Ma dai, davvero?",
+    "exEn": "No way, really?"
+  },
+  {
+    "it": "Davvero?",
+    "say": "dahv-VEH-roh",
+    "en": "Really?",
+    "ex": "Davvero vieni anche tu?",
+    "exEn": "Really, you're coming too?"
+  },
+  {
+    "it": "Un casino",
+    "say": "oon kah-ZEE-noh",
+    "en": "A mess / a ton (not a casino!)",
+    "ex": "C'era un casino di gente.",
+    "exEn": "There were a ton of people."
+  },
+  {
+    "it": "Fare festa",
+    "say": "FAH-reh FES-tah",
+    "en": "To party",
+    "ex": "Stasera facciamo festa!",
+    "exEn": "We're partying tonight!"
+  },
+  {
+    "it": "Fare un giro",
+    "say": "FAH-reh oon JEE-roh",
+    "en": "To take a walk / ride around",
+    "ex": "Facciamo un giro in centro?",
+    "exEn": "Shall we take a walk downtown?"
+  },
+  {
+    "it": "Fare spesa",
+    "say": "FAH-reh SPEH-zah",
+    "en": "To do the grocery shopping",
+    "ex": "Devo fare la spesa.",
+    "exEn": "I have to do the grocery shopping."
+  },
+  {
+    "it": "Essere in ritardo",
+    "say": "ES-seh-reh een ree-TAR-doh",
+    "en": "To be late",
+    "ex": "Scusa, sono in ritardo!",
+    "exEn": "Sorry, I'm late!"
+  },
+  {
+    "it": "Sono stanco morto / Sono stanca morta",
+    "say": "SOH-noh STAHN-koh MOR-toh / STAHN-kah MOR-tah",
+    "en": "I'm dead tired (man / woman)",
+    "ex": "Vado a letto, sono stanco morto.",
+    "exEn": "I'm going to bed, I'm dead tired."
+  },
+  {
+    "it": "Avere fame da lupi",
+    "say": "ah-VEH-reh FAH-meh dah LOO-pee",
+    "en": "To be starving ('hungry as wolves')",
+    "ex": "Ho una fame da lupi!",
+    "exEn": "I'm starving!"
+  },
+  {
+    "it": "In bocca al lupo!",
+    "say": "een BOHK-kah ahl LOO-poh",
+    "en": "Good luck! (reply: Crepi! — 'may it die')",
+    "ex": "— Domani ho l'esame. — In bocca al lupo!",
+    "exEn": "— I have my exam tomorrow. — Good luck!"
+  },
+  {
+    "it": "Crepi!",
+    "say": "KREH-pee",
+    "en": "The reply to 'In bocca al lupo' (like 'thanks!')",
+    "ex": "— In bocca al lupo! — Crepi!",
+    "exEn": "— Good luck! — Thanks!"
+  },
+  {
+    "it": "Tranquillo / Tranquilla",
+    "say": "trahn-KWEEL-loh / trahn-KWEEL-lah",
+    "en": "Relax, no worries (to a guy / to a girl)",
+    "ex": "Tranquillo, ci penso io.",
+    "exEn": "Relax, I've got it."
+  },
+  {
+    "it": "Non fa niente",
+    "say": "nohn fah NYEN-teh",
+    "en": "It doesn't matter, no worries",
+    "ex": "— Scusa! — Non fa niente.",
+    "exEn": "— Sorry! — No worries."
+  },
+  {
+    "it": "Un attimo",
+    "say": "oon AHT-tee-moh",
+    "en": "Just a sec",
+    "ex": "Un attimo, arrivo!",
+    "exEn": "Just a sec, I'm coming!"
+  },
+  {
+    "it": "Amico / Amica",
+    "say": "ah-MEE-koh / ah-MEE-kah",
+    "en": "Friend (to a guy / to a girl)",
+    "ex": "Grazie, amico!",
+    "exEn": "Thanks, buddy!"
+  },
+  {
+    "it": "Raga",
+    "say": "RAH-gah",
+    "en": "Guys (short for ragazzi)",
+    "ex": "Raga, dove andiamo?",
+    "exEn": "Guys, where are we going?"
+  },
+  {
+    "it": "Fratè",
+    "say": "frah-TEH",
+    "en": "Bro (south Italy and youth slang)",
+    "ex": "Fratè, tutto a posto?",
+    "exEn": "Bro, all good?"
+  },
+  {
+    "it": "Rosicare",
+    "say": "roh-zee-KAH-reh",
+    "en": "To be salty, jealous (Rome, now everywhere)",
+    "ex": "Stai rosicando perché hai perso?",
+    "exEn": "Are you salty because you lost?"
+  },
+  {
+    "it": "Sbattersene",
+    "say": "zbaht-TER-seh-neh",
+    "en": "To not care at all (casual)",
+    "ex": "Me ne sbatto.",
+    "exEn": "I don't care."
+  },
+  {
+    "it": "Sfigato / Sfigata",
+    "say": "sfee-GAH-toh / sfee-GAH-tah",
+    "en": "Unlucky, a loser (man / woman)",
+    "ex": "Oggi sono proprio sfigato.",
+    "exEn": "I'm so unlucky today."
+  },
+  {
+    "it": "Gasato / Gasata",
+    "say": "gah-ZAH-toh / gah-ZAH-tah",
+    "en": "Pumped, hyped (man / woman)",
+    "ex": "Sono gasato per il concerto!",
+    "exEn": "I'm pumped for the concert!"
+  },
+  {
+    "it": "Alla grande!",
+    "say": "AHL-lah GRAHN-deh",
+    "en": "Great! In a big way!",
+    "ex": "— Come va? — Alla grande!",
+    "exEn": "— How's it going? — Great!"
+  }
+]

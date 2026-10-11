@@ -1,9 +1,10 @@
 # RU ⇄ EN Translator
 
-Russian, French and Mandarin ⇄ English translator for your phone: male/female voices, casual/formal "you", your own slang list,
+Russian, French, Mandarin, Spanish, Italian and Portuguese ⇄ English translator for your phone: male/female voices, casual/formal "you", your own slang list,
 favorites, and learning sections (slang, formal, food, texting, travel, proverbs, numbers).
 
-- **Russian** is at the main address (`/`), **French** at `/fr`, **Mandarin** at `/zh`. The 🇷🇺 / 🇫🇷 / 🇨🇳 buttons at the top switch between them.
+- **Russian** is at the main address (`/`), **French** at `/fr`, **Mandarin** at `/zh`, **Spanish** at `/es`, **Italian** at `/it`, **Portuguese** at `/pt`.
+  The flag buttons at the top switch between them.
 
 - **Run at home:** `node server.js`, then open `http://<your-PC-address>:3000` on your phone.
 - **Run online:** follow the steps below. Then it works anywhere, and your PC can be off.
@@ -33,6 +34,8 @@ Everything else (start command, Node version, build settings and ignored files) 
    - `phrases.json` and all seven `*-russian.json` files
    - `lang-fr.js`, `fr-grammar.js`, `phrases-fr.json` and all seven `*-french.json` / `french-slang.json` files
    - `lang-zh.js`, `zh-grammar.js`, `phrases-zh.json` and all seven `*-chinese.json` / `chinese-slang.json` files
+   - `romance-core.js`, plus for each of Spanish, Italian, Portuguese: `lang-es.js` / `es-grammar.js` / `phrases-es.json` and the seven
+     `*-spanish.json` files (same pattern with `it` / `*-italian.json` and `pt` / `*-portuguese.json`)
 
    **Don't drag `node_modules`**, since Render installs that itself.
    If `.gitignore` doesn't show up, in File Explorer go to **View → Show → Hidden items**.
@@ -73,7 +76,7 @@ Upload the changed file(s) to the same GitHub repository (**Add file → Upload 
 
 ## Good to know
 - **Free plan sleeps** after about 15 minutes idle, so the first open afterwards can take up to a minute. A paid plan (about $7/month) keeps it awake.
-- **Each phone keeps its own Favorites and My phrases.** New phones start with `phrases.json` (Russian), `phrases-fr.json` (French) or `phrases-zh.json` (Mandarin). Nothing a phone changes is saved on the server.
+- **Each phone keeps its own Favorites and My phrases.** New phones start with `phrases.json` (Russian), `phrases-fr.json` (French), `phrases-zh.json` (Mandarin), `phrases-es.json`, `phrases-it.json` or `phrases-pt.json`. Nothing a phone changes is saved on the server.
 - **Each language has its own** My phrases, Favorites, casual/formal setting, Talking to setting and share link. "I am" is shared.
 - **French tu/vous:** the toggle rewrites "you", verbs, commands and possessives (ton/ta ↔ votre). French "vous" is treated as one person,
   so Talking to also applies in vous mode (vous êtes prête). Google picks tu or vous itself, so the toggle overrides it.
@@ -83,3 +86,10 @@ Upload the changed file(s) to the same GitHub repository (**Add file → Upload 
   If the voices stop, Speak falls back to the phone's own voices.
 - **Mandarin 你/您:** Mandarin verbs don't change for "you" and nothing agrees with gender, so the toggle swaps 你 (casual) ↔ 您 (polite).
   "You all" stays 你们. Talking to only picks the voice for their side of a voice conversation. Cards show pinyin with tone marks.
+- **Spanish** is Latin American (Mexican slang is marked). tú ↔ usted rewrites verbs in every common tense, commands
+  (dime ↔ dígame, siéntate ↔ siéntese) and tu ↔ su. "You all" is always ustedes. Going back from usted to tú only happens where
+  "usted" is actually written, because a plain "está" could also mean he or she.
+- **Italian** tu ↔ Lei uses the formal third-person forms (hai → ha, dimmi → mi dica, tuo → Suo). "You all" (voi) is left alone.
+- **Portuguese** is Brazilian. você ↔ o senhor / a senhora (picked from Talking to); the verbs stay the same, the pronoun and its
+  contractions change (para você → para a senhora, de você → do senhor), te → lhe, and casual commands become polite (Olha → Olhe).
+- For all three, I am makes "I'm tired" agree (cansada, stanca, cansada) and Talking to makes "you" agree, in both casual and formal.

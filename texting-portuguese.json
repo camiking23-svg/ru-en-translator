@@ -1,0 +1,210 @@
+[
+  {
+    "pt": "vc",
+    "say": "voh-SEH",
+    "speak": "você",
+    "en": "You (você)",
+    "ex": "vc vem hj?",
+    "exEn": "are you coming today?"
+  },
+  {
+    "pt": "tb / tbm",
+    "say": "tahm-BAYNG",
+    "speak": "também",
+    "en": "Also, me too (também)",
+    "ex": "eu tbm",
+    "exEn": "me too"
+  },
+  {
+    "pt": "pq",
+    "say": "poor-KEH",
+    "speak": "porque",
+    "en": "Why / because (por que / porque)",
+    "ex": "pq vc não veio?",
+    "exEn": "why didn't you come?"
+  },
+  {
+    "pt": "kkkk",
+    "say": "kah-kah-kah",
+    "speak": "kkkk",
+    "en": "Hahaha (Brazil's way to type laughter)",
+    "ex": "kkkkk mt bom",
+    "exEn": "hahaha so good"
+  },
+  {
+    "pt": "rs",
+    "say": "HEE-zoos",
+    "speak": "risos",
+    "en": "Lol, a light laugh (risos)",
+    "ex": "tô brincando rs",
+    "exEn": "I'm kidding lol"
+  },
+  {
+    "pt": "blz",
+    "say": "beh-LEH-zah",
+    "speak": "beleza",
+    "en": "OK, cool (beleza)",
+    "ex": "blz, até amanhã",
+    "exEn": "cool, see you tomorrow"
+  },
+  {
+    "pt": "vlw",
+    "say": "vah-LEH-oo",
+    "speak": "valeu",
+    "en": "Thanks (valeu)",
+    "ex": "vlw pela força!",
+    "exEn": "thanks for the help!"
+  },
+  {
+    "pt": "flw",
+    "say": "fah-LOH",
+    "speak": "falou",
+    "en": "See ya (falou)",
+    "ex": "flw, mano",
+    "exEn": "see ya, bro"
+  },
+  {
+    "pt": "tmj",
+    "say": "tah-MOOS zhoon-too",
+    "speak": "tamo junto",
+    "en": "We're in this together / got your back",
+    "ex": "qualquer coisa tmj",
+    "exEn": "anything you need, got your back"
+  },
+  {
+    "pt": "hj",
+    "say": "OH-zhee",
+    "speak": "hoje",
+    "en": "Today (hoje)",
+    "ex": "hj não dá",
+    "exEn": "can't today"
+  },
+  {
+    "pt": "msm",
+    "say": "MEZ-moo",
+    "speak": "mesmo",
+    "en": "Really, same (mesmo)",
+    "ex": "sério msm?",
+    "exEn": "seriously?"
+  },
+  {
+    "pt": "mt / mto",
+    "say": "MWEEN-too",
+    "speak": "muito",
+    "en": "Very, a lot (muito)",
+    "ex": "mt obrigada",
+    "exEn": "thanks a lot"
+  },
+  {
+    "pt": "td",
+    "say": "TOO-doo",
+    "speak": "tudo",
+    "en": "Everything (tudo)",
+    "ex": "td bem?",
+    "exEn": "all good?"
+  },
+  {
+    "pt": "q",
+    "say": "kee",
+    "speak": "que",
+    "en": "What / that (que)",
+    "ex": "q horas?",
+    "exEn": "what time?"
+  },
+  {
+    "pt": "cmg / ctg",
+    "say": "koh-MEE-goo / kohn-CHEE-goo",
+    "speak": "comigo",
+    "en": "With me / with you (comigo / contigo)",
+    "ex": "vem cmg",
+    "exEn": "come with me"
+  },
+  {
+    "pt": "naum / ñ",
+    "say": "nowng",
+    "speak": "não",
+    "en": "No, not (não)",
+    "ex": "ñ sei",
+    "exEn": "dunno"
+  },
+  {
+    "pt": "sdds",
+    "say": "sow-DAH-jees",
+    "speak": "saudades",
+    "en": "Miss you (saudades)",
+    "ex": "sdds de vc",
+    "exEn": "miss you"
+  },
+  {
+    "pt": "bjs",
+    "say": "bay-ZHOOS",
+    "speak": "beijos",
+    "en": "Kisses, xoxo (beijos)",
+    "ex": "boa noite, bjs",
+    "exEn": "good night, xoxo"
+  },
+  {
+    "pt": "abs",
+    "say": "ah-BRAH-soos",
+    "speak": "abraços",
+    "en": "Hugs, cheers (abraços — common sign-off)",
+    "ex": "valeu, abs",
+    "exEn": "thanks, cheers"
+  },
+  {
+    "pt": "pfv / pfvr",
+    "say": "poor fah-VOR",
+    "speak": "por favor",
+    "en": "Please (por favor)",
+    "ex": "me manda a foto pfv",
+    "exEn": "send me the photo pls"
+  },
+  {
+    "pt": "obg",
+    "say": "oh-bree-GAH-doo",
+    "speak": "obrigado",
+    "en": "Thanks (obrigado/obrigada)",
+    "ex": "obg!",
+    "exEn": "thx!"
+  },
+  {
+    "pt": "tô",
+    "say": "toh",
+    "speak": "estou",
+    "en": "I'm (estou)",
+    "ex": "tô chegando",
+    "exEn": "almost there"
+  },
+  {
+    "pt": "cadê",
+    "say": "kah-DEH",
+    "speak": "cadê",
+    "en": "Where is…? (casual)",
+    "ex": "cadê vc?",
+    "exEn": "where are you?"
+  },
+  {
+    "pt": "sla",
+    "say": "sey lah",
+    "speak": "sei lá",
+    "en": "Dunno (sei lá)",
+    "ex": "sla, vamos ver",
+    "exEn": "dunno, we'll see"
+  },
+  {
+    "pt": "pdc",
+    "say": "pohd kreh",
+    "speak": "pode crer",
+    "en": "For sure, totally (pode crer)",
+    "ex": "pdc, mano",
+    "exEn": "for sure, bro"
+  },
+  {
+    "pt": "fds",
+    "say": "FEENG jee seh-MAH-nah",
+    "speak": "fim de semana",
+    "en": "Weekend (fim de semana)",
+    "ex": "bora praia no fds?",
+    "exEn": "beach this weekend?"
+  }
+]

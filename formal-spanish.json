@@ -1,0 +1,233 @@
+[
+  {
+    "es": "Buenos días",
+    "say": "BWEH-nohs DEE-ahs",
+    "en": "Good morning",
+    "ex": "Buenos días, señor García.",
+    "exEn": "Good morning, Mr. García."
+  },
+  {
+    "es": "Buenas tardes",
+    "say": "BWEH-nahs TAR-dehs",
+    "en": "Good afternoon (from noon until dark)",
+    "ex": "Buenas tardes, ¿cómo le va?",
+    "exEn": "Good afternoon, how are you doing?"
+  },
+  {
+    "es": "Buenas noches",
+    "say": "BWEH-nahs NOH-chehs",
+    "en": "Good evening / good night",
+    "ex": "Buenas noches, una mesa para dos, por favor.",
+    "exEn": "Good evening, a table for two, please."
+  },
+  {
+    "es": "¿Cómo está usted?",
+    "say": "KOH-moh es-TAH oos-TEHD",
+    "en": "How are you? (formal)",
+    "ex": "Buenos días, señora, ¿cómo está usted?",
+    "exEn": "Good morning, ma'am, how are you?"
+  },
+  {
+    "es": "Mucho gusto",
+    "say": "MOO-choh GOOS-toh",
+    "en": "Nice to meet you (works for anyone)",
+    "ex": "Mucho gusto, me llamo Cami.",
+    "exEn": "Nice to meet you, I'm Cami."
+  },
+  {
+    "es": "Encantado / Encantada",
+    "say": "en-kahn-TAH-doh / en-kahn-TAH-dah",
+    "en": "Delighted to meet you (man / woman)",
+    "ex": "Encantado de conocerla.",
+    "exEn": "Delighted to meet you."
+  },
+  {
+    "es": "Señor / Señora",
+    "say": "seh-NYOR / seh-NYOH-rah",
+    "en": "Sir / Ma'am (to a man / to a woman)",
+    "ex": "Disculpe, señora, ¿me puede ayudar?",
+    "exEn": "Excuse me, ma'am, can you help me?"
+  },
+  {
+    "es": "Don / Doña",
+    "say": "dohn / DOH-nyah",
+    "en": "Respectful title before an older person's first name: Don Pedro, Doña María",
+    "ex": "Buenos días, doña María.",
+    "exEn": "Good morning, Doña María."
+  },
+  {
+    "es": "Por favor",
+    "say": "por fah-VOR",
+    "en": "Please",
+    "ex": "Un café, por favor.",
+    "exEn": "A coffee, please."
+  },
+  {
+    "es": "Muchas gracias",
+    "say": "MOO-chahs GRAH-syahs",
+    "en": "Thank you very much",
+    "ex": "Muchas gracias por su ayuda.",
+    "exEn": "Thank you very much for your help."
+  },
+  {
+    "es": "De nada",
+    "say": "deh NAH-dah",
+    "en": "You're welcome",
+    "ex": "— ¡Gracias! — De nada.",
+    "exEn": "— Thanks! — You're welcome."
+  },
+  {
+    "es": "Con gusto",
+    "say": "kohn GOOS-toh",
+    "en": "My pleasure (a warmer 'you're welcome')",
+    "ex": "— Gracias por todo. — Con gusto.",
+    "exEn": "— Thanks for everything. — My pleasure."
+  },
+  {
+    "es": "Disculpe",
+    "say": "dees-KOOL-peh",
+    "en": "Excuse me (to get attention, formal)",
+    "ex": "Disculpe, ¿dónde está el baño?",
+    "exEn": "Excuse me, where is the restroom?"
+  },
+  {
+    "es": "Perdone",
+    "say": "per-DOH-neh",
+    "en": "Pardon me / sorry (formal)",
+    "ex": "Perdone, no le entendí.",
+    "exEn": "Pardon me, I didn't understand you."
+  },
+  {
+    "es": "Con permiso",
+    "say": "kohn per-MEE-soh",
+    "en": "Excuse me (to get past or leave)",
+    "ex": "Con permiso, ¿puedo pasar?",
+    "exEn": "Excuse me, may I get by?"
+  },
+  {
+    "es": "Lo siento mucho",
+    "say": "loh SYEN-toh MOO-choh",
+    "en": "I'm very sorry",
+    "ex": "Lo siento mucho, fue mi culpa.",
+    "exEn": "I'm very sorry, it was my fault."
+  },
+  {
+    "es": "¿Me podría ayudar?",
+    "say": "meh poh-DREE-ah ah-yoo-DAR",
+    "en": "Could you help me? (polite)",
+    "ex": "Disculpe, ¿me podría ayudar?",
+    "exEn": "Excuse me, could you help me?"
+  },
+  {
+    "es": "Quisiera…",
+    "say": "kee-SYEH-rah",
+    "en": "I would like… (the polite way to ask or order)",
+    "ex": "Quisiera reservar una mesa.",
+    "exEn": "I would like to reserve a table."
+  },
+  {
+    "es": "¿En qué le puedo ayudar?",
+    "say": "en keh leh PWEH-doh ah-yoo-DAR",
+    "en": "How can I help you?",
+    "ex": "Buenas tardes, ¿en qué le puedo ayudar?",
+    "exEn": "Good afternoon, how can I help you?"
+  },
+  {
+    "es": "¿Habla usted inglés?",
+    "say": "AH-blah oos-TEHD een-GLEHS",
+    "en": "Do you speak English? (formal)",
+    "ex": "Perdone, ¿habla usted inglés?",
+    "exEn": "Pardon me, do you speak English?"
+  },
+  {
+    "es": "No entiendo",
+    "say": "noh en-TYEN-doh",
+    "en": "I don't understand",
+    "ex": "Lo siento, no entiendo.",
+    "exEn": "Sorry, I don't understand."
+  },
+  {
+    "es": "¿Podría repetirlo?",
+    "say": "poh-DREE-ah reh-peh-TEER-loh",
+    "en": "Could you repeat that?",
+    "ex": "Perdone, ¿podría repetirlo más despacio?",
+    "exEn": "Sorry, could you repeat that more slowly?"
+  },
+  {
+    "es": "Pase, por favor",
+    "say": "PAH-seh, por fah-VOR",
+    "en": "Come in, please",
+    "ex": "Pase, por favor, siéntese.",
+    "exEn": "Come in, please, have a seat."
+  },
+  {
+    "es": "Siéntese",
+    "say": "SYEN-teh-seh",
+    "en": "Have a seat (formal)",
+    "ex": "Siéntese, por favor.",
+    "exEn": "Please have a seat."
+  },
+  {
+    "es": "Mi casa es su casa",
+    "say": "mee KAH-sah es soo KAH-sah",
+    "en": "Make yourself at home ('my house is your house')",
+    "ex": "Bienvenido, mi casa es su casa.",
+    "exEn": "Welcome, make yourself at home."
+  },
+  {
+    "es": "Bienvenido / Bienvenida",
+    "say": "byen-veh-NEE-doh / byen-veh-NEE-dah",
+    "en": "Welcome (to a man / to a woman)",
+    "ex": "Bienvenida a México.",
+    "exEn": "Welcome to Mexico."
+  },
+  {
+    "es": "Que le vaya bien",
+    "say": "keh leh VAH-yah byen",
+    "en": "Take care / have a good one (formal goodbye)",
+    "ex": "Gracias, que le vaya bien.",
+    "exEn": "Thanks, take care."
+  },
+  {
+    "es": "Que tenga un buen día",
+    "say": "keh TEN-gah oon bwen DEE-ah",
+    "en": "Have a nice day (formal)",
+    "ex": "Gracias por todo, que tenga un buen día.",
+    "exEn": "Thanks for everything, have a nice day."
+  },
+  {
+    "es": "Hasta luego",
+    "say": "AHS-tah LWEH-goh",
+    "en": "See you later / goodbye",
+    "ex": "Gracias, hasta luego.",
+    "exEn": "Thanks, see you later."
+  },
+  {
+    "es": "Felicidades",
+    "say": "feh-lee-see-DAH-dehs",
+    "en": "Congratulations",
+    "ex": "¡Felicidades por su boda!",
+    "exEn": "Congratulations on your wedding!"
+  },
+  {
+    "es": "¡Salud!",
+    "say": "sah-LOOD",
+    "en": "Cheers! / Bless you! (after a sneeze)",
+    "ex": "¡Salud por los novios!",
+    "exEn": "Cheers to the newlyweds!"
+  },
+  {
+    "es": "Buen provecho",
+    "say": "bwen proh-VEH-choh",
+    "en": "Enjoy your meal",
+    "ex": "Aquí tiene. ¡Buen provecho!",
+    "exEn": "Here you go. Enjoy your meal!"
+  },
+  {
+    "es": "Atentamente",
+    "say": "ah-ten-tah-MEN-teh",
+    "en": "Sincerely (email or letter sign-off)",
+    "ex": "Quedo a sus órdenes. Atentamente, Cami",
+    "exEn": "I remain at your service. Sincerely, Cami"
+  }
+]

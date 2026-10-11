@@ -1,0 +1,177 @@
+[
+  {
+    "pt": "Uma mesa para dois, por favor",
+    "say": "OO-mah MEH-zah PAH-rah DOYS, poor fah-VOR",
+    "en": "A table for two, please",
+    "ex": "Boa noite, uma mesa para dois, por favor.",
+    "exEn": "Good evening, a table for two, please."
+  },
+  {
+    "pt": "O cardápio, por favor",
+    "say": "oo kar-DAH-pyoo, poor fah-VOR",
+    "en": "The menu, please",
+    "ex": "Com licença, o cardápio, por favor.",
+    "exEn": "Excuse me, the menu, please."
+  },
+  {
+    "pt": "O que o senhor recomenda?",
+    "say": "oo kee oo seh-NYOR heh-koh-MEN-dah",
+    "en": "What do you recommend? (polite)",
+    "ex": "É a primeira vez aqui, o que o senhor recomenda?",
+    "exEn": "It's my first time here, what do you recommend?"
+  },
+  {
+    "pt": "Eu vou querer…",
+    "say": "eh-oo voh keh-REHR",
+    "en": "I'll have…",
+    "ex": "Eu vou querer a picanha, por favor.",
+    "exEn": "I'll have the picanha, please."
+  },
+  {
+    "pt": "O prato do dia",
+    "say": "oo PRAH-too doo JEE-ah",
+    "en": "Today's special (often the best deal at lunch)",
+    "ex": "Qual é o prato do dia?",
+    "exEn": "What's today's special?"
+  },
+  {
+    "pt": "Prato feito (PF)",
+    "say": "PRAH-too FAY-too",
+    "en": "Set plate: rice, beans, meat and salad",
+    "ex": "Um PF, por favor.",
+    "exEn": "One set plate, please."
+  },
+  {
+    "pt": "Comida a quilo",
+    "say": "koh-MEE-dah ah KEE-loo",
+    "en": "Pay-by-weight buffet (very common for lunch)",
+    "ex": "Vamos num restaurante a quilo?",
+    "exEn": "Shall we go to a pay-by-weight place?"
+  },
+  {
+    "pt": "Rodízio",
+    "say": "hoh-JEE-zyoo",
+    "en": "All-you-can-eat (meat brought to your table)",
+    "ex": "Vamos numa churrascaria de rodízio.",
+    "exEn": "Let's go to an all-you-can-eat steakhouse."
+  },
+  {
+    "pt": "Sou vegetariano / vegetariana",
+    "say": "soh veh-zheh-tah-ree-AH-noo / veh-zheh-tah-ree-AH-nah",
+    "en": "I'm vegetarian (man / woman)",
+    "ex": "Sou vegetariano, tem algo sem carne?",
+    "exEn": "I'm vegetarian, is there anything without meat?"
+  },
+  {
+    "pt": "Sou alérgico / alérgica a…",
+    "say": "soh ah-LEHR-zhee-koo / ah-LEHR-zhee-kah ah",
+    "en": "I'm allergic to… (man / woman)",
+    "ex": "Sou alérgico a amendoim.",
+    "exEn": "I'm allergic to peanuts."
+  },
+  {
+    "pt": "Sem…, por favor",
+    "say": "sayng…, poor fah-VOR",
+    "en": "Without…, please",
+    "ex": "Um hambúrguer sem cebola, por favor.",
+    "exEn": "A burger without onion, please."
+  },
+  {
+    "pt": "Água com gás / sem gás",
+    "say": "AH-gwah kohng GAHS / sayng GAHS",
+    "en": "Sparkling / still water",
+    "ex": "Uma água sem gás, por favor.",
+    "exEn": "A still water, please."
+  },
+  {
+    "pt": "Um suco de…",
+    "say": "oong SOO-koo jee",
+    "en": "A juice of… (fresh juices are everywhere)",
+    "ex": "Um suco de maracujá, por favor.",
+    "exEn": "A passion fruit juice, please."
+  },
+  {
+    "pt": "Um cafezinho",
+    "say": "oong kah-feh-ZEE-nyoo",
+    "en": "A little coffee (small, strong, often offered free)",
+    "ex": "Aceita um cafezinho?",
+    "exEn": "Would you like a little coffee?"
+  },
+  {
+    "pt": "Uma cerveja bem gelada",
+    "say": "OO-mah ser-VEH-zhah bayng zheh-LAH-dah",
+    "en": "A really cold beer",
+    "ex": "Duas cervejas bem geladas!",
+    "exEn": "Two really cold beers!"
+  },
+  {
+    "pt": "Uma caipirinha",
+    "say": "OO-mah kai-pee-REE-nyah",
+    "en": "A caipirinha (cachaça, lime, sugar)",
+    "ex": "Uma caipirinha de limão, por favor.",
+    "exEn": "A lime caipirinha, please."
+  },
+  {
+    "pt": "Para viagem",
+    "say": "PAH-rah vee-AH-zhayng",
+    "en": "To go (literally 'for the trip')",
+    "ex": "Dois salgados para viagem.",
+    "exEn": "Two snacks to go."
+  },
+  {
+    "pt": "Tá uma delícia!",
+    "say": "tah OO-mah deh-LEE-syah",
+    "en": "It's delicious!",
+    "ex": "Nossa, tá uma delícia!",
+    "exEn": "Wow, it's delicious!"
+  },
+  {
+    "pt": "Estou com fome",
+    "say": "ehs-TOH kohng FOH-mee",
+    "en": "I'm hungry (com sede = thirsty)",
+    "ex": "Estou com fome, vamos comer?",
+    "exEn": "I'm hungry, shall we eat?"
+  },
+  {
+    "pt": "Pão de queijo",
+    "say": "powng jee KAY-zhoo",
+    "en": "Cheese bread (a must-try snack)",
+    "ex": "Me vê dois pães de queijo.",
+    "exEn": "Give me two cheese breads."
+  },
+  {
+    "pt": "Açaí",
+    "say": "ah-sah-EE",
+    "en": "Açaí bowl (frozen berry, eaten with granola)",
+    "ex": "Um açaí de 500 ml com granola.",
+    "exEn": "A 500 ml açaí with granola."
+  },
+  {
+    "pt": "A conta, por favor",
+    "say": "ah KOHN-tah, poor fah-VOR",
+    "en": "The check, please",
+    "ex": "Com licença, a conta, por favor.",
+    "exEn": "Excuse me, the check, please."
+  },
+  {
+    "pt": "A taxa de serviço",
+    "say": "ah TAH-shah jee ser-VEE-soo",
+    "en": "Service charge (usually 10%, added to the bill)",
+    "ex": "A taxa de serviço está incluída?",
+    "exEn": "Is the service charge included?"
+  },
+  {
+    "pt": "Aceita cartão?",
+    "say": "ah-SAY-tah kar-TOWNG",
+    "en": "Do you take cards?",
+    "ex": "Aceita cartão ou só dinheiro?",
+    "exEn": "Do you take cards or just cash?"
+  },
+  {
+    "pt": "Posso pagar com Pix?",
+    "say": "POH-soo pah-GAR kohng PEEKS",
+    "en": "Can I pay with Pix? (Brazil's instant payment by QR code)",
+    "ex": "Posso pagar com Pix?",
+    "exEn": "Can I pay with Pix?"
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "it": "zero",
+    "say": "DZEH-roh",
+    "en": "0 — zero",
+    "ex": "Ci sono zero gradi.",
+    "exEn": "It's zero degrees."
+  },
+  {
+    "it": "uno",
+    "say": "OO-noh",
+    "en": "1 — one (un/uno before masculine nouns, una before feminine)",
+    "ex": "Un caffè e una birra.",
+    "exEn": "One coffee and one beer."
+  },
+  {
+    "it": "due",
+    "say": "DOO-eh",
+    "en": "2 — two",
+    "ex": "Due biglietti, per favore.",
+    "exEn": "Two tickets, please."
+  },
+  {
+    "it": "tre",
+    "say": "treh",
+    "en": "3 — three",
+    "ex": "Un tavolo per tre.",
+    "exEn": "A table for three."
+  },
+  {
+    "it": "quattro",
+    "say": "KWAHT-troh",
+    "en": "4 — four",
+    "ex": "Abito al quarto piano.",
+    "exEn": "I live on the fourth floor."
+  },
+  {
+    "it": "cinque",
+    "say": "CHEEN-kweh",
+    "en": "5 — five",
+    "ex": "Cinque minuti e arrivo.",
+    "exEn": "Five minutes and I'm there."
+  },
+  {
+    "it": "sei",
+    "say": "say",
+    "en": "6 — six",
+    "ex": "Ci vediamo alle sei.",
+    "exEn": "See you at six."
+  },
+  {
+    "it": "sette",
+    "say": "SET-teh",
+    "en": "7 — seven",
+    "ex": "Sette giorni su sette.",
+    "exEn": "Seven days a week."
+  },
+  {
+    "it": "otto",
+    "say": "OHT-toh",
+    "en": "8 — eight",
+    "ex": "Il treno parte alle otto.",
+    "exEn": "The train leaves at eight."
+  },
+  {
+    "it": "nove",
+    "say": "NOH-veh",
+    "en": "9 — nine",
+    "ex": "Sono le nove.",
+    "exEn": "It's nine o'clock."
+  },
+  {
+    "it": "dieci",
+    "say": "DYEH-chee",
+    "en": "10 — ten",
+    "ex": "Sono dieci euro.",
+    "exEn": "That's ten euros."
+  },
+  {
+    "it": "undici",
+    "say": "OON-dee-chee",
+    "en": "11 — eleven",
+    "ex": "Il negozio apre alle undici.",
+    "exEn": "The shop opens at eleven."
+  },
+  {
+    "it": "dodici",
+    "say": "DOH-dee-chee",
+    "en": "12 — twelve",
+    "ex": "Una dozzina sono dodici.",
+    "exEn": "A dozen is twelve."
+  },
+  {
+    "it": "quindici",
+    "say": "KWEEN-dee-chee",
+    "en": "15 — fifteen",
+    "ex": "Fra quindici minuti.",
+    "exEn": "In fifteen minutes."
+  },
+  {
+    "it": "diciassette",
+    "say": "dee-chahs-SET-teh",
+    "en": "17 — seventeen",
+    "ex": "Ha diciassette anni.",
+    "exEn": "She's seventeen."
+  },
+  {
+    "it": "venti",
+    "say": "VEN-tee",
+    "en": "20 — twenty",
+    "ex": "Costa venti euro.",
+    "exEn": "It costs twenty euros."
+  },
+  {
+    "it": "ventuno",
+    "say": "ven-TOO-noh",
+    "en": "21 — twenty-one (the final vowel of venti drops)",
+    "ex": "Ho ventun anni.",
+    "exEn": "I'm twenty-one."
+  },
+  {
+    "it": "trenta",
+    "say": "TREN-tah",
+    "en": "30 — thirty",
+    "ex": "Trenta minuti di treno.",
+    "exEn": "Thirty minutes by train."
+  },
+  {
+    "it": "quaranta",
+    "say": "kwah-RAHN-tah",
+    "en": "40 — forty",
+    "ex": "Fa quaranta gradi!",
+    "exEn": "It's forty degrees!"
+  },
+  {
+    "it": "cinquanta",
+    "say": "cheen-KWAHN-tah",
+    "en": "50 — fifty",
+    "ex": "Una banconota da cinquanta.",
+    "exEn": "A fifty note."
+  },
+  {
+    "it": "sessanta",
+    "say": "ses-SAHN-tah",
+    "en": "60 — sixty",
+    "ex": "Sessanta minuti sono un'ora.",
+    "exEn": "Sixty minutes is an hour."
+  },
+  {
+    "it": "settanta",
+    "say": "set-TAHN-tah",
+    "en": "70 — seventy",
+    "ex": "Mia nonna ha settant'anni.",
+    "exEn": "My grandmother is seventy."
+  },
+  {
+    "it": "ottanta",
+    "say": "oht-TAHN-tah",
+    "en": "80 — eighty",
+    "ex": "Ottanta chilometri all'ora.",
+    "exEn": "Eighty kilometers an hour."
+  },
+  {
+    "it": "novanta",
+    "say": "noh-VAHN-tah",
+    "en": "90 — ninety",
+    "ex": "Novanta per cento.",
+    "exEn": "Ninety percent."
+  },
+  {
+    "it": "cento",
+    "say": "CHEN-toh",
+    "en": "100 — one hundred",
+    "ex": "Una banconota da cento euro.",
+    "exEn": "A hundred-euro note."
+  },
+  {
+    "it": "mille",
+    "say": "MEEL-leh",
+    "en": "1,000 — one thousand (duemila = 2,000)",
+    "ex": "Mille grazie!",
+    "exEn": "A thousand thanks!"
+  },
+  {
+    "it": "Quanto costa?",
+    "say": "KWAHN-toh KOHS-tah",
+    "en": "How much is it?",
+    "ex": "Scusi, quanto costa?",
+    "exEn": "Excuse me, how much is it?"
+  },
+  {
+    "it": "Quant'è?",
+    "say": "kwahn-TEH",
+    "en": "How much is it? (when paying)",
+    "ex": "Grazie, quant'è?",
+    "exEn": "Thanks, how much do I owe?"
+  },
+  {
+    "it": "tre euro e cinquanta",
+    "say": "treh EH-oo-roh eh cheen-KWAHN-tah",
+    "en": "€3.50 (euros, then cents)",
+    "ex": "Sono tre euro e cinquanta.",
+    "exEn": "That's three fifty."
+  },
+  {
+    "it": "È caro / È economico",
+    "say": "eh KAH-roh / eh eh-koh-NOH-mee-koh",
+    "en": "It's expensive / It's cheap",
+    "ex": "È un po' caro per me.",
+    "exEn": "It's a bit expensive for me."
+  },
+  {
+    "it": "Che ore sono?",
+    "say": "keh OH-reh SOH-noh",
+    "en": "What time is it?",
+    "ex": "Scusi, che ore sono?",
+    "exEn": "Excuse me, what time is it?"
+  },
+  {
+    "it": "È l'una",
+    "say": "eh LOO-nah",
+    "en": "It's one o'clock (singular for one)",
+    "ex": "È già l'una.",
+    "exEn": "It's already one o'clock."
+  },
+  {
+    "it": "Sono le tre",
+    "say": "SOH-noh leh TREH",
+    "en": "It's three o'clock",
+    "ex": "Sono le tre in punto.",
+    "exEn": "It's exactly three o'clock."
+  },
+  {
+    "it": "Alle cinque",
+    "say": "AHL-leh CHEEN-kweh",
+    "en": "At five o'clock",
+    "ex": "Ci vediamo alle cinque?",
+    "exEn": "Shall we meet at five?"
+  },
+  {
+    "it": "e mezza / e un quarto / meno un quarto",
+    "say": "eh MED-dzah / eh oon KWAR-toh / MEH-noh oon KWAR-toh",
+    "en": "Half past / quarter past / quarter to",
+    "ex": "Sono le due e mezza.",
+    "exEn": "It's half past two."
+  },
+  {
+    "it": "Le venti (20:00)",
+    "say": "leh VEN-tee",
+    "en": "8 p.m. — Italy uses the 24-hour clock",
+    "ex": "Il film comincia alle venti.",
+    "exEn": "The movie starts at 8 p.m."
+  },
+  {
+    "it": "mezzogiorno / mezzanotte",
+    "say": "med-dzoh-JOR-noh / med-dzah-NOHT-teh",
+    "en": "Noon / midnight",
+    "ex": "Pranziamo a mezzogiorno.",
+    "exEn": "We have lunch at noon."
+  },
+  {
+    "it": "fra mezz'ora",
+    "say": "frah med-DZOH-rah",
+    "en": "In half an hour",
+    "ex": "Arrivo fra mezz'ora.",
+    "exEn": "I'll be there in half an hour."
+  },
+  {
+    "it": "oggi / domani / ieri",
+    "say": "OHD-jee / doh-MAH-nee / YEH-ree",
+    "en": "Today / tomorrow / yesterday",
+    "ex": "Ci vediamo domani.",
+    "exEn": "See you tomorrow."
+  },
+  {
+    "it": "lunedì",
+    "say": "loo-neh-DEE",
+    "en": "Monday (martedì, mercoledì, giovedì, venerdì, sabato, domenica)",
+    "ex": "Lunedì lavoro.",
+    "exEn": "I work on Monday."
+  },
+  {
+    "it": "di mattina / di pomeriggio / di sera",
+    "say": "dee maht-TEE-nah / dee poh-meh-REED-joh / dee SEH-rah",
+    "en": "In the morning / afternoon / evening",
+    "ex": "Chiamami di sera.",
+    "exEn": "Call me in the evening."
+  },
+  {
+    "it": "primo / secondo / terzo",
+    "say": "PREE-moh / seh-KOHN-doh / TER-tsoh",
+    "en": "First / second / third",
+    "ex": "È il mio primo viaggio in Italia.",
+    "exEn": "It's my first trip to Italy."
+  },
+  {
+    "it": "la metà",
+    "say": "lah meh-TAH",
+    "en": "Half",
+    "ex": "Paghiamo metà per uno.",
+    "exEn": "We each pay half."
+  },
+  {
+    "it": "un paio",
+    "say": "oon PYE-oh",
+    "en": "A pair / a couple",
+    "ex": "Un paio di giorni.",
+    "exEn": "A couple of days."
+  }
+]

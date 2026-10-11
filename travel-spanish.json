@@ -1,0 +1,184 @@
+[
+  {
+    "es": "¿Dónde está…?",
+    "say": "DOHN-deh es-TAH",
+    "en": "Where is…?",
+    "ex": "Disculpe, ¿dónde está la estación?",
+    "exEn": "Excuse me, where is the station?"
+  },
+  {
+    "es": "¿Cómo llego a…?",
+    "say": "KOH-moh YEH-goh ah",
+    "en": "How do I get to…?",
+    "ex": "¿Cómo llego al centro?",
+    "exEn": "How do I get downtown?"
+  },
+  {
+    "es": "¿Está lejos?",
+    "say": "es-TAH LEH-hohs",
+    "en": "Is it far?",
+    "ex": "¿Está lejos de aquí?",
+    "exEn": "Is it far from here?"
+  },
+  {
+    "es": "A la izquierda / a la derecha / derecho",
+    "say": "ah lah ees-KYER-dah / ah lah deh-REH-chah / deh-REH-choh",
+    "en": "To the left / to the right / straight ahead",
+    "ex": "Siga derecho y luego a la derecha.",
+    "exEn": "Go straight and then to the right."
+  },
+  {
+    "es": "La estación de metro",
+    "say": "lah es-tah-SYOHN deh MEH-troh",
+    "en": "The subway station",
+    "ex": "¿Dónde está la estación de metro más cercana?",
+    "exEn": "Where's the nearest subway station?"
+  },
+  {
+    "es": "Un boleto, por favor",
+    "say": "oon boh-LEH-toh, por fah-VOR",
+    "en": "One ticket, please (billete in Spain)",
+    "ex": "Un boleto a Guadalajara, por favor.",
+    "exEn": "One ticket to Guadalajara, please."
+  },
+  {
+    "es": "Ida y vuelta",
+    "say": "EE-dah ee BWEL-tah",
+    "en": "Round trip (solo ida = one way)",
+    "ex": "Un boleto de ida y vuelta.",
+    "exEn": "A round-trip ticket."
+  },
+  {
+    "es": "¿A qué hora sale…?",
+    "say": "ah keh OH-rah SAH-leh",
+    "en": "What time does … leave?",
+    "ex": "¿A qué hora sale el autobús?",
+    "exEn": "What time does the bus leave?"
+  },
+  {
+    "es": "¿Me lleva a…?",
+    "say": "meh YEH-vah ah",
+    "en": "Can you take me to…? (to a taxi driver)",
+    "ex": "¿Me lleva al aeropuerto, por favor?",
+    "exEn": "Can you take me to the airport, please?"
+  },
+  {
+    "es": "Tengo una reservación",
+    "say": "TEN-goh OO-nah reh-ser-vah-SYOHN",
+    "en": "I have a reservation (reserva in Spain)",
+    "ex": "Tengo una reservación a nombre de Cami.",
+    "exEn": "I have a reservation under the name Cami."
+  },
+  {
+    "es": "¿Incluye el desayuno?",
+    "say": "een-KLOO-yeh el deh-sah-YOO-noh",
+    "en": "Is breakfast included?",
+    "ex": "¿El precio incluye el desayuno?",
+    "exEn": "Does the price include breakfast?"
+  },
+  {
+    "es": "¿Cuál es la contraseña del wifi?",
+    "say": "kwahl es lah kohn-trah-SEH-nyah del WEE-fee",
+    "en": "What's the wifi password?",
+    "ex": "Disculpe, ¿cuál es la contraseña del wifi?",
+    "exEn": "Excuse me, what's the wifi password?"
+  },
+  {
+    "es": "¿Dónde está el baño?",
+    "say": "DOHN-deh es-TAH el BAH-nyoh",
+    "en": "Where's the restroom?",
+    "ex": "Perdón, ¿dónde está el baño?",
+    "exEn": "Sorry, where's the restroom?"
+  },
+  {
+    "es": "La farmacia",
+    "say": "lah far-MAH-syah",
+    "en": "The pharmacy",
+    "ex": "¿Hay una farmacia por aquí?",
+    "exEn": "Is there a pharmacy around here?"
+  },
+  {
+    "es": "Me duele la cabeza",
+    "say": "meh DWEH-leh lah kah-BEH-sah",
+    "en": "I have a headache (me duele… = my … hurts)",
+    "ex": "Me duele la cabeza, ¿tiene algo?",
+    "exEn": "I have a headache, do you have anything?"
+  },
+  {
+    "es": "¡Ayuda!",
+    "say": "ah-YOO-dah",
+    "en": "Help! (emergency)",
+    "ex": "¡Ayuda! ¡Llamen al 911!",
+    "exEn": "Help! Call 911!"
+  },
+  {
+    "es": "Llame al 911",
+    "say": "YAH-meh ahl noo-eh-veh OO-noh OO-noh",
+    "en": "Call 911 (the emergency number in Mexico and much of Latin America)",
+    "ex": "Hubo un accidente, llame al 911.",
+    "exEn": "There's been an accident, call 911."
+  },
+  {
+    "es": "Estoy perdido / perdida",
+    "say": "es-TOY per-DEE-doh / per-DEE-dah",
+    "en": "I'm lost (man / woman)",
+    "ex": "Disculpe, estoy perdido. ¿Dónde está el zócalo?",
+    "exEn": "Excuse me, I'm lost. Where is the main square?"
+  },
+  {
+    "es": "¿Me puede ayudar?",
+    "say": "meh PWEH-deh ah-yoo-DAR",
+    "en": "Can you help me?",
+    "ex": "Disculpe, ¿me puede ayudar?",
+    "exEn": "Excuse me, can you help me?"
+  },
+  {
+    "es": "Hablo poco español",
+    "say": "AH-bloh POH-koh es-pah-NYOHL",
+    "en": "I speak a little Spanish",
+    "ex": "Perdón, hablo poco español.",
+    "exEn": "Sorry, I speak a little Spanish."
+  },
+  {
+    "es": "Más despacio, por favor",
+    "say": "mahs des-PAH-syoh, por fah-VOR",
+    "en": "More slowly, please",
+    "ex": "¿Puede hablar más despacio, por favor?",
+    "exEn": "Can you speak more slowly, please?"
+  },
+  {
+    "es": "Solo estoy mirando",
+    "say": "SOH-loh es-TOY mee-RAHN-doh",
+    "en": "I'm just looking (in shops)",
+    "ex": "Gracias, solo estoy mirando.",
+    "exEn": "Thanks, I'm just looking."
+  },
+  {
+    "es": "¿Me lo puedo probar?",
+    "say": "meh loh PWEH-doh proh-BAR",
+    "en": "Can I try it on?",
+    "ex": "¿Me puedo probar esta camisa?",
+    "exEn": "Can I try on this shirt?"
+  },
+  {
+    "es": "¿Cuánto cuesta?",
+    "say": "KWAHN-toh KWES-tah",
+    "en": "How much does it cost?",
+    "ex": "¿Cuánto cuesta el taxi al hotel?",
+    "exEn": "How much is the taxi to the hotel?"
+  },
+  {
+    "es": "¿Hay un cajero cerca?",
+    "say": "eye oon kah-HEH-roh SER-kah",
+    "en": "Is there an ATM nearby?",
+    "ex": "Disculpe, ¿hay un cajero cerca?",
+    "exEn": "Excuse me, is there an ATM nearby?"
+  },
+  {
+    "es": "Abierto / Cerrado",
+    "say": "ah-BYER-toh / seh-RRAH-doh",
+    "en": "Open / Closed (on signs)",
+    "ex": "Cerrado los domingos.",
+    "exEn": "Closed on Sundays."
+  }
+]

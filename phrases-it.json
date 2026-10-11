@@ -1,0 +1,287 @@
+[
+  {
+    "en": "yes",
+    "it": "Sì",
+    "alone": true
+  },
+  {
+    "en": "no",
+    "it": "No",
+    "alone": true
+  },
+  {
+    "en": "thanks",
+    "it": "Grazie!",
+    "alone": true
+  },
+  {
+    "en": "hi",
+    "it": "Ciao, capo!",
+    "alone": true
+  },
+  {
+    "en": "hot dog",
+    "it": "Mamma mia! Ma dai!",
+    "alone": true
+  },
+  {
+    "en": "You got this",
+    "it": "Ce la fai"
+  },
+  {
+    "en": "Sup",
+    "it": "Che si dice?"
+  },
+  {
+    "en": "Yep",
+    "it": "Sì sì"
+  },
+  {
+    "en": "Nope",
+    "it": "No no"
+  },
+  {
+    "en": "No worries",
+    "it": "Non fa niente"
+  },
+  {
+    "en": "Bro",
+    "it": "fratè"
+  },
+  {
+    "en": "Bruh",
+    "it": "ma dai",
+    "oneWay": true
+  },
+  {
+    "en": "Dude",
+    "it": "amico"
+  },
+  {
+    "en": "Fr",
+    "it": "davvero",
+    "oneWay": true
+  },
+  {
+    "en": "For real?",
+    "it": "Davvero?"
+  },
+  {
+    "en": "Deadass",
+    "it": "sul serio",
+    "oneWay": true
+  },
+  {
+    "en": "No cap",
+    "it": "Giuro"
+  },
+  {
+    "en": "Ngl",
+    "it": "a dire il vero",
+    "oneWay": true
+  },
+  {
+    "en": "Tbh",
+    "it": "sinceramente",
+    "oneWay": true
+  },
+  {
+    "en": "Imo",
+    "it": "secondo me"
+  },
+  {
+    "en": "Idk",
+    "it": "boh",
+    "oneWay": true
+  },
+  {
+    "en": "Omg",
+    "it": "oddio",
+    "oneWay": true
+  },
+  {
+    "en": "Lol",
+    "it": "ahah"
+  },
+  {
+    "en": "Lmao",
+    "it": "ahahahah"
+  },
+  {
+    "en": "I'm dead",
+    "it": "Sto morendo dal ridere"
+  },
+  {
+    "en": "I can't even",
+    "it": "Non ce la faccio"
+  },
+  {
+    "en": "What's up?",
+    "it": "Come va?"
+  },
+  {
+    "en": "What's new?",
+    "it": "Che c'è di nuovo?"
+  },
+  {
+    "en": "What's good?",
+    "it": "Tutto bene?"
+  },
+  {
+    "en": "Long time no see",
+    "it": "Da quanto tempo!"
+  },
+  {
+    "en": "Spill the tea",
+    "it": "Racconta tutto!"
+  },
+  {
+    "en": "For sure",
+    "it": "Certo"
+  },
+  {
+    "en": "Highkey",
+    "it": "davvero tanto",
+    "oneWay": true
+  },
+  {
+    "en": "Lowkey",
+    "it": "un po'",
+    "oneWay": true
+  },
+  {
+    "en": "That's sus",
+    "it": "È sospetto"
+  },
+  {
+    "en": "Sus",
+    "it": "sospetto",
+    "oneWay": true
+  },
+  {
+    "en": "That's cap",
+    "it": "Non è vero"
+  },
+  {
+    "en": "You're capping",
+    "it": "Stai mentendo"
+  },
+  {
+    "en": "No way",
+    "it": "Ma dai!"
+  },
+  {
+    "en": "That's fire",
+    "it": "È una figata"
+  },
+  {
+    "en": "It's fire",
+    "it": "Spacca"
+  },
+  {
+    "en": "That's lit",
+    "it": "È fortissimo"
+  },
+  {
+    "en": "That's crazy",
+    "it": "È pazzesco"
+  },
+  {
+    "en": "That's mid",
+    "it": "Così così"
+  },
+  {
+    "en": "Cringe",
+    "it": "imbarazzante"
+  },
+  {
+    "en": "That's chill",
+    "it": "Tranquillo"
+  },
+  {
+    "en": "All good",
+    "it": "Tutto a posto"
+  },
+  {
+    "en": "Good vibes",
+    "it": "belle vibrazioni"
+  },
+  {
+    "en": "Vibe",
+    "it": "atmosfera"
+  },
+  {
+    "en": "The GOAT",
+    "it": "il migliore di tutti"
+  },
+  {
+    "en": "Rizz",
+    "it": "fascino",
+    "oneWay": true
+  },
+  {
+    "en": "On god",
+    "it": "te lo giuro",
+    "oneWay": true
+  },
+  {
+    "en": "My bad",
+    "it": "Colpa mia"
+  },
+  {
+    "en": "Say less",
+    "it": "Ci sta"
+  },
+  {
+    "en": "I got you",
+    "it": "Ci penso io"
+  },
+  {
+    "en": "I'm down",
+    "it": "Ci sto"
+  },
+  {
+    "en": "Let's go",
+    "it": "Andiamo!"
+  },
+  {
+    "en": "Wanna hang out?",
+    "it": "Usciamo?"
+  },
+  {
+    "en": "Hit me up",
+    "it": "Scrivimi"
+  },
+  {
+    "en": "Chill out",
+    "it": "Rilassati"
+  },
+  {
+    "en": "Touch grass",
+    "it": "Esci a prendere un po' d'aria"
+  },
+  {
+    "en": "See ya",
+    "it": "Ci vediamo"
+  },
+  {
+    "en": "see you later",
+    "it": "A dopo!"
+  },
+  {
+    "en": "Catch you later",
+    "it": "A più tardi"
+  },
+  {
+    "en": "what's your birthday",
+    "it": "Quando è il tuo compleanno?"
+  },
+  {
+    "en": "How do you eat?",
+    "it": "Come ti alimenti?"
+  },
+  {
+    "en": "that's a catchphrase",
+    "it": "È il mio tormentone!"
+  }
+]

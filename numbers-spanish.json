@@ -1,0 +1,310 @@
+[
+  {
+    "es": "cero",
+    "say": "SEH-roh",
+    "en": "0 — zero",
+    "ex": "Hace cero grados.",
+    "exEn": "It's zero degrees."
+  },
+  {
+    "es": "uno",
+    "say": "OO-noh",
+    "en": "1 — one (un before a masculine noun, una before a feminine one)",
+    "ex": "Un café y una cerveza.",
+    "exEn": "One coffee and one beer."
+  },
+  {
+    "es": "dos",
+    "say": "dohs",
+    "en": "2 — two",
+    "ex": "Dos boletos, por favor.",
+    "exEn": "Two tickets, please."
+  },
+  {
+    "es": "tres",
+    "say": "trehs",
+    "en": "3 — three",
+    "ex": "Una mesa para tres.",
+    "exEn": "A table for three."
+  },
+  {
+    "es": "cuatro",
+    "say": "KWAH-troh",
+    "en": "4 — four",
+    "ex": "Vivo en el cuarto piso.",
+    "exEn": "I live on the fourth floor."
+  },
+  {
+    "es": "cinco",
+    "say": "SEEN-koh",
+    "en": "5 — five",
+    "ex": "Cinco minutos, ya llego.",
+    "exEn": "Five minutes, I'm almost there."
+  },
+  {
+    "es": "seis",
+    "say": "says",
+    "en": "6 — six",
+    "ex": "Nos vemos a las seis.",
+    "exEn": "See you at six."
+  },
+  {
+    "es": "siete",
+    "say": "SYEH-teh",
+    "en": "7 — seven",
+    "ex": "Siete días a la semana.",
+    "exEn": "Seven days a week."
+  },
+  {
+    "es": "ocho",
+    "say": "OH-choh",
+    "en": "8 — eight",
+    "ex": "El tren sale a las ocho.",
+    "exEn": "The train leaves at eight."
+  },
+  {
+    "es": "nueve",
+    "say": "NWEH-veh",
+    "en": "9 — nine",
+    "ex": "Son las nueve.",
+    "exEn": "It's nine o'clock."
+  },
+  {
+    "es": "diez",
+    "say": "dyehs",
+    "en": "10 — ten",
+    "ex": "Son diez pesos.",
+    "exEn": "That's ten pesos."
+  },
+  {
+    "es": "once",
+    "say": "OHN-seh",
+    "en": "11 — eleven",
+    "ex": "Abren a las once.",
+    "exEn": "They open at eleven."
+  },
+  {
+    "es": "doce",
+    "say": "DOH-seh",
+    "en": "12 — twelve",
+    "ex": "Una docena son doce.",
+    "exEn": "A dozen is twelve."
+  },
+  {
+    "es": "quince",
+    "say": "KEEN-seh",
+    "en": "15 — fifteen",
+    "ex": "En quince minutos.",
+    "exEn": "In fifteen minutes."
+  },
+  {
+    "es": "dieciséis",
+    "say": "dyeh-see-SAYS",
+    "en": "16 — sixteen (16–19 are 'ten-and-six'…)",
+    "ex": "Tiene dieciséis años.",
+    "exEn": "She's sixteen."
+  },
+  {
+    "es": "veinte",
+    "say": "BAYN-teh",
+    "en": "20 — twenty",
+    "ex": "Cuesta veinte pesos.",
+    "exEn": "It costs twenty pesos."
+  },
+  {
+    "es": "veintiuno",
+    "say": "bayn-tee-OO-noh",
+    "en": "21 — twenty-one",
+    "ex": "Tengo veintiún años.",
+    "exEn": "I'm twenty-one."
+  },
+  {
+    "es": "treinta",
+    "say": "TRAYN-tah",
+    "en": "30 — thirty",
+    "ex": "Treinta minutos en metro.",
+    "exEn": "Thirty minutes by subway."
+  },
+  {
+    "es": "treinta y cinco",
+    "say": "TRAYN-tah ee SEEN-koh",
+    "en": "35 — thirty-five (from 31 on: tens y ones)",
+    "ex": "Son treinta y cinco pesos.",
+    "exEn": "It's thirty-five pesos."
+  },
+  {
+    "es": "cuarenta",
+    "say": "kwah-REN-tah",
+    "en": "40 — forty",
+    "ex": "Cuarenta grados, ¡qué calor!",
+    "exEn": "Forty degrees, so hot!"
+  },
+  {
+    "es": "cincuenta",
+    "say": "seen-KWEN-tah",
+    "en": "50 — fifty",
+    "ex": "Un billete de cincuenta.",
+    "exEn": "A fifty bill."
+  },
+  {
+    "es": "sesenta",
+    "say": "seh-SEN-tah",
+    "en": "60 — sixty",
+    "ex": "Sesenta minutos son una hora.",
+    "exEn": "Sixty minutes is an hour."
+  },
+  {
+    "es": "setenta",
+    "say": "seh-TEN-tah",
+    "en": "70 — seventy",
+    "ex": "Mi abuela tiene setenta años.",
+    "exEn": "My grandmother is seventy."
+  },
+  {
+    "es": "ochenta",
+    "say": "oh-CHEN-tah",
+    "en": "80 — eighty",
+    "ex": "Ochenta kilómetros por hora.",
+    "exEn": "Eighty kilometers per hour."
+  },
+  {
+    "es": "noventa",
+    "say": "noh-BEN-tah",
+    "en": "90 — ninety",
+    "ex": "Noventa por ciento.",
+    "exEn": "Ninety percent."
+  },
+  {
+    "es": "cien",
+    "say": "syen",
+    "en": "100 — one hundred (ciento before more numbers: ciento diez)",
+    "ex": "Un billete de cien pesos.",
+    "exEn": "A hundred-peso bill."
+  },
+  {
+    "es": "quinientos",
+    "say": "kee-NYEN-tohs",
+    "en": "500 — five hundred",
+    "ex": "Son quinientos pesos.",
+    "exEn": "It's five hundred pesos."
+  },
+  {
+    "es": "mil",
+    "say": "meel",
+    "en": "1,000 — one thousand",
+    "ex": "Mil gracias.",
+    "exEn": "A thousand thanks."
+  },
+  {
+    "es": "¿Cuánto es?",
+    "say": "KWAHN-toh es",
+    "en": "How much is it?",
+    "ex": "Disculpe, ¿cuánto es?",
+    "exEn": "Excuse me, how much is it?"
+  },
+  {
+    "es": "Es muy caro",
+    "say": "es mooy KAH-roh",
+    "en": "It's very expensive (barato = cheap)",
+    "ex": "Es muy caro para mí.",
+    "exEn": "It's too expensive for me."
+  },
+  {
+    "es": "¿Me hace un descuento?",
+    "say": "meh AH-seh oon des-KWEN-toh",
+    "en": "Can you give me a discount? (markets)",
+    "ex": "Si compro dos, ¿me hace un descuento?",
+    "exEn": "If I buy two, can you give me a discount?"
+  },
+  {
+    "es": "pesos / dólares",
+    "say": "PEH-sohs / DOH-lah-rehs",
+    "en": "Pesos / dollars",
+    "ex": "¿Aceptan dólares?",
+    "exEn": "Do you accept dollars?"
+  },
+  {
+    "es": "¿Qué hora es?",
+    "say": "keh OH-rah es",
+    "en": "What time is it?",
+    "ex": "Perdón, ¿qué hora es?",
+    "exEn": "Sorry, what time is it?"
+  },
+  {
+    "es": "Es la una",
+    "say": "es lah OO-nah",
+    "en": "It's one o'clock (singular for one)",
+    "ex": "Ya es la una.",
+    "exEn": "It's already one o'clock."
+  },
+  {
+    "es": "Son las tres",
+    "say": "sohn lahs trehs",
+    "en": "It's three o'clock",
+    "ex": "Son las tres en punto.",
+    "exEn": "It's exactly three o'clock."
+  },
+  {
+    "es": "A las cinco",
+    "say": "ah lahs SEEN-koh",
+    "en": "At five o'clock",
+    "ex": "¿Nos vemos a las cinco?",
+    "exEn": "Shall we meet at five?"
+  },
+  {
+    "es": "y media / y cuarto / menos cuarto",
+    "say": "ee MEH-dyah / ee KWAR-toh / MEH-nohs KWAR-toh",
+    "en": "Half past / quarter past / quarter to",
+    "ex": "Son las dos y media.",
+    "exEn": "It's half past two."
+  },
+  {
+    "es": "mediodía / medianoche",
+    "say": "meh-dyoh-DEE-ah / meh-dyah-NOH-cheh",
+    "en": "Noon / midnight",
+    "ex": "Comemos al mediodía.",
+    "exEn": "We eat at noon."
+  },
+  {
+    "es": "en media hora",
+    "say": "en MEH-dyah OH-rah",
+    "en": "In half an hour",
+    "ex": "Llego en media hora.",
+    "exEn": "I'll be there in half an hour."
+  },
+  {
+    "es": "hoy / mañana / ayer",
+    "say": "oy / mah-NYAH-nah / ah-YER",
+    "en": "Today / tomorrow / yesterday",
+    "ex": "Nos vemos mañana.",
+    "exEn": "See you tomorrow."
+  },
+  {
+    "es": "lunes",
+    "say": "LOO-nehs",
+    "en": "Monday (martes, miércoles, jueves, viernes, sábado, domingo)",
+    "ex": "El lunes trabajo.",
+    "exEn": "I work on Monday."
+  },
+  {
+    "es": "por la mañana / tarde / noche",
+    "say": "por lah mah-NYAH-nah / TAR-deh / NOH-cheh",
+    "en": "In the morning / afternoon / at night",
+    "ex": "Llámame por la noche.",
+    "exEn": "Call me at night."
+  },
+  {
+    "es": "primero / segundo / tercero",
+    "say": "pree-MEH-roh / seh-GOON-doh / ter-SEH-roh",
+    "en": "First / second / third",
+    "ex": "Es mi primer viaje a México.",
+    "exEn": "It's my first trip to Mexico."
+  },
+  {
+    "es": "la mitad",
+    "say": "lah mee-TAHD",
+    "en": "Half",
+    "ex": "Pagamos la mitad cada uno.",
+    "exEn": "We each pay half."
+  }
+]

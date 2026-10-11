@@ -1,0 +1,177 @@
+[
+  {
+    "es": "Una mesa para dos, por favor",
+    "say": "OO-nah MEH-sah PAH-rah dohs, por fah-VOR",
+    "en": "A table for two, please",
+    "ex": "Buenas noches, una mesa para dos, por favor.",
+    "exEn": "Good evening, a table for two, please."
+  },
+  {
+    "es": "El menú, por favor",
+    "say": "el meh-NOO, por fah-VOR",
+    "en": "The menu, please (la carta also works)",
+    "ex": "Disculpe, ¿me trae el menú, por favor?",
+    "exEn": "Excuse me, could you bring me the menu?"
+  },
+  {
+    "es": "¿Qué me recomienda?",
+    "say": "keh meh reh-koh-MYEN-dah",
+    "en": "What do you recommend?",
+    "ex": "Es mi primera vez aquí, ¿qué me recomienda?",
+    "exEn": "It's my first time here, what do you recommend?"
+  },
+  {
+    "es": "Quiero… / Me da…",
+    "say": "KYEH-roh / meh DAH",
+    "en": "I'd like… / Can I have… (Me da is very common in Mexico)",
+    "ex": "Me da unos tacos al pastor, por favor.",
+    "exEn": "Can I have some al pastor tacos, please."
+  },
+  {
+    "es": "Para mí…",
+    "say": "PAH-rah mee",
+    "en": "For me… (when ordering)",
+    "ex": "Para mí, la sopa del día.",
+    "exEn": "For me, the soup of the day."
+  },
+  {
+    "es": "La comida corrida",
+    "say": "lah koh-MEE-dah koh-RREE-dah",
+    "en": "The set lunch menu (Mexico)",
+    "ex": "¿Cuánto cuesta la comida corrida?",
+    "exEn": "How much is the set lunch?"
+  },
+  {
+    "es": "¿Pica?",
+    "say": "PEE-kah",
+    "en": "Is it spicy?",
+    "ex": "¿Esta salsa pica mucho?",
+    "exEn": "Is this salsa very spicy?"
+  },
+  {
+    "es": "Sin picante, por favor",
+    "say": "seen pee-KAHN-teh, por fah-VOR",
+    "en": "Not spicy, please",
+    "ex": "Los tacos sin picante, por favor.",
+    "exEn": "The tacos not spicy, please."
+  },
+  {
+    "es": "Soy vegetariano / vegetariana",
+    "say": "soy veh-heh-tah-RYAH-noh / veh-heh-tah-RYAH-nah",
+    "en": "I'm vegetarian (man / woman)",
+    "ex": "Soy vegetariano, ¿tienen algo sin carne?",
+    "exEn": "I'm vegetarian, do you have anything without meat?"
+  },
+  {
+    "es": "Soy alérgico / alérgica a…",
+    "say": "soy ah-LEHR-hee-koh / ah-LEHR-hee-kah ah",
+    "en": "I'm allergic to… (man / woman)",
+    "ex": "Soy alérgico al cacahuate.",
+    "exEn": "I'm allergic to peanuts."
+  },
+  {
+    "es": "Sin…, por favor",
+    "say": "seen…, por fah-VOR",
+    "en": "Without…, please",
+    "ex": "Una hamburguesa sin cebolla, por favor.",
+    "exEn": "A burger without onion, please."
+  },
+  {
+    "es": "Agua natural / mineral",
+    "say": "AH-gwah nah-too-RAHL / mee-neh-RAHL",
+    "en": "Still water / sparkling water",
+    "ex": "Un agua mineral, por favor.",
+    "exEn": "A sparkling water, please."
+  },
+  {
+    "es": "Agua fresca",
+    "say": "AH-gwah FREHS-kah",
+    "en": "Fresh fruit drink (horchata, jamaica, limón…)",
+    "ex": "Un agua de horchata, por favor.",
+    "exEn": "An horchata, please."
+  },
+  {
+    "es": "Un café con leche",
+    "say": "oon kah-FEH kohn LEH-cheh",
+    "en": "A coffee with milk",
+    "ex": "Un café con leche y un pan dulce.",
+    "exEn": "A coffee with milk and a sweet bread."
+  },
+  {
+    "es": "Una cerveza bien fría",
+    "say": "OO-nah ser-VEH-sah byen FREE-ah",
+    "en": "A nice cold beer",
+    "ex": "Dos cervezas bien frías, por favor.",
+    "exEn": "Two nice cold beers, please."
+  },
+  {
+    "es": "Una copa de vino tinto",
+    "say": "OO-nah KOH-pah deh VEE-noh TEEN-toh",
+    "en": "A glass of red wine (blanco = white)",
+    "ex": "Una copa de vino tinto, por favor.",
+    "exEn": "A glass of red wine, please."
+  },
+  {
+    "es": "Para llevar",
+    "say": "PAH-rah yeh-VAR",
+    "en": "To go",
+    "ex": "Dos tacos para llevar.",
+    "exEn": "Two tacos to go."
+  },
+  {
+    "es": "¿Para aquí o para llevar?",
+    "say": "PAH-rah ah-KEE oh PAH-rah yeh-VAR",
+    "en": "For here or to go?",
+    "ex": "— ¿Para aquí o para llevar? — Para aquí.",
+    "exEn": "— For here or to go? — For here."
+  },
+  {
+    "es": "Está delicioso",
+    "say": "es-TAH deh-lee-SYOH-soh",
+    "en": "It's delicious",
+    "ex": "¡Todo está delicioso, gracias!",
+    "exEn": "Everything is delicious, thank you!"
+  },
+  {
+    "es": "Tengo hambre",
+    "say": "TEN-goh AHM-breh",
+    "en": "I'm hungry (tengo sed = I'm thirsty)",
+    "ex": "Tengo mucha hambre, ¿comemos?",
+    "exEn": "I'm really hungry, shall we eat?"
+  },
+  {
+    "es": "Con todo",
+    "say": "kohn TOH-doh",
+    "en": "With everything (on tacos: onion and cilantro)",
+    "ex": "Tres tacos con todo, por favor.",
+    "exEn": "Three tacos with everything, please."
+  },
+  {
+    "es": "Un poco más, por favor",
+    "say": "oon POH-koh mahs, por fah-VOR",
+    "en": "A little more, please",
+    "ex": "¿Me da un poco más de salsa?",
+    "exEn": "Could I have a little more salsa?"
+  },
+  {
+    "es": "La cuenta, por favor",
+    "say": "lah KWEN-tah, por fah-VOR",
+    "en": "The check, please",
+    "ex": "Disculpe, la cuenta, por favor.",
+    "exEn": "Excuse me, the check, please."
+  },
+  {
+    "es": "¿Aceptan tarjeta?",
+    "say": "ah-SEP-tahn tar-HEH-tah",
+    "en": "Do you take cards?",
+    "ex": "¿Aceptan tarjeta o solo efectivo?",
+    "exEn": "Do you take cards or only cash?"
+  },
+  {
+    "es": "¿Está incluida la propina?",
+    "say": "es-TAH een-kloo-EE-dah lah proh-PEE-nah",
+    "en": "Is the tip included?",
+    "ex": "Disculpe, ¿está incluida la propina?",
+    "exEn": "Excuse me, is the tip included?"
+  }
+]

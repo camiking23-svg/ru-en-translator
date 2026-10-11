@@ -1,0 +1,282 @@
+[
+  {
+    "es": "¿Qué onda?",
+    "say": "keh OHN-dah",
+    "en": "What's up? (Mexico and Central America)",
+    "ex": "¡Hola, güey! ¿Qué onda?",
+    "exEn": "Hey dude! What's up?"
+  },
+  {
+    "es": "¿Qué tal?",
+    "say": "keh TAHL",
+    "en": "How's it going? (everywhere)",
+    "ex": "Hola, ¿qué tal todo?",
+    "exEn": "Hi, how's everything going?"
+  },
+  {
+    "es": "¿Qué pasó?",
+    "say": "keh pah-SOH",
+    "en": "What's up? / What happened?",
+    "ex": "¿Qué pasó, amigo? ¿Todo bien?",
+    "exEn": "What's up, friend? All good?"
+  },
+  {
+    "es": "Chido",
+    "say": "CHEE-doh",
+    "en": "Cool, awesome (Mexico)",
+    "ex": "¡Qué chido tu carro!",
+    "exEn": "Your car is so cool!"
+  },
+  {
+    "es": "Padre",
+    "say": "PAH-dreh",
+    "en": "Cool, great (Mexico — literally 'father')",
+    "ex": "La fiesta estuvo muy padre.",
+    "exEn": "The party was really cool."
+  },
+  {
+    "es": "Chévere",
+    "say": "CHEH-veh-reh",
+    "en": "Cool, great (Caribbean, Venezuela, Colombia)",
+    "ex": "¡Qué chévere tu idea!",
+    "exEn": "What a great idea!"
+  },
+  {
+    "es": "Bacán",
+    "say": "bah-KAHN",
+    "en": "Cool, awesome (Chile, Peru, Colombia)",
+    "ex": "El concierto estuvo bacán.",
+    "exEn": "The concert was awesome."
+  },
+  {
+    "es": "Genial",
+    "say": "heh-NYAHL",
+    "en": "Great, brilliant (everywhere)",
+    "ex": "¡Genial, nos vemos mañana!",
+    "exEn": "Great, see you tomorrow!"
+  },
+  {
+    "es": "Güey / Wey",
+    "say": "WAY",
+    "en": "Dude (Mexico, very casual — only with friends)",
+    "ex": "No manches, güey.",
+    "exEn": "No way, dude."
+  },
+  {
+    "es": "Carnal",
+    "say": "kar-NAHL",
+    "en": "Bro, close friend (Mexico)",
+    "ex": "Gracias, carnal.",
+    "exEn": "Thanks, bro."
+  },
+  {
+    "es": "Parce / Parcero",
+    "say": "PAR-seh / par-SEH-roh",
+    "en": "Buddy, friend (Colombia)",
+    "ex": "¿Qué más, parce?",
+    "exEn": "What's up, buddy?"
+  },
+  {
+    "es": "Pana",
+    "say": "PAH-nah",
+    "en": "Buddy, friend (Venezuela, Caribbean)",
+    "ex": "Es mi pana de la escuela.",
+    "exEn": "He's my buddy from school."
+  },
+  {
+    "es": "¡No manches!",
+    "say": "noh MAHN-chehs",
+    "en": "No way! You're kidding! (Mexico)",
+    "ex": "¡No manches! ¿En serio?",
+    "exEn": "No way! Seriously?"
+  },
+  {
+    "es": "¡Órale!",
+    "say": "OH-rah-leh",
+    "en": "Wow! / OK, let's go! (Mexico)",
+    "ex": "¡Órale, vamos!",
+    "exEn": "Alright, let's go!"
+  },
+  {
+    "es": "¡Aguas!",
+    "say": "AH-gwahs",
+    "en": "Watch out! (Mexico — literally 'waters')",
+    "ex": "¡Aguas con el perro!",
+    "exEn": "Watch out for the dog!"
+  },
+  {
+    "es": "Neta",
+    "say": "NEH-tah",
+    "en": "The truth / for real? (Mexico)",
+    "ex": "¿Neta? No te creo.",
+    "exEn": "For real? I don't believe you."
+  },
+  {
+    "es": "¿En serio?",
+    "say": "en SEH-ryoh",
+    "en": "Seriously? (everywhere)",
+    "ex": "¿En serio ganaste?",
+    "exEn": "Seriously, you won?"
+  },
+  {
+    "es": "Qué padre",
+    "say": "keh PAH-dreh",
+    "en": "How cool (Mexico)",
+    "ex": "¡Qué padre que vienes!",
+    "exEn": "So cool that you're coming!"
+  },
+  {
+    "es": "Qué rollo",
+    "say": "keh ROH-yoh",
+    "en": "What's up? / What a drag (Mexico)",
+    "ex": "¿Qué rollo, cómo estás?",
+    "exEn": "What's up, how are you?"
+  },
+  {
+    "es": "La lana",
+    "say": "lah LAH-nah",
+    "en": "Money, cash (Mexico — literally 'wool')",
+    "ex": "No tengo lana.",
+    "exEn": "I've got no cash."
+  },
+  {
+    "es": "La chamba",
+    "say": "lah CHAHM-bah",
+    "en": "Work, job (Mexico, Central America)",
+    "ex": "Voy a la chamba.",
+    "exEn": "I'm going to work."
+  },
+  {
+    "es": "Chambear",
+    "say": "chahm-beh-AR",
+    "en": "To work (Mexico)",
+    "ex": "Mañana tengo que chambear.",
+    "exEn": "I have to work tomorrow."
+  },
+  {
+    "es": "Una chela",
+    "say": "OO-nah CHEH-lah",
+    "en": "A beer (Mexico)",
+    "ex": "¿Vamos por unas chelas?",
+    "exEn": "Shall we go for some beers?"
+  },
+  {
+    "es": "Estar crudo / cruda",
+    "say": "es-TAR KROO-doh / KROO-dah",
+    "en": "To be hungover (Mexico) (man / woman)",
+    "ex": "Hoy estoy bien crudo.",
+    "exEn": "I'm really hungover today."
+  },
+  {
+    "es": "Estar cansado / cansada",
+    "say": "es-TAR kahn-SAH-doh / kahn-SAH-dah",
+    "en": "To be tired (man / woman)",
+    "ex": "Estoy cansado, me voy a dormir.",
+    "exEn": "I'm tired, I'm going to sleep."
+  },
+  {
+    "es": "Fresa",
+    "say": "FREH-sah",
+    "en": "Preppy, stuck-up (Mexico — literally 'strawberry')",
+    "ex": "Ese lugar es muy fresa.",
+    "exEn": "That place is really preppy."
+  },
+  {
+    "es": "Buena onda",
+    "say": "BWEH-nah OHN-dah",
+    "en": "Cool, nice (person or vibe)",
+    "ex": "Tu hermana es muy buena onda.",
+    "exEn": "Your sister is really nice."
+  },
+  {
+    "es": "Mala onda",
+    "say": "MAH-lah OHN-dah",
+    "en": "Not cool, mean, bad vibes",
+    "ex": "Eso fue muy mala onda.",
+    "exEn": "That was really not cool."
+  },
+  {
+    "es": "Vale",
+    "say": "BAH-leh",
+    "en": "OK, sounds good (Spain and many countries)",
+    "ex": "— ¿Nos vemos a las 8? — Vale.",
+    "exEn": "— See you at 8? — OK."
+  },
+  {
+    "es": "Dale",
+    "say": "DAH-leh",
+    "en": "OK, go for it, let's do it",
+    "ex": "— ¿Vamos? — ¡Dale!",
+    "exEn": "— Shall we go? — Let's do it!"
+  },
+  {
+    "es": "Sale",
+    "say": "SAH-leh",
+    "en": "OK, deal (Mexico)",
+    "ex": "— ¿Te llamo mañana? — Sale.",
+    "exEn": "— I'll call you tomorrow? — Deal."
+  },
+  {
+    "es": "Al rato",
+    "say": "ahl RAH-toh",
+    "en": "Later, in a bit (Mexico)",
+    "ex": "Al rato te llamo.",
+    "exEn": "I'll call you in a bit."
+  },
+  {
+    "es": "Ahorita",
+    "say": "ah-oh-REE-tah",
+    "en": "Right now… or later (it's flexible!)",
+    "ex": "Ahorita voy.",
+    "exEn": "I'm coming right away (or soon-ish)."
+  },
+  {
+    "es": "Me late",
+    "say": "meh LAH-teh",
+    "en": "I like it, I'm into it (Mexico)",
+    "ex": "Ese plan me late.",
+    "exEn": "I like that plan."
+  },
+  {
+    "es": "Me vale",
+    "say": "meh BAH-leh",
+    "en": "I don't care (Mexico, a bit rude)",
+    "ex": "Me vale lo que digan.",
+    "exEn": "I don't care what they say."
+  },
+  {
+    "es": "Echar la hueva",
+    "say": "eh-CHAR lah WEH-bah",
+    "en": "To laze around (Mexico, casual)",
+    "ex": "Hoy solo quiero echar la hueva.",
+    "exEn": "Today I just want to laze around."
+  },
+  {
+    "es": "Ligar",
+    "say": "lee-GAR",
+    "en": "To flirt, to hook up",
+    "ex": "Fue a la fiesta a ligar.",
+    "exEn": "He went to the party to flirt."
+  },
+  {
+    "es": "Pedo",
+    "say": "PEH-doh",
+    "en": "Problem, deal ('¿Qué pedo?' = what's up — vulgar-ish, Mexico)",
+    "ex": "No hay pedo.",
+    "exEn": "No problem."
+  },
+  {
+    "es": "Chamaco",
+    "say": "chah-MAH-koh",
+    "en": "Kid (Mexico) — chamaca for a girl",
+    "ex": "Ese chamaco es muy listo.",
+    "exEn": "That kid is really smart."
+  },
+  {
+    "es": "Morra / Morro",
+    "say": "MOH-rrah / MOH-rroh",
+    "en": "Girl / guy (northern Mexico, casual)",
+    "ex": "Esa morra es mi amiga.",
+    "exEn": "That girl is my friend."
+  }
+]

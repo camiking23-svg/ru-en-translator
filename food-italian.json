@@ -1,0 +1,177 @@
+[
+  {
+    "it": "Un tavolo per due, per favore",
+    "say": "oon TAH-voh-loh per DOO-eh, per fah-VOH-reh",
+    "en": "A table for two, please",
+    "ex": "Buonasera, un tavolo per due, per favore.",
+    "exEn": "Good evening, a table for two, please."
+  },
+  {
+    "it": "Il menù, per favore",
+    "say": "eel meh-NOO, per fah-VOH-reh",
+    "en": "The menu, please",
+    "ex": "Scusi, ci porta il menù?",
+    "exEn": "Excuse me, could you bring us the menu?"
+  },
+  {
+    "it": "Cosa mi consiglia?",
+    "say": "KOH-zah mee kohn-SEE-lyah",
+    "en": "What do you recommend? (formal)",
+    "ex": "È la prima volta qui, cosa mi consiglia?",
+    "exEn": "It's my first time here, what do you recommend?"
+  },
+  {
+    "it": "Prendo…",
+    "say": "PREN-doh",
+    "en": "I'll have…",
+    "ex": "Prendo la carbonara, grazie.",
+    "exEn": "I'll have the carbonara, thanks."
+  },
+  {
+    "it": "Antipasto, primo, secondo",
+    "say": "ahn-tee-PAHS-toh, PREE-moh, seh-KOHN-doh",
+    "en": "Starter, first course (pasta/risotto), main course (meat/fish)",
+    "ex": "Prendiamo solo un primo.",
+    "exEn": "We'll just have a first course."
+  },
+  {
+    "it": "Il contorno",
+    "say": "eel kohn-TOR-noh",
+    "en": "Side dish (ordered separately with the main)",
+    "ex": "Come contorno, patate al forno.",
+    "exEn": "Roast potatoes as a side."
+  },
+  {
+    "it": "Sono vegetariano / vegetariana",
+    "say": "SOH-noh veh-jeh-tah-RYAH-noh / veh-jeh-tah-RYAH-nah",
+    "en": "I'm vegetarian (man / woman)",
+    "ex": "Sono vegetariano, c'è qualcosa senza carne?",
+    "exEn": "I'm vegetarian, is there anything without meat?"
+  },
+  {
+    "it": "Sono allergico / allergica a…",
+    "say": "SOH-noh ahl-LER-jee-koh / ahl-LER-jee-kah ah",
+    "en": "I'm allergic to… (man / woman)",
+    "ex": "Sono allergico alle noci.",
+    "exEn": "I'm allergic to nuts."
+  },
+  {
+    "it": "Senza…, per favore",
+    "say": "SEN-tsah…, per fah-VOH-reh",
+    "en": "Without…, please",
+    "ex": "Una pizza senza cipolla, per favore.",
+    "exEn": "A pizza without onion, please."
+  },
+  {
+    "it": "Acqua naturale / frizzante",
+    "say": "AHK-kwah nah-too-RAH-leh / freed-DZAHN-teh",
+    "en": "Still / sparkling water",
+    "ex": "Una bottiglia d'acqua frizzante.",
+    "exEn": "A bottle of sparkling water."
+  },
+  {
+    "it": "Un caffè",
+    "say": "oon kahf-FEH",
+    "en": "An espresso (that's what 'caffè' means in Italy)",
+    "ex": "Un caffè al banco, per favore.",
+    "exEn": "An espresso at the counter, please."
+  },
+  {
+    "it": "Un cappuccino",
+    "say": "oon kahp-pooch-CHEE-noh",
+    "en": "A cappuccino (Italians drink it only in the morning)",
+    "ex": "Un cappuccino e un cornetto.",
+    "exEn": "A cappuccino and a croissant."
+  },
+  {
+    "it": "Un caffè macchiato",
+    "say": "oon kahf-FEH mahk-KYAH-toh",
+    "en": "Espresso with a dash of milk foam",
+    "ex": "Per me un macchiato, grazie.",
+    "exEn": "A macchiato for me, thanks."
+  },
+  {
+    "it": "Un bicchiere di vino rosso",
+    "say": "oon beek-KYEH-reh dee VEE-noh ROHS-soh",
+    "en": "A glass of red wine (bianco = white)",
+    "ex": "Un bicchiere di vino rosso della casa.",
+    "exEn": "A glass of the house red."
+  },
+  {
+    "it": "Una birra",
+    "say": "OO-nah BEER-rah",
+    "en": "A beer (alla spina = on tap)",
+    "ex": "Due birre alla spina, per favore.",
+    "exEn": "Two draft beers, please."
+  },
+  {
+    "it": "L'aperitivo",
+    "say": "lah-peh-ree-TEE-voh",
+    "en": "Early-evening drinks with snacks (a big Italian ritual)",
+    "ex": "Andiamo a fare l'aperitivo?",
+    "exEn": "Shall we go for an aperitivo?"
+  },
+  {
+    "it": "Da portare via",
+    "say": "dah por-TAH-reh VEE-ah",
+    "en": "To go / takeaway",
+    "ex": "Due pizze da portare via.",
+    "exEn": "Two pizzas to go."
+  },
+  {
+    "it": "Al dente",
+    "say": "ahl DEN-teh",
+    "en": "Pasta cooked firm to the bite (literally 'to the tooth')",
+    "ex": "La pasta è perfetta, al dente.",
+    "exEn": "The pasta is perfect, al dente."
+  },
+  {
+    "it": "È buonissimo!",
+    "say": "eh bwoh-NEES-see-moh",
+    "en": "It's delicious!",
+    "ex": "Complimenti, è buonissimo!",
+    "exEn": "Compliments, it's delicious!"
+  },
+  {
+    "it": "Ho fame",
+    "say": "oh FAH-meh",
+    "en": "I'm hungry (ho sete = I'm thirsty)",
+    "ex": "Ho fame, dove mangiamo?",
+    "exEn": "I'm hungry, where shall we eat?"
+  },
+  {
+    "it": "Un etto di…",
+    "say": "oon ET-toh dee",
+    "en": "100 grams of… (how to order at a deli or market)",
+    "ex": "Un etto di prosciutto, per favore.",
+    "exEn": "100 grams of prosciutto, please."
+  },
+  {
+    "it": "Il conto, per favore",
+    "say": "eel KOHN-toh, per fah-VOH-reh",
+    "en": "The check, please",
+    "ex": "Scusi, il conto, per favore.",
+    "exEn": "Excuse me, the check, please."
+  },
+  {
+    "it": "Il coperto",
+    "say": "eel koh-PER-toh",
+    "en": "Cover charge (normal on Italian bills, per person)",
+    "ex": "Il coperto è incluso?",
+    "exEn": "Is the cover charge included?"
+  },
+  {
+    "it": "Posso pagare con la carta?",
+    "say": "POHS-soh pah-GAH-reh kohn lah KAR-tah",
+    "en": "Can I pay by card?",
+    "ex": "Posso pagare con la carta o solo contanti?",
+    "exEn": "Can I pay by card or only cash?"
+  },
+  {
+    "it": "Facciamo alla romana",
+    "say": "fahch-CHAH-moh AHL-lah roh-MAH-nah",
+    "en": "Let's split the bill evenly ('Roman style')",
+    "ex": "Il conto? Facciamo alla romana.",
+    "exEn": "The bill? Let's split it evenly."
+  }
+]

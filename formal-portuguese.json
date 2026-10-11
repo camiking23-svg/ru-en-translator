@@ -1,0 +1,233 @@
+[
+  {
+    "pt": "Bom dia",
+    "say": "bohng JEE-ah",
+    "en": "Good morning",
+    "ex": "Bom dia, senhor Silva.",
+    "exEn": "Good morning, Mr. Silva."
+  },
+  {
+    "pt": "Boa tarde",
+    "say": "BOH-ah TAR-jee",
+    "en": "Good afternoon",
+    "ex": "Boa tarde, como vai?",
+    "exEn": "Good afternoon, how are you?"
+  },
+  {
+    "pt": "Boa noite",
+    "say": "BOH-ah NOY-chee",
+    "en": "Good evening / good night",
+    "ex": "Boa noite, uma mesa para dois, por favor.",
+    "exEn": "Good evening, a table for two, please."
+  },
+  {
+    "pt": "Como vai?",
+    "say": "KOH-moo VAI",
+    "en": "How are you? (polite)",
+    "ex": "Olá, como vai o senhor?",
+    "exEn": "Hello, how are you, sir?"
+  },
+  {
+    "pt": "O senhor / A senhora",
+    "say": "oo seh-NYOR / ah seh-NYOH-rah",
+    "en": "You, sir / you, ma'am — the formal 'you' (to a man / to a woman)",
+    "ex": "A senhora precisa de ajuda?",
+    "exEn": "Do you need help, ma'am?"
+  },
+  {
+    "pt": "Muito prazer",
+    "say": "MWEEN-too prah-ZEHR",
+    "en": "Nice to meet you",
+    "ex": "Muito prazer, eu sou a Cami.",
+    "exEn": "Nice to meet you, I'm Cami."
+  },
+  {
+    "pt": "Encantado / Encantada",
+    "say": "eng-kahn-TAH-doo / eng-kahn-TAH-dah",
+    "en": "Delighted to meet you (man / woman)",
+    "ex": "Encantado em conhecê-la.",
+    "exEn": "Delighted to meet you."
+  },
+  {
+    "pt": "Por favor",
+    "say": "poor fah-VOR",
+    "en": "Please",
+    "ex": "Um café, por favor.",
+    "exEn": "A coffee, please."
+  },
+  {
+    "pt": "Obrigado / Obrigada",
+    "say": "oh-bree-GAH-doo / oh-bree-GAH-dah",
+    "en": "Thank you (man / woman — it depends on who's thanking)",
+    "ex": "Muito obrigado pela ajuda.",
+    "exEn": "Thank you very much for the help."
+  },
+  {
+    "pt": "De nada",
+    "say": "jee NAH-dah",
+    "en": "You're welcome",
+    "ex": "— Obrigada! — De nada.",
+    "exEn": "— Thanks! — You're welcome."
+  },
+  {
+    "pt": "Imagina",
+    "say": "ee-mah-ZHEE-nah",
+    "en": "Don't mention it (a warm 'you're welcome')",
+    "ex": "— Obrigado por tudo! — Imagina!",
+    "exEn": "— Thanks for everything! — Don't mention it!"
+  },
+  {
+    "pt": "Com licença",
+    "say": "kohng lee-SEN-sah",
+    "en": "Excuse me (to get past, or before interrupting)",
+    "ex": "Com licença, posso passar?",
+    "exEn": "Excuse me, may I get by?"
+  },
+  {
+    "pt": "Desculpe",
+    "say": "jees-KOOL-pee",
+    "en": "Sorry / excuse me (formal)",
+    "ex": "Desculpe, onde fica o banheiro?",
+    "exEn": "Excuse me, where is the restroom?"
+  },
+  {
+    "pt": "Sinto muito",
+    "say": "SEEN-too MWEEN-too",
+    "en": "I'm very sorry",
+    "ex": "Sinto muito pelo atraso.",
+    "exEn": "I'm very sorry for the delay."
+  },
+  {
+    "pt": "Poderia me ajudar?",
+    "say": "poh-deh-REE-ah mee ah-zhoo-DAR",
+    "en": "Could you help me? (polite)",
+    "ex": "Com licença, poderia me ajudar?",
+    "exEn": "Excuse me, could you help me?"
+  },
+  {
+    "pt": "Eu gostaria de…",
+    "say": "eh-oo gohs-tah-REE-ah jee",
+    "en": "I would like to… (the polite way to ask)",
+    "ex": "Eu gostaria de reservar uma mesa.",
+    "exEn": "I'd like to book a table."
+  },
+  {
+    "pt": "Em que posso ajudar?",
+    "say": "eng kee POH-soo ah-zhoo-DAR",
+    "en": "How can I help you?",
+    "ex": "Boa tarde, em que posso ajudar?",
+    "exEn": "Good afternoon, how can I help you?"
+  },
+  {
+    "pt": "O senhor fala inglês?",
+    "say": "oo seh-NYOR FAH-lah eeng-GLEHS",
+    "en": "Do you speak English, sir? (a senhora fala… to a woman)",
+    "ex": "Desculpe, o senhor fala inglês?",
+    "exEn": "Excuse me, do you speak English, sir?"
+  },
+  {
+    "pt": "Não entendi",
+    "say": "nowng eng-ten-JEE",
+    "en": "I didn't understand",
+    "ex": "Desculpe, não entendi.",
+    "exEn": "Sorry, I didn't understand."
+  },
+  {
+    "pt": "Poderia repetir?",
+    "say": "poh-deh-REE-ah heh-peh-CHEER",
+    "en": "Could you repeat that?",
+    "ex": "Desculpe, poderia repetir mais devagar?",
+    "exEn": "Sorry, could you repeat that more slowly?"
+  },
+  {
+    "pt": "Fique à vontade",
+    "say": "FEE-kee ah vohn-TAH-jee",
+    "en": "Make yourself at home",
+    "ex": "Entre, fique à vontade.",
+    "exEn": "Come in, make yourself at home."
+  },
+  {
+    "pt": "Sente-se, por favor",
+    "say": "SEN-chee-see, poor fah-VOR",
+    "en": "Please have a seat",
+    "ex": "Sente-se, por favor, o médico já vem.",
+    "exEn": "Please have a seat, the doctor is coming."
+  },
+  {
+    "pt": "Bem-vindo / Bem-vinda",
+    "say": "bayng-VEEN-doo / bayng-VEEN-dah",
+    "en": "Welcome (to a man / to a woman)",
+    "ex": "Bem-vinda ao Brasil!",
+    "exEn": "Welcome to Brazil!"
+  },
+  {
+    "pt": "Com prazer",
+    "say": "kohng prah-ZEHR",
+    "en": "With pleasure",
+    "ex": "— Aceita um café? — Com prazer.",
+    "exEn": "— Would you like a coffee? — With pleasure."
+  },
+  {
+    "pt": "Aceita…?",
+    "say": "ah-SAY-tah",
+    "en": "Would you like…? (offering something)",
+    "ex": "Aceita uma água?",
+    "exEn": "Would you like some water?"
+  },
+  {
+    "pt": "Tenha um bom dia",
+    "say": "TEN-yah oong bohng JEE-ah",
+    "en": "Have a good day",
+    "ex": "Obrigado, tenha um bom dia!",
+    "exEn": "Thanks, have a good day!"
+  },
+  {
+    "pt": "Até logo",
+    "say": "ah-TEH LOH-goo",
+    "en": "See you later / goodbye",
+    "ex": "Obrigada, até logo!",
+    "exEn": "Thanks, see you later!"
+  },
+  {
+    "pt": "Parabéns",
+    "say": "pah-rah-BAYNS",
+    "en": "Congratulations / happy birthday",
+    "ex": "Parabéns pelo casamento!",
+    "exEn": "Congratulations on your wedding!"
+  },
+  {
+    "pt": "Saúde!",
+    "say": "sah-OO-jee",
+    "en": "Cheers! / Bless you!",
+    "ex": "Aos noivos! Saúde!",
+    "exEn": "To the newlyweds! Cheers!"
+  },
+  {
+    "pt": "Bom apetite",
+    "say": "bohng ah-peh-CHEE-chee",
+    "en": "Enjoy your meal",
+    "ex": "Aqui está. Bom apetite!",
+    "exEn": "Here you go. Enjoy your meal!"
+  },
+  {
+    "pt": "Seu / Dona",
+    "say": "SEH-oo / DOH-nah",
+    "en": "Respectful title before a first name: Seu João, Dona Maria",
+    "ex": "Bom dia, Dona Maria!",
+    "exEn": "Good morning, Dona Maria!"
+  },
+  {
+    "pt": "Prezado / Prezada",
+    "say": "preh-ZAH-doo / preh-ZAH-dah",
+    "en": "Dear… (formal email opener — to a man / to a woman)",
+    "ex": "Prezada Sra. Costa,",
+    "exEn": "Dear Mrs. Costa,"
+  },
+  {
+    "pt": "Atenciosamente",
+    "say": "ah-ten-syoh-zah-MEN-chee",
+    "en": "Sincerely (email sign-off)",
+    "ex": "Fico no aguardo. Atenciosamente, Cami",
+    "exEn": "I look forward to hearing from you. Sincerely, Cami"
+  }
+]

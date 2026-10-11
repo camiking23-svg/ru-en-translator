@@ -1,0 +1,282 @@
+[
+  {
+    "pt": "E aí?",
+    "say": "ee ah-EE",
+    "en": "What's up? (the classic Brazilian hello)",
+    "ex": "E aí, tudo bem?",
+    "exEn": "What's up, all good?"
+  },
+  {
+    "pt": "Tudo bem? / Tudo bom?",
+    "say": "TOO-doo bayng / TOO-doo bohng",
+    "en": "All good? How's it going?",
+    "ex": "Oi! Tudo bem?",
+    "exEn": "Hi! How's it going?"
+  },
+  {
+    "pt": "Beleza!",
+    "say": "beh-LEH-zah",
+    "en": "Cool! OK! All good! (literally 'beauty')",
+    "ex": "— Te vejo às oito? — Beleza!",
+    "exEn": "— See you at eight? — Cool!"
+  },
+  {
+    "pt": "Valeu!",
+    "say": "vah-LEH-oo",
+    "en": "Thanks! / Cheers! (casual)",
+    "ex": "Valeu pela ajuda!",
+    "exEn": "Thanks for the help!"
+  },
+  {
+    "pt": "Falou!",
+    "say": "fah-LOH",
+    "en": "See ya! / Deal! (casual)",
+    "ex": "Tá bom, falou!",
+    "exEn": "OK, see ya!"
+  },
+  {
+    "pt": "Legal",
+    "say": "leh-GOW",
+    "en": "Cool, nice (literally 'legal')",
+    "ex": "Que legal!",
+    "exEn": "How cool!"
+  },
+  {
+    "pt": "Massa!",
+    "say": "MAH-sah",
+    "en": "Awesome! (Northeast, now everywhere)",
+    "ex": "A festa foi massa!",
+    "exEn": "The party was awesome!"
+  },
+  {
+    "pt": "Show!",
+    "say": "shoh",
+    "en": "Great! Awesome!",
+    "ex": "Show de bola!",
+    "exEn": "Awesome!"
+  },
+  {
+    "pt": "Top",
+    "say": "TOH-pee",
+    "en": "Great, top-notch",
+    "ex": "O show foi top!",
+    "exEn": "The concert was great!"
+  },
+  {
+    "pt": "Daora",
+    "say": "dah-OH-rah",
+    "en": "Cool (São Paulo, from 'da hora')",
+    "ex": "Que daora seu tênis!",
+    "exEn": "Your sneakers are so cool!"
+  },
+  {
+    "pt": "Mano",
+    "say": "MAH-noo",
+    "en": "Bro, dude (São Paulo)",
+    "ex": "Mano, que doideira!",
+    "exEn": "Bro, that's crazy!"
+  },
+  {
+    "pt": "Cara",
+    "say": "KAH-rah",
+    "en": "Dude, man (literally 'face')",
+    "ex": "Cara, você não vai acreditar!",
+    "exEn": "Dude, you won't believe it!"
+  },
+  {
+    "pt": "Brother / Bro",
+    "say": "BROH-der",
+    "en": "Bro (borrowed from English)",
+    "ex": "Valeu, brother!",
+    "exEn": "Thanks, bro!"
+  },
+  {
+    "pt": "Tipo",
+    "say": "CHEE-poo",
+    "en": "Like (filler word)",
+    "ex": "Foi, tipo, incrível.",
+    "exEn": "It was, like, amazing."
+  },
+  {
+    "pt": "Nossa!",
+    "say": "NOH-sah",
+    "en": "Wow! Oh my! (from Nossa Senhora)",
+    "ex": "Nossa, que calor!",
+    "exEn": "Wow, it's so hot!"
+  },
+  {
+    "pt": "Caramba!",
+    "say": "kah-RAHM-bah",
+    "en": "Wow! Darn! (mild)",
+    "ex": "Caramba, esqueci a chave!",
+    "exEn": "Darn, I forgot the key!"
+  },
+  {
+    "pt": "Sério?",
+    "say": "SEH-ryoo",
+    "en": "Seriously? Really?",
+    "ex": "Sério? Não acredito!",
+    "exEn": "Seriously? I don't believe it!"
+  },
+  {
+    "pt": "Tá ligado?",
+    "say": "tah lee-GAH-doo",
+    "en": "You know? Get it?",
+    "ex": "Foi muito louco, tá ligado?",
+    "exEn": "It was crazy, you know?"
+  },
+  {
+    "pt": "Fica tranquilo / tranquila",
+    "say": "FEE-kah trahn-KWEE-loo / trahn-KWEE-lah",
+    "en": "Relax, don't worry (to a guy / to a girl)",
+    "ex": "Fica tranquilo, eu resolvo.",
+    "exEn": "Relax, I'll sort it out."
+  },
+  {
+    "pt": "De boa",
+    "say": "jee BOH-ah",
+    "en": "Chill, no problem, all good",
+    "ex": "Tô de boa hoje.",
+    "exEn": "I'm just chilling today."
+  },
+  {
+    "pt": "Tô",
+    "say": "toh",
+    "en": "I'm (casual for 'estou')",
+    "ex": "Tô chegando!",
+    "exEn": "I'm almost there!"
+  },
+  {
+    "pt": "Tá",
+    "say": "tah",
+    "en": "OK / it's (casual for 'está')",
+    "ex": "Tá bom, combinado.",
+    "exEn": "OK, deal."
+  },
+  {
+    "pt": "Bora!",
+    "say": "BOH-rah",
+    "en": "Let's go! (from 'vamos embora')",
+    "ex": "Bora pra praia!",
+    "exEn": "Let's go to the beach!"
+  },
+  {
+    "pt": "Rolê",
+    "say": "hoh-LEH",
+    "en": "An outing, hanging out",
+    "ex": "Vamos dar um rolê no shopping?",
+    "exEn": "Shall we go hang out at the mall?"
+  },
+  {
+    "pt": "Balada",
+    "say": "bah-LAH-dah",
+    "en": "Night out, nightclub",
+    "ex": "Vamos pra balada hoje?",
+    "exEn": "Are we going out tonight?"
+  },
+  {
+    "pt": "Grana",
+    "say": "GRAH-nah",
+    "en": "Money, cash",
+    "ex": "Tô sem grana.",
+    "exEn": "I'm broke."
+  },
+  {
+    "pt": "Trampo",
+    "say": "TRAHM-poo",
+    "en": "Work, job (São Paulo)",
+    "ex": "Tô indo pro trampo.",
+    "exEn": "I'm heading to work."
+  },
+  {
+    "pt": "Gato / Gata",
+    "say": "GAH-too / GAH-tah",
+    "en": "Hottie, good-looking (to a guy / to a girl) — literally 'cat'",
+    "ex": "Ele é muito gato.",
+    "exEn": "He's really hot."
+  },
+  {
+    "pt": "Ficar",
+    "say": "fee-KAR",
+    "en": "To hook up casually (beyond 'to stay')",
+    "ex": "Eles ficaram na festa.",
+    "exEn": "They hooked up at the party."
+  },
+  {
+    "pt": "Mó",
+    "say": "maw",
+    "en": "Really, super (short for 'maior', São Paulo)",
+    "ex": "Foi mó legal!",
+    "exEn": "It was super cool!"
+  },
+  {
+    "pt": "Chato",
+    "say": "SHAH-too",
+    "en": "Annoying, boring (chata for a girl or a feminine noun)",
+    "ex": "Que filme chato!",
+    "exEn": "What a boring movie!"
+  },
+  {
+    "pt": "Que saco!",
+    "say": "kee SAH-koo",
+    "en": "What a drag! How annoying!",
+    "ex": "Choveu de novo, que saco!",
+    "exEn": "It rained again, what a drag!"
+  },
+  {
+    "pt": "Mancada",
+    "say": "mahng-KAH-dah",
+    "en": "A blunder, a not-cool move",
+    "ex": "Foi mancada sua.",
+    "exEn": "That wasn't cool of you."
+  },
+  {
+    "pt": "Zoar",
+    "say": "zoh-AR",
+    "en": "To joke around, tease",
+    "ex": "Tô só te zoando!",
+    "exEn": "I'm just messing with you!"
+  },
+  {
+    "pt": "Cafuné",
+    "say": "kah-foo-NEH",
+    "en": "Running your fingers through someone's hair (a famous 'untranslatable')",
+    "ex": "Adoro cafuné.",
+    "exEn": "I love having my hair stroked."
+  },
+  {
+    "pt": "Saudade",
+    "say": "sow-DAH-jee",
+    "en": "Missing someone or something deeply",
+    "ex": "Tô com saudade de você.",
+    "exEn": "I miss you."
+  },
+  {
+    "pt": "Gambiarra",
+    "say": "gahm-bee-AH-hah",
+    "en": "A quick, improvised fix",
+    "ex": "Fiz uma gambiarra no carregador.",
+    "exEn": "I rigged up a fix for the charger."
+  },
+  {
+    "pt": "Jeitinho",
+    "say": "zhay-CHEE-nyoo",
+    "en": "Finding a creative way around a problem",
+    "ex": "A gente dá um jeitinho.",
+    "exEn": "We'll find a way."
+  },
+  {
+    "pt": "Partiu!",
+    "say": "par-CHEE-oo",
+    "en": "Let's go! / I'm off! (often a hashtag)",
+    "ex": "Partiu praia!",
+    "exEn": "Off to the beach!"
+  },
+  {
+    "pt": "Tchau!",
+    "say": "chow",
+    "en": "Bye!",
+    "ex": "Tchau, até amanhã!",
+    "exEn": "Bye, see you tomorrow!"
+  }
+]

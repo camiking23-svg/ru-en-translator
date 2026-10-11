@@ -1,0 +1,287 @@
+[
+  {
+    "en": "yes",
+    "pt": "Sim",
+    "alone": true
+  },
+  {
+    "en": "no",
+    "pt": "Não",
+    "alone": true
+  },
+  {
+    "en": "thanks",
+    "pt": "Valeu!",
+    "alone": true
+  },
+  {
+    "en": "hi",
+    "pt": "E aí, chefe?",
+    "alone": true
+  },
+  {
+    "en": "hot dog",
+    "pt": "Nossa! Que isso!",
+    "alone": true
+  },
+  {
+    "en": "You got this",
+    "pt": "Você consegue"
+  },
+  {
+    "en": "Sup",
+    "pt": "E aí?"
+  },
+  {
+    "en": "Yep",
+    "pt": "Aham"
+  },
+  {
+    "en": "Nope",
+    "pt": "Nada a ver"
+  },
+  {
+    "en": "No worries",
+    "pt": "Relaxa"
+  },
+  {
+    "en": "Bro",
+    "pt": "mano"
+  },
+  {
+    "en": "Bruh",
+    "pt": "pô",
+    "oneWay": true
+  },
+  {
+    "en": "Dude",
+    "pt": "cara"
+  },
+  {
+    "en": "Fr",
+    "pt": "sério",
+    "oneWay": true
+  },
+  {
+    "en": "For real?",
+    "pt": "Sério?"
+  },
+  {
+    "en": "Deadass",
+    "pt": "sério mesmo",
+    "oneWay": true
+  },
+  {
+    "en": "No cap",
+    "pt": "Sem mentira"
+  },
+  {
+    "en": "Ngl",
+    "pt": "não vou mentir",
+    "oneWay": true
+  },
+  {
+    "en": "Tbh",
+    "pt": "pra ser sincero",
+    "oneWay": true
+  },
+  {
+    "en": "Imo",
+    "pt": "na minha opinião"
+  },
+  {
+    "en": "Idk",
+    "pt": "sei lá",
+    "oneWay": true
+  },
+  {
+    "en": "Omg",
+    "pt": "meu Deus",
+    "oneWay": true
+  },
+  {
+    "en": "Lol",
+    "pt": "kkk"
+  },
+  {
+    "en": "Lmao",
+    "pt": "kkkkkkk"
+  },
+  {
+    "en": "I'm dead",
+    "pt": "Morri de rir"
+  },
+  {
+    "en": "I can't even",
+    "pt": "Não aguento"
+  },
+  {
+    "en": "What's up?",
+    "pt": "Tudo bem?"
+  },
+  {
+    "en": "What's new?",
+    "pt": "Quais as novidades?"
+  },
+  {
+    "en": "What's good?",
+    "pt": "Beleza?"
+  },
+  {
+    "en": "Long time no see",
+    "pt": "Quanto tempo!"
+  },
+  {
+    "en": "Spill the tea",
+    "pt": "Conta tudo!"
+  },
+  {
+    "en": "For sure",
+    "pt": "Com certeza"
+  },
+  {
+    "en": "Highkey",
+    "pt": "muito",
+    "oneWay": true
+  },
+  {
+    "en": "Lowkey",
+    "pt": "meio",
+    "oneWay": true
+  },
+  {
+    "en": "That's sus",
+    "pt": "Isso tá estranho"
+  },
+  {
+    "en": "Sus",
+    "pt": "suspeito",
+    "oneWay": true
+  },
+  {
+    "en": "That's cap",
+    "pt": "Isso é mentira"
+  },
+  {
+    "en": "You're capping",
+    "pt": "Você tá mentindo"
+  },
+  {
+    "en": "No way",
+    "pt": "Não acredito!"
+  },
+  {
+    "en": "That's fire",
+    "pt": "Isso é muito top"
+  },
+  {
+    "en": "It's fire",
+    "pt": "Tá top"
+  },
+  {
+    "en": "That's lit",
+    "pt": "Tá massa"
+  },
+  {
+    "en": "That's crazy",
+    "pt": "Que loucura"
+  },
+  {
+    "en": "That's mid",
+    "pt": "Mais ou menos"
+  },
+  {
+    "en": "Cringe",
+    "pt": "que vergonha"
+  },
+  {
+    "en": "That's chill",
+    "pt": "De boa"
+  },
+  {
+    "en": "All good",
+    "pt": "Tudo certo"
+  },
+  {
+    "en": "Good vibes",
+    "pt": "boas vibes"
+  },
+  {
+    "en": "Vibe",
+    "pt": "vibe"
+  },
+  {
+    "en": "The GOAT",
+    "pt": "o melhor de todos"
+  },
+  {
+    "en": "Rizz",
+    "pt": "charme",
+    "oneWay": true
+  },
+  {
+    "en": "On god",
+    "pt": "juro por Deus",
+    "oneWay": true
+  },
+  {
+    "en": "My bad",
+    "pt": "Foi mal"
+  },
+  {
+    "en": "Say less",
+    "pt": "Fechou"
+  },
+  {
+    "en": "I got you",
+    "pt": "Pode deixar"
+  },
+  {
+    "en": "I'm down",
+    "pt": "Tô dentro"
+  },
+  {
+    "en": "Let's go",
+    "pt": "Bora!"
+  },
+  {
+    "en": "Wanna hang out?",
+    "pt": "Bora sair?"
+  },
+  {
+    "en": "Hit me up",
+    "pt": "Me chama"
+  },
+  {
+    "en": "Chill out",
+    "pt": "Relaxa"
+  },
+  {
+    "en": "Touch grass",
+    "pt": "Vai tomar um ar"
+  },
+  {
+    "en": "See ya",
+    "pt": "Falou"
+  },
+  {
+    "en": "see you later",
+    "pt": "Até mais!"
+  },
+  {
+    "en": "Catch you later",
+    "pt": "Até logo"
+  },
+  {
+    "en": "what's your birthday",
+    "pt": "Quando é seu aniversário?"
+  },
+  {
+    "en": "How do you eat?",
+    "pt": "Como é sua alimentação?"
+  },
+  {
+    "en": "that's a catchphrase",
+    "pt": "É o meu bordão!"
+  }
+]

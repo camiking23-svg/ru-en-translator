@@ -1,0 +1,210 @@
+[
+  {
+    "es": "q",
+    "say": "keh",
+    "speak": "que",
+    "en": "What / that (que, qué)",
+    "ex": "q haces?",
+    "exEn": "what are you doing?"
+  },
+  {
+    "es": "xq / pq",
+    "say": "por-KEH",
+    "speak": "por qué",
+    "en": "Why / because (por qué / porque)",
+    "ex": "xq no vienes?",
+    "exEn": "why aren't you coming?"
+  },
+  {
+    "es": "tqm",
+    "say": "teh KYEH-roh MOO-choh",
+    "speak": "te quiero mucho",
+    "en": "Love you lots (to friends and family)",
+    "ex": "Gracias amiga, tqm",
+    "exEn": "Thanks girl, love you lots"
+  },
+  {
+    "es": "tkm",
+    "say": "teh KYEH-roh MOO-choh",
+    "speak": "te quiero mucho",
+    "en": "Love you lots (same as tqm)",
+    "ex": "buenas noches tkm",
+    "exEn": "good night love you"
+  },
+  {
+    "es": "jajaja",
+    "say": "hah-hah-HAH",
+    "speak": "jajaja",
+    "en": "Hahaha (j sounds like h)",
+    "ex": "jajaja q chistoso",
+    "exEn": "hahaha so funny"
+  },
+  {
+    "es": "ntp",
+    "say": "noh teh preh-oh-KOO-pehs",
+    "speak": "no te preocupes",
+    "en": "Don't worry (no te preocupes)",
+    "ex": "ntp, yo lo hago",
+    "exEn": "don't worry, I'll do it"
+  },
+  {
+    "es": "np",
+    "say": "noh PAH-sah NAH-dah",
+    "speak": "no pasa nada",
+    "en": "No problem (no pasa nada)",
+    "ex": "np, otro día",
+    "exEn": "no problem, another day"
+  },
+  {
+    "es": "bn",
+    "say": "byen",
+    "speak": "bien",
+    "en": "Good, well (bien)",
+    "ex": "todo bn?",
+    "exEn": "all good?"
+  },
+  {
+    "es": "tb / tmb",
+    "say": "tahm-BYEN",
+    "speak": "también",
+    "en": "Also, me too (también)",
+    "ex": "yo tmb",
+    "exEn": "me too"
+  },
+  {
+    "es": "x",
+    "say": "por",
+    "speak": "por",
+    "en": "For / by (por)",
+    "ex": "gracias x todo",
+    "exEn": "thanks for everything"
+  },
+  {
+    "es": "d",
+    "say": "deh",
+    "speak": "de",
+    "en": "Of / from (de)",
+    "ex": "vengo d la escuela",
+    "exEn": "coming from school"
+  },
+  {
+    "es": "salu2",
+    "say": "sah-LOO-dohs",
+    "speak": "saludos",
+    "en": "Greetings, regards (salu + dos)",
+    "ex": "salu2 a tu familia",
+    "exEn": "regards to your family"
+  },
+  {
+    "es": "bss / besos",
+    "say": "BEH-sohs",
+    "speak": "besos",
+    "en": "Kisses, xoxo",
+    "ex": "nos vemos, bss",
+    "exEn": "see you, xoxo"
+  },
+  {
+    "es": "ok / va",
+    "say": "oh-KAY / bah",
+    "speak": "va",
+    "en": "OK (va is very Mexican)",
+    "ex": "va, nos vemos a las 8",
+    "exEn": "ok, see you at 8"
+  },
+  {
+    "es": "sip / nop",
+    "say": "seep / nohp",
+    "speak": "sí, no",
+    "en": "Yep / nope",
+    "ex": "sip, ya llegué",
+    "exEn": "yep, I'm here"
+  },
+  {
+    "es": "dnd",
+    "say": "DOHN-deh",
+    "speak": "dónde",
+    "en": "Where (dónde)",
+    "ex": "dnd estás?",
+    "exEn": "where are you?"
+  },
+  {
+    "es": "cdo",
+    "say": "KWAHN-doh",
+    "speak": "cuándo",
+    "en": "When (cuándo)",
+    "ex": "cdo vienes?",
+    "exEn": "when are you coming?"
+  },
+  {
+    "es": "msj",
+    "say": "men-SAH-heh",
+    "speak": "mensaje",
+    "en": "Message (mensaje)",
+    "ex": "te mandé un msj",
+    "exEn": "I sent you a message"
+  },
+  {
+    "es": "porfa / pls",
+    "say": "POR-fah",
+    "speak": "por favor",
+    "en": "Please (porfa = por favor)",
+    "ex": "mándame la foto porfa",
+    "exEn": "send me the photo pls"
+  },
+  {
+    "es": "nmms",
+    "say": "noh mah-MEHS",
+    "speak": "no mames",
+    "en": "No way! (Mexico, vulgar slang — friends only)",
+    "ex": "nmms q bueno",
+    "exEn": "no way, that's great"
+  },
+  {
+    "es": "ahorita",
+    "say": "ah-oh-REE-tah",
+    "speak": "ahorita",
+    "en": "In a sec (could mean now or later!)",
+    "ex": "ahorita te marco",
+    "exEn": "I'll call you in a sec"
+  },
+  {
+    "es": "hla",
+    "say": "OH-lah",
+    "speak": "hola",
+    "en": "Hi (hola)",
+    "ex": "hla, q tal?",
+    "exEn": "hi, how's it going?"
+  },
+  {
+    "es": "bno",
+    "say": "BWEH-noh",
+    "speak": "bueno",
+    "en": "Well / OK (bueno)",
+    "ex": "bno, ya me voy",
+    "exEn": "ok, I'm leaving now"
+  },
+  {
+    "es": "ntc",
+    "say": "noh teh kreh-AHS",
+    "speak": "no te creas",
+    "en": "Just kidding (no te creas)",
+    "ex": "ntc jaja",
+    "exEn": "jk haha"
+  },
+  {
+    "es": "alv",
+    "say": "ah-EH-leh-oo-veh",
+    "speak": "a la verga",
+    "en": "Damn! / Get lost! (Mexico, very vulgar — know it, don't use it)",
+    "ex": "alv, se me olvidó",
+    "exEn": "damn, I forgot"
+  },
+  {
+    "es": "k",
+    "say": "keh",
+    "speak": "que",
+    "en": "What / that (que, typed fast)",
+    "ex": "k onda?",
+    "exEn": "what's up?"
+  }
+]

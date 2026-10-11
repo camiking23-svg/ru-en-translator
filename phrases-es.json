@@ -1,0 +1,287 @@
+[
+  {
+    "en": "yes",
+    "es": "Sí",
+    "alone": true
+  },
+  {
+    "en": "no",
+    "es": "No",
+    "alone": true
+  },
+  {
+    "en": "thanks",
+    "es": "¡Gracias!",
+    "alone": true
+  },
+  {
+    "en": "hi",
+    "es": "¿Qué onda, jefe?",
+    "alone": true
+  },
+  {
+    "en": "hot dog",
+    "es": "¡No manches! ¡Qué onda!",
+    "alone": true
+  },
+  {
+    "en": "You got this",
+    "es": "Tú puedes"
+  },
+  {
+    "en": "Sup",
+    "es": "¿Qué onda?"
+  },
+  {
+    "en": "Yep",
+    "es": "Sip"
+  },
+  {
+    "en": "Nope",
+    "es": "Nop"
+  },
+  {
+    "en": "No worries",
+    "es": "No te preocupes"
+  },
+  {
+    "en": "Bro",
+    "es": "carnal"
+  },
+  {
+    "en": "Bruh",
+    "es": "no manches",
+    "oneWay": true
+  },
+  {
+    "en": "Dude",
+    "es": "güey"
+  },
+  {
+    "en": "Fr",
+    "es": "neta",
+    "oneWay": true
+  },
+  {
+    "en": "For real?",
+    "es": "¿Neta?"
+  },
+  {
+    "en": "Deadass",
+    "es": "en serio, neta",
+    "oneWay": true
+  },
+  {
+    "en": "No cap",
+    "es": "Sin mentir"
+  },
+  {
+    "en": "Ngl",
+    "es": "la neta",
+    "oneWay": true
+  },
+  {
+    "en": "Tbh",
+    "es": "la verdad",
+    "oneWay": true
+  },
+  {
+    "en": "Imo",
+    "es": "en mi opinión"
+  },
+  {
+    "en": "Idk",
+    "es": "no sé",
+    "oneWay": true
+  },
+  {
+    "en": "Omg",
+    "es": "Dios mío",
+    "oneWay": true
+  },
+  {
+    "en": "Lol",
+    "es": "jaja"
+  },
+  {
+    "en": "Lmao",
+    "es": "jajajaja"
+  },
+  {
+    "en": "I'm dead",
+    "es": "Me muero de risa"
+  },
+  {
+    "en": "I can't even",
+    "es": "No puedo más"
+  },
+  {
+    "en": "What's up?",
+    "es": "¿Qué tal?"
+  },
+  {
+    "en": "What's new?",
+    "es": "¿Qué hay de nuevo?"
+  },
+  {
+    "en": "What's good?",
+    "es": "¿Qué hay?"
+  },
+  {
+    "en": "Long time no see",
+    "es": "¡Cuánto tiempo!"
+  },
+  {
+    "en": "Spill the tea",
+    "es": "Cuéntame el chisme"
+  },
+  {
+    "en": "For sure",
+    "es": "Claro que sí"
+  },
+  {
+    "en": "Highkey",
+    "es": "súper",
+    "oneWay": true
+  },
+  {
+    "en": "Lowkey",
+    "es": "medio",
+    "oneWay": true
+  },
+  {
+    "en": "That's sus",
+    "es": "Eso está raro"
+  },
+  {
+    "en": "Sus",
+    "es": "sospechoso",
+    "oneWay": true
+  },
+  {
+    "en": "That's cap",
+    "es": "Eso es mentira"
+  },
+  {
+    "en": "You're capping",
+    "es": "Estás mintiendo"
+  },
+  {
+    "en": "No way",
+    "es": "¡No manches!"
+  },
+  {
+    "en": "That's fire",
+    "es": "Está bien chido"
+  },
+  {
+    "en": "It's fire",
+    "es": "Está chido"
+  },
+  {
+    "en": "That's lit",
+    "es": "Está buenísimo"
+  },
+  {
+    "en": "That's crazy",
+    "es": "Qué locura"
+  },
+  {
+    "en": "That's mid",
+    "es": "Más o menos"
+  },
+  {
+    "en": "Cringe",
+    "es": "qué pena"
+  },
+  {
+    "en": "That's chill",
+    "es": "Está tranqui"
+  },
+  {
+    "en": "All good",
+    "es": "Todo bien"
+  },
+  {
+    "en": "Good vibes",
+    "es": "buena vibra"
+  },
+  {
+    "en": "Vibe",
+    "es": "vibra"
+  },
+  {
+    "en": "The GOAT",
+    "es": "el mejor de todos"
+  },
+  {
+    "en": "Rizz",
+    "es": "carisma",
+    "oneWay": true
+  },
+  {
+    "en": "On god",
+    "es": "te lo juro",
+    "oneWay": true
+  },
+  {
+    "en": "My bad",
+    "es": "Mi culpa"
+  },
+  {
+    "en": "Say less",
+    "es": "Sale"
+  },
+  {
+    "en": "I got you",
+    "es": "Yo te cubro"
+  },
+  {
+    "en": "I'm down",
+    "es": "Me apunto"
+  },
+  {
+    "en": "Let's go",
+    "es": "¡Vámonos!"
+  },
+  {
+    "en": "Wanna hang out?",
+    "es": "¿Salimos?"
+  },
+  {
+    "en": "Hit me up",
+    "es": "Mándame mensaje"
+  },
+  {
+    "en": "Chill out",
+    "es": "Tranquilo"
+  },
+  {
+    "en": "Touch grass",
+    "es": "Sal a tomar aire"
+  },
+  {
+    "en": "See ya",
+    "es": "Nos vemos"
+  },
+  {
+    "en": "see you later",
+    "es": "¡Hasta luego!"
+  },
+  {
+    "en": "Catch you later",
+    "es": "Al rato nos vemos"
+  },
+  {
+    "en": "what's your birthday",
+    "es": "¿Cuándo es tu cumpleaños?"
+  },
+  {
+    "en": "How do you eat?",
+    "es": "¿Cómo te alimentas?"
+  },
+  {
+    "en": "that's a catchphrase",
+    "es": "¡Es mi frase!"
+  }
+]

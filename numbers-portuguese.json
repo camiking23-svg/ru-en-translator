@@ -1,0 +1,310 @@
+[
+  {
+    "pt": "zero",
+    "say": "ZEH-roo",
+    "en": "0 — zero",
+    "ex": "Está zero graus.",
+    "exEn": "It's zero degrees."
+  },
+  {
+    "pt": "um",
+    "say": "oong",
+    "en": "1 — one (uma before a feminine word)",
+    "ex": "Um café e uma água.",
+    "exEn": "One coffee and one water."
+  },
+  {
+    "pt": "dois",
+    "say": "DOYS",
+    "en": "2 — two (duas before a feminine word)",
+    "ex": "Duas passagens, por favor.",
+    "exEn": "Two tickets, please."
+  },
+  {
+    "pt": "três",
+    "say": "TREHS",
+    "en": "3 — three",
+    "ex": "Uma mesa para três.",
+    "exEn": "A table for three."
+  },
+  {
+    "pt": "quatro",
+    "say": "KWAH-troo",
+    "en": "4 — four",
+    "ex": "Moro no quarto andar.",
+    "exEn": "I live on the fourth floor."
+  },
+  {
+    "pt": "cinco",
+    "say": "SEEN-koo",
+    "en": "5 — five",
+    "ex": "Cinco minutos e eu chego.",
+    "exEn": "Five minutes and I'll be there."
+  },
+  {
+    "pt": "seis / meia",
+    "say": "SAYS / MAY-ah",
+    "en": "6 — six (Brazilians say 'meia' for 6 in phone numbers)",
+    "ex": "Meu número termina em meia-meia.",
+    "exEn": "My number ends in six-six."
+  },
+  {
+    "pt": "sete",
+    "say": "SEH-chee",
+    "en": "7 — seven",
+    "ex": "Sete dias por semana.",
+    "exEn": "Seven days a week."
+  },
+  {
+    "pt": "oito",
+    "say": "OY-too",
+    "en": "8 — eight",
+    "ex": "O ônibus sai às oito.",
+    "exEn": "The bus leaves at eight."
+  },
+  {
+    "pt": "nove",
+    "say": "NOH-vee",
+    "en": "9 — nine",
+    "ex": "São nove horas.",
+    "exEn": "It's nine o'clock."
+  },
+  {
+    "pt": "dez",
+    "say": "DEHS",
+    "en": "10 — ten",
+    "ex": "São dez reais.",
+    "exEn": "That's ten reais."
+  },
+  {
+    "pt": "onze",
+    "say": "OHN-zee",
+    "en": "11 — eleven",
+    "ex": "A loja abre às onze.",
+    "exEn": "The shop opens at eleven."
+  },
+  {
+    "pt": "doze",
+    "say": "DOH-zee",
+    "en": "12 — twelve",
+    "ex": "Uma dúzia são doze.",
+    "exEn": "A dozen is twelve."
+  },
+  {
+    "pt": "quinze",
+    "say": "KEEN-zee",
+    "en": "15 — fifteen",
+    "ex": "Daqui a quinze minutos.",
+    "exEn": "In fifteen minutes."
+  },
+  {
+    "pt": "dezesseis",
+    "say": "deh-zeh-SAYS",
+    "en": "16 — sixteen",
+    "ex": "Ela tem dezesseis anos.",
+    "exEn": "She's sixteen."
+  },
+  {
+    "pt": "vinte",
+    "say": "VEEN-chee",
+    "en": "20 — twenty",
+    "ex": "Custa vinte reais.",
+    "exEn": "It costs twenty reais."
+  },
+  {
+    "pt": "vinte e um",
+    "say": "VEEN-chee ee OONG",
+    "en": "21 — twenty-one (tens e ones)",
+    "ex": "Tenho vinte e um anos.",
+    "exEn": "I'm twenty-one."
+  },
+  {
+    "pt": "trinta",
+    "say": "TREEN-tah",
+    "en": "30 — thirty",
+    "ex": "Trinta minutos de metrô.",
+    "exEn": "Thirty minutes by subway."
+  },
+  {
+    "pt": "quarenta",
+    "say": "kwah-REN-tah",
+    "en": "40 — forty",
+    "ex": "Quarenta graus, que calor!",
+    "exEn": "Forty degrees, so hot!"
+  },
+  {
+    "pt": "cinquenta",
+    "say": "seen-KWEN-tah",
+    "en": "50 — fifty",
+    "ex": "Uma nota de cinquenta.",
+    "exEn": "A fifty note."
+  },
+  {
+    "pt": "sessenta",
+    "say": "seh-SEN-tah",
+    "en": "60 — sixty",
+    "ex": "Sessenta minutos é uma hora.",
+    "exEn": "Sixty minutes is an hour."
+  },
+  {
+    "pt": "setenta",
+    "say": "seh-TEN-tah",
+    "en": "70 — seventy",
+    "ex": "Minha avó tem setenta anos.",
+    "exEn": "My grandmother is seventy."
+  },
+  {
+    "pt": "oitenta",
+    "say": "oy-TEN-tah",
+    "en": "80 — eighty",
+    "ex": "Oitenta quilômetros por hora.",
+    "exEn": "Eighty kilometers an hour."
+  },
+  {
+    "pt": "noventa",
+    "say": "noh-VEN-tah",
+    "en": "90 — ninety",
+    "ex": "Noventa por cento.",
+    "exEn": "Ninety percent."
+  },
+  {
+    "pt": "cem",
+    "say": "sayng",
+    "en": "100 — one hundred (cento before more: cento e dez)",
+    "ex": "Uma nota de cem reais.",
+    "exEn": "A hundred-reais note."
+  },
+  {
+    "pt": "mil",
+    "say": "MEE-oo",
+    "en": "1,000 — one thousand",
+    "ex": "Mil vezes obrigado!",
+    "exEn": "A thousand thanks!"
+  },
+  {
+    "pt": "Quanto é?",
+    "say": "KWAHN-too EH",
+    "en": "How much is it?",
+    "ex": "Com licença, quanto é?",
+    "exEn": "Excuse me, how much is it?"
+  },
+  {
+    "pt": "real / reais",
+    "say": "heh-OW / heh-AIS",
+    "en": "Real / reais — Brazil's currency (R$)",
+    "ex": "São cinco reais.",
+    "exEn": "It's five reais."
+  },
+  {
+    "pt": "três e cinquenta",
+    "say": "TREHS ee seen-KWEN-tah",
+    "en": "R$3.50 (reais, then cents)",
+    "ex": "Fica três e cinquenta.",
+    "exEn": "That comes to three fifty."
+  },
+  {
+    "pt": "Tá caro / Tá barato",
+    "say": "tah KAH-roo / tah bah-RAH-too",
+    "en": "It's expensive / It's cheap",
+    "ex": "Tá muito caro pra mim.",
+    "exEn": "It's too expensive for me."
+  },
+  {
+    "pt": "Faz um desconto?",
+    "say": "fahs oong dehs-KOHN-too",
+    "en": "Can you give me a discount? (markets)",
+    "ex": "Se eu levar dois, faz um desconto?",
+    "exEn": "If I take two, will you give me a discount?"
+  },
+  {
+    "pt": "Que horas são?",
+    "say": "kee OH-rahs SOWNG",
+    "en": "What time is it?",
+    "ex": "Desculpe, que horas são?",
+    "exEn": "Sorry, what time is it?"
+  },
+  {
+    "pt": "É uma hora",
+    "say": "eh OO-mah OH-rah",
+    "en": "It's one o'clock (singular for one)",
+    "ex": "Já é uma hora.",
+    "exEn": "It's already one o'clock."
+  },
+  {
+    "pt": "São três horas",
+    "say": "sowng TREHS OH-rahs",
+    "en": "It's three o'clock",
+    "ex": "São três horas em ponto.",
+    "exEn": "It's exactly three o'clock."
+  },
+  {
+    "pt": "Às cinco",
+    "say": "ahs SEEN-koo",
+    "en": "At five o'clock",
+    "ex": "A gente se vê às cinco?",
+    "exEn": "See you at five?"
+  },
+  {
+    "pt": "e meia / e quinze / quinze para",
+    "say": "ee MAY-ah / ee KEEN-zee / KEEN-zee PAH-rah",
+    "en": "Half past / quarter past / quarter to",
+    "ex": "São duas e meia.",
+    "exEn": "It's half past two."
+  },
+  {
+    "pt": "meio-dia / meia-noite",
+    "say": "MAY-oo JEE-ah / MAY-ah NOY-chee",
+    "en": "Noon / midnight",
+    "ex": "A gente almoça ao meio-dia.",
+    "exEn": "We have lunch at noon."
+  },
+  {
+    "pt": "daqui a meia hora",
+    "say": "dah-KEE ah MAY-ah OH-rah",
+    "en": "In half an hour",
+    "ex": "Chego daqui a meia hora.",
+    "exEn": "I'll be there in half an hour."
+  },
+  {
+    "pt": "hoje / amanhã / ontem",
+    "say": "OH-zhee / ah-mahn-YAHNG / OHN-tayng",
+    "en": "Today / tomorrow / yesterday",
+    "ex": "A gente se vê amanhã.",
+    "exEn": "See you tomorrow."
+  },
+  {
+    "pt": "segunda-feira",
+    "say": "seh-GOON-dah FAY-rah",
+    "en": "Monday ('second day': terça, quarta, quinta, sexta, sábado, domingo)",
+    "ex": "Segunda-feira eu trabalho.",
+    "exEn": "I work on Monday."
+  },
+  {
+    "pt": "de manhã / à tarde / à noite",
+    "say": "jee mahn-YAHNG / ah TAR-jee / ah NOY-chee",
+    "en": "In the morning / afternoon / at night",
+    "ex": "Me liga à noite.",
+    "exEn": "Call me at night."
+  },
+  {
+    "pt": "primeiro / segundo / terceiro",
+    "say": "pree-MAY-roo / seh-GOON-doo / ter-SAY-roo",
+    "en": "First / second / third",
+    "ex": "É minha primeira viagem ao Brasil.",
+    "exEn": "It's my first trip to Brazil."
+  },
+  {
+    "pt": "metade",
+    "say": "meh-TAH-jee",
+    "en": "Half",
+    "ex": "Cada um paga a metade.",
+    "exEn": "We each pay half."
+  },
+  {
+    "pt": "um par / uns",
+    "say": "oong par / oongs",
+    "en": "A pair / some, about",
+    "ex": "Uns dez minutos.",
+    "exEn": "About ten minutes."
+  }
+]

@@ -371,6 +371,18 @@ ${L.sectionsHtml}
     if (m.endsWith("ец") && f === m.slice(0, -2) + "ка") return true;
     if (m.endsWith("ен") && f === m.slice(0, -2) + "на") return true;   // должен/должна, согласен/согласна
     if (LANG === "fr") return frGenderPair(m, f);
+    if (LANG === "es" || LANG === "it" || LANG === "pt") return roGenderPair(m, f);
+    return false;
+  }
+  // Spanish / Italian / Portuguese: cansado/cansada, señor/señora, signore/signora, alemão/alemã, el/la, o/a…
+  const RO_PAIRS = { "el": "la", "un": "una", "il": "la", "lo": "la", "o": "a", "do": "da", "no": "na", "ao": "à", "um": "uma",
+    "dottore": "dottoressa", "bom": "boa" };
+  function roGenderPair(m, f) {
+    if (RO_PAIRS[m] === f) return true;
+    if (/[oe]$/.test(m) && f === m.slice(0, -1) + "a") return true;
+    if (f === m + "a" && /(or|ol|és|ês|n)$/.test(m)) return true;
+    if (m.endsWith("és") && f === m.slice(0, -2) + "esa") return true;
+    if (m.endsWith("ão") && f === m.slice(0, -2) + "ã") return true;
     return false;
   }
   // French: prêt/prête, désolé/désolée, heureux/heureuse, sportif/sportive, premier/première, canadien/canadienne…
@@ -395,7 +407,7 @@ ${L.sectionsHtml}
       const diff = L.map((w, i) => i).filter(i => bare(L[i]) !== bare(R[i]));
       if (diff.length === 1 && genderPair(L[diff[0]], R[diff[0]])) return g === "f" ? sides[1] : sides[0];
       // French often changes two words: "un ami / une amie", "Tu es prêt ? / Tu es prête ?"
-      if (LANG === "fr" && diff.length > 1 && diff.length <= 3 && diff.every(i => genderPair(L[i], R[i]))) return g === "f" ? sides[1] : sides[0];
+      if (LANG !== "ru" && LANG !== "zh" && diff.length > 1 && diff.length <= 3 && diff.every(i => genderPair(L[i], R[i]))) return g === "f" ? sides[1] : sides[0];
     }
     // Single-word choice: "Я бы хотел / хотела заказать…"
     const m = L[L.length - 1], f = R[0];
@@ -501,7 +513,8 @@ ${L.sectionsHtml}
   // ---- Microsoft online voices: fixed per gender, so always the same voice ----
   let online = false;
   let player = null;
-  const ONLINE = { m: { ru: "Dmitry", fr: "Henri", zh: "Yunxi", en: "Guy" }, f: { ru: "Svetlana", fr: "Denise", zh: "Xiaoxiao", en: "Jenny" } };
+  const ONLINE = { m: { ru: "Dmitry", fr: "Henri", zh: "Yunxi", es: "Jorge", it: "Diego", pt: "Antonio", en: "Guy" },
+                   f: { ru: "Svetlana", fr: "Denise", zh: "Xiaoxiao", es: "Dalia", it: "Elsa", pt: "Francisca", en: "Jenny" } };
   fetch("/tts-status").then(r => r.json()).then(s => { online = !!s.ok; showVoices(); }).catch(() => {});
 
   // ---- Voice matches the speaker's gender, and stays locked ----
@@ -511,12 +524,15 @@ ${L.sectionsHtml}
     "serena", "fiona", "veena", "zira", "aria", "jenny", "hazel", "libby", "sonia", "michelle", "emma",
     "amélie", "amelie", "audrey", "aurélie", "aurelie", "marie", "denise", "julie", "hortense", "eloise",
     "vivienne", "céline", "celine", "google français",
+    "paulina", "monica", "mónica", "dalia", "elvira", "marisol", "google español", "alice", "federica", "elsa",
+    "isabella", "google italiano", "luciana", "joana", "francisca", "thalita", "fernanda", "google português",
     "tingting", "ting-ting", "meijia", "mei-jia", "sinji", "sin-ji", "lili", "yaoyao", "huihui", "xiaoxiao", "xiaoyi", "yushu", "yu-shu", "google 普通话",
     "female", "google us english"];
   var MALE = ["yuri", "pavel", "dmitry", "maxim", "daniel", "alex", "fred", "aaron", "arthur", "gordon",
     "oliver", "tom", "rishi", "reed", "eddy", "ralph", "david", "mark", "guy", "george", "ryan",
     "christopher", "eric", "roger", "steffan", "brian", "thomas", "jacques", "henri", "paul", "remy", "rémy",
-    "nicolas", "kangkang", "yunxi", "yunjian", "yunyang", "li-mu", "limu", "male"];
+    "nicolas", "jorge", "diego", "alvaro", "álvaro", "juan", "luca", "cosimo", "giuseppe", "antonio", "duarte", "felipe",
+    "kangkang", "yunxi", "yunjian", "yunyang", "li-mu", "limu", "male"];
 
   function voiceGender(v) {
     const n = v.name.toLowerCase();
@@ -543,7 +559,9 @@ ${L.sectionsHtml}
     // French: prefer France French over Canadian (fr-CA) voices
     const vl = v.lang.replace("_", "-").toLowerCase();
     const off = (LANG === "fr" && vl.startsWith("fr") && !vl.startsWith("fr-fr")) ||
-                (LANG === "zh" && vl.startsWith("zh") && !vl.startsWith("zh-cn")) ? 0.5 : 0;   // and Mainland over Taiwan/HK voices
+                (LANG === "zh" && vl.startsWith("zh") && !vl.startsWith("zh-cn")) ||        // and Mainland over Taiwan/HK voices
+                (LANG === "es" && vl.startsWith("es") && !/^es-(mx|us|419)/.test(vl)) ||     // Latin American Spanish voices first
+                (LANG === "pt" && vl.startsWith("pt") && !vl.startsWith("pt-br")) ? 0.5 : 0;
     if (n.includes("premium") || n.includes("enhanced")) return 0 + off;
     return 1 + off;
   }
@@ -785,6 +803,8 @@ ${L.sectionsHtml}
 // To add a language: a lang-xx.js file (its grammar fixes + learning decks), then an entry here.
 const FR = require("./lang-fr.js");
 const ZH = require("./lang-zh.js");
+// Spanish, Italian and Portuguese share one translate pipeline (translateRomance below)
+const ROMANCE = { es: require("./lang-es.js"), it: require("./lang-it.js"), pt: require("./lang-pt.js") };
 const LANG_LIST = [
   { code: "ru", name: "Russian", flag: "🇷🇺", short: "RU ⇄ EN", path: "/", app: "ru-en", keyPrefix: "",
     youT: "ты", youV: "вы", phEx: "Без шуток", phrasesUrl: "/phrases", listening: "Слушаю",
@@ -810,8 +830,17 @@ const LANG_LIST = [
   { code: "zh", name: "Mandarin", flag: "🇨🇳", short: "ZH ⇄ EN", path: "/zh", app: "zh-en", keyPrefix: "zh_",
     youT: "你", youV: "您", phEx: "没事", phrasesUrl: "/zh/phrases", listening: "我在听",
     decks: ZH.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
+  { code: "es", name: "Spanish", flag: "🇲🇽", short: "ES ⇄ EN", path: "/es", app: "es-en", keyPrefix: "es_",
+    youT: "tú", youV: "usted", phEx: "No manches", phrasesUrl: "/es/phrases", listening: "Te escucho",
+    decks: ROMANCE.es.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
+  { code: "it", name: "Italian", flag: "🇮🇹", short: "IT ⇄ EN", path: "/it", app: "it-en", keyPrefix: "it_",
+    youT: "tu", youV: "Lei", phEx: "Ci sta", phrasesUrl: "/it/phrases", listening: "Ti ascolto",
+    decks: ROMANCE.it.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
+  { code: "pt", name: "Portuguese", flag: "🇧🇷", short: "PT ⇄ EN", path: "/pt", app: "pt-en", keyPrefix: "pt_",
+    youT: "você", youV: "senhor(a)", phEx: "De boa", phrasesUrl: "/pt/phrases", listening: "Estou ouvindo",
+    decks: ROMANCE.pt.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
 ];
-const LOCALES = { ru: "ru-RU", fr: "fr-FR", zh: "zh-CN", en: "en-US" };
+const LOCALES = { ru: "ru-RU", fr: "fr-FR", zh: "zh-CN", es: "es-MX", it: "it-IT", pt: "pt-BR", en: "en-US" };
 
 function langNav(cur) {
   return '  <nav class="langs">' + LANG_LIST.map(l =>
@@ -1089,8 +1118,10 @@ async function google(text, from, to) {
 // ---- Microsoft voices (msedge-tts add-on) ----
 // Install once in this folder:  npm install msedge-tts
 const TTS_VOICES = {
-  m: { ru: "ru-RU-DmitryNeural",   fr: "fr-FR-HenriNeural",  zh: "zh-CN-YunxiNeural",    en: "en-US-GuyNeural" },
-  f: { ru: "ru-RU-SvetlanaNeural", fr: "fr-FR-DeniseNeural", zh: "zh-CN-XiaoxiaoNeural", en: "en-US-JennyNeural" },
+  m: { ru: "ru-RU-DmitryNeural",   fr: "fr-FR-HenriNeural",  zh: "zh-CN-YunxiNeural",    es: "es-MX-JorgeNeural",
+       it: "it-IT-DiegoNeural", pt: "pt-BR-AntonioNeural",   en: "en-US-GuyNeural" },
+  f: { ru: "ru-RU-SvetlanaNeural", fr: "fr-FR-DeniseNeural", zh: "zh-CN-XiaoxiaoNeural", es: "es-MX-DaliaNeural",
+       it: "it-IT-ElsaNeural",  pt: "pt-BR-FranciscaNeural", en: "en-US-JennyNeural" },
 };
 let edge = null;
 import("msedge-tts")
@@ -1135,7 +1166,7 @@ async function handleTTS(req, u, res) {
   const g = u.searchParams.get("g") === "f" ? "f" : "m";
   let parts;
   try { parts = JSON.parse(u.searchParams.get("d") || "[]"); } catch (e) { parts = []; }
-  parts = parts.filter(p => Array.isArray(p) && (p[0] === "ru" || p[0] === "fr" || p[0] === "zh" || p[0] === "en") && typeof p[1] === "string" && p[1].trim())
+  parts = parts.filter(p => Array.isArray(p) && TTS_VOICES.m[p[0]] && typeof p[1] === "string" && p[1].trim())
                .slice(0, 20);
   if (!edge || !parts.length) { res.writeHead(503); return res.end(); }
   const key = g + JSON.stringify(parts);
@@ -1193,7 +1224,7 @@ const norm = s => s.replace(/[’‘`]/g, "'").replace(/ё/g, "е").replace(/Ё/
 const reEscape = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 function phraseRegex(p) {
   // match the words, ignoring end punctuation and case; never inside a bigger word
-  const core = norm(p).trim().replace(/[.!?…,]+$/, "");
+  const core = norm(p).trim().replace(/[.!?…,]+$/, "").replace(/^[¿¡]+/, "");
   const body = core.split(/\s+/).map(reEscape).join("\\s+");
   // Chinese: no spaces between words, so no word-edge check (and its own end punctuation is optional)
   if (/[\u3400-\u9fff]/.test(core)) return new RegExp(core.replace(/[。！？，～]+$/, "").split(/\s+/).map(reEscape).join("\\s*"), "giu");
@@ -1214,7 +1245,7 @@ function protectPhrases(text, from, phrases, to = from === "en" ? "ru" : "en") {
   // oneWay phrases (e.g. lowkey → немного) only apply English→Russian
   // "alone" phrases (yes / no / thanks) only count when they are the whole message,
   // so "I have no idea" doesn't turn into «Нет»
-  const bareMsg = s => norm(s).trim().replace(/[.!?…,]+$/, "").trim().toLowerCase();
+  const bareMsg = s => norm(s).trim().replace(/[.!?…,]+$/, "").replace(/^[¿¡]+/, "").trim().toLowerCase();
   const whole = bareMsg(text);
   const tg = from === "en" ? to : from;
   const list = phrases.filter(p => p.en && p[tg] && !(p.oneWay && from !== "en") && (!p.alone || bareMsg(p[from]) === whole))
@@ -1226,6 +1257,7 @@ function protectPhrases(text, from, phrases, to = from === "en" ? "ru" : "en") {
 }
 const CAP_RU = /(^|[.!?]\s+)([a-zа-яё])/g;
 const CAP_FR = /(^|[.!?]\s+)([a-zà-ÿœ])/g;    // French/English: also capitalise é, à…
+const CAP_ES = /((?:^|[.!?]\s+)[¿¡]?)([a-zà-ÿ])/g;   // Spanish: also after an opening ¿ or ¡
 function restorePhrases(out, hits, to, cap = CAP_RU) {
   return out.replace(/ZQP(\d+)/g, (_, i) => {
     let s = ((hits[+i] && hits[+i][to]) || "").trim().replace(/[.!?…]+$/, "");  // punctuation comes from your message
@@ -1596,6 +1628,60 @@ async function translateZh(body, arg) {
   return { out, from, to, say };
 }
 
+// ---- Spanish, Italian, Portuguese: decks, starter phrases and one shared translate pipeline ----
+const ROMANCE_SECTIONS = {}, ROMANCE_PHRASES = {};
+for (const [code, L] of Object.entries(ROMANCE)) {
+  for (const d of L.DECKS) ROMANCE_SECTIONS[d.url] = loadList(d.file, d.data);
+  ROMANCE_PHRASES[code] = loadList("phrases-" + code + ".json", L.STARTER_PHRASES);
+}
+
+// Same alphabet as English, so: a phrase of yours typed on its own decides it,
+// then the conversation button's turn, then Google's guess.
+async function romanceDirection(code, text, hint, userPhrases) {
+  if (hint === "en" || hint === code) return hint;
+  const bare = s => norm(s).trim().replace(/[.!?…,]+$/, "").replace(/^[¿¡]+/, "").trim().toLowerCase();
+  const whole = bare(text);
+  if (userPhrases.some(p => bare(p.en) === whole)) return "en";
+  if (userPhrases.some(p => bare(p[code]) === whole)) return code;
+  return (await googleDetect(text)) === code ? code : "en";
+}
+
+async function translateRomance(code, body, arg) {
+  const L = ROMANCE[code];
+  const text = arg("q").slice(0, 5000);
+  const gender = arg("g") === "f" ? "f" : "m";
+  const userPhrases = cleanPhrases(body.phrases, code) || ROMANCE_PHRASES[code];
+  if (!text.trim()) return { out: "", from: "en", to: code, say: [] };
+  const from = await romanceDirection(code, text, arg("from"), userPhrases);
+  const to = from === code ? "en" : code;
+  const { text: safe0, titles } = protectTitles(text);
+  const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
+  let out;
+  if (/^\s*ZQP0\s*[.!?…]*\s*$/.test(safe) && hits.length === 1) out = safe;     // the whole message is one of your phrases
+  else out = await google(safe, from, to);
+  const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
+  if (!ok) out = await google(text, from, to);                                     // placeholder got mangled → plain translation
+  else out = restoreTitles(out, titles, to);
+  if (to === code) {
+    out = L.grammar.setFormality(out, arg("y") === "v" ? "v" : "t", arg("l") === "f" ? "f" : "m");
+    if (gender === "f") out = L.grammar.makeFemale(out);
+  }
+  if (ok) out = restorePhrases(out, hits, to, to === "es" ? CAP_ES : CAP_FR);       // last, so nothing rewrites your wording
+  if (ok && hits.length === 1 && /^\s*ZQP0\s*$/.test(safe)) out = hits[0][to];
+  // which parts to read in which voice: kept titles stay in the language they were typed in
+  const say = [];
+  let rest = out;
+  for (const t of (ok ? titles : [])) {
+    const i = rest.indexOf(t);
+    if (i < 0) continue;
+    if (i > 0) say.push([to, rest.slice(0, i)]);
+    say.push([from, t]);
+    rest = rest.slice(i + t.length);
+  }
+  if (rest) say.push([to, rest]);
+  return { out, from, to, say: say.filter(p => /[A-Za-zÀ-ÿ0-9]/.test(p[1])) };
+}
+
 function readBody(req) {
   return new Promise((resolve, reject) => {
     let b = "";
@@ -1608,6 +1694,15 @@ function readBody(req) {
 
 http.createServer(async (req, res) => {
   const u = new URL(req.url, "http://localhost");
+  if (ROMANCE_SECTIONS[u.pathname]) {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(ROMANCE_SECTIONS[u.pathname]));
+  }
+  const rp = u.pathname.match(/^\/(es|it|pt)\/phrases$/);
+  if (rp) {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(ROMANCE_PHRASES[rp[1]]));
+  }
   if (ZH_SECTIONS[u.pathname]) {
     res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
     return res.end(JSON.stringify(ZH_SECTIONS[u.pathname]));
@@ -1653,9 +1748,10 @@ http.createServer(async (req, res) => {
       try { body = JSON.parse(await readBody(req)) || {}; } catch (e) { res.writeHead(400); return res.end(); }
     }
     const arg = k => (typeof body[k] === "string" ? body[k] : u.searchParams.get(k)) || "";
-    if (arg("lang") === "fr" || arg("lang") === "zh") {
+    if (arg("lang") === "fr" || arg("lang") === "zh" || ROMANCE[arg("lang")]) {
       try {
-        const r = arg("lang") === "zh" ? await translateZh(body, arg) : await translateFr(body, arg);
+        const r = arg("lang") === "zh" ? await translateZh(body, arg) : arg("lang") === "fr" ? await translateFr(body, arg)
+          : await translateRomance(arg("lang"), body, arg);
         res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
         res.end(JSON.stringify(r));
       } catch (e) {

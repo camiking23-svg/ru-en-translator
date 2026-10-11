@@ -1,0 +1,210 @@
+[
+  {
+    "it": "cmq",
+    "say": "koo-MOON-kweh",
+    "speak": "comunque",
+    "en": "Anyway (comunque)",
+    "ex": "cmq ci vediamo dopo",
+    "exEn": "anyway see you later"
+  },
+  {
+    "it": "nn",
+    "say": "nohn",
+    "speak": "non",
+    "en": "Not (non)",
+    "ex": "nn lo so",
+    "exEn": "I dunno"
+  },
+  {
+    "it": "xké / xché",
+    "say": "per-KEH",
+    "speak": "perché",
+    "en": "Why / because (perché — x = 'per', the times sign)",
+    "ex": "xké nn vieni?",
+    "exEn": "why aren't you coming?"
+  },
+  {
+    "it": "tvb",
+    "say": "tee VOH-lyoh BEH-neh",
+    "speak": "ti voglio bene",
+    "en": "Love you (friends and family)",
+    "ex": "grazie amica, tvb",
+    "exEn": "thanks girl, love you"
+  },
+  {
+    "it": "tvtb",
+    "say": "tee VOH-lyoh TAHN-toh BEH-neh",
+    "speak": "ti voglio tanto bene",
+    "en": "Love you so much",
+    "ex": "buonanotte tvtb",
+    "exEn": "good night, love you so much"
+  },
+  {
+    "it": "ahahah",
+    "say": "ah-ah-AH",
+    "speak": "ahahah",
+    "en": "Hahaha",
+    "ex": "ahahah troppo forte",
+    "exEn": "hahaha so funny"
+  },
+  {
+    "it": "qlc / qlcs",
+    "say": "kwahl-KOH-zah",
+    "speak": "qualcosa",
+    "en": "Something (qualcosa)",
+    "ex": "mangiamo qlcs?",
+    "exEn": "shall we eat something?"
+  },
+  {
+    "it": "qnd",
+    "say": "KWAHN-doh",
+    "speak": "quando",
+    "en": "When (quando)",
+    "ex": "qnd arrivi?",
+    "exEn": "when are you getting here?"
+  },
+  {
+    "it": "dv",
+    "say": "DOH-veh",
+    "speak": "dove",
+    "en": "Where (dove)",
+    "ex": "dv sei?",
+    "exEn": "where are you?"
+  },
+  {
+    "it": "x",
+    "say": "per",
+    "speak": "per",
+    "en": "For (per)",
+    "ex": "grazie x tutto",
+    "exEn": "thanks for everything"
+  },
+  {
+    "it": "c",
+    "say": "chee",
+    "speak": "ci",
+    "en": "Us / there (ci)",
+    "ex": "c vediamo dmn",
+    "exEn": "see you tmrw"
+  },
+  {
+    "it": "dmn",
+    "say": "doh-MAH-nee",
+    "speak": "domani",
+    "en": "Tomorrow (domani)",
+    "ex": "a dmn!",
+    "exEn": "see you tomorrow!"
+  },
+  {
+    "it": "sn",
+    "say": "SOH-noh",
+    "speak": "sono",
+    "en": "I am / they are (sono)",
+    "ex": "sn a casa",
+    "exEn": "I'm home"
+  },
+  {
+    "it": "nnt",
+    "say": "NYEN-teh",
+    "speak": "niente",
+    "en": "Nothing (niente)",
+    "ex": "nnt di nuovo",
+    "exEn": "nothing new"
+  },
+  {
+    "it": "tt",
+    "say": "TOOT-toh",
+    "speak": "tutto",
+    "en": "All, everything (tutto)",
+    "ex": "tt ok?",
+    "exEn": "all ok?"
+  },
+  {
+    "it": "msg",
+    "say": "mes-SAHD-joh",
+    "speak": "messaggio",
+    "en": "Message (messaggio)",
+    "ex": "ti ho mandato un msg",
+    "exEn": "I sent you a message"
+  },
+  {
+    "it": "anke",
+    "say": "AHN-keh",
+    "speak": "anche",
+    "en": "Also, me too (anche)",
+    "ex": "anke io",
+    "exEn": "me too"
+  },
+  {
+    "it": "bn",
+    "say": "BEH-neh",
+    "speak": "bene",
+    "en": "Good, well (bene)",
+    "ex": "sto bn",
+    "exEn": "I'm good"
+  },
+  {
+    "it": "grz",
+    "say": "GRAHT-tsyeh",
+    "speak": "grazie",
+    "en": "Thanks (grazie)",
+    "ex": "grz mille!",
+    "exEn": "thanks a lot!"
+  },
+  {
+    "it": "prg",
+    "say": "PREH-goh",
+    "speak": "prego",
+    "en": "You're welcome (prego)",
+    "ex": "prg!",
+    "exEn": "np!"
+  },
+  {
+    "it": "nsp",
+    "say": "nohn SAH-poh",
+    "speak": "non saprei",
+    "en": "No idea (non saprei)",
+    "ex": "nsp, chiedi a lei",
+    "exEn": "no idea, ask her"
+  },
+  {
+    "it": "raga",
+    "say": "RAH-gah",
+    "speak": "ragazzi",
+    "en": "Guys (ragazzi)",
+    "ex": "raga stasera usciamo?",
+    "exEn": "guys, are we going out tonight?"
+  },
+  {
+    "it": "bacio / baci",
+    "say": "BAH-choh / BAH-chee",
+    "speak": "baci",
+    "en": "Kisses, xoxo",
+    "ex": "a dopo, baci",
+    "exEn": "see you later, xoxo"
+  },
+  {
+    "it": "ok / va bn",
+    "say": "vah BEH-neh",
+    "speak": "va bene",
+    "en": "OK (va bene)",
+    "ex": "va bn, a dopo",
+    "exEn": "ok, see you later"
+  },
+  {
+    "it": "tipo",
+    "say": "TEE-poh",
+    "speak": "tipo",
+    "en": "Like (filler, very common in chats)",
+    "ex": "era tipo assurdo",
+    "exEn": "it was like insane"
+  },
+  {
+    "it": "boh",
+    "say": "boh",
+    "speak": "boh",
+    "en": "Dunno / no idea",
+    "ex": "boh vediamo",
+    "exEn": "dunno, we'll see"
+  }
+]

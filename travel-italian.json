@@ -1,0 +1,184 @@
+[
+  {
+    "it": "Dov'è…?",
+    "say": "doh-VEH",
+    "en": "Where is…?",
+    "ex": "Scusi, dov'è la stazione?",
+    "exEn": "Excuse me, where is the station?"
+  },
+  {
+    "it": "Come arrivo a…?",
+    "say": "KOH-meh ahr-REE-voh ah",
+    "en": "How do I get to…?",
+    "ex": "Come arrivo al Colosseo?",
+    "exEn": "How do I get to the Colosseum?"
+  },
+  {
+    "it": "È lontano?",
+    "say": "eh lohn-TAH-noh",
+    "en": "Is it far?",
+    "ex": "È lontano da qui?",
+    "exEn": "Is it far from here?"
+  },
+  {
+    "it": "A sinistra / a destra / dritto",
+    "say": "ah see-NEES-trah / ah DES-trah / DREET-toh",
+    "en": "Left / right / straight ahead",
+    "ex": "Vada dritto e poi giri a destra.",
+    "exEn": "Go straight and then turn right."
+  },
+  {
+    "it": "La fermata della metro",
+    "say": "lah fer-MAH-tah DEL-lah MEH-troh",
+    "en": "The subway stop",
+    "ex": "Dov'è la fermata della metro più vicina?",
+    "exEn": "Where's the nearest subway stop?"
+  },
+  {
+    "it": "Un biglietto, per favore",
+    "say": "oon bee-LYET-toh, per fah-VOH-reh",
+    "en": "One ticket, please",
+    "ex": "Un biglietto per Firenze, per favore.",
+    "exEn": "One ticket to Florence, please."
+  },
+  {
+    "it": "Andata e ritorno",
+    "say": "ahn-DAH-tah eh ree-TOR-noh",
+    "en": "Round trip (solo andata = one way)",
+    "ex": "Un biglietto di andata e ritorno.",
+    "exEn": "A round-trip ticket."
+  },
+  {
+    "it": "Convalidare il biglietto",
+    "say": "kohn-vah-lee-DAH-reh eel bee-LYET-toh",
+    "en": "To validate your ticket (stamp it before boarding regional trains and buses!)",
+    "ex": "Ricordati di convalidare il biglietto.",
+    "exEn": "Remember to validate your ticket."
+  },
+  {
+    "it": "A che ora parte…?",
+    "say": "ah keh OH-rah PAR-teh",
+    "en": "What time does … leave?",
+    "ex": "A che ora parte il treno per Roma?",
+    "exEn": "What time does the train to Rome leave?"
+  },
+  {
+    "it": "Da quale binario?",
+    "say": "dah KWAH-leh bee-NAH-ryoh",
+    "en": "From which platform?",
+    "ex": "Il treno per Venezia parte da quale binario?",
+    "exEn": "Which platform does the train to Venice leave from?"
+  },
+  {
+    "it": "Ho una prenotazione",
+    "say": "oh OO-nah preh-noh-tah-TSYOH-neh",
+    "en": "I have a reservation",
+    "ex": "Buonasera, ho una prenotazione a nome Cami.",
+    "exEn": "Good evening, I have a reservation under the name Cami."
+  },
+  {
+    "it": "La colazione è inclusa?",
+    "say": "lah koh-lah-TSYOH-neh eh een-KLOO-zah",
+    "en": "Is breakfast included?",
+    "ex": "La colazione è inclusa nel prezzo?",
+    "exEn": "Is breakfast included in the price?"
+  },
+  {
+    "it": "Qual è la password del wifi?",
+    "say": "kwah-LEH lah PAHS-word del WAI-fai",
+    "en": "What's the wifi password?",
+    "ex": "Scusi, qual è la password del wifi?",
+    "exEn": "Excuse me, what's the wifi password?"
+  },
+  {
+    "it": "Dov'è il bagno?",
+    "say": "doh-VEH eel BAH-nyoh",
+    "en": "Where's the restroom?",
+    "ex": "Scusi, dov'è il bagno?",
+    "exEn": "Excuse me, where's the restroom?"
+  },
+  {
+    "it": "La farmacia",
+    "say": "lah far-mah-CHEE-ah",
+    "en": "The pharmacy (look for the green cross)",
+    "ex": "C'è una farmacia qui vicino?",
+    "exEn": "Is there a pharmacy nearby?"
+  },
+  {
+    "it": "Ho mal di testa",
+    "say": "oh mahl dee TES-tah",
+    "en": "I have a headache",
+    "ex": "Ho mal di testa, ha qualcosa?",
+    "exEn": "I have a headache, do you have anything?"
+  },
+  {
+    "it": "Aiuto!",
+    "say": "ah-YOO-toh",
+    "en": "Help! (emergency)",
+    "ex": "Aiuto! Chiamate il 112!",
+    "exEn": "Help! Call 112!"
+  },
+  {
+    "it": "Chiami il 112!",
+    "say": "KYAH-mee eel CHEN-toh DOH-dee-chee",
+    "en": "Call 112! (the emergency number in Italy and all of Europe)",
+    "ex": "C'è stato un incidente, chiami il 112!",
+    "exEn": "There's been an accident, call 112!"
+  },
+  {
+    "it": "Mi sono perso / persa",
+    "say": "mee SOH-noh PER-soh / PER-sah",
+    "en": "I'm lost (man / woman)",
+    "ex": "Scusi, mi sono perso. Dov'è piazza Navona?",
+    "exEn": "Excuse me, I'm lost. Where is Piazza Navona?"
+  },
+  {
+    "it": "Può aiutarmi?",
+    "say": "pwoh ah-yoo-TAR-mee",
+    "en": "Can you help me? (formal)",
+    "ex": "Scusi, può aiutarmi?",
+    "exEn": "Excuse me, can you help me?"
+  },
+  {
+    "it": "Parlo poco italiano",
+    "say": "PAR-loh POH-koh ee-tah-LYAH-noh",
+    "en": "I speak a little Italian",
+    "ex": "Mi scusi, parlo poco italiano.",
+    "exEn": "Sorry, I speak a little Italian."
+  },
+  {
+    "it": "Più piano, per favore",
+    "say": "pyoo PYAH-noh, per fah-VOH-reh",
+    "en": "More slowly, please",
+    "ex": "Può parlare più piano, per favore?",
+    "exEn": "Can you speak more slowly, please?"
+  },
+  {
+    "it": "Sto solo guardando",
+    "say": "stoh SOH-loh gwar-DAHN-doh",
+    "en": "I'm just looking (in shops)",
+    "ex": "Grazie, sto solo guardando.",
+    "exEn": "Thanks, I'm just looking."
+  },
+  {
+    "it": "Posso provarlo?",
+    "say": "POHS-soh proh-VAR-loh",
+    "en": "Can I try it on?",
+    "ex": "Posso provare questa giacca?",
+    "exEn": "Can I try on this jacket?"
+  },
+  {
+    "it": "Quanto costa?",
+    "say": "KWAHN-toh KOHS-tah",
+    "en": "How much does it cost?",
+    "ex": "Quanto costa il taxi per l'aeroporto?",
+    "exEn": "How much is the taxi to the airport?"
+  },
+  {
+    "it": "Aperto / Chiuso",
+    "say": "ah-PER-toh / KYOO-zoh",
+    "en": "Open / Closed (on signs — many shops close for lunch)",
+    "ex": "Chiuso dalle 13 alle 16.",
+    "exEn": "Closed from 1 to 4 p.m."
+  }
+]

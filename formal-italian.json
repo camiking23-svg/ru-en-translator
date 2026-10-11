@@ -1,0 +1,240 @@
+[
+  {
+    "it": "Buongiorno",
+    "say": "bwohn-JOR-noh",
+    "en": "Good morning / good day (until mid-afternoon)",
+    "ex": "Buongiorno, signora Rossi.",
+    "exEn": "Good morning, Mrs. Rossi."
+  },
+  {
+    "it": "Buonasera",
+    "say": "bwoh-nah-SEH-rah",
+    "en": "Good evening (from mid-afternoon)",
+    "ex": "Buonasera, un tavolo per due, per favore.",
+    "exEn": "Good evening, a table for two, please."
+  },
+  {
+    "it": "Salve",
+    "say": "SAHL-veh",
+    "en": "Hello (polite but neutral — safe with anyone)",
+    "ex": "Salve, posso entrare?",
+    "exEn": "Hello, may I come in?"
+  },
+  {
+    "it": "Come sta?",
+    "say": "KOH-meh STAH",
+    "en": "How are you? (formal Lei)",
+    "ex": "Buongiorno dottore, come sta?",
+    "exEn": "Good morning, doctor, how are you?"
+  },
+  {
+    "it": "Bene, grazie. E Lei?",
+    "say": "BEH-neh, GRAHT-tsyeh. eh LAY",
+    "en": "Fine, thank you. And you? (formal)",
+    "ex": "— Come sta? — Bene, grazie. E Lei?",
+    "exEn": "— How are you? — Fine, thanks. And you?"
+  },
+  {
+    "it": "Piacere",
+    "say": "pyah-CHEH-reh",
+    "en": "Nice to meet you (literally 'pleasure')",
+    "ex": "Piacere, sono Cami.",
+    "exEn": "Nice to meet you, I'm Cami."
+  },
+  {
+    "it": "Molto lieto / Molto lieta",
+    "say": "MOHL-toh LYEH-toh / MOHL-toh LYEH-tah",
+    "en": "Delighted to meet you (man / woman)",
+    "ex": "Molto lieto di conoscerLa.",
+    "exEn": "Delighted to meet you."
+  },
+  {
+    "it": "Signore / Signora",
+    "say": "see-NYOH-reh / see-NYOH-rah",
+    "en": "Sir / Ma'am (to a man / to a woman)",
+    "ex": "Scusi, signora, sa dov'è la stazione?",
+    "exEn": "Excuse me, ma'am, do you know where the station is?"
+  },
+  {
+    "it": "Dottore / Dottoressa",
+    "say": "doht-TOH-reh / doht-toh-RES-sah",
+    "en": "Doctor — also a polite title for anyone with a degree (to a man / to a woman)",
+    "ex": "Grazie, dottoressa.",
+    "exEn": "Thank you, doctor."
+  },
+  {
+    "it": "Per favore / Per piacere",
+    "say": "per fah-VOH-reh / per pyah-CHEH-reh",
+    "en": "Please",
+    "ex": "Un caffè, per favore.",
+    "exEn": "An espresso, please."
+  },
+  {
+    "it": "Grazie mille",
+    "say": "GRAHT-tsyeh MEEL-leh",
+    "en": "Thanks a lot ('a thousand thanks')",
+    "ex": "Grazie mille per l'aiuto.",
+    "exEn": "Thanks a lot for the help."
+  },
+  {
+    "it": "Prego",
+    "say": "PREH-goh",
+    "en": "You're welcome / please, go ahead / can I help you?",
+    "ex": "— Grazie! — Prego.",
+    "exEn": "— Thank you! — You're welcome."
+  },
+  {
+    "it": "Scusi",
+    "say": "SKOO-zee",
+    "en": "Excuse me (formal; scusa with friends)",
+    "ex": "Scusi, dov'è il bagno?",
+    "exEn": "Excuse me, where is the restroom?"
+  },
+  {
+    "it": "Permesso",
+    "say": "per-MES-soh",
+    "en": "Excuse me (to get past, or when entering someone's home)",
+    "ex": "Permesso, posso passare?",
+    "exEn": "Excuse me, may I get through?"
+  },
+  {
+    "it": "Mi dispiace",
+    "say": "mee dees-PYAH-cheh",
+    "en": "I'm sorry",
+    "ex": "Mi dispiace, non lo sapevo.",
+    "exEn": "I'm sorry, I didn't know."
+  },
+  {
+    "it": "Potrebbe aiutarmi?",
+    "say": "poh-TREB-beh ah-yoo-TAR-mee",
+    "en": "Could you help me? (formal)",
+    "ex": "Scusi, potrebbe aiutarmi?",
+    "exEn": "Excuse me, could you help me?"
+  },
+  {
+    "it": "Vorrei…",
+    "say": "vor-RAY",
+    "en": "I would like… (the polite way to ask or order)",
+    "ex": "Vorrei prenotare un tavolo.",
+    "exEn": "I'd like to book a table."
+  },
+  {
+    "it": "Mi dica",
+    "say": "mee DEE-kah",
+    "en": "How can I help you? / Go ahead (what staff say)",
+    "ex": "Buongiorno, mi dica.",
+    "exEn": "Good morning, how can I help?"
+  },
+  {
+    "it": "Parla inglese?",
+    "say": "PAR-lah een-GLEH-zeh",
+    "en": "Do you speak English? (formal)",
+    "ex": "Scusi, parla inglese?",
+    "exEn": "Excuse me, do you speak English?"
+  },
+  {
+    "it": "Non ho capito",
+    "say": "nohn oh kah-PEE-toh",
+    "en": "I didn't understand",
+    "ex": "Scusi, non ho capito.",
+    "exEn": "Sorry, I didn't understand."
+  },
+  {
+    "it": "Può ripetere?",
+    "say": "pwoh ree-PEH-teh-reh",
+    "en": "Could you repeat that? (formal)",
+    "ex": "Scusi, può ripetere più lentamente?",
+    "exEn": "Sorry, could you repeat that more slowly?"
+  },
+  {
+    "it": "Si accomodi",
+    "say": "see ahk-KOH-moh-dee",
+    "en": "Please, have a seat / come in (formal)",
+    "ex": "Prego, si accomodi.",
+    "exEn": "Please, have a seat."
+  },
+  {
+    "it": "Benvenuto / Benvenuta",
+    "say": "ben-veh-NOO-toh / ben-veh-NOO-tah",
+    "en": "Welcome (to a man / to a woman)",
+    "ex": "Benvenuta in Italia!",
+    "exEn": "Welcome to Italy!"
+  },
+  {
+    "it": "Con piacere",
+    "say": "kohn pyah-CHEH-reh",
+    "en": "With pleasure",
+    "ex": "— Vuole un caffè? — Con piacere.",
+    "exEn": "— Would you like a coffee? — With pleasure."
+  },
+  {
+    "it": "Volentieri",
+    "say": "voh-len-TYEH-ree",
+    "en": "Gladly, I'd love to",
+    "ex": "— Ancora un po' di vino? — Volentieri!",
+    "exEn": "— A bit more wine? — I'd love some!"
+  },
+  {
+    "it": "Buona giornata!",
+    "say": "BWOH-nah jor-NAH-tah",
+    "en": "Have a good day!",
+    "ex": "Grazie, buona giornata!",
+    "exEn": "Thanks, have a good day!"
+  },
+  {
+    "it": "Buona serata!",
+    "say": "BWOH-nah seh-RAH-tah",
+    "en": "Have a good evening!",
+    "ex": "Grazie di tutto, buona serata!",
+    "exEn": "Thanks for everything, have a good evening!"
+  },
+  {
+    "it": "Arrivederci",
+    "say": "ahr-ree-veh-DER-chee",
+    "en": "Goodbye (polite, safe with anyone)",
+    "ex": "Grazie, arrivederci!",
+    "exEn": "Thank you, goodbye!"
+  },
+  {
+    "it": "ArrivederLa",
+    "say": "ahr-ree-veh-DER-lah",
+    "en": "Goodbye (very formal, to one person)",
+    "ex": "Grazie, dottore, arrivederLa.",
+    "exEn": "Thank you, doctor, goodbye."
+  },
+  {
+    "it": "Possiamo darci del tu?",
+    "say": "pohs-SYAH-moh DAR-chee del TOO",
+    "en": "Shall we use 'tu' with each other? (moving from formal to casual)",
+    "ex": "Ci conosciamo da tanto, possiamo darci del tu?",
+    "exEn": "We've known each other a while, can we drop the formal 'Lei'?"
+  },
+  {
+    "it": "Congratulazioni",
+    "say": "kohn-grah-too-lah-TSYOH-nee",
+    "en": "Congratulations",
+    "ex": "Congratulazioni per il matrimonio!",
+    "exEn": "Congratulations on your wedding!"
+  },
+  {
+    "it": "Salute! / Cin cin!",
+    "say": "sah-LOO-teh / cheen CHEEN",
+    "en": "Cheers! (Salute also = bless you)",
+    "ex": "Alla nostra! Cin cin!",
+    "exEn": "To us! Cheers!"
+  },
+  {
+    "it": "Buon appetito",
+    "say": "bwohn ahp-peh-TEE-toh",
+    "en": "Enjoy your meal",
+    "ex": "Ecco i piatti. Buon appetito!",
+    "exEn": "Here are the dishes. Enjoy your meal!"
+  },
+  {
+    "it": "Cordiali saluti",
+    "say": "kor-DYAH-lee sah-LOO-tee",
+    "en": "Kind regards (email sign-off)",
+    "ex": "Grazie in anticipo. Cordiali saluti, Cami",
+    "exEn": "Thanks in advance. Kind regards, Cami"
+  }
+]
