@@ -96,6 +96,15 @@ const page = `<!doctype html>
   </div>
   <div id="ph-list"></div>
 </details>
+<details class="phrases" id="share">
+  <summary>🔗 Share or back up my setup</summary>
+  <p class="ph-help">Makes a link with this phone's phrases, favorites and settings. Open it on another phone to copy
+    everything there, or save it in Notes as a backup in case Safari's data gets cleared.</p>
+  <button onclick="makeShareLink()">🔗 Create my setup link</button>
+  <p class="ph-help" id="share-status"></p>
+  <textarea id="share-link" readonly rows="3" onclick="this.select()"
+    style="display:none; width:100%; font-size:13px; padding:6px; border:1px solid #ccc; border-radius:8px;"></textarea>
+</details>
 <details class="phrases" id="ruslang">
   <summary>🇷🇺 Russian slang to learn <span id="rs-count"></span></summary>
   <p class="ph-help">Everyday slang young Russians use. Tap 🔊 to hear the word and the example.</p>
@@ -558,19 +567,102 @@ const page = `<!doctype html>
     document.getElementById("v-en").textContent = "EN: " + label("en");
   }
   speechSynthesis.onvoiceschanged = showVoices;   // voices load a moment after the page
-  setGender(gender);              // start up once everything above is defined
-  setYou(you);
-  setListener(listener);
-  loadPhrases();
-  loadRuSlang();
-  loadFormalRussian();
-  loadFoodRussian();
-  loadTextingRussian();
-  loadTravelRussian();
-  loadProverbsRussian();
-  loadNumbersRussian();
-  renderFavorites();
-  setTimeout(showVoices, 300);
+  // ---- 🔗 Share / back up this phone's setup as a link (no backslashes: this lives inside the page template) ----
+  // The link itself carries everything (phrases, favorites, toggles), so nothing is stored on the server.
+  function b64urlFromBytes(bytes) {
+    let s = "";
+    for (let i = 0; i < bytes.length; i += 8192) s += String.fromCharCode.apply(null, bytes.subarray(i, i + 8192));
+    return btoa(s).split("+").join("-").split("/").join("_").split("=").join("");
+  }
+  function bytesFromB64url(t) {
+    let s = t.split("-").join("+").split("_").join("/");
+    while (s.length % 4) s += "=";
+    const bin = atob(s), out = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+  async function packSetup(obj) {
+    const raw = new TextEncoder().encode(JSON.stringify(obj));
+    if (window.CompressionStream) {
+      const zipped = new Uint8Array(await new Response(new Blob([raw]).stream().pipeThrough(new CompressionStream("deflate-raw"))).arrayBuffer());
+      return "z" + b64urlFromBytes(zipped);
+    }
+    return "p" + b64urlFromBytes(raw);
+  }
+  async function unpackSetup(code) {
+    const bytes = bytesFromB64url(code.slice(1));
+    let raw = bytes;
+    if (code[0] === "z") {
+      if (!window.DecompressionStream) throw new Error("This browser can't open compressed links");
+      raw = new Uint8Array(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).arrayBuffer());
+    }
+    return JSON.parse(new TextDecoder().decode(raw));
+  }
+  async function makeShareLink() {
+    const status = document.getElementById("share-status");
+    const box = document.getElementById("share-link");
+    let seen = null;
+    try { seen = JSON.parse(localStorage.getItem("starterSeen") || "null"); } catch (e) {}
+    const setup = { app: "ru-en", v: 1, phrases: myPhrases, favs: favs, starterSeen: seen,
+                    gender: gender, you: you, listener: listener };
+    const link = location.origin + "/#setup=" + (await packSetup(setup));
+    box.value = link; box.style.display = "block";
+    const what = myPhrases.length + " phrases, " + favs.length + " favorites";
+    if (navigator.share) {
+      try { await navigator.share({ title: "My RU ⇄ EN setup", text: "Open this to copy my translator setup (" + what + ")", url: link });
+            status.textContent = "Shared ✓ (" + what + ")"; return; } catch (e) { /* cancelled → fall through to copy */ }
+    }
+    try { await navigator.clipboard.writeText(link); status.textContent = "Link copied ✓ (" + what + ") — paste it into a message or Notes."; }
+    catch (e) { box.select(); status.textContent = "Copy the link below (" + what + ")."; }
+  }
+  // Opening a #setup= link: ask, then load it onto this phone
+  async function importFromLink() {
+    const h = location.hash || "";
+    if (h.indexOf("#setup=") !== 0) return;
+    history.replaceState(null, "", location.pathname);       // tidy the address bar either way
+    let data;
+    try { data = await unpackSetup(h.slice(7)); } catch (e) { alert("Sorry, that setup link couldn't be opened."); return; }
+    if (!data || data.app !== "ru-en" || !Array.isArray(data.phrases)) { alert("That isn't a translator setup link."); return; }
+    const n = data.phrases.length, f = Array.isArray(data.favs) ? data.favs.length : 0;
+    if (!confirm("Load the shared setup on this phone?" + String.fromCharCode(10) + String.fromCharCode(10) +
+                 n + " phrases and " + f + " favorites will REPLACE what's on this phone now.")) return;
+    try {
+      localStorage.setItem("myPhrases", JSON.stringify(data.phrases));
+      localStorage.setItem("favs", JSON.stringify(Array.isArray(data.favs) ? data.favs : []));
+      if (Array.isArray(data.starterSeen)) localStorage.setItem("starterSeen", JSON.stringify(data.starterSeen));
+      else localStorage.removeItem("starterSeen");
+      ["gender", "you", "listener"].forEach(k => { if (data[k] === "m" || data[k] === "f" || data[k] === "t" || data[k] === "v") localStorage.setItem(k, data[k]); });
+    } catch (e) { alert("Couldn't save on this phone (private browsing?)."); return; }
+    favs = Array.isArray(data.favs) ? data.favs : [];
+    if (data.gender === "m" || data.gender === "f") gender = data.gender;
+    if (data.you === "t" || data.you === "v") you = data.you;
+    if (data.listener === "m" || data.listener === "f") listener = data.listener;
+    importedNote = "Loaded the shared setup ✓ (" + n + " phrases, " + f + " favorites)";
+  }
+  let importedNote = "";
+
+  function startApp() {           // start up once everything above is defined
+    setGender(gender);
+    setYou(you);
+    setListener(listener);
+    loadPhrases();
+    loadRuSlang();
+    loadFormalRussian();
+    loadFoodRussian();
+    loadTextingRussian();
+    loadTravelRussian();
+    loadProverbsRussian();
+    loadNumbersRussian();
+    renderFavorites();
+    setTimeout(showVoices, 300);
+    if (importedNote) {
+      document.getElementById("share-status").textContent = importedNote;
+      document.getElementById("share").open = true;
+    }
+  }
+  importFromLink().catch(() => {}).then(startApp);
+  // a setup link opened while the app is already showing: reload so it gets loaded
+  window.addEventListener("hashchange", () => { if ((location.hash || "").indexOf("#setup=") === 0) location.reload(); });
 
 </script>
 </body></html>`;
