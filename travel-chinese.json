@@ -1,0 +1,184 @@
+[
+  {
+    "zh": "…在哪里？",
+    "say": "… zài nǎlǐ",
+    "en": "Where is…?",
+    "ex": "请问，火车站在哪里？",
+    "exEn": "Excuse me, where is the train station?"
+  },
+  {
+    "zh": "怎么去…？",
+    "say": "zěnme qù…",
+    "en": "How do I get to…?",
+    "ex": "请问，怎么去天安门？",
+    "exEn": "Excuse me, how do I get to Tiananmen?"
+  },
+  {
+    "zh": "远吗？",
+    "say": "yuǎn ma",
+    "en": "Is it far?",
+    "ex": "离这儿远吗？",
+    "exEn": "Is it far from here?"
+  },
+  {
+    "zh": "左转 / 右转 / 一直走",
+    "say": "zuǒ zhuǎn / yòu zhuǎn / yìzhí zǒu",
+    "en": "Turn left / turn right / go straight",
+    "ex": "到路口左转，然后一直走。",
+    "exEn": "Turn left at the intersection, then go straight."
+  },
+  {
+    "zh": "地铁站",
+    "say": "dìtiě zhàn",
+    "en": "Subway station",
+    "ex": "最近的地铁站在哪里？",
+    "exEn": "Where's the nearest subway station?"
+  },
+  {
+    "zh": "一张票",
+    "say": "yì zhāng piào",
+    "en": "One ticket",
+    "ex": "一张去上海的票。",
+    "exEn": "One ticket to Shanghai."
+  },
+  {
+    "zh": "高铁",
+    "say": "gāotiě",
+    "en": "High-speed train",
+    "ex": "我们坐高铁去北京。",
+    "exEn": "We're taking the high-speed train to Beijing."
+  },
+  {
+    "zh": "几点出发？",
+    "say": "jǐ diǎn chūfā",
+    "en": "What time does it leave?",
+    "ex": "下一班车几点出发？",
+    "exEn": "What time does the next one leave?"
+  },
+  {
+    "zh": "在几号站台？",
+    "say": "zài jǐ hào zhàntái",
+    "en": "Which platform?",
+    "ex": "去西安的火车在几号站台？",
+    "exEn": "Which platform is the train to Xi'an?"
+  },
+  {
+    "zh": "我预订了房间",
+    "say": "wǒ yùdìng le fángjiān",
+    "en": "I booked a room",
+    "ex": "你好，我预订了房间，我叫Cami。",
+    "exEn": "Hi, I booked a room, my name is Cami."
+  },
+  {
+    "zh": "含早餐吗？",
+    "say": "hán zǎocān ma",
+    "en": "Is breakfast included?",
+    "ex": "房价含早餐吗？",
+    "exEn": "Is breakfast included in the price?"
+  },
+  {
+    "zh": "WiFi密码是多少？",
+    "say": "WiFi mìmǎ shì duōshao",
+    "en": "What's the wifi password?",
+    "ex": "请问，WiFi密码是多少？",
+    "exEn": "Excuse me, what's the wifi password?"
+  },
+  {
+    "zh": "洗手间在哪里？",
+    "say": "xǐshǒujiān zài nǎlǐ",
+    "en": "Where's the restroom?",
+    "ex": "不好意思，洗手间在哪里？",
+    "exEn": "Excuse me, where's the restroom?"
+  },
+  {
+    "zh": "药店",
+    "say": "yàodiàn",
+    "en": "Pharmacy",
+    "ex": "附近有药店吗？",
+    "exEn": "Is there a pharmacy nearby?"
+  },
+  {
+    "zh": "我头疼",
+    "say": "wǒ tóu téng",
+    "en": "I have a headache",
+    "ex": "我头疼，有药吗？",
+    "exEn": "I have a headache, do you have any medicine?"
+  },
+  {
+    "zh": "救命！",
+    "say": "jiùmìng",
+    "en": "Help! (emergency)",
+    "ex": "救命！快打120！",
+    "exEn": "Help! Call 120!"
+  },
+  {
+    "zh": "110 / 120 / 119",
+    "say": "yāo yāo líng / yāo èr líng / yāo yāo jiǔ",
+    "en": "Police / ambulance / fire (China's emergency numbers; 1 is said 'yāo')",
+    "ex": "有人受伤了，快打120！",
+    "exEn": "Someone's hurt, call an ambulance!"
+  },
+  {
+    "zh": "我迷路了",
+    "say": "wǒ mílù le",
+    "en": "I'm lost",
+    "ex": "不好意思，我迷路了。",
+    "exEn": "Sorry, I'm lost."
+  },
+  {
+    "zh": "能帮我一下吗？",
+    "say": "néng bāng wǒ yíxià ma",
+    "en": "Could you help me?",
+    "ex": "请问，能帮我一下吗？",
+    "exEn": "Excuse me, could you help me?"
+  },
+  {
+    "zh": "我中文不好",
+    "say": "wǒ Zhōngwén bù hǎo",
+    "en": "My Chinese isn't good",
+    "ex": "对不起，我中文不好。",
+    "exEn": "Sorry, my Chinese isn't good."
+  },
+  {
+    "zh": "请说慢一点",
+    "say": "qǐng shuō màn yìdiǎn",
+    "en": "Please speak a little slower",
+    "ex": "不好意思，请说慢一点。",
+    "exEn": "Sorry, please speak a little slower."
+  },
+  {
+    "zh": "我只是看看",
+    "say": "wǒ zhǐshì kànkan",
+    "en": "I'm just looking (in shops)",
+    "ex": "谢谢，我只是看看。",
+    "exEn": "Thanks, I'm just looking."
+  },
+  {
+    "zh": "可以试一下吗？",
+    "say": "kěyǐ shì yíxià ma",
+    "en": "Can I try it (on)?",
+    "ex": "这件衣服可以试一下吗？",
+    "exEn": "Can I try this on?"
+  },
+  {
+    "zh": "请帮我叫一辆出租车",
+    "say": "qǐng bāng wǒ jiào yí liàng chūzūchē",
+    "en": "Please call me a taxi",
+    "ex": "请帮我叫一辆出租车去机场。",
+    "exEn": "Please call me a taxi to the airport."
+  },
+  {
+    "zh": "附近有取款机吗？",
+    "say": "fùjìn yǒu qǔkuǎnjī ma",
+    "en": "Is there an ATM nearby?",
+    "ex": "请问，附近有取款机吗？",
+    "exEn": "Excuse me, is there an ATM nearby?"
+  },
+  {
+    "zh": "营业中 / 休息",
+    "say": "yíngyè zhōng / xiūxi",
+    "en": "Open / Closed (on shop signs)",
+    "ex": "这家店今天休息。",
+    "exEn": "This shop is closed today."
+  }
+]

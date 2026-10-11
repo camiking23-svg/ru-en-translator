@@ -501,7 +501,7 @@ ${L.sectionsHtml}
   // ---- Microsoft online voices: fixed per gender, so always the same voice ----
   let online = false;
   let player = null;
-  const ONLINE = { m: { ru: "Dmitry", fr: "Henri", en: "Guy" }, f: { ru: "Svetlana", fr: "Denise", en: "Jenny" } };
+  const ONLINE = { m: { ru: "Dmitry", fr: "Henri", zh: "Yunxi", en: "Guy" }, f: { ru: "Svetlana", fr: "Denise", zh: "Xiaoxiao", en: "Jenny" } };
   fetch("/tts-status").then(r => r.json()).then(s => { online = !!s.ok; showVoices(); }).catch(() => {});
 
   // ---- Voice matches the speaker's gender, and stays locked ----
@@ -511,11 +511,12 @@ ${L.sectionsHtml}
     "serena", "fiona", "veena", "zira", "aria", "jenny", "hazel", "libby", "sonia", "michelle", "emma",
     "amélie", "amelie", "audrey", "aurélie", "aurelie", "marie", "denise", "julie", "hortense", "eloise",
     "vivienne", "céline", "celine", "google français",
+    "tingting", "ting-ting", "meijia", "mei-jia", "sinji", "sin-ji", "lili", "yaoyao", "huihui", "xiaoxiao", "xiaoyi", "yushu", "yu-shu", "google 普通话",
     "female", "google us english"];
   var MALE = ["yuri", "pavel", "dmitry", "maxim", "daniel", "alex", "fred", "aaron", "arthur", "gordon",
     "oliver", "tom", "rishi", "reed", "eddy", "ralph", "david", "mark", "guy", "george", "ryan",
     "christopher", "eric", "roger", "steffan", "brian", "thomas", "jacques", "henri", "paul", "remy", "rémy",
-    "nicolas", "male"];
+    "nicolas", "kangkang", "yunxi", "yunjian", "yunyang", "li-mu", "limu", "male"];
 
   function voiceGender(v) {
     const n = v.name.toLowerCase();
@@ -540,7 +541,9 @@ ${L.sectionsHtml}
     const n = v.name.toLowerCase();
     if (NOVELTY.some(w => n.includes(w))) return 3;
     // French: prefer France French over Canadian (fr-CA) voices
-    const off = LANG === "fr" && v.lang.replace("_", "-").toLowerCase().startsWith("fr") && !v.lang.replace("_", "-").toLowerCase().startsWith("fr-fr") ? 0.5 : 0;
+    const vl = v.lang.replace("_", "-").toLowerCase();
+    const off = (LANG === "fr" && vl.startsWith("fr") && !vl.startsWith("fr-fr")) ||
+                (LANG === "zh" && vl.startsWith("zh") && !vl.startsWith("zh-cn")) ? 0.5 : 0;   // and Mainland over Taiwan/HK voices
     if (n.includes("premium") || n.includes("enhanced")) return 0 + off;
     return 1 + off;
   }
@@ -781,6 +784,7 @@ ${L.sectionsHtml}
 // ---- Languages: each one gets its own page (Russian at /, French at /fr) built from the same template ----
 // To add a language: a lang-xx.js file (its grammar fixes + learning decks), then an entry here.
 const FR = require("./lang-fr.js");
+const ZH = require("./lang-zh.js");
 const LANG_LIST = [
   { code: "ru", name: "Russian", flag: "🇷🇺", short: "RU ⇄ EN", path: "/", app: "ru-en", keyPrefix: "",
     youT: "ты", youV: "вы", phEx: "Без шуток", phrasesUrl: "/phrases", listening: "Слушаю",
@@ -803,8 +807,11 @@ const LANG_LIST = [
   { code: "fr", name: "French", flag: "🇫🇷", short: "FR ⇄ EN", path: "/fr", app: "fr-en", keyPrefix: "fr_",
     youT: "tu", youV: "vous", phEx: "Pas de souci", phrasesUrl: "/fr/phrases", listening: "J'écoute",
     decks: FR.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
+  { code: "zh", name: "Mandarin", flag: "🇨🇳", short: "ZH ⇄ EN", path: "/zh", app: "zh-en", keyPrefix: "zh_",
+    youT: "你", youV: "您", phEx: "没事", phrasesUrl: "/zh/phrases", listening: "我在听",
+    decks: ZH.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
 ];
-const LOCALES = { ru: "ru-RU", fr: "fr-FR", en: "en-US" };
+const LOCALES = { ru: "ru-RU", fr: "fr-FR", zh: "zh-CN", en: "en-US" };
 
 function langNav(cur) {
   return '  <nav class="langs">' + LANG_LIST.map(l =>
@@ -1046,7 +1053,7 @@ function protectTitles(text) {
 }
 
 function restoreTitles(out, titles, to) {
-  const [open, close] = to === "ru" ? ["«", "»"] : to === "fr" ? ["« ", " »"] : ["“", "”"];
+  const [open, close] = to === "ru" ? ["«", "»"] : to === "fr" ? ["« ", " »"] : to === "zh" ? ["《", "》"] : ["“", "”"];
   return out
     .replace(/ZQX(\d+)/g, (_, i) => open + titles[+i] + close)
     // Google sometimes lowercases the start of a sentence next to a placeholder ("? мне")
@@ -1082,8 +1089,8 @@ async function google(text, from, to) {
 // ---- Microsoft voices (msedge-tts add-on) ----
 // Install once in this folder:  npm install msedge-tts
 const TTS_VOICES = {
-  m: { ru: "ru-RU-DmitryNeural",   fr: "fr-FR-HenriNeural",  en: "en-US-GuyNeural" },
-  f: { ru: "ru-RU-SvetlanaNeural", fr: "fr-FR-DeniseNeural", en: "en-US-JennyNeural" },
+  m: { ru: "ru-RU-DmitryNeural",   fr: "fr-FR-HenriNeural",  zh: "zh-CN-YunxiNeural",    en: "en-US-GuyNeural" },
+  f: { ru: "ru-RU-SvetlanaNeural", fr: "fr-FR-DeniseNeural", zh: "zh-CN-XiaoxiaoNeural", en: "en-US-JennyNeural" },
 };
 let edge = null;
 import("msedge-tts")
@@ -1128,7 +1135,7 @@ async function handleTTS(req, u, res) {
   const g = u.searchParams.get("g") === "f" ? "f" : "m";
   let parts;
   try { parts = JSON.parse(u.searchParams.get("d") || "[]"); } catch (e) { parts = []; }
-  parts = parts.filter(p => Array.isArray(p) && (p[0] === "ru" || p[0] === "fr" || p[0] === "en") && typeof p[1] === "string" && p[1].trim())
+  parts = parts.filter(p => Array.isArray(p) && (p[0] === "ru" || p[0] === "fr" || p[0] === "zh" || p[0] === "en") && typeof p[1] === "string" && p[1].trim())
                .slice(0, 20);
   if (!edge || !parts.length) { res.writeHead(503); return res.end(); }
   const key = g + JSON.stringify(parts);
@@ -1188,6 +1195,8 @@ function phraseRegex(p) {
   // match the words, ignoring end punctuation and case; never inside a bigger word
   const core = norm(p).trim().replace(/[.!?…,]+$/, "");
   const body = core.split(/\s+/).map(reEscape).join("\\s+");
+  // Chinese: no spaces between words, so no word-edge check (and its own end punctuation is optional)
+  if (/[\u3400-\u9fff]/.test(core)) return new RegExp(core.replace(/[。！？，～]+$/, "").split(/\s+/).map(reEscape).join("\\s*"), "giu");
   return new RegExp("(?<![\\p{L}\\p{N}'])" + body + "(?![\\p{L}\\p{N}'])", "giu");
 }
 
@@ -1548,6 +1557,45 @@ async function translateFr(body, arg) {
   return { out, from, to, say: say.filter(p => /[A-Za-zÀ-ÿ0-9]/.test(p[1])) };
 }
 
+// ---- Mandarin: decks, starter phrases and the translate pipeline ----
+const ZH_SECTIONS = {};
+for (const d of ZH.DECKS) ZH_SECTIONS[d.url] = loadList(d.file, d.data);
+const phrasesZh = loadList("phrases-zh.json", ZH.STARTER_PHRASES_ZH);
+
+// Chinese characters make it easy: any in the message → Chinese to English
+function zhDirection(text, hint, userPhrases) {
+  if (hint === "en" || hint === "zh") return hint;
+  const bare = s => norm(s).trim().replace(/[.!?…,。！？，]+$/, "").trim().toLowerCase();
+  const whole = bare(text);
+  if (userPhrases.some(p => bare(p.en) === whole)) return "en";
+  return ZH.grammar.hasChinese(text) ? "zh" : "en";
+}
+
+async function translateZh(body, arg) {
+  const text = arg("q").slice(0, 5000);
+  const userPhrases = cleanPhrases(body.phrases, "zh") || phrasesZh;
+  if (!text.trim()) return { out: "", from: "en", to: "zh", say: [] };
+  const from = zhDirection(text, arg("from"), userPhrases);
+  const to = from === "zh" ? "en" : "zh";
+  const g = code => (code === "zh" ? "zh-CN" : code);             // Google's code for simplified Chinese
+  const { text: safe0, titles } = protectTitles(text);
+  const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
+  let out;
+  if (/^\s*ZQP0\s*[.!?…。！？]*\s*$/.test(safe) && hits.length === 1) out = safe;   // the whole message is one of your phrases
+  else out = await google(safe, g(from), g(to));
+  const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
+  if (!ok) out = await google(text, g(from), g(to));               // placeholder got mangled → plain translation
+  else out = restoreTitles(out, titles, to);
+  if (to === "zh") out = ZH.grammar.setFormality(out, arg("y") === "v" ? "v" : "t");
+  if (ok) out = restorePhrases(out, hits, to, CAP_FR);             // last, so nothing rewrites your wording
+  if (ok && hits.length === 1 && /^\s*ZQP0\s*$/.test(safe)) out = hits[0][to];
+  // English output: Chinese full-width punctuation (！？，。) back to normal punctuation
+  if (to === "en") out = out.replace(/！/g, "!").replace(/？/g, "?").replace(/，\s*/g, ", ").replace(/。/g, ".").replace(/：/g, ": ");
+  // Chinese characters in the Mandarin voice, any English (names, titles) in the English voice
+  const say = to === "zh" ? ZH.grammar.voiceParts(out) : [["en", out]];
+  return { out, from, to, say };
+}
+
 function readBody(req) {
   return new Promise((resolve, reject) => {
     let b = "";
@@ -1560,6 +1608,14 @@ function readBody(req) {
 
 http.createServer(async (req, res) => {
   const u = new URL(req.url, "http://localhost");
+  if (ZH_SECTIONS[u.pathname]) {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(ZH_SECTIONS[u.pathname]));
+  }
+  if (u.pathname === "/zh/phrases") {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(phrasesZh));
+  }
   if (FR_SECTIONS[u.pathname]) {
     res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
     return res.end(JSON.stringify(FR_SECTIONS[u.pathname]));
@@ -1597,9 +1653,9 @@ http.createServer(async (req, res) => {
       try { body = JSON.parse(await readBody(req)) || {}; } catch (e) { res.writeHead(400); return res.end(); }
     }
     const arg = k => (typeof body[k] === "string" ? body[k] : u.searchParams.get(k)) || "";
-    if (arg("lang") === "fr") {
+    if (arg("lang") === "fr" || arg("lang") === "zh") {
       try {
-        const r = await translateFr(body, arg);
+        const r = arg("lang") === "zh" ? await translateZh(body, arg) : await translateFr(body, arg);
         res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
         res.end(JSON.stringify(r));
       } catch (e) {

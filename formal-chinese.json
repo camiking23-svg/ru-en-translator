@@ -1,0 +1,233 @@
+[
+  {
+    "zh": "您好",
+    "say": "nín hǎo",
+    "en": "Hello (polite — use with elders, staff, strangers)",
+    "ex": "您好，请问这里有空位吗？",
+    "exEn": "Hello, is there a free seat here?"
+  },
+  {
+    "zh": "请问",
+    "say": "qǐngwèn",
+    "en": "Excuse me, may I ask… (the polite way to start a question)",
+    "ex": "请问，地铁站在哪里？",
+    "exEn": "Excuse me, where is the subway station?"
+  },
+  {
+    "zh": "请",
+    "say": "qǐng",
+    "en": "Please (before a request or invitation)",
+    "ex": "请坐。",
+    "exEn": "Please, have a seat."
+  },
+  {
+    "zh": "谢谢您",
+    "say": "xièxie nín",
+    "en": "Thank you (polite)",
+    "ex": "谢谢您的帮助。",
+    "exEn": "Thank you for your help."
+  },
+  {
+    "zh": "不客气",
+    "say": "bú kèqi",
+    "en": "You're welcome",
+    "ex": "——谢谢！——不客气。",
+    "exEn": "— Thank you! — You're welcome."
+  },
+  {
+    "zh": "不好意思",
+    "say": "bù hǎoyìsi",
+    "en": "Sorry / excuse me (light apology, very common)",
+    "ex": "不好意思，我来晚了。",
+    "exEn": "Sorry, I'm late."
+  },
+  {
+    "zh": "对不起",
+    "say": "duìbuqǐ",
+    "en": "I'm sorry (a real apology)",
+    "ex": "对不起，是我的错。",
+    "exEn": "I'm sorry, it was my fault."
+  },
+  {
+    "zh": "没关系",
+    "say": "méi guānxi",
+    "en": "It's OK, never mind",
+    "ex": "——对不起！——没关系。",
+    "exEn": "— I'm sorry! — That's OK."
+  },
+  {
+    "zh": "打扰一下",
+    "say": "dǎrǎo yíxià",
+    "en": "Excuse me, sorry to bother you",
+    "ex": "打扰一下，能帮我拍张照吗？",
+    "exEn": "Excuse me, could you take a photo for me?"
+  },
+  {
+    "zh": "麻烦您",
+    "say": "máfan nín",
+    "en": "Sorry to trouble you / Could you please…",
+    "ex": "麻烦您再说一遍。",
+    "exEn": "Could you please say that again?"
+  },
+  {
+    "zh": "您贵姓？",
+    "say": "nín guìxìng",
+    "en": "May I ask your surname? (very polite)",
+    "ex": "先生，您贵姓？",
+    "exEn": "Sir, may I ask your surname?"
+  },
+  {
+    "zh": "我姓…",
+    "say": "wǒ xìng…",
+    "en": "My surname is…",
+    "ex": "我姓王，叫王丽。",
+    "exEn": "My surname is Wang, I'm Wang Li."
+  },
+  {
+    "zh": "认识您很高兴",
+    "say": "rènshi nín hěn gāoxìng",
+    "en": "Nice to meet you (polite)",
+    "ex": "王老师，认识您很高兴。",
+    "exEn": "Teacher Wang, very nice to meet you."
+  },
+  {
+    "zh": "幸会",
+    "say": "xìnghuì",
+    "en": "Pleased to meet you (formal)",
+    "ex": "幸会，幸会！",
+    "exEn": "A pleasure to meet you!"
+  },
+  {
+    "zh": "请多关照",
+    "say": "qǐng duō guānzhào",
+    "en": "I look forward to working with you (said when introducing yourself)",
+    "ex": "我是新来的，请多关照。",
+    "exEn": "I'm new here — I look forward to working with you."
+  },
+  {
+    "zh": "先生 / 女士",
+    "say": "xiānsheng / nǚshì",
+    "en": "Mr. / Ms. — goes after the surname: 李先生, 张女士",
+    "ex": "李先生，这边请。",
+    "exEn": "Mr. Li, this way please."
+  },
+  {
+    "zh": "老师",
+    "say": "lǎoshī",
+    "en": "Teacher — also a respectful title for skilled professionals",
+    "ex": "王老师好！",
+    "exEn": "Hello, Teacher Wang!"
+  },
+  {
+    "zh": "请稍等",
+    "say": "qǐng shāo děng",
+    "en": "Please wait a moment",
+    "ex": "请稍等，我马上回来。",
+    "exEn": "Please wait a moment, I'll be right back."
+  },
+  {
+    "zh": "请进",
+    "say": "qǐng jìn",
+    "en": "Please come in",
+    "ex": "请进，请坐。",
+    "exEn": "Please come in and sit down."
+  },
+  {
+    "zh": "请慢用",
+    "say": "qǐng màn yòng",
+    "en": "Enjoy your meal (what staff say when serving)",
+    "ex": "您的菜齐了，请慢用。",
+    "exEn": "That's all your dishes — enjoy your meal."
+  },
+  {
+    "zh": "欢迎光临",
+    "say": "huānyíng guānglín",
+    "en": "Welcome! (shops and restaurants greet you with this)",
+    "ex": "欢迎光临！几位？",
+    "exEn": "Welcome! How many people?"
+  },
+  {
+    "zh": "辛苦了",
+    "say": "xīnkǔ le",
+    "en": "Thanks for your hard work (said to staff, colleagues, drivers)",
+    "ex": "师傅，辛苦了！",
+    "exEn": "Thanks, driver, you've worked hard!"
+  },
+  {
+    "zh": "师傅",
+    "say": "shīfu",
+    "en": "Polite way to address a driver, chef or tradesman",
+    "ex": "师傅，去机场。",
+    "exEn": "Driver, to the airport please."
+  },
+  {
+    "zh": "慢走",
+    "say": "màn zǒu",
+    "en": "Take care (said to someone leaving — 'walk slowly')",
+    "ex": "谢谢光临，慢走！",
+    "exEn": "Thanks for coming, take care!"
+  },
+  {
+    "zh": "失陪了",
+    "say": "shīpéi le",
+    "en": "Excuse me, I have to step away (formal)",
+    "ex": "不好意思，我先失陪了。",
+    "exEn": "Sorry, I have to excuse myself."
+  },
+  {
+    "zh": "恭喜",
+    "say": "gōngxǐ",
+    "en": "Congratulations",
+    "ex": "恭喜你们结婚！",
+    "exEn": "Congratulations on your wedding!"
+  },
+  {
+    "zh": "干杯",
+    "say": "gānbēi",
+    "en": "Cheers! (literally 'dry the glass')",
+    "ex": "为我们的友谊干杯！",
+    "exEn": "To our friendship — cheers!"
+  },
+  {
+    "zh": "祝您一路顺风",
+    "say": "zhù nín yílù shùnfēng",
+    "en": "Have a safe trip (polite farewell)",
+    "ex": "再见，祝您一路顺风！",
+    "exEn": "Goodbye, have a safe trip!"
+  },
+  {
+    "zh": "祝您身体健康",
+    "say": "zhù nín shēntǐ jiànkāng",
+    "en": "Wishing you good health (warm, often to elders)",
+    "ex": "新年快乐，祝您身体健康！",
+    "exEn": "Happy New Year, wishing you good health!"
+  },
+  {
+    "zh": "您先请",
+    "say": "nín xiān qǐng",
+    "en": "After you (polite)",
+    "ex": "不用客气，您先请。",
+    "exEn": "No need to be polite — after you."
+  },
+  {
+    "zh": "我听不懂",
+    "say": "wǒ tīng bu dǒng",
+    "en": "I don't understand (what I hear)",
+    "ex": "不好意思，我听不懂。",
+    "exEn": "Sorry, I don't understand."
+  },
+  {
+    "zh": "您会说英语吗？",
+    "say": "nín huì shuō Yīngyǔ ma",
+    "en": "Do you speak English? (polite)",
+    "ex": "请问，您会说英语吗？",
+    "exEn": "Excuse me, do you speak English?"
+  },
+  {
+    "zh": "再见",
+    "say": "zàijiàn",
+    "en": "Goodbye",
+    "ex": "谢谢，再见！",
+    "exEn": "Thank you, goodbye!"
+  }
+]

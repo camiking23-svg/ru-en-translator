@@ -1,0 +1,177 @@
+[
+  {
+    "zh": "服务员",
+    "say": "fúwùyuán",
+    "en": "Waiter! / Excuse me (to call staff — 你好 also works)",
+    "ex": "服务员，点菜！",
+    "exEn": "Excuse me, we'd like to order!"
+  },
+  {
+    "zh": "几位？",
+    "say": "jǐ wèi",
+    "en": "How many people? (what staff ask you)",
+    "ex": "——几位？——两位。",
+    "exEn": "— How many? — Two."
+  },
+  {
+    "zh": "菜单",
+    "say": "càidān",
+    "en": "Menu",
+    "ex": "请给我看一下菜单。",
+    "exEn": "Could I see the menu, please?"
+  },
+  {
+    "zh": "我要…",
+    "say": "wǒ yào…",
+    "en": "I'll have… / I want…",
+    "ex": "我要一碗牛肉面。",
+    "exEn": "I'll have a bowl of beef noodles."
+  },
+  {
+    "zh": "来一个…",
+    "say": "lái yí ge…",
+    "en": "Bring me one… (casual way to order)",
+    "ex": "来一个宫保鸡丁。",
+    "exEn": "One kung pao chicken, please."
+  },
+  {
+    "zh": "有什么推荐的吗？",
+    "say": "yǒu shénme tuījiàn de ma",
+    "en": "What do you recommend?",
+    "ex": "第一次来，有什么推荐的吗？",
+    "exEn": "It's my first time here, what do you recommend?"
+  },
+  {
+    "zh": "不要辣",
+    "say": "bú yào là",
+    "en": "Not spicy, please",
+    "ex": "这个菜不要辣，谢谢。",
+    "exEn": "This dish not spicy, please."
+  },
+  {
+    "zh": "微辣 / 中辣 / 特辣",
+    "say": "wēi là / zhōng là / tè là",
+    "en": "Mild / medium / extra spicy",
+    "ex": "我要微辣的。",
+    "exEn": "I'll have it mild."
+  },
+  {
+    "zh": "我吃素",
+    "say": "wǒ chī sù",
+    "en": "I'm vegetarian",
+    "ex": "我吃素，有素菜吗？",
+    "exEn": "I'm vegetarian, do you have vegetable dishes?"
+  },
+  {
+    "zh": "我对…过敏",
+    "say": "wǒ duì… guòmǐn",
+    "en": "I'm allergic to…",
+    "ex": "我对花生过敏。",
+    "exEn": "I'm allergic to peanuts."
+  },
+  {
+    "zh": "不要放…",
+    "say": "bú yào fàng…",
+    "en": "Please leave out… / without…",
+    "ex": "不要放香菜。",
+    "exEn": "No cilantro, please."
+  },
+  {
+    "zh": "饺子",
+    "say": "jiǎozi",
+    "en": "Dumplings",
+    "ex": "我们点一盘饺子吧。",
+    "exEn": "Let's order a plate of dumplings."
+  },
+  {
+    "zh": "米饭",
+    "say": "mǐfàn",
+    "en": "Steamed rice",
+    "ex": "再来两碗米饭。",
+    "exEn": "Two more bowls of rice, please."
+  },
+  {
+    "zh": "面条",
+    "say": "miàntiáo",
+    "en": "Noodles",
+    "ex": "这家的面条很好吃。",
+    "exEn": "This place's noodles are really good."
+  },
+  {
+    "zh": "热水 / 茶",
+    "say": "rè shuǐ / chá",
+    "en": "Hot water / tea (often served free with meals)",
+    "ex": "请给我一杯热水。",
+    "exEn": "A glass of hot water, please."
+  },
+  {
+    "zh": "啤酒",
+    "say": "píjiǔ",
+    "en": "Beer (冰的 = cold — ask, as it may come warm)",
+    "ex": "来两瓶冰啤酒。",
+    "exEn": "Two cold beers, please."
+  },
+  {
+    "zh": "筷子",
+    "say": "kuàizi",
+    "en": "Chopsticks (勺子 sháozi = spoon)",
+    "ex": "能再给我一双筷子吗？",
+    "exEn": "Could I have another pair of chopsticks?"
+  },
+  {
+    "zh": "好吃",
+    "say": "hǎochī",
+    "en": "Delicious",
+    "ex": "这个太好吃了！",
+    "exEn": "This is so delicious!"
+  },
+  {
+    "zh": "堂食还是外带？",
+    "say": "tángshí háishi wàidài",
+    "en": "Eat in or take out?",
+    "ex": "——堂食还是外带？——外带。",
+    "exEn": "— For here or to go? — To go."
+  },
+  {
+    "zh": "打包",
+    "say": "dǎbāo",
+    "en": "To pack up leftovers / to go",
+    "ex": "服务员，这个打包。",
+    "exEn": "Excuse me, could we box this up?"
+  },
+  {
+    "zh": "外卖",
+    "say": "wàimài",
+    "en": "Food delivery / takeout",
+    "ex": "今晚点外卖吧。",
+    "exEn": "Let's order delivery tonight."
+  },
+  {
+    "zh": "买单",
+    "say": "mǎidān",
+    "en": "The check, please (结账 jiézhàng also works)",
+    "ex": "服务员，买单！",
+    "exEn": "Excuse me, the check please!"
+  },
+  {
+    "zh": "一共多少钱？",
+    "say": "yígòng duōshao qián",
+    "en": "How much is it altogether?",
+    "ex": "你好，一共多少钱？",
+    "exEn": "Hi, how much is it altogether?"
+  },
+  {
+    "zh": "可以刷卡吗？",
+    "say": "kěyǐ shuā kǎ ma",
+    "en": "Can I pay by card?",
+    "ex": "我没有现金，可以刷卡吗？",
+    "exEn": "I don't have cash, can I pay by card?"
+  },
+  {
+    "zh": "可以扫码吗？",
+    "say": "kěyǐ sǎo mǎ ma",
+    "en": "Can I pay by scanning the QR code? (WeChat Pay / Alipay)",
+    "ex": "可以用支付宝扫码吗？",
+    "exEn": "Can I pay with Alipay?"
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "en": "yes",
+    "zh": "对",
+    "alone": true
+  },
+  {
+    "en": "no",
+    "zh": "不是",
+    "alone": true
+  },
+  {
+    "en": "thanks",
+    "zh": "谢谢！",
+    "alone": true
+  },
+  {
+    "en": "hi",
+    "zh": "嗨，老板！",
+    "alone": true
+  },
+  {
+    "en": "hot dog",
+    "zh": "天哪！不会吧！",
+    "alone": true
+  },
+  {
+    "en": "You got this",
+    "zh": "你可以的"
+  },
+  {
+    "en": "Sup",
+    "zh": "干嘛呢？"
+  },
+  {
+    "en": "Yep",
+    "zh": "嗯嗯"
+  },
+  {
+    "en": "Nope",
+    "zh": "不了"
+  },
+  {
+    "en": "No worries",
+    "zh": "没事"
+  },
+  {
+    "en": "Bro",
+    "zh": "兄弟"
+  },
+  {
+    "en": "Bruh",
+    "zh": "无语",
+    "oneWay": true
+  },
+  {
+    "en": "Dude",
+    "zh": "哥们"
+  },
+  {
+    "en": "Fr",
+    "zh": "真的",
+    "oneWay": true
+  },
+  {
+    "en": "For real?",
+    "zh": "真的假的？"
+  },
+  {
+    "en": "Deadass",
+    "zh": "说真的",
+    "oneWay": true
+  },
+  {
+    "en": "No cap",
+    "zh": "不骗你"
+  },
+  {
+    "en": "Ngl",
+    "zh": "说实话",
+    "oneWay": true
+  },
+  {
+    "en": "Tbh",
+    "zh": "老实说",
+    "oneWay": true
+  },
+  {
+    "en": "Imo",
+    "zh": "我觉得"
+  },
+  {
+    "en": "Idk",
+    "zh": "不知道",
+    "oneWay": true
+  },
+  {
+    "en": "Omg",
+    "zh": "天哪",
+    "oneWay": true
+  },
+  {
+    "en": "Lol",
+    "zh": "哈哈"
+  },
+  {
+    "en": "Lmao",
+    "zh": "笑死我了"
+  },
+  {
+    "en": "I'm dead",
+    "zh": "笑死"
+  },
+  {
+    "en": "I can't even",
+    "zh": "无语了"
+  },
+  {
+    "en": "What's up?",
+    "zh": "最近怎么样？"
+  },
+  {
+    "en": "What's new?",
+    "zh": "有什么新鲜事？"
+  },
+  {
+    "en": "What's good?",
+    "zh": "最近好吗？"
+  },
+  {
+    "en": "Long time no see",
+    "zh": "好久不见！"
+  },
+  {
+    "en": "Spill the tea",
+    "zh": "快说说，什么八卦？"
+  },
+  {
+    "en": "For sure",
+    "zh": "当然"
+  },
+  {
+    "en": "Highkey",
+    "zh": "超级",
+    "oneWay": true
+  },
+  {
+    "en": "Lowkey",
+    "zh": "有点",
+    "oneWay": true
+  },
+  {
+    "en": "That's sus",
+    "zh": "有点可疑"
+  },
+  {
+    "en": "Sus",
+    "zh": "可疑",
+    "oneWay": true
+  },
+  {
+    "en": "That's cap",
+    "zh": "瞎说"
+  },
+  {
+    "en": "You're capping",
+    "zh": "你骗人"
+  },
+  {
+    "en": "No way",
+    "zh": "不会吧！"
+  },
+  {
+    "en": "That's fire",
+    "zh": "太绝了"
+  },
+  {
+    "en": "It's fire",
+    "zh": "绝了"
+  },
+  {
+    "en": "That's lit",
+    "zh": "太嗨了"
+  },
+  {
+    "en": "That's crazy",
+    "zh": "太疯狂了"
+  },
+  {
+    "en": "That's mid",
+    "zh": "一般般"
+  },
+  {
+    "en": "Cringe",
+    "zh": "尴尬"
+  },
+  {
+    "en": "That's chill",
+    "zh": "还不错"
+  },
+  {
+    "en": "All good",
+    "zh": "都挺好"
+  },
+  {
+    "en": "Good vibes",
+    "zh": "氛围很好"
+  },
+  {
+    "en": "Vibe",
+    "zh": "氛围"
+  },
+  {
+    "en": "The GOAT",
+    "zh": "yyds"
+  },
+  {
+    "en": "Rizz",
+    "zh": "魅力",
+    "oneWay": true
+  },
+  {
+    "en": "On god",
+    "zh": "我发誓",
+    "oneWay": true
+  },
+  {
+    "en": "My bad",
+    "zh": "我的错"
+  },
+  {
+    "en": "Say less",
+    "zh": "懂了"
+  },
+  {
+    "en": "I got you",
+    "zh": "包在我身上"
+  },
+  {
+    "en": "I'm down",
+    "zh": "算我一个"
+  },
+  {
+    "en": "Let's go",
+    "zh": "走吧"
+  },
+  {
+    "en": "Wanna hang out?",
+    "zh": "要不要一起出去玩？"
+  },
+  {
+    "en": "Hit me up",
+    "zh": "联系我"
+  },
+  {
+    "en": "Chill out",
+    "zh": "放轻松"
+  },
+  {
+    "en": "Touch grass",
+    "zh": "出去走走吧"
+  },
+  {
+    "en": "See ya",
+    "zh": "回头见"
+  },
+  {
+    "en": "see you later",
+    "zh": "待会儿见！"
+  },
+  {
+    "en": "Catch you later",
+    "zh": "回聊"
+  },
+  {
+    "en": "what's your birthday",
+    "zh": "你生日是几号？"
+  },
+  {
+    "en": "How do you eat?",
+    "zh": "你平时吃得怎么样？"
+  },
+  {
+    "en": "that's a catchphrase",
+    "zh": "这是我的口头禅！"
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "zh": "零",
+    "say": "líng",
+    "en": "0 — zero",
+    "ex": "零度。",
+    "exEn": "Zero degrees."
+  },
+  {
+    "zh": "一",
+    "say": "yī",
+    "en": "1 — one (said 'yāo' in phone and room numbers)",
+    "ex": "一个人。",
+    "exEn": "One person."
+  },
+  {
+    "zh": "二",
+    "say": "èr",
+    "en": "2 — two (counting)",
+    "ex": "二号站台。",
+    "exEn": "Platform two."
+  },
+  {
+    "zh": "两",
+    "say": "liǎng",
+    "en": "2 — two of something (两个, 两杯)",
+    "ex": "两杯咖啡。",
+    "exEn": "Two coffees."
+  },
+  {
+    "zh": "三",
+    "say": "sān",
+    "en": "3 — three",
+    "ex": "三个人。",
+    "exEn": "Three people."
+  },
+  {
+    "zh": "四",
+    "say": "sì",
+    "en": "4 — four (sounds like 死 'death', so it's unlucky)",
+    "ex": "四楼。",
+    "exEn": "The fourth floor."
+  },
+  {
+    "zh": "五",
+    "say": "wǔ",
+    "en": "5 — five",
+    "ex": "五分钟。",
+    "exEn": "Five minutes."
+  },
+  {
+    "zh": "六",
+    "say": "liù",
+    "en": "6 — six (lucky: 'smooth')",
+    "ex": "六点见。",
+    "exEn": "See you at six."
+  },
+  {
+    "zh": "七",
+    "say": "qī",
+    "en": "7 — seven",
+    "ex": "一个星期有七天。",
+    "exEn": "A week has seven days."
+  },
+  {
+    "zh": "八",
+    "say": "bā",
+    "en": "8 — eight (the luckiest number)",
+    "ex": "八点出发。",
+    "exEn": "We leave at eight."
+  },
+  {
+    "zh": "九",
+    "say": "jiǔ",
+    "en": "9 — nine",
+    "ex": "九块钱。",
+    "exEn": "Nine yuan."
+  },
+  {
+    "zh": "十",
+    "say": "shí",
+    "en": "10 — ten",
+    "ex": "十块。",
+    "exEn": "Ten yuan."
+  },
+  {
+    "zh": "十一",
+    "say": "shíyī",
+    "en": "11 — eleven (ten-one)",
+    "ex": "十一点。",
+    "exEn": "Eleven o'clock."
+  },
+  {
+    "zh": "十五",
+    "say": "shíwǔ",
+    "en": "15 — fifteen (ten-five)",
+    "ex": "十五分钟。",
+    "exEn": "Fifteen minutes."
+  },
+  {
+    "zh": "二十",
+    "say": "èrshí",
+    "en": "20 — twenty (two-ten)",
+    "ex": "二十块钱。",
+    "exEn": "Twenty yuan."
+  },
+  {
+    "zh": "二十一",
+    "say": "èrshíyī",
+    "en": "21 — twenty-one (two-ten-one)",
+    "ex": "我二十一岁。",
+    "exEn": "I'm twenty-one."
+  },
+  {
+    "zh": "三十",
+    "say": "sānshí",
+    "en": "30 — thirty",
+    "ex": "三十分钟。",
+    "exEn": "Thirty minutes."
+  },
+  {
+    "zh": "五十",
+    "say": "wǔshí",
+    "en": "50 — fifty",
+    "ex": "五十块。",
+    "exEn": "Fifty yuan."
+  },
+  {
+    "zh": "九十九",
+    "say": "jiǔshíjiǔ",
+    "en": "99 — ninety-nine",
+    "ex": "九十九块。",
+    "exEn": "Ninety-nine yuan."
+  },
+  {
+    "zh": "一百",
+    "say": "yìbǎi",
+    "en": "100 — one hundred",
+    "ex": "一百块。",
+    "exEn": "A hundred yuan."
+  },
+  {
+    "zh": "一千",
+    "say": "yìqiān",
+    "en": "1,000 — one thousand",
+    "ex": "一千米。",
+    "exEn": "One thousand meters."
+  },
+  {
+    "zh": "一万",
+    "say": "yíwàn",
+    "en": "10,000 — ten thousand (Chinese counts big numbers in 万)",
+    "ex": "一万块。",
+    "exEn": "Ten thousand yuan."
+  },
+  {
+    "zh": "个",
+    "say": "gè",
+    "en": "The everyday 'measure word' between a number and a thing: 三个人",
+    "ex": "我要两个包子。",
+    "exEn": "I'd like two steamed buns."
+  },
+  {
+    "zh": "多少钱？",
+    "say": "duōshao qián",
+    "en": "How much is it?",
+    "ex": "这个多少钱？",
+    "exEn": "How much is this?"
+  },
+  {
+    "zh": "块 / 元",
+    "say": "kuài / yuán",
+    "en": "Yuan (块 casual, 元 written/formal)",
+    "ex": "十五块。",
+    "exEn": "Fifteen yuan."
+  },
+  {
+    "zh": "毛 / 角",
+    "say": "máo / jiǎo",
+    "en": "Ten cents (毛 casual, 角 formal): 三块五毛 = ¥3.50",
+    "ex": "三块五。",
+    "exEn": "Three fifty."
+  },
+  {
+    "zh": "太贵了",
+    "say": "tài guì le",
+    "en": "That's too expensive",
+    "ex": "太贵了，便宜一点吧。",
+    "exEn": "That's too expensive, a bit cheaper?"
+  },
+  {
+    "zh": "便宜一点吧",
+    "say": "piányi yìdiǎn ba",
+    "en": "A bit cheaper? (bargaining at markets)",
+    "ex": "两个一起买，便宜一点吧？",
+    "exEn": "If I buy two, can you go cheaper?"
+  },
+  {
+    "zh": "几点了？",
+    "say": "jǐ diǎn le",
+    "en": "What time is it?",
+    "ex": "请问，现在几点了？",
+    "exEn": "Excuse me, what time is it now?"
+  },
+  {
+    "zh": "三点",
+    "say": "sān diǎn",
+    "en": "Three o'clock",
+    "ex": "现在三点。",
+    "exEn": "It's three o'clock."
+  },
+  {
+    "zh": "三点半",
+    "say": "sān diǎn bàn",
+    "en": "Half past three",
+    "ex": "我们三点半见。",
+    "exEn": "Let's meet at half past three."
+  },
+  {
+    "zh": "一刻",
+    "say": "yí kè",
+    "en": "A quarter (hour): 三点一刻 = 3:15",
+    "ex": "三点一刻出发。",
+    "exEn": "We leave at 3:15."
+  },
+  {
+    "zh": "分钟",
+    "say": "fēnzhōng",
+    "en": "Minute(s)",
+    "ex": "等我五分钟。",
+    "exEn": "Give me five minutes."
+  },
+  {
+    "zh": "早上 / 中午 / 晚上",
+    "say": "zǎoshang / zhōngwǔ / wǎnshang",
+    "en": "Morning / noon / evening",
+    "ex": "晚上八点吃饭。",
+    "exEn": "Dinner at 8 in the evening."
+  },
+  {
+    "zh": "今天 / 明天 / 昨天",
+    "say": "jīntiān / míngtiān / zuótiān",
+    "en": "Today / tomorrow / yesterday",
+    "ex": "我们明天见。",
+    "exEn": "See you tomorrow."
+  },
+  {
+    "zh": "星期一",
+    "say": "xīngqī yī",
+    "en": "Monday (literally 'week-one'; Tuesday = 星期二…)",
+    "ex": "星期一上班。",
+    "exEn": "Work on Monday."
+  },
+  {
+    "zh": "星期天",
+    "say": "xīngqī tiān",
+    "en": "Sunday (星期日 also used)",
+    "ex": "星期天休息。",
+    "exEn": "Closed on Sunday."
+  },
+  {
+    "zh": "一月",
+    "say": "yī yuè",
+    "en": "January (literally 'one-month'; February = 二月…)",
+    "ex": "我一月去北京。",
+    "exEn": "I'm going to Beijing in January."
+  },
+  {
+    "zh": "…号",
+    "say": "… hào",
+    "en": "Day of the month: 五月二十号 = May 20",
+    "ex": "我的生日是三月八号。",
+    "exEn": "My birthday is March 8th."
+  },
+  {
+    "zh": "第一 / 第二 / 第三",
+    "say": "dì yī / dì èr / dì sān",
+    "en": "First / second / third",
+    "ex": "这是我第一次来中国。",
+    "exEn": "This is my first time in China."
+  },
+  {
+    "zh": "一半",
+    "say": "yíbàn",
+    "en": "Half",
+    "ex": "我们一人一半。",
+    "exEn": "Let's split it half and half."
+  },
+  {
+    "zh": "一双",
+    "say": "yì shuāng",
+    "en": "A pair (shoes, chopsticks)",
+    "ex": "一双筷子。",
+    "exEn": "A pair of chopsticks."
+  },
+  {
+    "zh": "几个？",
+    "say": "jǐ ge",
+    "en": "How many? (small numbers)",
+    "ex": "你要几个？",
+    "exEn": "How many do you want?"
+  },
+  {
+    "zh": "百分之…",
+    "say": "bǎi fēn zhī…",
+    "en": "…percent (百分之五十 = 50%)",
+    "ex": "打八折就是付百分之八十。",
+    "exEn": "打八折 means you pay 80% — that's 20% off."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "zh": "牛",
+    "say": "niú",
+    "en": "Awesome, impressive (literally 'cow')",
+    "ex": "你太牛了！",
+    "exEn": "You're amazing!"
+  },
+  {
+    "zh": "厉害",
+    "say": "lìhai",
+    "en": "Impressive, skilled — a very common compliment",
+    "ex": "哇，你中文说得真厉害！",
+    "exEn": "Wow, your Chinese is really good!"
+  },
+  {
+    "zh": "绝了",
+    "say": "jué le",
+    "en": "Incredible, the best",
+    "ex": "这家的火锅绝了！",
+    "exEn": "This place's hot pot is incredible!"
+  },
+  {
+    "zh": "给力",
+    "say": "gěilì",
+    "en": "Awesome, really delivers",
+    "ex": "这个手机真给力。",
+    "exEn": "This phone really delivers."
+  },
+  {
+    "zh": "靠谱",
+    "say": "kàopǔ",
+    "en": "Reliable, trustworthy (不靠谱 = sketchy, unreliable)",
+    "ex": "他很靠谱，放心吧。",
+    "exEn": "He's reliable, don't worry."
+  },
+  {
+    "zh": "吃瓜",
+    "say": "chī guā",
+    "en": "To watch the drama unfold (literally 'eat melon')",
+    "ex": "我就是来吃瓜的。",
+    "exEn": "I'm just here for the drama."
+  },
+  {
+    "zh": "躺平",
+    "say": "tǎng píng",
+    "en": "To 'lie flat' — opt out of the rat race",
+    "ex": "工作太累了，我想躺平。",
+    "exEn": "Work is exhausting, I just want to lie flat."
+  },
+  {
+    "zh": "内卷",
+    "say": "nèijuǎn",
+    "en": "Pointless overcompetition, the rat race",
+    "ex": "现在找工作太内卷了。",
+    "exEn": "Job hunting is such a rat race now."
+  },
+  {
+    "zh": "摆烂",
+    "say": "bǎi làn",
+    "en": "To just give up, let it all go",
+    "ex": "考试太难了，我直接摆烂。",
+    "exEn": "The exam was too hard, I just gave up."
+  },
+  {
+    "zh": "佛系",
+    "say": "fóxì",
+    "en": "Super chill, go-with-the-flow (literally 'Buddha-style')",
+    "ex": "我现在很佛系，随便吧。",
+    "exEn": "I'm very zen these days, whatever."
+  },
+  {
+    "zh": "社恐",
+    "say": "shèkǒng",
+    "en": "Socially anxious (short for 社交恐惧)",
+    "ex": "我是社恐，不太敢说话。",
+    "exEn": "I'm socially anxious, I don't dare talk much."
+  },
+  {
+    "zh": "社牛",
+    "say": "shèniú",
+    "en": "Socially fearless, the life of the party",
+    "ex": "她是社牛，跟谁都能聊。",
+    "exEn": "She's fearless, she can chat with anyone."
+  },
+  {
+    "zh": "打卡",
+    "say": "dǎkǎ",
+    "en": "To check in / visit a popular spot (for photos)",
+    "ex": "我们去网红店打卡吧！",
+    "exEn": "Let's go check out that trendy shop!"
+  },
+  {
+    "zh": "种草",
+    "say": "zhòng cǎo",
+    "en": "To get tempted to buy something (literally 'plant grass')",
+    "ex": "看了你的视频，我被种草了。",
+    "exEn": "After your video, now I want one."
+  },
+  {
+    "zh": "拔草",
+    "say": "bá cǎo",
+    "en": "To finally buy it / get over wanting it",
+    "ex": "这家店终于拔草了。",
+    "exEn": "Finally tried that place I'd been wanting to go to."
+  },
+  {
+    "zh": "吐槽",
+    "say": "tǔcáo",
+    "en": "To vent, roast, complain jokingly",
+    "ex": "别吐槽了，快吃吧。",
+    "exEn": "Stop complaining and eat."
+  },
+  {
+    "zh": "凡尔赛",
+    "say": "Fán'ěrsài",
+    "en": "A humblebrag (literally 'Versailles')",
+    "ex": "别凡尔赛了！",
+    "exEn": "Stop humblebragging!"
+  },
+  {
+    "zh": "真香",
+    "say": "zhēn xiāng",
+    "en": "'OK, I was wrong — I love it' (literally 'smells so good')",
+    "ex": "说不吃，结果真香。",
+    "exEn": "Said I wouldn't eat it — turns out it's great."
+  },
+  {
+    "zh": "上头",
+    "say": "shàngtóu",
+    "en": "Hooked, addictive",
+    "ex": "这首歌太上头了。",
+    "exEn": "This song is so addictive."
+  },
+  {
+    "zh": "破防",
+    "say": "pòfáng",
+    "en": "Emotionally hit, defenses down",
+    "ex": "看到这个视频，我破防了。",
+    "exEn": "That video got me right in the feels."
+  },
+  {
+    "zh": "颜值",
+    "say": "yánzhí",
+    "en": "Looks, how attractive someone is",
+    "ex": "他的颜值很高。",
+    "exEn": "He's really good-looking."
+  },
+  {
+    "zh": "网红",
+    "say": "wǎnghóng",
+    "en": "Influencer / internet-famous (also trendy places)",
+    "ex": "这是一家网红咖啡店。",
+    "exEn": "This is an Instagram-famous café."
+  },
+  {
+    "zh": "学霸",
+    "say": "xuébà",
+    "en": "A top student, a brainiac",
+    "ex": "她是我们班的学霸。",
+    "exEn": "She's the top student in our class."
+  },
+  {
+    "zh": "土豪",
+    "say": "tǔháo",
+    "en": "A big spender, flashy rich person",
+    "ex": "哇，土豪请客！",
+    "exEn": "Wow, the big spender's treating us!"
+  },
+  {
+    "zh": "单身狗",
+    "say": "dānshēn gǒu",
+    "en": "Single person (jokey, literally 'single dog')",
+    "ex": "情人节我还是单身狗。",
+    "exEn": "Still single on Valentine's Day."
+  },
+  {
+    "zh": "闺蜜",
+    "say": "guīmì",
+    "en": "Best friend (girl's bestie)",
+    "ex": "她是我最好的闺蜜。",
+    "exEn": "She's my best friend."
+  },
+  {
+    "zh": "哥们",
+    "say": "gēmen",
+    "en": "Bro, buddy (between guys)",
+    "ex": "哥们，谢了！",
+    "exEn": "Thanks, bro!"
+  },
+  {
+    "zh": "老铁",
+    "say": "lǎotiě",
+    "en": "Bestie, buddy (from northeast China, big online)",
+    "ex": "老铁，没毛病！",
+    "exEn": "Buddy, that's spot on!"
+  },
+  {
+    "zh": "没毛病",
+    "say": "méi máobìng",
+    "en": "No problem, totally right",
+    "ex": "你说得没毛病。",
+    "exEn": "You're totally right."
+  },
+  {
+    "zh": "打工人",
+    "say": "dǎgōngrén",
+    "en": "Worker bee, wage slave (jokey)",
+    "ex": "早安，打工人！",
+    "exEn": "Morning, fellow worker bee!"
+  },
+  {
+    "zh": "干饭",
+    "say": "gàn fàn",
+    "en": "To eat (with gusto) — 'let's eat!'",
+    "ex": "走，干饭去！",
+    "exEn": "Come on, let's go eat!"
+  },
+  {
+    "zh": "尴尬",
+    "say": "gāngà",
+    "en": "Awkward, embarrassing",
+    "ex": "好尴尬啊。",
+    "exEn": "That's so awkward."
+  },
+  {
+    "zh": "加油",
+    "say": "jiāyóu",
+    "en": "You can do it! Go! (literally 'add oil')",
+    "ex": "明天考试，加油！",
+    "exEn": "Exam tomorrow — you've got this!"
+  },
+  {
+    "zh": "没事",
+    "say": "méi shì",
+    "en": "No worries, it's fine",
+    "ex": "——对不起！——没事。",
+    "exEn": "— Sorry! — No worries."
+  },
+  {
+    "zh": "随便",
+    "say": "suíbiàn",
+    "en": "Whatever, up to you",
+    "ex": "——吃什么？——随便。",
+    "exEn": "— What do you want to eat? — Whatever."
+  },
+  {
+    "zh": "搞定",
+    "say": "gǎo dìng",
+    "en": "Done, sorted",
+    "ex": "放心，我搞定了。",
+    "exEn": "Relax, I've sorted it."
+  },
+  {
+    "zh": "杠精",
+    "say": "gàngjīng",
+    "en": "Someone who argues with everything",
+    "ex": "别当杠精了。",
+    "exEn": "Stop arguing about everything."
+  },
+  {
+    "zh": "柠檬精",
+    "say": "níngméng jīng",
+    "en": "A jealous person (literally 'lemon spirit')",
+    "ex": "我真是柠檬精了。",
+    "exEn": "I'm so jealous."
+  },
+  {
+    "zh": "硬核",
+    "say": "yìnghé",
+    "en": "Hardcore, intense",
+    "ex": "他的健身计划太硬核了。",
+    "exEn": "His workout plan is so hardcore."
+  },
+  {
+    "zh": "拜拜",
+    "say": "bàibài",
+    "en": "Bye-bye (casual)",
+    "ex": "好的，拜拜！",
+    "exEn": "OK, bye-bye!"
+  }
+]
