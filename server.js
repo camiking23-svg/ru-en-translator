@@ -40,6 +40,12 @@ const page = `<!doctype html>
   .rs-ex-en { font-size: 14px; color: #777; }
   .rs-card button { margin-top: 0; padding: 6px 10px; font-size: 18px; background: #f4f4f4; border: 1px solid #ddd;
     border-radius: 8px; -webkit-appearance: none; appearance: none; }
+  #conv-btn { display: block; width: 100%; margin: 4px 0 6px; padding: 18px 12px; font-size: 20px; font-weight: 600;
+    border: none; border-radius: 14px; background: #1f6feb; color: #fff; -webkit-appearance: none; appearance: none; }
+  #conv-btn.them { background: #b3261e; }
+  #conv-btn.listening { animation: convPulse 1.2s ease-in-out infinite; }
+  @keyframes convPulse { 0%, 100% { opacity: 1; } 50% { opacity: .65; } }
+  #conv-status { margin: 0 0 10px; min-height: 1em; }
   .phrases { margin-top: 18px; padding-top: 14px; border-top: 1px solid #eee; font-size: 16px; }
   .phrases summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
   .ph-help { margin: 6px 0 10px; font-size: 14px; color: #666; }
@@ -69,6 +75,10 @@ const page = `<!doctype html>
   <div class="speaker">You:
     <button id="y-t" onclick="setYou('t')"><span>ты</span><span class="hint">casual</span></button>
     <button id="y-v" onclick="setYou('v')"><span>вы</span><span class="hint">formal</span></button>
+  </div>
+  <div id="conv" style="display:none">
+    <button id="conv-btn" onclick="convTap()">🎤 My turn (English)</button>
+    <p id="conv-status" class="ph-help"></p>
   </div>
   <textarea id="input" placeholder="Type Russian or English..." onkeydown="if (event.key === 'Enter' && !event.shiftKey) { event.preventDefault(); go(); }"></textarea>
   <button onclick="go()">Translate</button>
@@ -441,7 +451,8 @@ const page = `<!doctype html>
     if (online) {
       // Real male/female Microsoft voices, made by your PC and played as one audio clip
       const d = JSON.stringify(parts.map(c => [c.lang.slice(0, 2), c.text]));
-      const a = new Audio("/tts?g=" + gender + "&d=" + encodeURIComponent(d));
+      const a = sharedAudio || new Audio();
+      a.src = "/tts?g=" + gender + "&d=" + encodeURIComponent(d);
       player = a;
       let fellBack = false;
       const fallback = () => {
@@ -567,6 +578,94 @@ const page = `<!doctype html>
     document.getElementById("v-en").textContent = "EN: " + label("en");
   }
   speechSynthesis.onvoiceschanged = showVoices;   // voices load a moment after the page
+  // ---- 🎤 Voice conversation: one big button, turns alternate (no backslashes: inside the page template) ----
+  const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let convTurn = "me";            // "me" = I speak English, "them" = they speak Russian
+  let convRec = null, convBusy = false, convHeard = "";
+  let sharedAudio = null;         // one audio player, unlocked by a tap so iPhone lets it speak later
+
+  // iPhone only plays sound that starts from a tap. The answer is spoken seconds after the tap
+  // (after listening + translating), so "unlock" both the audio player and the phone voices right on the tap.
+  function unlockAudio() {
+    try {
+      if (!sharedAudio) sharedAudio = new Audio();
+      sharedAudio.src = "data:audio/wav;base64,UklGRkQDAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YSADAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgA==";
+      const p = sharedAudio.play(); if (p && p.catch) p.catch(() => {});
+    } catch (e) {}
+    try { const u = new SpeechSynthesisUtterance(" "); u.volume = 0; speechSynthesis.speak(u); } catch (e) {}
+  }
+
+  function convLabel() {
+    const btn = document.getElementById("conv-btn");
+    if (!btn) return;
+    btn.classList.toggle("them", convTurn === "them");
+    btn.classList.remove("listening");
+    btn.textContent = convTurn === "me" ? "🎤 My turn (English)" : "🎤 Their turn (Russian)";
+  }
+  function convStatus(t) { const s = document.getElementById("conv-status"); if (s) s.textContent = t || ""; }
+
+  function convTap() {
+    const btn = document.getElementById("conv-btn");
+    if (convBusy) return;
+    if (convRec) { convRec.stop(); return; }                 // tap again while listening = done talking
+    unlockAudio();
+    speechSynthesis.cancel(); if (player) { player.pause(); }   // stop the phone talking so the mic doesn't hear it
+    const turn = convTurn;
+    const rec = new SpeechRec();
+    rec.lang = turn === "me" ? "en-US" : "ru-RU";
+    rec.interimResults = true;
+    rec.continuous = false;
+    rec.maxAlternatives = 1;
+    convHeard = "";
+    convRec = rec;
+    btn.classList.add("listening");
+    btn.textContent = turn === "me" ? "● Listening (English)… tap when done" : "● Слушаю (Russian)… tap when done";
+    convStatus("");
+    rec.onresult = e => {
+      let t = "";
+      for (let i = 0; i < e.results.length; i++) t += e.results[i][0].transcript;
+      convHeard = t.trim();
+      document.getElementById("input").value = convHeard;       // show words as they're heard
+    };
+    rec.onerror = e => {
+      const why = e && e.error;
+      if (why === "not-allowed" || why === "service-not-allowed")
+        convStatus("Microphone is blocked. On iPhone: Settings → Apps → Safari → Microphone → Allow, and make sure Dictation is on.");
+      else if (why === "no-speech") convStatus("Didn't hear anything — tap and try again.");
+      else if (why !== "aborted") convStatus("Couldn't listen (" + why + ") — tap to try again.");
+    };
+    rec.onend = async () => {
+      convRec = null;
+      if (!convHeard) { convLabel(); return; }                  // nothing heard → same person's turn again
+      convBusy = true;
+      btn.classList.remove("listening");
+      btn.textContent = "Translating…";
+      try {
+        await go();                                              // same translate path as the Translate button
+        // their turn: the English is "their" voice, so use the Talking-to gender for it
+        const saved = gender;
+        if (turn === "them") gender = listener;
+        try { speak(); } finally { gender = saved; }
+        convTurn = turn === "me" ? "them" : "me";                // flip for the next tap
+        convStatus(turn === "me" ? "✓ Said it in Russian. Hand it over — their turn." : "✓ Said it in English. Your turn.");
+      } catch (e) {
+        convStatus("Translation failed — check the connection and tap to try again.");
+      } finally {
+        convBusy = false;
+        convLabel();
+      }
+    };
+    try { rec.start(); }
+    catch (e) { convRec = null; convLabel(); convStatus("Couldn't start the microphone — tap to try again."); }
+  }
+  function setupConversation() {
+    const box = document.getElementById("conv");
+    if (!box) return;
+    // Hide where speech recognition isn't available or the page isn't secure (the mic needs https)
+    if (!SpeechRec || !window.isSecureContext) { box.style.display = "none"; return; }
+    box.style.display = "";
+    convLabel();
+  }
   // ---- 🔗 Share / back up this phone's setup as a link (no backslashes: this lives inside the page template) ----
   // The link itself carries everything (phrases, favorites, toggles), so nothing is stored on the server.
   function b64urlFromBytes(bytes) {
@@ -655,6 +754,7 @@ const page = `<!doctype html>
     loadNumbersRussian();
     renderFavorites();
     setTimeout(showVoices, 300);
+    setupConversation();
     if (importedNote) {
       document.getElementById("share-status").textContent = importedNote;
       document.getElementById("share").open = true;
