@@ -1,0 +1,282 @@
+[
+  {
+    "fr": "Salut !",
+    "say": "sah-loo",
+    "en": "Hi! / Bye! (casual, works both ways)",
+    "ex": "Salut, ça va ?",
+    "exEn": "Hi, how's it going?"
+  },
+  {
+    "fr": "Ça roule ?",
+    "say": "sah rool",
+    "en": "How's it going? / All good?",
+    "ex": "Salut ! Ça roule ?",
+    "exEn": "Hey! All good?"
+  },
+  {
+    "fr": "Quoi de neuf ?",
+    "say": "kwah duh nuhf",
+    "en": "What's new? / What's up?",
+    "ex": "Alors, quoi de neuf ?",
+    "exEn": "So, what's new?"
+  },
+  {
+    "fr": "Grave",
+    "say": "grahv",
+    "en": "Totally, for sure (literally 'serious')",
+    "ex": "— Tu viens ce soir ? — Grave !",
+    "exEn": "— You coming tonight? — Totally!"
+  },
+  {
+    "fr": "Trop",
+    "say": "troh",
+    "en": "So, really (before an adjective)",
+    "ex": "C'est trop bien !",
+    "exEn": "It's so good!"
+  },
+  {
+    "fr": "C'est ouf",
+    "say": "say oof",
+    "en": "It's crazy / insane (ouf = verlan of fou)",
+    "ex": "C'est ouf, ce concert !",
+    "exEn": "This concert is insane!"
+  },
+  {
+    "fr": "Chelou",
+    "say": "shuh-loo",
+    "en": "Weird, sketchy (verlan of louche)",
+    "ex": "Il est un peu chelou, ce mec.",
+    "exEn": "That guy's a bit sketchy."
+  },
+  {
+    "fr": "Relou",
+    "say": "ruh-loo",
+    "en": "Annoying, a pain (verlan of lourd)",
+    "ex": "Arrête, t'es relou !",
+    "exEn": "Stop it, you're so annoying!"
+  },
+  {
+    "fr": "Un mec",
+    "say": "uhn mek",
+    "en": "A guy, dude",
+    "ex": "C'est un mec sympa.",
+    "exEn": "He's a nice guy."
+  },
+  {
+    "fr": "Une meuf",
+    "say": "oon muhf",
+    "en": "A girl / girlfriend (verlan of femme, casual)",
+    "ex": "Sa meuf est super gentille.",
+    "exEn": "His girlfriend is really nice."
+  },
+  {
+    "fr": "Un pote",
+    "say": "uhn pot",
+    "en": "A buddy, a friend",
+    "ex": "Je sors avec des potes ce soir.",
+    "exEn": "I'm going out with some buddies tonight."
+  },
+  {
+    "fr": "Frérot",
+    "say": "fray-roh",
+    "en": "Bro (from frère, brother)",
+    "ex": "Merci, frérot !",
+    "exEn": "Thanks, bro!"
+  },
+  {
+    "fr": "Kiffer",
+    "say": "kee-fay",
+    "en": "To love, to be really into",
+    "ex": "Je kiffe cette chanson !",
+    "exEn": "I love this song!"
+  },
+  {
+    "fr": "Avoir la flemme",
+    "say": "ah-vwahr lah flem",
+    "en": "Can't be bothered, feeling lazy",
+    "ex": "J'ai la flemme de cuisiner.",
+    "exEn": "I can't be bothered to cook."
+  },
+  {
+    "fr": "Je suis crevé / crevée",
+    "say": "zhuh swee kruh-vay",
+    "en": "I'm exhausted, wiped out (man / woman)",
+    "ex": "Je vais me coucher, je suis crevé.",
+    "exEn": "I'm going to bed, I'm wiped out."
+  },
+  {
+    "fr": "Je suis chaud / chaude",
+    "say": "zhuh swee shoh / shohd",
+    "en": "I'm up for it, I'm keen (man / woman)",
+    "ex": "— Un ciné ce soir ? — Je suis chaud !",
+    "exEn": "— Movie tonight? — I'm up for it!"
+  },
+  {
+    "fr": "Je suis à la bourre",
+    "say": "zhuh swee ah lah boor",
+    "en": "I'm running late",
+    "ex": "Désolé, je suis à la bourre !",
+    "exEn": "Sorry, I'm running late!"
+  },
+  {
+    "fr": "La bouffe",
+    "say": "lah boof",
+    "en": "Food, grub (casual)",
+    "ex": "On commande de la bouffe ?",
+    "exEn": "Shall we order some food?"
+  },
+  {
+    "fr": "Bouffer",
+    "say": "boo-fay",
+    "en": "To eat (casual)",
+    "ex": "J'ai trop bouffé.",
+    "exEn": "I ate way too much."
+  },
+  {
+    "fr": "Le boulot",
+    "say": "luh boo-loh",
+    "en": "Work, job (casual)",
+    "ex": "Je finis le boulot à six heures.",
+    "exEn": "I finish work at six."
+  },
+  {
+    "fr": "Bosser",
+    "say": "boh-say",
+    "en": "To work (casual)",
+    "ex": "Je bosse demain matin.",
+    "exEn": "I'm working tomorrow morning."
+  },
+  {
+    "fr": "La thune",
+    "say": "lah toon",
+    "en": "Money, cash (casual)",
+    "ex": "J'ai plus de thune.",
+    "exEn": "I'm out of cash."
+  },
+  {
+    "fr": "Une bagnole",
+    "say": "oon bah-nyol",
+    "en": "A car (casual)",
+    "ex": "Il a une nouvelle bagnole.",
+    "exEn": "He's got a new car."
+  },
+  {
+    "fr": "Les fringues",
+    "say": "lay frang",
+    "en": "Clothes (casual)",
+    "ex": "J'ai acheté des fringues.",
+    "exEn": "I bought some clothes."
+  },
+  {
+    "fr": "Ça craint",
+    "say": "sah krahn",
+    "en": "That sucks",
+    "ex": "Ça craint, le magasin est fermé.",
+    "exEn": "That sucks, the shop's closed."
+  },
+  {
+    "fr": "C'est la galère",
+    "say": "say lah gah-lair",
+    "en": "What a hassle / it's a struggle",
+    "ex": "Trouver un appart à Paris, c'est la galère.",
+    "exEn": "Finding an apartment in Paris is a nightmare."
+  },
+  {
+    "fr": "Laisse tomber",
+    "say": "less tohm-bay",
+    "en": "Forget it, never mind",
+    "ex": "Laisse tomber, c'est pas grave.",
+    "exEn": "Forget it, it's no big deal."
+  },
+  {
+    "fr": "T'inquiète",
+    "say": "tan-kyet",
+    "en": "Don't worry (short for ne t'inquiète pas)",
+    "ex": "T'inquiète, je m'en occupe.",
+    "exEn": "Don't worry, I'll handle it."
+  },
+  {
+    "fr": "C'est pas grave",
+    "say": "say pah grahv",
+    "en": "No big deal, it's fine",
+    "ex": "— Pardon ! — C'est pas grave.",
+    "exEn": "— Sorry! — No worries."
+  },
+  {
+    "fr": "Ça marche",
+    "say": "sah marsh",
+    "en": "Sounds good, OK, deal",
+    "ex": "— On se voit à huit heures ? — Ça marche !",
+    "exEn": "— See you at eight? — Sounds good!"
+  },
+  {
+    "fr": "Nickel",
+    "say": "nee-kel",
+    "en": "Perfect, spot on",
+    "ex": "C'est nickel, merci !",
+    "exEn": "That's perfect, thanks!"
+  },
+  {
+    "fr": "Carrément",
+    "say": "kah-ray-mahn",
+    "en": "Totally, absolutely",
+    "ex": "— C'était bien ? — Carrément !",
+    "exEn": "— Was it good? — Totally!"
+  },
+  {
+    "fr": "Du coup",
+    "say": "doo koo",
+    "en": "So, as a result (very common filler)",
+    "ex": "Du coup, on fait quoi ?",
+    "exEn": "So, what are we doing?"
+  },
+  {
+    "fr": "Genre",
+    "say": "zhahnr",
+    "en": "Like (filler word)",
+    "ex": "Il était genre super énervé.",
+    "exEn": "He was, like, super mad."
+  },
+  {
+    "fr": "Bref",
+    "say": "bref",
+    "en": "Anyway, long story short",
+    "ex": "Bref, on a raté le train.",
+    "exEn": "Long story short, we missed the train."
+  },
+  {
+    "fr": "Avoir le seum",
+    "say": "ah-vwahr luh sum",
+    "en": "To be gutted, salty (youth slang)",
+    "ex": "J'ai le seum, on a perdu.",
+    "exEn": "I'm gutted, we lost."
+  },
+  {
+    "fr": "Une teuf",
+    "say": "oon tuhf",
+    "en": "A party (verlan of fête)",
+    "ex": "Tu viens à la teuf samedi ?",
+    "exEn": "You coming to the party on Saturday?"
+  },
+  {
+    "fr": "Se casser",
+    "say": "suh kah-say",
+    "en": "To leave, to take off",
+    "ex": "Allez, on se casse !",
+    "exEn": "Come on, let's get out of here!"
+  },
+  {
+    "fr": "Ça me saoule",
+    "say": "sah muh sool",
+    "en": "It's getting on my nerves",
+    "ex": "Ça me saoule, ce bruit.",
+    "exEn": "This noise is getting on my nerves."
+  },
+  {
+    "fr": "Wesh",
+    "say": "wesh",
+    "en": "Yo, hey (street slang, very casual)",
+    "ex": "Wesh, ça dit quoi ?",
+    "exEn": "Yo, what's up?"
+  }
+]

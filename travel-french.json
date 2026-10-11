@@ -1,0 +1,184 @@
+[
+  {
+    "fr": "Où est… ?",
+    "say": "oo eh",
+    "en": "Where is…?",
+    "ex": "Où est la gare, s'il vous plaît ?",
+    "exEn": "Where is the train station, please?"
+  },
+  {
+    "fr": "Pour aller à… ?",
+    "say": "poor ah-lay ah",
+    "en": "How do I get to…?",
+    "ex": "Excusez-moi, pour aller à la tour Eiffel ?",
+    "exEn": "Excuse me, how do I get to the Eiffel Tower?"
+  },
+  {
+    "fr": "C'est loin ?",
+    "say": "say lwan",
+    "en": "Is it far?",
+    "ex": "C'est loin d'ici ?",
+    "exEn": "Is it far from here?"
+  },
+  {
+    "fr": "À gauche / à droite / tout droit",
+    "say": "ah gohsh / ah drwaht / too drwah",
+    "en": "Left / right / straight ahead",
+    "ex": "Tournez à gauche, puis allez tout droit.",
+    "exEn": "Turn left, then go straight ahead."
+  },
+  {
+    "fr": "La station de métro la plus proche",
+    "say": "lah stah-syohn duh may-troh lah ploo prosh",
+    "en": "The nearest metro station",
+    "ex": "Où est la station de métro la plus proche ?",
+    "exEn": "Where's the nearest metro station?"
+  },
+  {
+    "fr": "Un ticket de métro",
+    "say": "uhn tee-keh duh may-troh",
+    "en": "A metro ticket",
+    "ex": "Un ticket de métro, s'il vous plaît.",
+    "exEn": "One metro ticket, please."
+  },
+  {
+    "fr": "Un aller simple / un aller-retour",
+    "say": "uhn nah-lay san-pluh / uhn nah-lay ruh-toor",
+    "en": "A one-way / round-trip ticket",
+    "ex": "Un aller-retour pour Lyon, s'il vous plaît.",
+    "exEn": "A round-trip ticket to Lyon, please."
+  },
+  {
+    "fr": "À quelle heure part le train ?",
+    "say": "ah kel ur par luh tran",
+    "en": "What time does the train leave?",
+    "ex": "À quelle heure part le prochain train pour Nice ?",
+    "exEn": "What time does the next train to Nice leave?"
+  },
+  {
+    "fr": "Quel quai ?",
+    "say": "kel keh",
+    "en": "Which platform?",
+    "ex": "Le train pour Marseille part de quel quai ?",
+    "exEn": "Which platform does the train to Marseille leave from?"
+  },
+  {
+    "fr": "J'ai une réservation au nom de…",
+    "say": "zhay oon ray-zair-vah-syohn oh nohm duh",
+    "en": "I have a reservation under the name…",
+    "ex": "Bonjour, j'ai une réservation au nom de Martin.",
+    "exEn": "Hello, I have a reservation under the name Martin."
+  },
+  {
+    "fr": "Le petit-déjeuner est compris ?",
+    "say": "luh puh-tee day-zhuh-nay eh kohn-pree",
+    "en": "Is breakfast included?",
+    "ex": "Le petit-déjeuner est compris dans le prix ?",
+    "exEn": "Is breakfast included in the price?"
+  },
+  {
+    "fr": "Quel est le code wifi ?",
+    "say": "kel eh luh kod wee-fee",
+    "en": "What's the wifi password?",
+    "ex": "Excusez-moi, quel est le code wifi ?",
+    "exEn": "Excuse me, what's the wifi password?"
+  },
+  {
+    "fr": "Où sont les toilettes ?",
+    "say": "oo sohn lay twah-let",
+    "en": "Where are the restrooms?",
+    "ex": "Pardon, où sont les toilettes ?",
+    "exEn": "Excuse me, where are the restrooms?"
+  },
+  {
+    "fr": "La pharmacie la plus proche",
+    "say": "lah far-mah-see lah ploo prosh",
+    "en": "The nearest pharmacy (look for the green cross)",
+    "ex": "Où est la pharmacie la plus proche ?",
+    "exEn": "Where's the nearest pharmacy?"
+  },
+  {
+    "fr": "J'ai mal à la tête",
+    "say": "zhay mahl ah lah tet",
+    "en": "I have a headache (j'ai mal à… = it hurts at…)",
+    "ex": "J'ai mal à la tête, vous avez quelque chose ?",
+    "exEn": "I have a headache, do you have anything for it?"
+  },
+  {
+    "fr": "Au secours !",
+    "say": "oh suh-koor",
+    "en": "Help! (emergency)",
+    "ex": "Au secours ! Appelez le 112 !",
+    "exEn": "Help! Call 112!"
+  },
+  {
+    "fr": "Appelez le 112 !",
+    "say": "ah-play luh sahn dooz",
+    "en": "Call 112! (the emergency number all over Europe)",
+    "ex": "Il y a eu un accident, appelez le 112 !",
+    "exEn": "There's been an accident, call 112!"
+  },
+  {
+    "fr": "Je suis perdu / perdue",
+    "say": "zhuh swee pair-doo",
+    "en": "I'm lost (man / woman)",
+    "ex": "Excusez-moi, je suis perdu. Où est la place de la Concorde ?",
+    "exEn": "Excuse me, I'm lost. Where is Place de la Concorde?"
+  },
+  {
+    "fr": "Pouvez-vous m'aider ?",
+    "say": "poo-vay voo meh-day",
+    "en": "Can you help me?",
+    "ex": "Excusez-moi, pouvez-vous m'aider ?",
+    "exEn": "Excuse me, can you help me?"
+  },
+  {
+    "fr": "Je ne parle pas bien français",
+    "say": "zhuh nuh parl pah byan frahn-seh",
+    "en": "I don't speak French well",
+    "ex": "Désolé, je ne parle pas bien français.",
+    "exEn": "Sorry, I don't speak French well."
+  },
+  {
+    "fr": "Vous pouvez parler plus lentement ?",
+    "say": "voo poo-vay par-lay ploo lahnt-mahn",
+    "en": "Can you speak more slowly?",
+    "ex": "Pardon, vous pouvez parler plus lentement ?",
+    "exEn": "Sorry, can you speak more slowly?"
+  },
+  {
+    "fr": "Je regarde, merci",
+    "say": "zhuh ruh-gard, mair-see",
+    "en": "I'm just looking, thanks (in shops)",
+    "ex": "— Je peux vous aider ? — Je regarde, merci.",
+    "exEn": "— Can I help you? — Just looking, thanks."
+  },
+  {
+    "fr": "Je peux l'essayer ?",
+    "say": "zhuh puh leh-say-yay",
+    "en": "Can I try it on?",
+    "ex": "Elle est jolie, cette veste. Je peux l'essayer ?",
+    "exEn": "This jacket is nice. Can I try it on?"
+  },
+  {
+    "fr": "Pouvez-vous m'appeler un taxi ?",
+    "say": "poo-vay voo mah-play uhn tahk-see",
+    "en": "Could you call me a taxi?",
+    "ex": "Pouvez-vous m'appeler un taxi pour l'aéroport ?",
+    "exEn": "Could you call me a taxi to the airport?"
+  },
+  {
+    "fr": "Il y a un distributeur près d'ici ?",
+    "say": "eel yah uhn dee-stree-boo-tur preh dee-see",
+    "en": "Is there an ATM near here?",
+    "ex": "Excusez-moi, il y a un distributeur près d'ici ?",
+    "exEn": "Excuse me, is there an ATM near here?"
+  },
+  {
+    "fr": "Ouvert / Fermé",
+    "say": "oo-vair / fair-may",
+    "en": "Open / Closed (on signs)",
+    "ex": "Fermé le dimanche.",
+    "exEn": "Closed on Sundays."
+  }
+]

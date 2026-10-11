@@ -1,0 +1,210 @@
+[
+  {
+    "fr": "slt",
+    "say": "sah-loo",
+    "speak": "salut",
+    "en": "Hi (salut)",
+    "ex": "slt, ça va ?",
+    "exEn": "hi, how's it going?"
+  },
+  {
+    "fr": "cc",
+    "say": "koo-koo",
+    "speak": "coucou",
+    "en": "Hey there (coucou — friendly hi)",
+    "ex": "cc ! tu fais quoi ?",
+    "exEn": "hey! what are you up to?"
+  },
+  {
+    "fr": "cv",
+    "say": "sah vah",
+    "speak": "ça va",
+    "en": "How's it going? / I'm good (ça va)",
+    "ex": "cv ? moi cv",
+    "exEn": "how's it going? I'm good"
+  },
+  {
+    "fr": "bjr",
+    "say": "bohn-zhoor",
+    "speak": "bonjour",
+    "en": "Hello (bonjour)",
+    "ex": "bjr, je suis dispo demain",
+    "exEn": "hello, I'm free tomorrow"
+  },
+  {
+    "fr": "mdr",
+    "say": "mor duh reer",
+    "speak": "mort de rire",
+    "en": "LOL (mort de rire — 'dying of laughter')",
+    "ex": "mdr t'es trop drôle",
+    "exEn": "lol you're so funny"
+  },
+  {
+    "fr": "ptdr",
+    "say": "pay-tay duh reer",
+    "speak": "pété de rire",
+    "en": "LMAO (stronger than mdr)",
+    "ex": "ptdr j'en peux plus",
+    "exEn": "lmao I can't anymore"
+  },
+  {
+    "fr": "jpp",
+    "say": "zhahn puh ploo",
+    "speak": "j'en peux plus",
+    "en": "I can't anymore / I can't even",
+    "ex": "jpp de ce boulot",
+    "exEn": "I can't take this job anymore"
+  },
+  {
+    "fr": "jsp",
+    "say": "zhuh seh pah",
+    "speak": "je sais pas",
+    "en": "IDK (je sais pas)",
+    "ex": "jsp, on verra",
+    "exEn": "idk, we'll see"
+  },
+  {
+    "fr": "tkt",
+    "say": "tan-kyet",
+    "speak": "t'inquiète",
+    "en": "Don't worry (t'inquiète)",
+    "ex": "tkt, je gère",
+    "exEn": "don't worry, I've got it"
+  },
+  {
+    "fr": "dsl",
+    "say": "day-zoh-lay",
+    "speak": "désolé",
+    "en": "Sorry (désolé)",
+    "ex": "dsl, j'avais pas vu ton msg",
+    "exEn": "sorry, I hadn't seen your message"
+  },
+  {
+    "fr": "stp / svp",
+    "say": "seel tuh pleh / seel voo pleh",
+    "speak": "s'il te plaît",
+    "en": "Please (stp to a friend, svp formal)",
+    "ex": "envoie-moi la photo stp",
+    "exEn": "send me the photo pls"
+  },
+  {
+    "fr": "mrc",
+    "say": "mair-see",
+    "speak": "merci",
+    "en": "Thanks (merci)",
+    "ex": "mrc pour hier !",
+    "exEn": "thanks for yesterday!"
+  },
+  {
+    "fr": "bcp",
+    "say": "boh-koo",
+    "speak": "beaucoup",
+    "en": "A lot (beaucoup)",
+    "ex": "merci bcp !",
+    "exEn": "thanks a lot!"
+  },
+  {
+    "fr": "pk / pq",
+    "say": "poor-kwah",
+    "speak": "pourquoi",
+    "en": "Why (pourquoi)",
+    "ex": "pk tu réponds pas ?",
+    "exEn": "why aren't you answering?"
+  },
+  {
+    "fr": "auj",
+    "say": "oh-zhoor-dwee",
+    "speak": "aujourd'hui",
+    "en": "Today (aujourd'hui)",
+    "ex": "t'es libre auj ?",
+    "exEn": "are you free today?"
+  },
+  {
+    "fr": "mtn",
+    "say": "man-tuh-nahn",
+    "speak": "maintenant",
+    "en": "Now (maintenant)",
+    "ex": "j'arrive mtn",
+    "exEn": "coming now"
+  },
+  {
+    "fr": "a+",
+    "say": "ah ploos",
+    "speak": "à plus",
+    "en": "See ya (à plus)",
+    "ex": "ok a+ !",
+    "exEn": "ok see ya!"
+  },
+  {
+    "fr": "bsx",
+    "say": "bee-zoo",
+    "speak": "bisous",
+    "en": "Kisses, xoxo (friendly sign-off)",
+    "ex": "bonne nuit, bsx",
+    "exEn": "good night, xoxo"
+  },
+  {
+    "fr": "jtm",
+    "say": "zhuh tem",
+    "speak": "je t'aime",
+    "en": "I love you (je t'aime)",
+    "ex": "bonne nuit jtm",
+    "exEn": "good night, love you"
+  },
+  {
+    "fr": "rdv",
+    "say": "rahn-day-voo",
+    "speak": "rendez-vous",
+    "en": "Meetup, appointment (rendez-vous)",
+    "ex": "rdv à 18h devant le ciné",
+    "exEn": "meet at 6pm in front of the movie theater"
+  },
+  {
+    "fr": "dac",
+    "say": "dah-kor",
+    "speak": "d'accord",
+    "en": "OK (d'accord)",
+    "ex": "dac, à demain",
+    "exEn": "ok, see you tomorrow"
+  },
+  {
+    "fr": "vrmt",
+    "say": "vray-mahn",
+    "speak": "vraiment",
+    "en": "Really (vraiment)",
+    "ex": "c vrmt trop bien",
+    "exEn": "it's really so good"
+  },
+  {
+    "fr": "c",
+    "say": "say",
+    "speak": "c'est",
+    "en": "It's (c'est)",
+    "ex": "c ok pour moi",
+    "exEn": "it's fine by me"
+  },
+  {
+    "fr": "qqn / qqch",
+    "say": "kel-kuhn / kel-kuh shohz",
+    "speak": "quelqu'un",
+    "en": "Someone / something (quelqu'un / quelque chose)",
+    "ex": "qqn a vu mes clés ?",
+    "exEn": "has someone seen my keys?"
+  },
+  {
+    "fr": "tlm",
+    "say": "too luh mohnd",
+    "speak": "tout le monde",
+    "en": "Everyone (tout le monde)",
+    "ex": "slt tlm !",
+    "exEn": "hi everyone!"
+  },
+  {
+    "fr": "askip",
+    "say": "ah skeel pah-reh",
+    "speak": "à ce qu'il paraît",
+    "en": "Apparently, I heard (à ce qu'il paraît)",
+    "ex": "askip il a démissionné",
+    "exEn": "apparently he quit"
+  }
+]

@@ -6,13 +6,13 @@ const path = require("path");
 const PORT = Number(process.env.PORT) || 3000;
 
 
-const page = `<!doctype html>
+function renderPage(L) { return `<!doctype html>
 <html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="RU ⇄ EN">
-<title>RU ⇄ EN Translator</title>
+<meta name="apple-mobile-web-app-title" content="${L.short}">
+<title>${L.short} Translator</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; }
   body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 16px; }
@@ -65,22 +65,22 @@ const page = `<!doctype html>
   .voices button { margin-top: 0; padding: 4px 10px; font-size: 14px; color: #111; background: #f4f4f4;
     border: 1px solid #ddd; border-radius: 6px; -webkit-appearance: none; appearance: none; }
   .speaker button.on { background: #222; color: #fff; border-color: #222; }
-</style></head>
+${L.navCss}</style></head>
 <body>
-  <h1>Russian ⇄ English</h1>
+${L.nav}  <h1>${L.name} ⇄ English</h1>
   <div class="speaker">I am:
     <button id="g-m" onclick="setGender('m')"><span class="sym">♂&#xFE0E;</span><span>Male</span></button>
     <button id="g-f" onclick="setGender('f')"><span class="sym">♀&#xFE0E;</span><span>Female</span></button>
   </div>
   <div class="speaker">You:
-    <button id="y-t" onclick="setYou('t')"><span>ты</span><span class="hint">casual</span></button>
-    <button id="y-v" onclick="setYou('v')"><span>вы</span><span class="hint">formal</span></button>
+    <button id="y-t" onclick="setYou('t')"><span>${L.youT}</span><span class="hint">casual</span></button>
+    <button id="y-v" onclick="setYou('v')"><span>${L.youV}</span><span class="hint">formal</span></button>
   </div>
   <div id="conv" style="display:none">
     <button id="conv-btn" onclick="convTap()">🎤 My turn (English)</button>
     <p id="conv-status" class="ph-help"></p>
   </div>
-  <textarea id="input" placeholder="Type Russian or English..." onkeydown="if (event.key === 'Enter' && !event.shiftKey) { event.preventDefault(); go(); }"></textarea>
+  <textarea id="input" placeholder="Type ${L.name} or English..." onkeydown="if (event.key === 'Enter' && !event.shiftKey) { event.preventDefault(); go(); }"></textarea>
   <button onclick="go()">Translate</button>
  <div id="out"></div>
 <button onclick="navigator.clipboard.writeText(document.getElementById('out').textContent)">Copy</button><button onclick="speak()">🔊 Speak</button>
@@ -89,7 +89,7 @@ const page = `<!doctype html>
   <button id="l-f" onclick="setListener('f')"><span class="sym">♀&#xFE0E;</span><span>Female</span></button>
 </div>
 <div class="voices">🔒 Voice:
-  <button id="v-ru" onclick="nextVoice('ru')"></button>
+  <button id="v-${L.code}" onclick="nextVoice('${L.code}')"></button>
   <button id="v-en" onclick="nextVoice('en')"></button>
 </div>
 <details class="phrases" id="favs" open>
@@ -101,7 +101,7 @@ const page = `<!doctype html>
   <p class="ph-help">Always translated exactly the way you write them, both directions.</p>
   <div class="ph-add">
     <input id="ph-en" placeholder="English (e.g. No cap)" autocomplete="off">
-    <input id="ph-ru" placeholder="Russian (e.g. Без шуток)" autocomplete="off" lang="ru">
+    <input id="ph-${L.code}" placeholder="${L.name} (e.g. ${L.phEx})" autocomplete="off" lang="${L.code}">
     <button onclick="addPhrase()">Add</button>
   </div>
   <div id="ph-list"></div>
@@ -115,43 +115,9 @@ const page = `<!doctype html>
   <textarea id="share-link" readonly rows="3" onclick="this.select()"
     style="display:none; width:100%; font-size:13px; padding:6px; border:1px solid #ccc; border-radius:8px;"></textarea>
 </details>
-<details class="phrases" id="ruslang">
-  <summary>🇷🇺 Russian slang to learn <span id="rs-count"></span></summary>
-  <p class="ph-help">Everyday slang young Russians use. Tap 🔊 to hear the word and the example.</p>
-  <div id="rs-list"></div>
-</details>
-<details class="phrases" id="formalru">
-  <summary>🇷🇺 Formal / respectful Russian <span id="fr-count"></span></summary>
-  <p class="ph-help">Polite вы-forms for elders and people you don't know well. Tap 🔊 to hear the phrase and the example.</p>
-  <div id="fr-list"></div>
-</details>
-<details class="phrases" id="foodru">
-  <summary>🍽️ Food &amp; eating out <span id="fd-count"></span></summary>
-  <p class="ph-help">Ordering, restaurants, cafés and grocery shopping. Tap 🔊 to hear it.</p>
-  <div id="fd-list"></div>
-</details>
-<details class="phrases" id="textru">
-  <summary>💬 Texting &amp; chatting <span id="tx-count"></span></summary>
-  <p class="ph-help">Informal texting shorthand young Russians use with friends — not for formal messages. 🔊 reads the full word.</p>
-  <div id="tx-list"></div>
-</details>
-<details class="phrases" id="travelru">
-  <summary>✈️ Travel &amp; everyday situations <span id="tv-count"></span></summary>
-  <p class="ph-help">Directions, transport, pharmacy, shopping, hotels and asking for help.</p>
-  <div id="tv-list"></div>
-</details>
-<details class="phrases" id="proverbru">
-  <summary>📜 Proverbs &amp; sayings <span id="pv-count"></span></summary>
-  <p class="ph-help">Sayings Russians really use — what they literally say and what they mean. 🔊 reads the proverb.</p>
-  <div id="pv-list"></div>
-</details>
-<details class="phrases" id="numbersru">
-  <summary>🔢 Numbers &amp; counting <span id="nm-count"></span></summary>
-  <p class="ph-help">Numbers, prices and telling the time — handy with the food and travel phrases.</p>
-  <div id="nm-list"></div>
-</details>
-
+${L.sectionsHtml}
 <script>
+  const LANG = "${L.code}", LK = "${L.keyPrefix}", CFG = ${L.cfgJson};
   let gender = "m";
   try { gender = localStorage.getItem("gender") || "m"; } catch (e) {}
 
@@ -160,36 +126,36 @@ const page = `<!doctype html>
     try { localStorage.setItem("gender", g); } catch (e) {}
     document.getElementById("g-m").classList.toggle("on", g === "m");
     document.getElementById("g-f").classList.toggle("on", g === "f");
-    if (window.speechSynthesis && document.getElementById("v-ru")) showVoices();
+    if (window.speechSynthesis && document.getElementById("v-" + LANG)) showVoices();
     // Re-translate English input so the Russian updates right away
     const text = document.getElementById("input").value;
-    if (text.trim() && !/[а-яё]/i.test(text) && document.getElementById("out").textContent) go();
+    if (text.trim() && englishInput(text) && document.getElementById("out").textContent) go();
   }
 
   // Casual ты or formal вы, kept the same through the whole translation
   let you = "t";
-  try { you = localStorage.getItem("you") || "t"; } catch (e) {}
+  try { you = localStorage.getItem(LK + "you") || "t"; } catch (e) {}
   function setYou(y) {
     you = y;
-    try { localStorage.setItem("you", y); } catch (e) {}
+    try { localStorage.setItem(LK + "you", y); } catch (e) {}
     const row = document.getElementById("listener-row");
-    if (row) row.classList.toggle("dim", y === "v");   // вы doesn't depend on their gender
+    if (row) row.classList.toggle("dim", y === "v" && LANG === "ru");   // Russian вы doesn't depend on their gender (French vous does)
     document.getElementById("y-t").classList.toggle("on", y === "t");
     document.getElementById("y-v").classList.toggle("on", y === "v");
     const text = document.getElementById("input").value;
-    if (text.trim() && !/[а-яё]/i.test(text) && document.getElementById("out").textContent) go();
+    if (text.trim() && englishInput(text) && document.getElementById("out").textContent) go();
   }
 
   // Who you're talking to: picks был/была, готов/готова when using ты
   let listener = "m";
-  try { listener = localStorage.getItem("listener") || "m"; } catch (e) {}
+  try { listener = localStorage.getItem(LK + "listener") || "m"; } catch (e) {}
   function setListener(l) {
     listener = l;
-    try { localStorage.setItem("listener", l); } catch (e) {}
+    try { localStorage.setItem(LK + "listener", l); } catch (e) {}
     document.getElementById("l-m").classList.toggle("on", l === "m");
     document.getElementById("l-f").classList.toggle("on", l === "f");
     const text = document.getElementById("input").value;
-    if (you === "t" && text.trim() && !/[а-яё]/i.test(text) && document.getElementById("out").textContent) go();
+    if ((you === "t" || LANG !== "ru") && text.trim() && englishInput(text) && document.getElementById("out").textContent) go();
   }
 
   // ---- My phrases & slang — saved on THIS phone, so each person keeps their own list ----
@@ -200,12 +166,12 @@ const page = `<!doctype html>
   const phraseKey = p => String(p.en || "").trim().toLowerCase();
   function loadPhrases() {
     let saved = null, seen = null;
-    try { saved = JSON.parse(localStorage.getItem("myPhrases") || "null"); } catch (e) {}
-    try { seen = JSON.parse(localStorage.getItem("starterSeen") || "null"); } catch (e) {}
+    try { saved = JSON.parse(localStorage.getItem(LK + "myPhrases") || "null"); } catch (e) {}
+    try { seen = JSON.parse(localStorage.getItem(LK + "starterSeen") || "null"); } catch (e) {}
     if (Array.isArray(saved)) { myPhrases = saved; drawPhrases(); }
-    fetch("/phrases").then(r => r.json()).then(starters => {
+    fetch(CFG.phrasesUrl).then(r => r.json()).then(starters => {
       if (!Array.isArray(starters)) return;
-      const tidy = p => Object.assign({ en: p.en, ru: p.ru }, p.oneWay ? { oneWay: true } : {}, p.alone ? { alone: true } : {});
+      const tidy = p => Object.assign({ en: p.en, [LANG]: p[LANG] }, p.oneWay ? { oneWay: true } : {}, p.alone ? { alone: true } : {});
       if (!Array.isArray(saved)) {
         myPhrases = starters.map(tidy);                       // brand-new phone: start with the full list
       } else {
@@ -217,16 +183,16 @@ const page = `<!doctype html>
         const byKey = new Map(starters.map(p => [phraseKey(p), p]));
         myPhrases = myPhrases.map(m => {
           const s = byKey.get(phraseKey(m));
-          return s && s.ru === m.ru ? tidy(Object.assign({}, m, { oneWay: s.oneWay, alone: s.alone })) : m;
+          return s && s[LANG] === m[LANG] ? tidy(Object.assign({}, m, { oneWay: s.oneWay, alone: s.alone })) : m;
         });
         myPhrases = fresh.map(tidy).concat(myPhrases);         // new starters go to the top
       }
-      try { localStorage.setItem("starterSeen", JSON.stringify(starters.map(phraseKey))); } catch (e) {}
+      try { localStorage.setItem(LK + "starterSeen", JSON.stringify(starters.map(phraseKey))); } catch (e) {}
       savePhrases();
     }).catch(() => {});
   }
   function savePhrases() {
-    try { localStorage.setItem("myPhrases", JSON.stringify(myPhrases)); } catch (e) {}
+    try { localStorage.setItem(LK + "myPhrases", JSON.stringify(myPhrases)); } catch (e) {}
     drawPhrases();
   }
   function drawPhrases() {
@@ -237,10 +203,10 @@ const page = `<!doctype html>
       const row = document.createElement("div"); row.className = "ph-row";
       const t = document.createElement("div"); t.className = "ph-text";
       const en = document.createElement("div"); en.textContent = p.en;
-      const ru = document.createElement("div"); ru.className = "ph-ru"; ru.textContent = "→ " + p.ru + (p.oneWay ? "  (English → Russian only)" : "") + (p.alone ? "  (only when typed on its own)" : "");
+      const ru = document.createElement("div"); ru.className = "ph-ru"; ru.textContent = "→ " + p[LANG] + (p.oneWay ? "  (English → " + CFG.name + " only)" : "") + (p.alone ? "  (only when typed on its own)" : "");
       t.appendChild(en); t.appendChild(ru);
       t.style.cursor = "pointer";
-      t.onclick = () => usePhrase(p.en, p.ru, null, row);
+      t.onclick = () => usePhrase(p.en, p[LANG], null, row);
       const del = document.createElement("button"); del.textContent = "✕";
       del.setAttribute("aria-label", "Delete " + p.en);
       del.onclick = () => { myPhrases.splice(i, 1); savePhrases(); };
@@ -250,35 +216,29 @@ const page = `<!doctype html>
   }
   function addPhrase() {
     const en = document.getElementById("ph-en").value.trim();
-    const ru = document.getElementById("ph-ru").value.trim();
+    const ru = document.getElementById("ph-" + LANG).value.trim();
     if (!en || !ru) return;
     // same English again → replace the old one
     myPhrases = myPhrases.filter(p => p.en.toLowerCase() !== en.toLowerCase());
-    myPhrases.unshift({ en, ru });
+    myPhrases.unshift({ en: en, [LANG]: ru });
     document.getElementById("ph-en").value = "";
-    document.getElementById("ph-ru").value = "";
+    document.getElementById("ph-" + LANG).value = "";
     savePhrases();
   }
 
-  // ---- Russian slang to learn ----
-  function loadRuSlang() { loadCards("/ru-slang", "rs-list", "rs-count"); }
-  function loadFormalRussian() { loadCards("/formal-russian", "fr-list", "fr-count"); }
-  function loadFoodRussian() { loadCards("/food-russian", "fd-list", "fd-count"); }
-  function loadTextingRussian() { loadCards("/texting-russian", "tx-list", "tx-count"); }
-  function loadTravelRussian() { loadCards("/travel-russian", "tv-list", "tv-count"); }
-  function loadProverbsRussian() { loadCards("/proverbs-russian", "pv-list", "pv-count"); }
-  function loadNumbersRussian() { loadCards("/numbers-russian", "nm-list", "nm-count"); }
+  // ---- Learning decks (listed per language in CFG.decks) ----
+  function loadDecks() { CFG.decks.forEach(d => loadCards(d.url, d.list, d.count)); }
   function loadCards(url, listId, countId) {
     fetch(url).then(r => r.json()).then(list => {
       const box = document.getElementById(listId);
       box.textContent = "";
       if (!box.previousElementSibling || !box.previousElementSibling.classList.contains("tap-note")) {
         const note = document.createElement("p"); note.className = "ph-help tap-note";
-        note.textContent = "👆 Tap any card to use it — the Russian goes to the top, ready to Copy or Speak. ☆ saves it to Favorites.";
+        note.textContent = "👆 Tap any card to use it — the " + CFG.name + " goes to the top, ready to Copy or Speak. ☆ saves it to Favorites.";
         box.parentNode.insertBefore(note, box);
       }
       document.getElementById(countId).textContent = "(" + list.length + ")";
-      list.forEach(w => box.appendChild(makeCard(w, url + "|" + w.ru)));
+      list.forEach(w => box.appendChild(makeCard(w, url + "|" + w[LANG])));
     }).catch(() => {});
   }
 
@@ -286,9 +246,9 @@ const page = `<!doctype html>
   function makeCard(w, key) {
     const card = document.createElement("div"); card.className = "rs-card";
     card.title = "Tap to use this phrase";
-    card.onclick = () => usePhrase(w.en, w.ru, w.speak, card);
+    card.onclick = () => usePhrase(w.en, w[LANG], w.speak, card);
     const body = document.createElement("div"); body.className = "rs-body";
-    const word = document.createElement("div"); word.className = "rs-word"; word.textContent = w.ru;
+    const word = document.createElement("div"); word.className = "rs-word"; word.textContent = w[LANG];
     if (w.say) {
       const say = document.createElement("span"); say.className = "rs-say"; say.textContent = "[" + w.say + "]";
       word.appendChild(say);
@@ -306,10 +266,10 @@ const page = `<!doctype html>
     }
     const btns = document.createElement("div"); btns.className = "rs-btns";
     const btn = document.createElement("button"); btn.textContent = "🔊";
-    btn.setAttribute("aria-label", "Hear " + w.ru);
+    btn.setAttribute("aria-label", "Hear " + w[LANG]);
     btn.onclick = e => {
       e.stopPropagation();
-      const first = w.speak || pickGender(w.ru, genderFor(w.en));
+      const first = w.speak || pickGender(w[LANG], genderFor(w.en));
       speakText(first + (w.ex ? (/[.!?…]$/.test(first) ? " " : ". ") + w.ex : ""));
     };
     const star = document.createElement("button"); star.className = "star";
@@ -323,7 +283,7 @@ const page = `<!doctype html>
 
   // ---- ⭐ Favorites (kept on this phone, survive refreshes and server restarts) ----
   let favs = [];
-  try { favs = JSON.parse(localStorage.getItem("favs") || "[]"); } catch (e) { favs = []; }
+  try { favs = JSON.parse(localStorage.getItem(LK + "favs") || "[]"); } catch (e) { favs = []; }
   if (!Array.isArray(favs)) favs = [];
   function isFav(key) { return favs.some(f => f.key === key); }
   function paintStar(star) {
@@ -335,7 +295,7 @@ const page = `<!doctype html>
   function toggleFav(key, w) {
     if (isFav(key)) favs = favs.filter(f => f.key !== key);
     else favs.unshift({ key, w });
-    try { localStorage.setItem("favs", JSON.stringify(favs)); } catch (e) {}
+    try { localStorage.setItem(LK + "favs", JSON.stringify(favs)); } catch (e) {}
     document.querySelectorAll(".star").forEach(paintStar);   // update every ☆/★ on the page
     renderFavorites();
   }
@@ -352,12 +312,32 @@ const page = `<!doctype html>
     favs.forEach(f => box.appendChild(makeCard(f.w, f.key)));
   }
 
-  async function go() {
+  // Was the text in the box English? Russian is told apart by its letters; French and English share
+  // an alphabet, so for French we go by what the last translation found.
+  let lastFrom = "", lastTo = "", lastSay = null, lastOut = "";
+  function englishInput(text) {
+    if (LANG === "ru") return !/[а-яё]/i.test(text);
+    return lastFrom === "en";
+  }
+
+  async function go(fromHint) {
     const text = document.getElementById("input").value;
     // send this phone's own phrase list along with the text
+    if (LANG === "ru") {
+      const r = await fetch("/translate", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ q: text, g: gender, y: you, l: listener, phrases: myPhrases }) });
+      document.getElementById("out").textContent = await r.text();
+      return;
+    }
+    // French (and later languages): the server also says which way it went and which parts to say in which voice
     const r = await fetch("/translate", { method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ q: text, g: gender, y: you, l: listener, phrases: myPhrases }) });
-    document.getElementById("out").textContent = await r.text();
+      body: JSON.stringify({ lang: LANG, from: fromHint || "", q: text, g: gender, y: you, l: listener, phrases: myPhrases }) });
+    if (!r.ok) throw new Error("translate failed");
+    const j = await r.json();
+    lastFrom = j.from || ""; lastTo = j.to || ""; lastSay = j.say || null; lastOut = j.out || "";
+    const out = document.getElementById("out");
+    out.textContent = lastOut;
+    out.dataset.for = ""; out.dataset.say = "";
   }
   // Speak each run of Russian or English text in its own voice,
   // so an English title inside a Russian sentence is said in English.
@@ -365,6 +345,11 @@ const page = `<!doctype html>
     const out = document.getElementById("out");
     const t = out.textContent;
     const d = out.dataset || {};
+    if (LANG !== "ru") {
+      if (d.say && d.for === t) return speakText(d.say, LANG);
+      if (lastSay && t === lastOut) return speakParts(lastSay.map(p => ({ lang: CFG.locales[p[0]], text: p[1] })));
+      return speakText(t, t === lastOut && lastTo ? lastTo : LANG);
+    }
     speakText(d.say && d.for === t ? d.say : t);
   }
 
@@ -385,7 +370,20 @@ const page = `<!doctype html>
     if (m.endsWith("ся") && f === m.slice(0, -2) + "ась") return true;
     if (m.endsWith("ец") && f === m.slice(0, -2) + "ка") return true;
     if (m.endsWith("ен") && f === m.slice(0, -2) + "на") return true;   // должен/должна, согласен/согласна
+    if (LANG === "fr") return frGenderPair(m, f);
     return false;
+  }
+  // French: prêt/prête, désolé/désolée, heureux/heureuse, sportif/sportive, premier/première, canadien/canadienne…
+  const FR_PAIRS = { "un": "une", "le": "la", "il": "elle", "mon": "ma", "ton": "ta", "son": "sa", "ce": "cette",
+    "beau": "belle", "nouveau": "nouvelle", "fou": "folle", "vieux": "vieille", "lui": "elle", "frais": "fraîche",
+    "blanc": "blanche", "doux": "douce", "faux": "fausse", "long": "longue", "gentil": "gentille", "acteur": "actrice",
+    "copain": "copine", "mec": "meuf", "monsieur": "madame", "frère": "sœur", "fils": "fille", "chéri": "chérie" };
+  function frGenderPair(m, f) {
+    if (FR_PAIRS[m] === f) return true;
+    if (f === m + "e") return true;
+    const ends = [["eux", "euse"], ["eur", "euse"], ["teur", "trice"], ["if", "ive"], ["er", "ère"], ["ien", "ienne"],
+      ["on", "onne"], ["el", "elle"], ["et", "ette"], ["et", "ète"], ["en", "enne"], ["x", "se"], ["s", "sse"]];
+    return ends.some(p => m.endsWith(p[0]) && f === m.slice(0, -p[0].length) + p[1]);
   }
   // Pick one form from "masc / fem" text. g = "m" or "f". Non-gender slashes (Чай / кофе) are left alone.
   function pickGender(text, g) {
@@ -396,6 +394,8 @@ const page = `<!doctype html>
     if (L.length === R.length) {
       const diff = L.map((w, i) => i).filter(i => bare(L[i]) !== bare(R[i]));
       if (diff.length === 1 && genderPair(L[diff[0]], R[diff[0]])) return g === "f" ? sides[1] : sides[0];
+      // French often changes two words: "un ami / une amie", "Tu es prêt ? / Tu es prête ?"
+      if (LANG === "fr" && diff.length > 1 && diff.length <= 3 && diff.every(i => genderPair(L[i], R[i]))) return g === "f" ? sides[1] : sides[0];
     }
     // Single-word choice: "Я бы хотел / хотела заказать…"
     const m = L[L.length - 1], f = R[0];
@@ -434,7 +434,12 @@ const page = `<!doctype html>
     out.classList.add("flash"); setTimeout(() => out.classList.remove("flash"), 900);
     out.scrollIntoView({ behavior: "smooth", block: "center" });
   }
-  function speakText(t) {
+  function speakText(t, lang) {
+    if (LANG !== "ru") {
+      // French and English look alike, so the caller says which language this is
+      if (!String(t || "").trim()) return;
+      return speakParts([{ lang: CFG.locales[lang || LANG] || CFG.locales[LANG], text: t }]);
+    }
     const chunks = [];
     let cur = null;
     for (const ch of t) {
@@ -443,7 +448,11 @@ const page = `<!doctype html>
       if (!cur) { cur = { lang: "en-US", text: "" }; chunks.push(cur); }
       cur.text += ch;   // spaces and punctuation stay with the run before them
     }
-    const parts = chunks.filter(c => /[а-яёa-z0-9]/i.test(c.text));
+    speakParts(chunks.filter(c => /[а-яёa-z0-9]/i.test(c.text)));
+  }
+  function hasWords(t) { return LANG === "ru" ? /[а-яёa-z0-9]/i.test(t) : !!String(t).trim(); }
+  function speakParts(parts) {
+    parts = parts.filter(c => c.text && hasWords(c.text));
     if (!parts.length) return;
     speechSynthesis.cancel();
     if (player) { player.pause(); player = null; }
@@ -472,7 +481,7 @@ const page = `<!doctype html>
   function speakLocal(chunks) {
     speechSynthesis.cancel();
     for (const c of chunks) {
-      if (!/[а-яёa-z0-9]/i.test(c.text)) continue;
+      if (!hasWords(c.text)) continue;
       const u = new SpeechSynthesisUtterance(c.text);
       u.lang = c.lang;
       const lang = c.lang.slice(0, 2);
@@ -492,7 +501,7 @@ const page = `<!doctype html>
   // ---- Microsoft online voices: fixed per gender, so always the same voice ----
   let online = false;
   let player = null;
-  const ONLINE = { m: { ru: "Dmitry", en: "Guy" }, f: { ru: "Svetlana", en: "Jenny" } };
+  const ONLINE = { m: { ru: "Dmitry", fr: "Henri", en: "Guy" }, f: { ru: "Svetlana", fr: "Denise", en: "Jenny" } };
   fetch("/tts-status").then(r => r.json()).then(s => { online = !!s.ok; showVoices(); }).catch(() => {});
 
   // ---- Voice matches the speaker's gender, and stays locked ----
@@ -500,10 +509,13 @@ const page = `<!doctype html>
   var FEMALE = ["milena", "katya", "irina", "svetlana", "dariya", "ekaterina", "alena", "google русский",
     "samantha", "karen", "moira", "tessa", "victoria", "allison", "ava", "susan", "zoe", "nicky", "kate",
     "serena", "fiona", "veena", "zira", "aria", "jenny", "hazel", "libby", "sonia", "michelle", "emma",
+    "amélie", "amelie", "audrey", "aurélie", "aurelie", "marie", "denise", "julie", "hortense", "eloise",
+    "vivienne", "céline", "celine", "google français",
     "female", "google us english"];
   var MALE = ["yuri", "pavel", "dmitry", "maxim", "daniel", "alex", "fred", "aaron", "arthur", "gordon",
     "oliver", "tom", "rishi", "reed", "eddy", "ralph", "david", "mark", "guy", "george", "ryan",
-    "christopher", "eric", "roger", "steffan", "brian", "male"];
+    "christopher", "eric", "roger", "steffan", "brian", "thomas", "jacques", "henri", "paul", "remy", "rémy",
+    "nicolas", "male"];
 
   function voiceGender(v) {
     const n = v.name.toLowerCase();
@@ -527,8 +539,10 @@ const page = `<!doctype html>
   function voiceRank(v) {
     const n = v.name.toLowerCase();
     if (NOVELTY.some(w => n.includes(w))) return 3;
-    if (n.includes("premium") || n.includes("enhanced")) return 0;
-    return 1;
+    // French: prefer France French over Canadian (fr-CA) voices
+    const off = LANG === "fr" && v.lang.replace("_", "-").toLowerCase().startsWith("fr") && !v.lang.replace("_", "-").toLowerCase().startsWith("fr-fr") ? 0.5 : 0;
+    if (n.includes("premium") || n.includes("enhanced")) return 0 + off;
+    return 1 + off;
   }
 
   // Remembers one voice per language + gender, so it never snaps back to the default.
@@ -570,11 +584,11 @@ const page = `<!doctype html>
       return fb ? short(fb) + (gender === "m" ? " (lowered)" : " (raised)") : "default";
     };
     if (online) {
-      document.getElementById("v-ru").textContent = "RU: " + ONLINE[gender].ru + " (Microsoft)";
+      document.getElementById("v-" + LANG).textContent = LANG.toUpperCase() + ": " + ONLINE[gender][LANG] + " (Microsoft)";
       document.getElementById("v-en").textContent = "EN: " + ONLINE[gender].en + " (Microsoft)";
       return;
     }
-    document.getElementById("v-ru").textContent = "RU: " + label("ru");
+    document.getElementById("v-" + LANG).textContent = LANG.toUpperCase() + ": " + label(LANG);
     document.getElementById("v-en").textContent = "EN: " + label("en");
   }
   speechSynthesis.onvoiceschanged = showVoices;   // voices load a moment after the page
@@ -600,7 +614,7 @@ const page = `<!doctype html>
     if (!btn) return;
     btn.classList.toggle("them", convTurn === "them");
     btn.classList.remove("listening");
-    btn.textContent = convTurn === "me" ? "🎤 My turn (English)" : "🎤 Their turn (Russian)";
+    btn.textContent = convTurn === "me" ? "🎤 My turn (English)" : "🎤 Their turn (" + CFG.name + ")";
   }
   function convStatus(t) { const s = document.getElementById("conv-status"); if (s) s.textContent = t || ""; }
 
@@ -612,14 +626,14 @@ const page = `<!doctype html>
     speechSynthesis.cancel(); if (player) { player.pause(); }   // stop the phone talking so the mic doesn't hear it
     const turn = convTurn;
     const rec = new SpeechRec();
-    rec.lang = turn === "me" ? "en-US" : "ru-RU";
+    rec.lang = turn === "me" ? "en-US" : CFG.locales[LANG];
     rec.interimResults = true;
     rec.continuous = false;
     rec.maxAlternatives = 1;
     convHeard = "";
     convRec = rec;
     btn.classList.add("listening");
-    btn.textContent = turn === "me" ? "● Listening (English)… tap when done" : "● Слушаю (Russian)… tap when done";
+    btn.textContent = turn === "me" ? "● Listening (English)… tap when done" : "● " + CFG.listening + " (" + CFG.name + ")… tap when done";
     convStatus("");
     rec.onresult = e => {
       let t = "";
@@ -641,13 +655,13 @@ const page = `<!doctype html>
       btn.classList.remove("listening");
       btn.textContent = "Translating…";
       try {
-        await go();                                              // same translate path as the Translate button
+        await go(turn === "me" ? "en" : LANG);                   // same translate path as the Translate button
         // their turn: the English is "their" voice, so use the Talking-to gender for it
         const saved = gender;
         if (turn === "them") gender = listener;
         try { speak(); } finally { gender = saved; }
         convTurn = turn === "me" ? "them" : "me";                // flip for the next tap
-        convStatus(turn === "me" ? "✓ Said it in Russian. Hand it over — their turn." : "✓ Said it in English. Your turn.");
+        convStatus(turn === "me" ? "✓ Said it in " + CFG.name + ". Hand it over — their turn." : "✓ Said it in English. Your turn.");
       } catch (e) {
         convStatus("Translation failed — check the connection and tap to try again.");
       } finally {
@@ -701,14 +715,14 @@ const page = `<!doctype html>
     const status = document.getElementById("share-status");
     const box = document.getElementById("share-link");
     let seen = null;
-    try { seen = JSON.parse(localStorage.getItem("starterSeen") || "null"); } catch (e) {}
-    const setup = { app: "ru-en", v: 1, phrases: myPhrases, favs: favs, starterSeen: seen,
+    try { seen = JSON.parse(localStorage.getItem(LK + "starterSeen") || "null"); } catch (e) {}
+    const setup = { app: CFG.app, v: 1, phrases: myPhrases, favs: favs, starterSeen: seen,
                     gender: gender, you: you, listener: listener };
-    const link = location.origin + "/#setup=" + (await packSetup(setup));
+    const link = location.origin + CFG.path + "#setup=" + (await packSetup(setup));
     box.value = link; box.style.display = "block";
     const what = myPhrases.length + " phrases, " + favs.length + " favorites";
     if (navigator.share) {
-      try { await navigator.share({ title: "My RU ⇄ EN setup", text: "Open this to copy my translator setup (" + what + ")", url: link });
+      try { await navigator.share({ title: "My " + CFG.short + " setup", text: "Open this to copy my translator setup (" + what + ")", url: link });
             status.textContent = "Shared ✓ (" + what + ")"; return; } catch (e) { /* cancelled → fall through to copy */ }
     }
     try { await navigator.clipboard.writeText(link); status.textContent = "Link copied ✓ (" + what + ") — paste it into a message or Notes."; }
@@ -721,16 +735,19 @@ const page = `<!doctype html>
     history.replaceState(null, "", location.pathname);       // tidy the address bar either way
     let data;
     try { data = await unpackSetup(h.slice(7)); } catch (e) { alert("Sorry, that setup link couldn't be opened."); return; }
-    if (!data || data.app !== "ru-en" || !Array.isArray(data.phrases)) { alert("That isn't a translator setup link."); return; }
+    // a link made on another language's page (e.g. a French setup opened here) → open it on that page
+    if (data && data.app !== CFG.app && CFG.apps[data.app]) { location.replace(CFG.apps[data.app] + h); return "moved"; }
+    if (!data || data.app !== CFG.app || !Array.isArray(data.phrases)) { alert("That isn't a translator setup link."); return; }
     const n = data.phrases.length, f = Array.isArray(data.favs) ? data.favs.length : 0;
     if (!confirm("Load the shared setup on this phone?" + String.fromCharCode(10) + String.fromCharCode(10) +
                  n + " phrases and " + f + " favorites will REPLACE what's on this phone now.")) return;
     try {
-      localStorage.setItem("myPhrases", JSON.stringify(data.phrases));
-      localStorage.setItem("favs", JSON.stringify(Array.isArray(data.favs) ? data.favs : []));
-      if (Array.isArray(data.starterSeen)) localStorage.setItem("starterSeen", JSON.stringify(data.starterSeen));
-      else localStorage.removeItem("starterSeen");
-      ["gender", "you", "listener"].forEach(k => { if (data[k] === "m" || data[k] === "f" || data[k] === "t" || data[k] === "v") localStorage.setItem(k, data[k]); });
+      localStorage.setItem(LK + "myPhrases", JSON.stringify(data.phrases));
+      localStorage.setItem(LK + "favs", JSON.stringify(Array.isArray(data.favs) ? data.favs : []));
+      if (Array.isArray(data.starterSeen)) localStorage.setItem(LK + "starterSeen", JSON.stringify(data.starterSeen));
+      else localStorage.removeItem(LK + "starterSeen");
+      // "I am" is about you, so it's shared by every language; ты/вы, tu/vous and Talking to are per language
+      ["gender", "you", "listener"].forEach(k => { if (data[k] === "m" || data[k] === "f" || data[k] === "t" || data[k] === "v") localStorage.setItem(k === "gender" ? k : LK + k, data[k]); });
     } catch (e) { alert("Couldn't save on this phone (private browsing?)."); return; }
     favs = Array.isArray(data.favs) ? data.favs : [];
     if (data.gender === "m" || data.gender === "f") gender = data.gender;
@@ -745,13 +762,7 @@ const page = `<!doctype html>
     setYou(you);
     setListener(listener);
     loadPhrases();
-    loadRuSlang();
-    loadFormalRussian();
-    loadFoodRussian();
-    loadTextingRussian();
-    loadTravelRussian();
-    loadProverbsRussian();
-    loadNumbersRussian();
+    loadDecks();
     renderFavorites();
     setTimeout(showVoices, 300);
     setupConversation();
@@ -760,12 +771,67 @@ const page = `<!doctype html>
       document.getElementById("share").open = true;
     }
   }
-  importFromLink().catch(() => {}).then(startApp);
+  importFromLink().catch(() => {}).then(r => { if (r !== "moved") startApp(); });
   // a setup link opened while the app is already showing: reload so it gets loaded
   window.addEventListener("hashchange", () => { if ((location.hash || "").indexOf("#setup=") === 0) location.reload(); });
 
 </script>
-</body></html>`;
+</body></html>`; }
+
+// ---- Languages: each one gets its own page (Russian at /, French at /fr) built from the same template ----
+// To add a language: a lang-xx.js file (its grammar fixes + learning decks), then an entry here.
+const FR = require("./lang-fr.js");
+const LANG_LIST = [
+  { code: "ru", name: "Russian", flag: "🇷🇺", short: "RU ⇄ EN", path: "/", app: "ru-en", keyPrefix: "",
+    youT: "ты", youV: "вы", phEx: "Без шуток", phrasesUrl: "/phrases", listening: "Слушаю",
+    decks: [
+      { id: "ruslang", list: "rs-list", count: "rs-count", url: "/ru-slang", title: "🇷🇺 Russian slang to learn",
+        help: "Everyday slang young Russians use. Tap 🔊 to hear the word and the example." },
+      { id: "formalru", list: "fr-list", count: "fr-count", url: "/formal-russian", title: "🇷🇺 Formal / respectful Russian",
+        help: "Polite вы-forms for elders and people you don't know well. Tap 🔊 to hear the phrase and the example." },
+      { id: "foodru", list: "fd-list", count: "fd-count", url: "/food-russian", title: "🍽️ Food &amp; eating out",
+        help: "Ordering, restaurants, cafés and grocery shopping. Tap 🔊 to hear it." },
+      { id: "textru", list: "tx-list", count: "tx-count", url: "/texting-russian", title: "💬 Texting &amp; chatting",
+        help: "Informal texting shorthand young Russians use with friends — not for formal messages. 🔊 reads the full word." },
+      { id: "travelru", list: "tv-list", count: "tv-count", url: "/travel-russian", title: "✈️ Travel &amp; everyday situations",
+        help: "Directions, transport, pharmacy, shopping, hotels and asking for help." },
+      { id: "proverbru", list: "pv-list", count: "pv-count", url: "/proverbs-russian", title: "📜 Proverbs &amp; sayings",
+        help: "Sayings Russians really use — what they literally say and what they mean. 🔊 reads the proverb." },
+      { id: "numbersru", list: "nm-list", count: "nm-count", url: "/numbers-russian", title: "🔢 Numbers &amp; counting",
+        help: "Numbers, prices and telling the time — handy with the food and travel phrases." },
+    ] },
+  { code: "fr", name: "French", flag: "🇫🇷", short: "FR ⇄ EN", path: "/fr", app: "fr-en", keyPrefix: "fr_",
+    youT: "tu", youV: "vous", phEx: "Pas de souci", phrasesUrl: "/fr/phrases", listening: "J'écoute",
+    decks: FR.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
+];
+const LOCALES = { ru: "ru-RU", fr: "fr-FR", en: "en-US" };
+
+function langNav(cur) {
+  return '  <nav class="langs">' + LANG_LIST.map(l =>
+    '<a href="' + l.path + '"' + (l.code === cur.code ? ' class="on" aria-current="page"' : "") + ">" + l.flag + " " + l.name + "</a>").join("") +
+    "</nav>\n";
+}
+const NAV_CSS = "  .langs { display: flex; flex-wrap: wrap; gap: 6px; margin: -24px 0 4px; }\n" +
+  "  .langs a { padding: 6px 12px; border: 1px solid #ddd; border-radius: 999px; color: #333; text-decoration: none; font-size: 15px; background: #f7f7f7; }\n" +
+  "  .langs a.on { background: #222; color: #fff; border-color: #222; }\n";
+
+function sectionsHtml(decks) {
+  return decks.map(d => '<details class="phrases" id="' + d.id + '">\n' +
+    "  <summary>" + d.title + ' <span id="' + d.count + '"></span></summary>\n' +
+    '  <p class="ph-help">' + d.help + "</p>\n" +
+    '  <div id="' + d.list + '"></div>\n' +
+    "</details>\n").join("");
+}
+
+const PAGES = {};
+for (const l of LANG_LIST) {
+  const cfg = { name: l.name, short: l.short, app: l.app, path: l.path, phrasesUrl: l.phrasesUrl, listening: l.listening,
+    locales: LOCALES, decks: l.decks.map(d => ({ url: d.url, list: d.list, count: d.count })),
+    apps: Object.fromEntries(LANG_LIST.map(x => [x.app, x.path])) };
+  PAGES[l.path] = renderPage(Object.assign({}, l, {
+    nav: langNav(l), navCss: NAV_CSS, sectionsHtml: sectionsHtml(l.decks),
+    cfgJson: JSON.stringify(cfg).replace(/</g, "\\u003c") }));
+}
 
 
 // ---- Female speaker: switch "я" + masculine past tense / short adjectives to feminine ----
@@ -980,7 +1046,7 @@ function protectTitles(text) {
 }
 
 function restoreTitles(out, titles, to) {
-  const [open, close] = to === "ru" ? ["«", "»"] : ["“", "”"];
+  const [open, close] = to === "ru" ? ["«", "»"] : to === "fr" ? ["« ", " »"] : ["“", "”"];
   return out
     .replace(/ZQX(\d+)/g, (_, i) => open + titles[+i] + close)
     // Google sometimes lowercases the start of a sentence next to a placeholder ("? мне")
@@ -1016,8 +1082,8 @@ async function google(text, from, to) {
 // ---- Microsoft voices (msedge-tts add-on) ----
 // Install once in this folder:  npm install msedge-tts
 const TTS_VOICES = {
-  m: { ru: "ru-RU-DmitryNeural",   en: "en-US-GuyNeural" },
-  f: { ru: "ru-RU-SvetlanaNeural", en: "en-US-JennyNeural" },
+  m: { ru: "ru-RU-DmitryNeural",   fr: "fr-FR-HenriNeural",  en: "en-US-GuyNeural" },
+  f: { ru: "ru-RU-SvetlanaNeural", fr: "fr-FR-DeniseNeural", en: "en-US-JennyNeural" },
 };
 let edge = null;
 import("msedge-tts")
@@ -1062,7 +1128,7 @@ async function handleTTS(req, u, res) {
   const g = u.searchParams.get("g") === "f" ? "f" : "m";
   let parts;
   try { parts = JSON.parse(u.searchParams.get("d") || "[]"); } catch (e) { parts = []; }
-  parts = parts.filter(p => Array.isArray(p) && (p[0] === "ru" || p[0] === "en") && typeof p[1] === "string" && p[1].trim())
+  parts = parts.filter(p => Array.isArray(p) && (p[0] === "ru" || p[0] === "fr" || p[0] === "en") && typeof p[1] === "string" && p[1].trim())
                .slice(0, 20);
   if (!edge || !parts.length) { res.writeHead(503); return res.end(); }
   const key = g + JSON.stringify(parts);
@@ -1125,14 +1191,14 @@ function phraseRegex(p) {
   return new RegExp("(?<![\\p{L}\\p{N}'])" + body + "(?![\\p{L}\\p{N}'])", "giu");
 }
 
-function cleanPhrases(list) {
+function cleanPhrases(list, tg = "ru") {
   if (!Array.isArray(list)) return null;
-  return list.filter(p => p && typeof p.en === "string" && typeof p.ru === "string" && p.en.trim() && p.ru.trim())
-    .slice(0, 500).map(p => Object.assign({ en: p.en.trim().slice(0, 200), ru: p.ru.trim().slice(0, 200) },
+  return list.filter(p => p && typeof p.en === "string" && typeof p[tg] === "string" && p.en.trim() && p[tg].trim())
+    .slice(0, 500).map(p => Object.assign({ en: p.en.trim().slice(0, 200), [tg]: p[tg].trim().slice(0, 200) },
       p.oneWay ? { oneWay: true } : {}, p.alone ? { alone: true } : {}));
 }
 
-function protectPhrases(text, from, phrases) {
+function protectPhrases(text, from, phrases, to = from === "en" ? "ru" : "en") {
   const hits = [];
   let t = norm(text);
   // longest phrases first, so "how do you eat" wins over "you eat"
@@ -1141,20 +1207,23 @@ function protectPhrases(text, from, phrases) {
   // so "I have no idea" doesn't turn into «Нет»
   const bareMsg = s => norm(s).trim().replace(/[.!?…,]+$/, "").trim().toLowerCase();
   const whole = bareMsg(text);
-  const list = phrases.filter(p => p.en && p.ru && !(p.oneWay && from === "ru") && (!p.alone || bareMsg(p[from]) === whole))
+  const tg = from === "en" ? to : from;
+  const list = phrases.filter(p => p.en && p[tg] && !(p.oneWay && from !== "en") && (!p.alone || bareMsg(p[from]) === whole))
     .slice().sort((a, b) => b[from].length - a[from].length);
   for (const p of list) {
     t = t.replace(phraseRegex(p[from]), () => { hits.push(p); return "ZQP" + (hits.length - 1); });
   }
   return { text: t, hits };
 }
-function restorePhrases(out, hits, to) {
+const CAP_RU = /(^|[.!?]\s+)([a-zа-яё])/g;
+const CAP_FR = /(^|[.!?]\s+)([a-zà-ÿœ])/g;    // French/English: also capitalise é, à…
+function restorePhrases(out, hits, to, cap = CAP_RU) {
   return out.replace(/ZQP(\d+)/g, (_, i) => {
     let s = ((hits[+i] && hits[+i][to]) || "").trim().replace(/[.!?…]+$/, "");  // punctuation comes from your message
     // lower-case the first letter; it's capitalised again below if it starts a sentence
     if (s.length > 1 && s[1] === s[1].toLowerCase() && !/^I\b/.test(s)) s = s[0].toLowerCase() + s.slice(1);
     return s;
-  }).replace(/(^|[.!?]\s+)([a-zа-яё])/g, (_, pre, c) => pre + c.toUpperCase());
+  }).replace(cap, (_, pre, c) => pre + c.toUpperCase());
 }
 
 // ---- Russian slang to learn — saved in russian-slang.json (edit it to add your own) ----
@@ -1421,6 +1490,64 @@ const EXTRA_SECTIONS = {
   "/numbers-russian":  loadList("numbers-russian.json", NUMBERS_RU),
 };
 
+// ---- French: decks, starter phrases and the translate pipeline ----
+const FR_SECTIONS = {};
+for (const d of FR.DECKS) FR_SECTIONS[d.url] = loadList(d.file, d.data);
+const phrasesFr = loadList("phrases-fr.json", FR.STARTER_PHRASES_FR);
+
+// Google's guess at the language ("fr", "en"…)
+async function googleDetect(text) {
+  const g = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=" + encodeURIComponent(text.slice(0, 500));
+  const d = await (await fetch(g)).json();
+  return typeof d[2] === "string" ? d[2] : "";
+}
+
+// French and English share an alphabet, so: a phrase of yours typed on its own decides it,
+// then the conversation button's turn, then Google's guess.
+async function frDirection(text, hint, userPhrases) {
+  if (hint === "en" || hint === "fr") return hint;
+  const bare = s => norm(s).trim().replace(/[.!?…,]+$/, "").trim().toLowerCase();
+  const whole = bare(text);
+  if (userPhrases.some(p => bare(p.en) === whole)) return "en";
+  if (userPhrases.some(p => bare(p.fr) === whole)) return "fr";
+  return (await googleDetect(text)) === "fr" ? "fr" : "en";
+}
+
+async function translateFr(body, arg) {
+  const text = arg("q").slice(0, 5000);
+  const gender = arg("g") === "f" ? "f" : "m";
+  const userPhrases = cleanPhrases(body.phrases, "fr") || phrasesFr;
+  if (!text.trim()) return { out: "", from: "en", to: "fr", say: [] };
+  const from = await frDirection(text, arg("from"), userPhrases);
+  const to = from === "fr" ? "en" : "fr";
+  const { text: safe0, titles } = protectTitles(text);
+  const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
+  let out;
+  if (/^\s*ZQP0\s*[.!?…]*\s*$/.test(safe) && hits.length === 1) out = safe;     // the whole message is one of your phrases
+  else out = await google(safe, from, to);
+  const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
+  if (!ok) out = await google(text, from, to);                                     // placeholder got mangled → plain translation
+  else out = restoreTitles(out, titles, to);
+  if (to === "fr") {
+    out = FR.grammar.setFormality(out, arg("y") === "v" ? "v" : "t", arg("l") === "f" ? "f" : "m");
+    if (gender === "f") out = FR.grammar.makeFemale(out);
+  }
+  if (ok) out = restorePhrases(out, hits, to, CAP_FR);                            // last, so nothing rewrites your wording
+  if (ok && hits.length === 1 && /^\s*ZQP0\s*$/.test(safe)) out = hits[0][to];
+  // which parts to read in which voice: kept titles stay in the language they were typed in
+  const say = [];
+  let rest = out;
+  for (const t of (ok ? titles : [])) {
+    const i = rest.indexOf(t);
+    if (i < 0) continue;
+    if (i > 0) say.push([to, rest.slice(0, i)]);
+    say.push([from, t]);
+    rest = rest.slice(i + t.length);
+  }
+  if (rest) say.push([to, rest]);
+  return { out, from, to, say: say.filter(p => /[A-Za-zÀ-ÿ0-9]/.test(p[1])) };
+}
+
 function readBody(req) {
   return new Promise((resolve, reject) => {
     let b = "";
@@ -1433,6 +1560,14 @@ function readBody(req) {
 
 http.createServer(async (req, res) => {
   const u = new URL(req.url, "http://localhost");
+  if (FR_SECTIONS[u.pathname]) {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(FR_SECTIONS[u.pathname]));
+  }
+  if (u.pathname === "/fr/phrases") {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(phrasesFr));
+  }
   if (EXTRA_SECTIONS[u.pathname]) {
     res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
     return res.end(JSON.stringify(EXTRA_SECTIONS[u.pathname]));
@@ -1462,6 +1597,17 @@ http.createServer(async (req, res) => {
       try { body = JSON.parse(await readBody(req)) || {}; } catch (e) { res.writeHead(400); return res.end(); }
     }
     const arg = k => (typeof body[k] === "string" ? body[k] : u.searchParams.get(k)) || "";
+    if (arg("lang") === "fr") {
+      try {
+        const r = await translateFr(body, arg);
+        res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+        res.end(JSON.stringify(r));
+      } catch (e) {
+        res.writeHead(500);
+        res.end("Something went wrong");
+      }
+      return;
+    }
     const text = arg("q").slice(0, 5000);
     const gender = arg("g") === "f" ? "f" : "m";
     const userPhrases = cleanPhrases(body.phrases) || phrases;
@@ -1499,6 +1645,6 @@ http.createServer(async (req, res) => {
     return;
   }
   res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
-  res.end(page);
+  res.end(PAGES[u.pathname.replace(/\/+$/, "") || "/"] || PAGES["/"]);
 }).listen(PORT, "0.0.0.0", () => console.log("Translator running on port " + PORT + " — open http://localhost:" + PORT));
 

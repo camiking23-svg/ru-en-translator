@@ -1,0 +1,310 @@
+[
+  {
+    "fr": "zéro",
+    "say": "zay-roh",
+    "en": "0 — zero",
+    "ex": "Il fait zéro degré.",
+    "exEn": "It's zero degrees."
+  },
+  {
+    "fr": "un",
+    "say": "uhn",
+    "en": "1 — one (une before a feminine word)",
+    "ex": "Un café et une bière, s'il vous plaît.",
+    "exEn": "One coffee and one beer, please."
+  },
+  {
+    "fr": "deux",
+    "say": "duh",
+    "en": "2 — two",
+    "ex": "Deux billets, s'il vous plaît.",
+    "exEn": "Two tickets, please."
+  },
+  {
+    "fr": "trois",
+    "say": "trwah",
+    "en": "3 — three",
+    "ex": "Une table pour trois.",
+    "exEn": "A table for three."
+  },
+  {
+    "fr": "quatre",
+    "say": "kahtr",
+    "en": "4 — four",
+    "ex": "J'habite au quatrième étage.",
+    "exEn": "I live on the fourth floor."
+  },
+  {
+    "fr": "cinq",
+    "say": "sank",
+    "en": "5 — five",
+    "ex": "Cinq minutes, j'arrive !",
+    "exEn": "Five minutes, I'm coming!"
+  },
+  {
+    "fr": "six",
+    "say": "sees",
+    "en": "6 — six",
+    "ex": "On se voit à six heures.",
+    "exEn": "See you at six."
+  },
+  {
+    "fr": "sept",
+    "say": "set",
+    "en": "7 — seven",
+    "ex": "Sept jours par semaine.",
+    "exEn": "Seven days a week."
+  },
+  {
+    "fr": "huit",
+    "say": "weet",
+    "en": "8 — eight",
+    "ex": "Le train part à huit heures.",
+    "exEn": "The train leaves at eight."
+  },
+  {
+    "fr": "neuf",
+    "say": "nuhf",
+    "en": "9 — nine",
+    "ex": "Il est neuf heures.",
+    "exEn": "It's nine o'clock."
+  },
+  {
+    "fr": "dix",
+    "say": "dees",
+    "en": "10 — ten",
+    "ex": "Ça fait dix euros.",
+    "exEn": "That's ten euros."
+  },
+  {
+    "fr": "onze",
+    "say": "ohnz",
+    "en": "11 — eleven",
+    "ex": "Le magasin ouvre à onze heures.",
+    "exEn": "The shop opens at eleven."
+  },
+  {
+    "fr": "douze",
+    "say": "dooz",
+    "en": "12 — twelve",
+    "ex": "Une douzaine d'œufs, c'est douze œufs.",
+    "exEn": "A dozen eggs is twelve eggs."
+  },
+  {
+    "fr": "treize",
+    "say": "trez",
+    "en": "13 — thirteen",
+    "ex": "Bus numéro treize.",
+    "exEn": "Bus number thirteen."
+  },
+  {
+    "fr": "quatorze",
+    "say": "kah-torz",
+    "en": "14 — fourteen",
+    "ex": "Le quatorze juillet, c'est la fête nationale.",
+    "exEn": "July 14th is the national holiday."
+  },
+  {
+    "fr": "quinze",
+    "say": "kanz",
+    "en": "15 — fifteen",
+    "ex": "Dans quinze minutes.",
+    "exEn": "In fifteen minutes."
+  },
+  {
+    "fr": "seize",
+    "say": "sez",
+    "en": "16 — sixteen",
+    "ex": "Elle a seize ans.",
+    "exEn": "She's sixteen."
+  },
+  {
+    "fr": "dix-sept",
+    "say": "dee-set",
+    "en": "17 — seventeen (literally ten-seven)",
+    "ex": "J'ai dix-sept ans.",
+    "exEn": "I'm seventeen."
+  },
+  {
+    "fr": "vingt",
+    "say": "van",
+    "en": "20 — twenty",
+    "ex": "Ça coûte vingt euros.",
+    "exEn": "It costs twenty euros."
+  },
+  {
+    "fr": "vingt et un",
+    "say": "van tay uhn",
+    "en": "21 — twenty-one (et un for 21, 31, 41, 51, 61)",
+    "ex": "Il a vingt et un ans.",
+    "exEn": "He's twenty-one."
+  },
+  {
+    "fr": "trente",
+    "say": "trahnt",
+    "en": "30 — thirty",
+    "ex": "Trente euros, s'il vous plaît.",
+    "exEn": "Thirty euros, please."
+  },
+  {
+    "fr": "quarante",
+    "say": "kah-rahnt",
+    "en": "40 — forty",
+    "ex": "Quarante minutes de train.",
+    "exEn": "Forty minutes by train."
+  },
+  {
+    "fr": "cinquante",
+    "say": "san-kahnt",
+    "en": "50 — fifty",
+    "ex": "Il a cinquante ans.",
+    "exEn": "He's fifty."
+  },
+  {
+    "fr": "soixante",
+    "say": "swah-sahnt",
+    "en": "60 — sixty",
+    "ex": "Soixante minutes, c'est une heure.",
+    "exEn": "Sixty minutes is an hour."
+  },
+  {
+    "fr": "soixante-dix",
+    "say": "swah-sahnt-dees",
+    "en": "70 — seventy (literally sixty-ten)",
+    "ex": "Mon grand-père a soixante-dix ans.",
+    "exEn": "My grandfather is seventy."
+  },
+  {
+    "fr": "soixante et onze",
+    "say": "swah-sahnt ay ohnz",
+    "en": "71 — seventy-one (sixty and eleven)",
+    "ex": "Ça fait soixante et onze euros.",
+    "exEn": "That's seventy-one euros."
+  },
+  {
+    "fr": "quatre-vingts",
+    "say": "kah-truh-van",
+    "en": "80 — eighty (literally four twenties)",
+    "ex": "Il roule à quatre-vingts kilomètres-heure.",
+    "exEn": "He's driving at eighty kilometers an hour."
+  },
+  {
+    "fr": "quatre-vingt-dix",
+    "say": "kah-truh-van-dees",
+    "en": "90 — ninety (four twenties and ten)",
+    "ex": "Quatre-vingt-dix pour cent.",
+    "exEn": "Ninety percent."
+  },
+  {
+    "fr": "cent",
+    "say": "sahn",
+    "en": "100 — one hundred",
+    "ex": "Un billet de cent euros.",
+    "exEn": "A hundred-euro bill."
+  },
+  {
+    "fr": "mille",
+    "say": "meel",
+    "en": "1,000 — one thousand",
+    "ex": "Mille mercis !",
+    "exEn": "A thousand thanks!"
+  },
+  {
+    "fr": "C'est combien ?",
+    "say": "say kohn-byan",
+    "en": "How much is it?",
+    "ex": "Excusez-moi, c'est combien ?",
+    "exEn": "Excuse me, how much is it?"
+  },
+  {
+    "fr": "Ça coûte combien ?",
+    "say": "sah koot kohn-byan",
+    "en": "How much does it cost?",
+    "ex": "Ça coûte combien, ce pull ?",
+    "exEn": "How much is this sweater?"
+  },
+  {
+    "fr": "trois euros cinquante",
+    "say": "trwah zuh-roh san-kahnt",
+    "en": "€3.50 (euros, then the cents)",
+    "ex": "Ça fait trois euros cinquante.",
+    "exEn": "That's three euros fifty."
+  },
+  {
+    "fr": "C'est cher / pas cher",
+    "say": "say shair / pah shair",
+    "en": "It's expensive / cheap",
+    "ex": "C'est un peu cher pour moi.",
+    "exEn": "It's a bit expensive for me."
+  },
+  {
+    "fr": "Il est quelle heure ?",
+    "say": "eel eh kel ur",
+    "en": "What time is it?",
+    "ex": "Pardon, il est quelle heure ?",
+    "exEn": "Excuse me, what time is it?"
+  },
+  {
+    "fr": "Il est trois heures",
+    "say": "eel eh trwah zur",
+    "en": "It's three o'clock",
+    "ex": "Il est trois heures pile.",
+    "exEn": "It's exactly three o'clock."
+  },
+  {
+    "fr": "à cinq heures",
+    "say": "ah san kur",
+    "en": "at five o'clock",
+    "ex": "On se retrouve à cinq heures ?",
+    "exEn": "Shall we meet at five?"
+  },
+  {
+    "fr": "et quart / et demie / moins le quart",
+    "say": "ay kar / ay duh-mee / mwan luh kar",
+    "en": "quarter past / half past / quarter to",
+    "ex": "Il est deux heures et demie.",
+    "exEn": "It's half past two."
+  },
+  {
+    "fr": "vingt heures (20 h)",
+    "say": "van tur",
+    "en": "8 p.m. — France uses the 24-hour clock",
+    "ex": "Le film commence à vingt heures.",
+    "exEn": "The movie starts at 8 p.m."
+  },
+  {
+    "fr": "midi",
+    "say": "mee-dee",
+    "en": "noon",
+    "ex": "On déjeune à midi.",
+    "exEn": "We have lunch at noon."
+  },
+  {
+    "fr": "minuit",
+    "say": "mee-nwee",
+    "en": "midnight",
+    "ex": "Le métro ferme vers minuit.",
+    "exEn": "The metro closes around midnight."
+  },
+  {
+    "fr": "dans une demi-heure",
+    "say": "dahn zoon duh-mee ur",
+    "en": "in half an hour",
+    "ex": "J'arrive dans une demi-heure.",
+    "exEn": "I'll be there in half an hour."
+  },
+  {
+    "fr": "le matin / l'après-midi / le soir",
+    "say": "luh mah-tan / lah-preh mee-dee / luh swahr",
+    "en": "in the morning / afternoon / evening",
+    "ex": "Appelle-moi ce soir.",
+    "exEn": "Call me this evening."
+  },
+  {
+    "fr": "premier / deuxième / troisième",
+    "say": "pruh-myay / duh-zyem / trwah-zyem",
+    "en": "first / second / third",
+    "ex": "C'est mon premier voyage en France.",
+    "exEn": "It's my first trip to France."
+  }
+]

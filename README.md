@@ -1,7 +1,10 @@
 # RU ⇄ EN Translator
 
-Russian ⇄ English translator for your phone: male/female voices, casual/formal "you", your own slang list,
+Russian ⇄ English and French ⇄ English translator for your phone: male/female voices, casual/formal "you", your own slang list,
 favorites, and learning sections (slang, formal, food, texting, travel, proverbs, numbers).
+
+- **Russian** is at the main address (`/`), **French** at `/fr`. The 🇷🇺 / 🇫🇷 buttons at the top switch between them.
+  Add `/fr` to your Home Screen separately if you want a French icon.
 
 - **Run at home:** `node server.js`, then open `http://<your-PC-address>:3000` on your phone.
 - **Run online:** follow the steps below. Then it works anywhere, and your PC can be off.
@@ -29,6 +32,7 @@ Everything else (start command, Node version, build settings and ignored files) 
    - `server.js`, `package.json`, `package-lock.json`
    - `render.yaml`, `.gitignore`, `README.md`
    - `phrases.json` and all seven `*-russian.json` files
+   - `lang-fr.js`, `fr-grammar.js`, `phrases-fr.json` and all seven `*-french.json` / `french-slang.json` files
 
    **Don't drag `node_modules`**, since Render installs that itself.
    If `.gitignore` doesn't show up, in File Explorer go to **View → Show → Hidden items**.
@@ -69,7 +73,10 @@ Upload the changed file(s) to the same GitHub repository (**Add file → Upload 
 
 ## Good to know
 - **Free plan sleeps** after about 15 minutes idle, so the first open afterwards can take up to a minute. A paid plan (about $7/month) keeps it awake.
-- **Each phone keeps its own Favorites and My phrases.** New phones start with `phrases.json`. Nothing a phone changes is saved on the server.
+- **Each phone keeps its own Favorites and My phrases.** New phones start with `phrases.json` (Russian) or `phrases-fr.json` (French). Nothing a phone changes is saved on the server.
+- **Each language has its own** My phrases, Favorites, casual/formal setting, Talking to setting and share link. "I am" is shared.
+- **French tu/vous:** the toggle rewrites "you", verbs, commands and possessives (ton/ta ↔ votre). French "vous" is treated as one person,
+  so Talking to also applies in vous mode (vous êtes prête). Google picks tu or vous itself, so the toggle overrides it.
 - **The home version and the online version have separate lists**, because they're different web addresses.
 - **Anyone with the link can use it**, so share it only with people you choose.
 - Translation uses Google and the voices use Microsoft's free online service. Both are unofficial and could change.

@@ -1,0 +1,287 @@
+[
+  {
+    "en": "yes",
+    "fr": "Oui",
+    "alone": true
+  },
+  {
+    "en": "no",
+    "fr": "Non",
+    "alone": true
+  },
+  {
+    "en": "thanks",
+    "fr": "Merci !",
+    "alone": true
+  },
+  {
+    "en": "hi",
+    "fr": "Salut, chef !",
+    "alone": true
+  },
+  {
+    "en": "hot dog",
+    "fr": "Oh là là ! / Ça alors !",
+    "alone": true
+  },
+  {
+    "en": "You got this",
+    "fr": "Tu vas y arriver"
+  },
+  {
+    "en": "Sup",
+    "fr": "Wesh"
+  },
+  {
+    "en": "Yep",
+    "fr": "Ouais"
+  },
+  {
+    "en": "Nope",
+    "fr": "Nan"
+  },
+  {
+    "en": "No worries",
+    "fr": "Pas de souci"
+  },
+  {
+    "en": "Bro",
+    "fr": "frérot"
+  },
+  {
+    "en": "Bruh",
+    "fr": "frère",
+    "oneWay": true
+  },
+  {
+    "en": "Dude",
+    "fr": "mec"
+  },
+  {
+    "en": "Fr",
+    "fr": "sérieux",
+    "oneWay": true
+  },
+  {
+    "en": "For real?",
+    "fr": "Sérieux ?"
+  },
+  {
+    "en": "Deadass",
+    "fr": "Sérieux, sans rire",
+    "oneWay": true
+  },
+  {
+    "en": "No cap",
+    "fr": "Sans mentir"
+  },
+  {
+    "en": "Ngl",
+    "fr": "franchement",
+    "oneWay": true
+  },
+  {
+    "en": "Tbh",
+    "fr": "pour être honnête",
+    "oneWay": true
+  },
+  {
+    "en": "Imo",
+    "fr": "à mon avis"
+  },
+  {
+    "en": "Idk",
+    "fr": "je sais pas",
+    "oneWay": true
+  },
+  {
+    "en": "Omg",
+    "fr": "oh mon Dieu",
+    "oneWay": true
+  },
+  {
+    "en": "Lol",
+    "fr": "mdr"
+  },
+  {
+    "en": "Lmao",
+    "fr": "ptdr"
+  },
+  {
+    "en": "I'm dead",
+    "fr": "J'en peux plus"
+  },
+  {
+    "en": "I can't even",
+    "fr": "Les mots me manquent"
+  },
+  {
+    "en": "What's up?",
+    "fr": "Ça roule ?"
+  },
+  {
+    "en": "What's new?",
+    "fr": "Quoi de neuf ?"
+  },
+  {
+    "en": "What's good?",
+    "fr": "Ça dit quoi ?"
+  },
+  {
+    "en": "Long time no see",
+    "fr": "Ça fait longtemps !"
+  },
+  {
+    "en": "Spill the tea",
+    "fr": "Raconte tout !"
+  },
+  {
+    "en": "For sure",
+    "fr": "Grave"
+  },
+  {
+    "en": "Highkey",
+    "fr": "carrément",
+    "oneWay": true
+  },
+  {
+    "en": "Lowkey",
+    "fr": "un peu",
+    "oneWay": true
+  },
+  {
+    "en": "That's sus",
+    "fr": "C'est louche"
+  },
+  {
+    "en": "Sus",
+    "fr": "louche",
+    "oneWay": true
+  },
+  {
+    "en": "That's cap",
+    "fr": "N'importe quoi"
+  },
+  {
+    "en": "You're capping",
+    "fr": "Tu mens"
+  },
+  {
+    "en": "No way",
+    "fr": "C'est pas vrai !"
+  },
+  {
+    "en": "That's fire",
+    "fr": "C'est ouf"
+  },
+  {
+    "en": "It's fire",
+    "fr": "C'est le feu"
+  },
+  {
+    "en": "That's lit",
+    "fr": "C'est trop bien"
+  },
+  {
+    "en": "That's crazy",
+    "fr": "C'est dingue"
+  },
+  {
+    "en": "That's mid",
+    "fr": "Bof"
+  },
+  {
+    "en": "Cringe",
+    "fr": "gênant"
+  },
+  {
+    "en": "That's chill",
+    "fr": "Tranquille"
+  },
+  {
+    "en": "All good",
+    "fr": "Tout roule"
+  },
+  {
+    "en": "Good vibes",
+    "fr": "bonnes ondes"
+  },
+  {
+    "en": "Vibe",
+    "fr": "ambiance"
+  },
+  {
+    "en": "The GOAT",
+    "fr": "une légende"
+  },
+  {
+    "en": "Rizz",
+    "fr": "charisme",
+    "oneWay": true
+  },
+  {
+    "en": "On god",
+    "fr": "Je te jure",
+    "oneWay": true
+  },
+  {
+    "en": "My bad",
+    "fr": "Autant pour moi"
+  },
+  {
+    "en": "Say less",
+    "fr": "Ça marche"
+  },
+  {
+    "en": "I got you",
+    "fr": "Compte sur moi"
+  },
+  {
+    "en": "I'm down",
+    "fr": "J'en suis"
+  },
+  {
+    "en": "Let's go",
+    "fr": "C'est parti"
+  },
+  {
+    "en": "Wanna hang out?",
+    "fr": "On se voit ?"
+  },
+  {
+    "en": "Hit me up",
+    "fr": "Écris-moi"
+  },
+  {
+    "en": "Chill out",
+    "fr": "Détends-toi"
+  },
+  {
+    "en": "Touch grass",
+    "fr": "Va prendre l'air"
+  },
+  {
+    "en": "See ya",
+    "fr": "À plus"
+  },
+  {
+    "en": "see you later",
+    "fr": "À plus tard !"
+  },
+  {
+    "en": "Catch you later",
+    "fr": "À tout à l'heure"
+  },
+  {
+    "en": "what's your birthday",
+    "fr": "C'est quand ton anniversaire ?"
+  },
+  {
+    "en": "How do you eat?",
+    "fr": "Comment tu t'alimentes ?"
+  },
+  {
+    "en": "that's a catchphrase",
+    "fr": "C'est mon truc !"
+  }
+]

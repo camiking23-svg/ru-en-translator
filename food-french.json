@@ -1,0 +1,177 @@
+[
+  {
+    "fr": "Une table pour deux, s'il vous plaît",
+    "say": "oon tah-bluh poor duh, seel voo pleh",
+    "en": "A table for two, please",
+    "ex": "Bonsoir ! Une table pour deux, s'il vous plaît.",
+    "exEn": "Good evening! A table for two, please."
+  },
+  {
+    "fr": "La carte, s'il vous plaît",
+    "say": "lah kart, seel voo pleh",
+    "en": "The menu, please (la carte = the full menu)",
+    "ex": "Excusez-moi, la carte, s'il vous plaît ?",
+    "exEn": "Excuse me, could we have the menu?"
+  },
+  {
+    "fr": "La formule du midi",
+    "say": "lah for-mool doo mee-dee",
+    "en": "The lunch deal (set price; le menu also means a set menu)",
+    "ex": "Je vais prendre la formule du midi.",
+    "exEn": "I'll have the lunch deal."
+  },
+  {
+    "fr": "Le plat du jour",
+    "say": "luh plah doo zhoor",
+    "en": "Today's special",
+    "ex": "Quel est le plat du jour ?",
+    "exEn": "What's today's special?"
+  },
+  {
+    "fr": "L'entrée, le plat, le dessert",
+    "say": "lahn-tray, luh plah, luh day-sair",
+    "en": "Starter, main course, dessert (an entrée is the starter in France!)",
+    "ex": "Pour moi, juste un plat et un dessert.",
+    "exEn": "Just a main course and a dessert for me."
+  },
+  {
+    "fr": "Je vais prendre…",
+    "say": "zhuh vay prahn-druh",
+    "en": "I'll have…",
+    "ex": "Je vais prendre le poulet, s'il vous plaît.",
+    "exEn": "I'll have the chicken, please."
+  },
+  {
+    "fr": "Qu'est-ce que vous me conseillez ?",
+    "say": "kes-kuh voo muh kohn-say-yay",
+    "en": "What do you recommend?",
+    "ex": "C'est ma première fois ici, qu'est-ce que vous me conseillez ?",
+    "exEn": "It's my first time here, what do you recommend?"
+  },
+  {
+    "fr": "Saignant / à point / bien cuit",
+    "say": "say-nyahn / ah pwan / byan kwee",
+    "en": "Rare / medium / well done (for steak)",
+    "ex": "Le steak, à point, s'il vous plaît.",
+    "exEn": "The steak, medium, please."
+  },
+  {
+    "fr": "Je suis végétarien / végétarienne",
+    "say": "zhuh swee vay-zhay-tah-ryan / vay-zhay-tah-ryen",
+    "en": "I'm vegetarian (man / woman)",
+    "ex": "Je suis végétarien, vous avez un plat sans viande ?",
+    "exEn": "I'm vegetarian, do you have a dish without meat?"
+  },
+  {
+    "fr": "Je suis allergique à…",
+    "say": "zhuh swee ah-lair-zheek ah",
+    "en": "I'm allergic to…",
+    "ex": "Je suis allergique aux noix.",
+    "exEn": "I'm allergic to nuts."
+  },
+  {
+    "fr": "Sans…, s'il vous plaît",
+    "say": "sahn…, seel voo pleh",
+    "en": "Without…, please",
+    "ex": "Un burger sans oignons, s'il vous plaît.",
+    "exEn": "A burger without onions, please."
+  },
+  {
+    "fr": "Une carafe d'eau",
+    "say": "oon kah-rahf doh",
+    "en": "A jug of tap water (free in restaurants)",
+    "ex": "Une carafe d'eau, s'il vous plaît.",
+    "exEn": "A jug of water, please."
+  },
+  {
+    "fr": "Une eau plate / gazeuse",
+    "say": "oon oh plaht / gah-zuhz",
+    "en": "Still / sparkling water (bottled)",
+    "ex": "Une bouteille d'eau gazeuse, s'il vous plaît.",
+    "exEn": "A bottle of sparkling water, please."
+  },
+  {
+    "fr": "Un café",
+    "say": "uhn kah-fay",
+    "en": "An espresso (a 'café' in France is a small black coffee)",
+    "ex": "Un café et l'addition, s'il vous plaît.",
+    "exEn": "An espresso and the check, please."
+  },
+  {
+    "fr": "Un café crème",
+    "say": "uhn kah-fay krem",
+    "en": "Coffee with frothy milk (closest to a latte)",
+    "ex": "Un café crème et un croissant, s'il vous plaît.",
+    "exEn": "A coffee with milk and a croissant, please."
+  },
+  {
+    "fr": "Un verre de vin rouge",
+    "say": "uhn vair duh van roozh",
+    "en": "A glass of red wine (blanc = white, rosé = rosé)",
+    "ex": "Un verre de vin rouge, s'il vous plaît.",
+    "exEn": "A glass of red wine, please."
+  },
+  {
+    "fr": "Une pression",
+    "say": "oon preh-syohn",
+    "en": "A draft beer",
+    "ex": "Deux pressions, s'il vous plaît.",
+    "exEn": "Two draft beers, please."
+  },
+  {
+    "fr": "Une baguette bien cuite",
+    "say": "oon bah-get byan kweet",
+    "en": "A well-baked baguette (pas trop cuite = not too done)",
+    "ex": "Bonjour ! Une baguette bien cuite, s'il vous plaît.",
+    "exEn": "Hello! A well-baked baguette, please."
+  },
+  {
+    "fr": "Un pain au chocolat",
+    "say": "uhn pan oh shoh-koh-lah",
+    "en": "A chocolate croissant",
+    "ex": "Deux pains au chocolat, s'il vous plaît.",
+    "exEn": "Two chocolate croissants, please."
+  },
+  {
+    "fr": "Sur place ou à emporter ?",
+    "say": "soor plahss oo ah ahn-por-tay",
+    "en": "For here or to go?",
+    "ex": "— Sur place ou à emporter ? — À emporter, merci.",
+    "exEn": "— For here or to go? — To go, thanks."
+  },
+  {
+    "fr": "Un kilo de…, s'il vous plaît",
+    "say": "uhn kee-loh duh…, seel voo pleh",
+    "en": "A kilo of…, please (at the market)",
+    "ex": "Un kilo de tomates, s'il vous plaît.",
+    "exEn": "A kilo of tomatoes, please."
+  },
+  {
+    "fr": "C'est délicieux !",
+    "say": "say day-lee-syuh",
+    "en": "It's delicious!",
+    "ex": "Merci, c'est délicieux !",
+    "exEn": "Thank you, it's delicious!"
+  },
+  {
+    "fr": "J'ai faim",
+    "say": "zhay fan",
+    "en": "I'm hungry (j'ai soif = I'm thirsty)",
+    "ex": "J'ai faim, on mange où ?",
+    "exEn": "I'm hungry, where shall we eat?"
+  },
+  {
+    "fr": "L'addition, s'il vous plaît",
+    "say": "lah-dee-syohn, seel voo pleh",
+    "en": "The check, please",
+    "ex": "Excusez-moi, l'addition, s'il vous plaît.",
+    "exEn": "Excuse me, the check, please."
+  },
+  {
+    "fr": "Je peux payer par carte ?",
+    "say": "zhuh puh peh-yay pahr kart",
+    "en": "Can I pay by card?",
+    "ex": "Je peux payer par carte ou seulement en espèces ?",
+    "exEn": "Can I pay by card or only in cash?"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "fr": "Bonjour, Monsieur / Madame",
+    "say": "bohn-zhoor, muh-syuh / mah-dahm",
+    "en": "Hello, sir / ma'am (to a man / to a woman) — adding Monsieur or Madame is the polite norm in France",
+    "ex": "Bonjour Madame, je voudrais un renseignement.",
+    "exEn": "Hello (ma'am), I'd like some information."
+  },
+  {
+    "fr": "Bonsoir",
+    "say": "bohn-swahr",
+    "en": "Good evening (from late afternoon on)",
+    "ex": "Bonsoir, une table pour deux, s'il vous plaît.",
+    "exEn": "Good evening, a table for two, please."
+  },
+  {
+    "fr": "Comment allez-vous ?",
+    "say": "koh-mahn tah-lay voo",
+    "en": "How are you? (formal)",
+    "ex": "Bonjour Monsieur Martin, comment allez-vous ?",
+    "exEn": "Hello Mr. Martin, how are you?"
+  },
+  {
+    "fr": "Je vais bien, merci. Et vous ?",
+    "say": "zhuh vay byan, mair-see. ay voo",
+    "en": "I'm well, thank you. And you?",
+    "ex": "— Comment allez-vous ? — Je vais bien, merci. Et vous ?",
+    "exEn": "— How are you? — I'm well, thank you. And you?"
+  },
+  {
+    "fr": "Enchanté / Enchantée",
+    "say": "ahn-shahn-tay",
+    "en": "Nice to meet you (man / woman)",
+    "ex": "— Je vous présente Claire. — Enchanté !",
+    "exEn": "— This is Claire. — Nice to meet you!"
+  },
+  {
+    "fr": "Je vous présente…",
+    "say": "zhuh voo pray-zahnt",
+    "en": "May I introduce… / This is…",
+    "ex": "Je vous présente ma collègue, Claire.",
+    "exEn": "May I introduce my colleague, Claire."
+  },
+  {
+    "fr": "S'il vous plaît",
+    "say": "seel voo pleh",
+    "en": "Please (formal; s'il te plaît with friends)",
+    "ex": "Un café, s'il vous plaît.",
+    "exEn": "A coffee, please."
+  },
+  {
+    "fr": "Merci beaucoup",
+    "say": "mair-see boh-koo",
+    "en": "Thank you very much",
+    "ex": "Merci beaucoup pour votre aide.",
+    "exEn": "Thank you very much for your help."
+  },
+  {
+    "fr": "Je vous en prie",
+    "say": "zhuh voo zahn pree",
+    "en": "You're welcome / Please, go ahead (formal)",
+    "ex": "— Merci ! — Je vous en prie.",
+    "exEn": "— Thank you! — You're welcome."
+  },
+  {
+    "fr": "Je vous remercie",
+    "say": "zhuh voo ruh-mair-see",
+    "en": "Thank you (more formal)",
+    "ex": "Je vous remercie de votre patience.",
+    "exEn": "Thank you for your patience."
+  },
+  {
+    "fr": "Excusez-moi",
+    "say": "ek-skoo-zay mwah",
+    "en": "Excuse me (to get attention or apologize)",
+    "ex": "Excusez-moi, où sont les toilettes ?",
+    "exEn": "Excuse me, where are the restrooms?"
+  },
+  {
+    "fr": "Pardon",
+    "say": "pahr-dohn",
+    "en": "Sorry / Excuse me (bumping into someone, getting past)",
+    "ex": "Pardon, je peux passer ?",
+    "exEn": "Excuse me, can I get past?"
+  },
+  {
+    "fr": "Je suis désolé / désolée",
+    "say": "zhuh swee day-zoh-lay",
+    "en": "I'm sorry (man / woman)",
+    "ex": "Je suis désolé pour le retard.",
+    "exEn": "I'm sorry for being late."
+  },
+  {
+    "fr": "Désolé / Désolée de vous déranger",
+    "say": "day-zoh-lay duh voo day-rahn-zhay",
+    "en": "Sorry to bother you (man / woman)",
+    "ex": "Désolé de vous déranger, vous avez une minute ?",
+    "exEn": "Sorry to bother you, do you have a minute?"
+  },
+  {
+    "fr": "Pourriez-vous… ?",
+    "say": "poo-ryay voo",
+    "en": "Could you…? (polite request)",
+    "ex": "Pourriez-vous m'aider, s'il vous plaît ?",
+    "exEn": "Could you help me, please?"
+  },
+  {
+    "fr": "Je voudrais…",
+    "say": "zhuh voo-dreh",
+    "en": "I would like… (the polite way to ask or order)",
+    "ex": "Je voudrais une baguette, s'il vous plaît.",
+    "exEn": "I'd like a baguette, please."
+  },
+  {
+    "fr": "Auriez-vous… ?",
+    "say": "oh-ryay voo",
+    "en": "Would you have…?",
+    "ex": "Auriez-vous une table pour deux ?",
+    "exEn": "Would you have a table for two?"
+  },
+  {
+    "fr": "Puis-je vous aider ?",
+    "say": "pwee zhuh voo zay-day",
+    "en": "May I help you?",
+    "ex": "Bonjour Madame, puis-je vous aider ?",
+    "exEn": "Hello ma'am, may I help you?"
+  },
+  {
+    "fr": "Vous permettez ?",
+    "say": "voo pair-meh-tay",
+    "en": "May I? (before sitting down, taking something)",
+    "ex": "Vous permettez ? Cette chaise est libre ?",
+    "exEn": "May I? Is this chair free?"
+  },
+  {
+    "fr": "Avec plaisir",
+    "say": "ah-vek pleh-zeer",
+    "en": "With pleasure",
+    "ex": "— Vous voulez un café ? — Avec plaisir.",
+    "exEn": "— Would you like a coffee? — With pleasure."
+  },
+  {
+    "fr": "Volontiers",
+    "say": "voh-lohn-tyay",
+    "en": "Gladly, I'd love to",
+    "ex": "— Encore un peu de vin ? — Volontiers !",
+    "exEn": "— A little more wine? — I'd love some!"
+  },
+  {
+    "fr": "Je n'ai pas bien compris",
+    "say": "zhuh nay pah byan kohn-pree",
+    "en": "I didn't quite understand",
+    "ex": "Excusez-moi, je n'ai pas bien compris. Pourriez-vous répéter ?",
+    "exEn": "Sorry, I didn't quite understand. Could you repeat that?"
+  },
+  {
+    "fr": "Parlez-vous anglais ?",
+    "say": "pahr-lay voo ahn-gleh",
+    "en": "Do you speak English?",
+    "ex": "Excusez-moi, parlez-vous anglais ?",
+    "exEn": "Excuse me, do you speak English?"
+  },
+  {
+    "fr": "Bonne journée !",
+    "say": "bun zhoor-nay",
+    "en": "Have a good day!",
+    "ex": "Merci, bonne journée !",
+    "exEn": "Thanks, have a good day!"
+  },
+  {
+    "fr": "Passez une bonne journée",
+    "say": "pah-say oon bun zhoor-nay",
+    "en": "Have a nice day (warm, polite)",
+    "ex": "Au revoir Madame, passez une bonne journée !",
+    "exEn": "Goodbye ma'am, have a nice day!"
+  },
+  {
+    "fr": "Bonne soirée !",
+    "say": "bun swah-ray",
+    "en": "Have a good evening!",
+    "ex": "Merci pour tout, bonne soirée !",
+    "exEn": "Thanks for everything, have a good evening!"
+  },
+  {
+    "fr": "Au revoir",
+    "say": "oh ruh-vwahr",
+    "en": "Goodbye (polite, safe with anyone)",
+    "ex": "Au revoir et merci !",
+    "exEn": "Goodbye and thank you!"
+  },
+  {
+    "fr": "Au plaisir",
+    "say": "oh pleh-zeer",
+    "en": "Hope to see you again (polite goodbye)",
+    "ex": "Merci pour tout, au plaisir !",
+    "exEn": "Thanks for everything, hope to see you again!"
+  },
+  {
+    "fr": "On peut se tutoyer ?",
+    "say": "ohn puh suh too-twah-yay",
+    "en": "Shall we say 'tu' to each other? (moving from formal to casual)",
+    "ex": "On se connaît bien maintenant, on peut se tutoyer ?",
+    "exEn": "We know each other well now, shall we drop the formal 'vous'?"
+  },
+  {
+    "fr": "Toutes mes félicitations",
+    "say": "toot may fay-lee-see-tah-syohn",
+    "en": "Congratulations (warm, formal)",
+    "ex": "Toutes mes félicitations pour votre mariage !",
+    "exEn": "Congratulations on your wedding!"
+  },
+  {
+    "fr": "À votre santé !",
+    "say": "ah voh-truh sahn-tay",
+    "en": "Cheers! (formal toast; à ta santé with a friend)",
+    "ex": "Merci de nous recevoir. À votre santé !",
+    "exEn": "Thank you for having us. Cheers!"
+  },
+  {
+    "fr": "Bon appétit",
+    "say": "boh nah-pay-tee",
+    "en": "Enjoy your meal",
+    "ex": "Voilà vos plats. Bon appétit !",
+    "exEn": "Here are your dishes. Enjoy your meal!"
+  },
+  {
+    "fr": "Je me permets de vous écrire…",
+    "say": "zhuh muh pair-meh duh voo zay-kreer",
+    "en": "I'm writing to you… (formal email opener)",
+    "ex": "Je me permets de vous écrire au sujet de ma réservation.",
+    "exEn": "I'm writing to you about my reservation."
+  },
+  {
+    "fr": "Cordialement",
+    "say": "kor-dyahl-mahn",
+    "en": "Kind regards (email sign-off)",
+    "ex": "Merci d'avance. Cordialement, Cami",
+    "exEn": "Thanks in advance. Kind regards, Cami"
+  }
+]
