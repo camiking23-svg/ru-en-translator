@@ -175,12 +175,36 @@ const page = `<!doctype html>
 
   // ---- My phrases & slang — saved on THIS phone, so each person keeps their own list ----
   // A new phone starts with the server's starter list (phrases.json), then it's theirs to change.
+  // New starter phrases (added to phrases.json later) are merged in automatically,
+  // without bringing back ones you've deleted.
   let myPhrases = [];
+  const phraseKey = p => String(p.en || "").trim().toLowerCase();
   function loadPhrases() {
-    let saved = null;
+    let saved = null, seen = null;
     try { saved = JSON.parse(localStorage.getItem("myPhrases") || "null"); } catch (e) {}
-    if (Array.isArray(saved)) { myPhrases = saved; drawPhrases(); return; }
-    fetch("/phrases").then(r => r.json()).then(list => { myPhrases = list; savePhrases(); }).catch(() => {});
+    try { seen = JSON.parse(localStorage.getItem("starterSeen") || "null"); } catch (e) {}
+    if (Array.isArray(saved)) { myPhrases = saved; drawPhrases(); }
+    fetch("/phrases").then(r => r.json()).then(starters => {
+      if (!Array.isArray(starters)) return;
+      const tidy = p => Object.assign({ en: p.en, ru: p.ru }, p.oneWay ? { oneWay: true } : {}, p.alone ? { alone: true } : {});
+      if (!Array.isArray(saved)) {
+        myPhrases = starters.map(tidy);                       // brand-new phone: start with the full list
+      } else {
+        // phones from before this update already had the original list (entries without "v")
+        if (!Array.isArray(seen)) seen = starters.filter(p => !p.v).map(phraseKey);
+        const mine = new Set(myPhrases.map(phraseKey));
+        const fresh = starters.filter(p => !seen.includes(phraseKey(p)) && !mine.has(phraseKey(p)));
+        // keep settings like "only on its own" in step with the starter list, if you haven't changed the Russian
+        const byKey = new Map(starters.map(p => [phraseKey(p), p]));
+        myPhrases = myPhrases.map(m => {
+          const s = byKey.get(phraseKey(m));
+          return s && s.ru === m.ru ? tidy(Object.assign({}, m, { oneWay: s.oneWay, alone: s.alone })) : m;
+        });
+        myPhrases = fresh.map(tidy).concat(myPhrases);         // new starters go to the top
+      }
+      try { localStorage.setItem("starterSeen", JSON.stringify(starters.map(phraseKey))); } catch (e) {}
+      savePhrases();
+    }).catch(() => {});
   }
   function savePhrases() {
     try { localStorage.setItem("myPhrases", JSON.stringify(myPhrases)); } catch (e) {}
@@ -194,7 +218,7 @@ const page = `<!doctype html>
       const row = document.createElement("div"); row.className = "ph-row";
       const t = document.createElement("div"); t.className = "ph-text";
       const en = document.createElement("div"); en.textContent = p.en;
-      const ru = document.createElement("div"); ru.className = "ph-ru"; ru.textContent = "→ " + p.ru + (p.oneWay ? "  (English → Russian only)" : "");
+      const ru = document.createElement("div"); ru.className = "ph-ru"; ru.textContent = "→ " + p.ru + (p.oneWay ? "  (English → Russian only)" : "") + (p.alone ? "  (only when typed on its own)" : "");
       t.appendChild(en); t.appendChild(ru);
       t.style.cursor = "pointer";
       t.onclick = () => usePhrase(p.en, p.ru, null, row);
@@ -912,7 +936,8 @@ function phraseRegex(p) {
 function cleanPhrases(list) {
   if (!Array.isArray(list)) return null;
   return list.filter(p => p && typeof p.en === "string" && typeof p.ru === "string" && p.en.trim() && p.ru.trim())
-    .slice(0, 500).map(p => Object.assign({ en: p.en.trim().slice(0, 200), ru: p.ru.trim().slice(0, 200) }, p.oneWay ? { oneWay: true } : {}));
+    .slice(0, 500).map(p => Object.assign({ en: p.en.trim().slice(0, 200), ru: p.ru.trim().slice(0, 200) },
+      p.oneWay ? { oneWay: true } : {}, p.alone ? { alone: true } : {}));
 }
 
 function protectPhrases(text, from, phrases) {
@@ -920,7 +945,12 @@ function protectPhrases(text, from, phrases) {
   let t = norm(text);
   // longest phrases first, so "how do you eat" wins over "you eat"
   // oneWay phrases (e.g. lowkey → немного) only apply English→Russian
-  const list = phrases.filter(p => p.en && p.ru && !(p.oneWay && from === "ru")).slice().sort((a, b) => b[from].length - a[from].length);
+  // "alone" phrases (yes / no / thanks) only count when they are the whole message,
+  // so "I have no idea" doesn't turn into «Нет»
+  const bareMsg = s => norm(s).trim().replace(/[.!?…,]+$/, "").trim().toLowerCase();
+  const whole = bareMsg(text);
+  const list = phrases.filter(p => p.en && p.ru && !(p.oneWay && from === "ru") && (!p.alone || bareMsg(p[from]) === whole))
+    .slice().sort((a, b) => b[from].length - a[from].length);
   for (const p of list) {
     t = t.replace(phraseRegex(p[from]), () => { hits.push(p); return "ZQP" + (hits.length - 1); });
   }
@@ -1266,6 +1296,8 @@ http.createServer(async (req, res) => {
       if (to === "ru") out = setFormality(out, arg("y") === "v" ? "v" : "t", arg("l") === "f" ? "f" : "m");
       if (to === "ru" && gender === "f") out = makeFemale(out);
       if (ok) out = restorePhrases(out, hits, to);   // last, so nothing rewrites your wording
+      // the whole message is one phrase and you typed no end punctuation → keep the phrase exactly as written
+      if (ok && hits.length === 1 && /^\s*ZQP0\s*$/.test(safe)) out = hits[0][to];
       res.writeHead(200, { "Content-Type": "text/plain; charset=utf-8" });
       res.end(out);
     } catch (e) {

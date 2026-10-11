@@ -1,66 +1,295 @@
 [
-  { "en": "How do you eat?", "ru": "Как ты питаешься?" },
-
-  { "en": "What's up?", "ru": "Как жизнь?" },
-  { "en": "Sup", "ru": "Здорово" },
-  { "en": "What's good?", "ru": "Как оно?" },
-  { "en": "What's new?", "ru": "Что нового?" },
-  { "en": "Long time no see", "ru": "Сто лет не виделись" },
-  { "en": "See ya", "ru": "Увидимся" },
-  { "en": "Catch you later", "ru": "Давай, до связи" },
-  { "en": "Hit me up", "ru": "Пиши мне" },
-  { "en": "Wanna hang out?", "ru": "Потусим?" },
-
-  { "en": "No worries", "ru": "Не парься" },
-  { "en": "All good", "ru": "Всё норм" },
-  { "en": "My bad", "ru": "Сорян" },
-  { "en": "I got you", "ru": "Не вопрос" },
-  { "en": "I'm down", "ru": "Я за" },
-  { "en": "Say less", "ru": "Всё, договорились" },
-  { "en": "For sure", "ru": "Сто пудов" },
-  { "en": "Chill out", "ru": "Расслабься" },
-  { "en": "That's chill", "ru": "Норм" },
-  { "en": "You got this", "ru": "У тебя всё получится" },
-  { "en": "Let's go", "ru": "Погнали" },
-
-  { "en": "No cap", "ru": "Без шуток" },
-  { "en": "That's cap", "ru": "Гонишь" },
-  { "en": "You're capping", "ru": "Гонишь" },
-  { "en": "For real?", "ru": "Серьёзно?" },
-  { "en": "Deadass", "ru": "Реально, без шуток", "oneWay": true },
-  { "en": "On god", "ru": "Клянусь", "oneWay": true },
-  { "en": "No way", "ru": "Да ладно" },
-
-  { "en": "That's fire", "ru": "Это огонь" },
-  { "en": "It's fire", "ru": "Это огонь" },
-  { "en": "That's lit", "ru": "Это огонь" },
-  { "en": "That's crazy", "ru": "Это жесть" },
-  { "en": "That's mid", "ru": "Так себе" },
-  { "en": "That's sus", "ru": "Это подозрительно" },
-  { "en": "Sus", "ru": "подозрительно", "oneWay": true },
-  { "en": "Cringe", "ru": "кринж" },
-  { "en": "Good vibes", "ru": "хороший вайб" },
-  { "en": "Vibe", "ru": "вайб" },
-  { "en": "The GOAT", "ru": "легенда" },
-  { "en": "Rizz", "ru": "харизма", "oneWay": true },
-  { "en": "Spill the tea", "ru": "Рассказывай всё" },
-  { "en": "I'm dead", "ru": "Я умираю со смеху" },
-  { "en": "I can't even", "ru": "У меня нет слов" },
-  { "en": "Touch grass", "ru": "Иди погуляй" },
-
-  { "en": "Lowkey", "ru": "немного", "oneWay": true },
-  { "en": "Highkey", "ru": "очень", "oneWay": true },
-  { "en": "Ngl", "ru": "честно говоря", "oneWay": true },
-  { "en": "Tbh", "ru": "если честно", "oneWay": true },
-  { "en": "Fr", "ru": "реально", "oneWay": true },
-  { "en": "Imo", "ru": "имхо" },
-  { "en": "Idk", "ru": "не знаю", "oneWay": true },
-  { "en": "Lol", "ru": "ахах" },
-  { "en": "Lmao", "ru": "ахахах" },
-  { "en": "Omg", "ru": "боже", "oneWay": true },
-  { "en": "Bruh", "ru": "братан", "oneWay": true },
-  { "en": "Bro", "ru": "бро" },
-  { "en": "Dude", "ru": "чувак" },
-  { "en": "Yep", "ru": "ага" },
-  { "en": "Nope", "ru": "не-а" }
+  {
+    "en": "yes",
+    "ru": "Да",
+    "v": 2,
+    "alone": true
+  },
+  {
+    "en": "You got this",
+    "ru": "У тебя всё получится"
+  },
+  {
+    "en": "thanks",
+    "ru": "Спасибо!",
+    "v": 2,
+    "alone": true
+  },
+  {
+    "en": "Sup",
+    "ru": "Здорово"
+  },
+  {
+    "en": "Yep",
+    "ru": "ага"
+  },
+  {
+    "en": "No worries",
+    "ru": "Не парься"
+  },
+  {
+    "en": "Bro",
+    "ru": "бро"
+  },
+  {
+    "en": "Fr",
+    "ru": "реально",
+    "oneWay": true
+  },
+  {
+    "en": "Spill the tea",
+    "ru": "Рассказывай всё"
+  },
+  {
+    "en": "Ngl",
+    "ru": "честно говоря",
+    "oneWay": true
+  },
+  {
+    "en": "What's up?",
+    "ru": "Как жизнь?"
+  },
+  {
+    "en": "For sure",
+    "ru": "Сто пудов"
+  },
+  {
+    "en": "Nope",
+    "ru": "не-а"
+  },
+  {
+    "en": "No cap",
+    "ru": "Без шуток"
+  },
+  {
+    "en": "See ya",
+    "ru": "Увидимся"
+  },
+  {
+    "en": "no",
+    "ru": "Нет",
+    "v": 2,
+    "alone": true
+  },
+  {
+    "en": "Bruh",
+    "ru": "братан",
+    "oneWay": true
+  },
+  {
+    "en": "What's new?",
+    "ru": "Что нового?"
+  },
+  {
+    "en": "For real?",
+    "ru": "Серьёзно?"
+  },
+  {
+    "en": "what's your birthday",
+    "ru": "Когда у тебя день рождения?",
+    "v": 2
+  },
+  {
+    "en": "That's sus",
+    "ru": "Это подозрительно"
+  },
+  {
+    "en": "hot dog",
+    "ru": "Ё-моё! / Ну надо же!",
+    "v": 2,
+    "alone": true
+  },
+  {
+    "en": "Good vibes",
+    "ru": "хороший вайб"
+  },
+  {
+    "en": "The GOAT",
+    "ru": "легенда"
+  },
+  {
+    "en": "I'm dead",
+    "ru": "Я умираю со смеху"
+  },
+  {
+    "en": "Wanna hang out?",
+    "ru": "Потусим?"
+  },
+  {
+    "en": "Long time no see",
+    "ru": "Сто лет не виделись"
+  },
+  {
+    "en": "Lmao",
+    "ru": "ахахах"
+  },
+  {
+    "en": "What's good?",
+    "ru": "Как оно?"
+  },
+  {
+    "en": "My bad",
+    "ru": "Сорян"
+  },
+  {
+    "en": "Cringe",
+    "ru": "кринж"
+  },
+  {
+    "en": "Hit me up",
+    "ru": "Пиши мне"
+  },
+  {
+    "en": "That's fire",
+    "ru": "Это огонь"
+  },
+  {
+    "en": "Lowkey",
+    "ru": "немного",
+    "oneWay": true
+  },
+  {
+    "en": "Imo",
+    "ru": "имхо"
+  },
+  {
+    "en": "Idk",
+    "ru": "не знаю",
+    "oneWay": true
+  },
+  {
+    "en": "Let's go",
+    "ru": "Погнали"
+  },
+  {
+    "en": "Dude",
+    "ru": "чувак"
+  },
+  {
+    "en": "That's chill",
+    "ru": "Норм"
+  },
+  {
+    "en": "Highkey",
+    "ru": "очень",
+    "oneWay": true
+  },
+  {
+    "en": "hi",
+    "ru": "Чё как, босс?",
+    "v": 2,
+    "alone": true
+  },
+  {
+    "en": "All good",
+    "ru": "Всё норм"
+  },
+  {
+    "en": "That's cap",
+    "ru": "Гонишь"
+  },
+  {
+    "en": "That's lit",
+    "ru": "Это огонь"
+  },
+  {
+    "en": "Say less",
+    "ru": "Всё, договорились"
+  },
+  {
+    "en": "Vibe",
+    "ru": "вайб"
+  },
+  {
+    "en": "see you later",
+    "ru": "Увидимся!",
+    "v": 2
+  },
+  {
+    "en": "That's crazy",
+    "ru": "Это жесть"
+  },
+  {
+    "en": "It's fire",
+    "ru": "Это огонь"
+  },
+  {
+    "en": "Rizz",
+    "ru": "харизма",
+    "oneWay": true
+  },
+  {
+    "en": "On god",
+    "ru": "Клянусь",
+    "oneWay": true
+  },
+  {
+    "en": "Chill out",
+    "ru": "Расслабься"
+  },
+  {
+    "en": "I'm down",
+    "ru": "Я за"
+  },
+  {
+    "en": "I got you",
+    "ru": "Не вопрос"
+  },
+  {
+    "en": "Omg",
+    "ru": "боже",
+    "oneWay": true
+  },
+  {
+    "en": "Tbh",
+    "ru": "если честно",
+    "oneWay": true
+  },
+  {
+    "en": "Lol",
+    "ru": "ахах"
+  },
+  {
+    "en": "You're capping",
+    "ru": "Гонишь"
+  },
+  {
+    "en": "I can't even",
+    "ru": "У меня нет слов"
+  },
+  {
+    "en": "That's mid",
+    "ru": "Так себе"
+  },
+  {
+    "en": "No way",
+    "ru": "Да ладно"
+  },
+  {
+    "en": "Catch you later",
+    "ru": "Давай, до связи"
+  },
+  {
+    "en": "How do you eat?",
+    "ru": "Как ты питаешься?"
+  },
+  {
+    "en": "Deadass",
+    "ru": "Реально, без шуток",
+    "oneWay": true
+  },
+  {
+    "en": "Sus",
+    "ru": "подозрительно",
+    "oneWay": true
+  },
+  {
+    "en": "that's a catchphrase",
+    "ru": "Это моя фишка!",
+    "v": 2
+  },
+  {
+    "en": "Touch grass",
+    "ru": "Иди погуляй"
+  }
 ]
