@@ -1,0 +1,282 @@
+[
+  {
+    "ar": "يلا",
+    "say": "YAL-la",
+    "en": "Let's go! / Come on! (everywhere)",
+    "ex": "يلا نروح!",
+    "exEn": "Come on, let's go!"
+  },
+  {
+    "ar": "خلاص",
+    "say": "kha-LAAS",
+    "en": "Done / enough / OK, settled (everywhere)",
+    "ex": "خلاص، اتفقنا.",
+    "exEn": "OK, it's a deal."
+  },
+  {
+    "ar": "حبيبي / حبيبتي",
+    "say": "Ha-BEE-bee / Ha-bee-BTEE",
+    "en": "My dear, buddy (to a man / to a woman) — used warmly with friends",
+    "ex": "شكرا يا حبيبي!",
+    "exEn": "Thanks, buddy!"
+  },
+  {
+    "ar": "إن شاء الله",
+    "say": "in-SHAA-al-lah",
+    "en": "God willing / hopefully (everywhere, all the time)",
+    "ex": "أشوفك بكرة إن شاء الله.",
+    "exEn": "See you tomorrow, hopefully."
+  },
+  {
+    "ar": "ما شاء الله",
+    "say": "ma-SHAA-al-lah",
+    "en": "Wow, how wonderful (said to admire something)",
+    "ex": "ما شاء الله، بيتك جميل!",
+    "exEn": "Wow, your house is beautiful!"
+  },
+  {
+    "ar": "والله",
+    "say": "WAL-lah",
+    "en": "I swear / really? (everywhere)",
+    "ex": "والله ما أعرف.",
+    "exEn": "I swear I don't know."
+  },
+  {
+    "ar": "يعني",
+    "say": "YA'-nee",
+    "en": "Like, I mean, so (the classic filler word)",
+    "ex": "هو يعني مشغول شوية.",
+    "exEn": "He's, like, a bit busy."
+  },
+  {
+    "ar": "تمام",
+    "say": "ta-MAAM",
+    "en": "Perfect, OK, all good (everywhere)",
+    "ex": "— كله تمام؟ — تمام!",
+    "exEn": "— All good? — Perfect!"
+  },
+  {
+    "ar": "ماشي",
+    "say": "MAA-shee",
+    "en": "OK, fine, sure (Egypt, Levant)",
+    "ex": "ماشي، نتكلم بعدين.",
+    "exEn": "OK, we'll talk later."
+  },
+  {
+    "ar": "طيب",
+    "say": "TAY-yib",
+    "en": "OK, alright (everywhere)",
+    "ex": "طيب، أشوفك بكرة.",
+    "exEn": "Alright, see you tomorrow."
+  },
+  {
+    "ar": "كويس",
+    "say": "kway-YIS",
+    "en": "Good, fine (Egypt, Levant)",
+    "ex": "الأكل كويس.",
+    "exEn": "The food is good."
+  },
+  {
+    "ar": "حلو",
+    "say": "HIL-w",
+    "en": "Nice, sweet, pretty (everywhere)",
+    "ex": "المكان حلو كتير!",
+    "exEn": "This place is really nice! (Levant)"
+  },
+  {
+    "ar": "مش مشكلة",
+    "say": "mish MUSH-ki-la",
+    "en": "No problem (Egypt)",
+    "ex": "مش مشكلة، ولا يهمك.",
+    "exEn": "No problem, don't worry about it."
+  },
+  {
+    "ar": "ما في مشكلة",
+    "say": "MAA fee MUSH-ki-la",
+    "en": "No problem (Levant, Gulf)",
+    "ex": "ما في مشكلة، خذ وقتك.",
+    "exEn": "No problem, take your time."
+  },
+  {
+    "ar": "ولا يهمك",
+    "say": "wa-LA yi-HIM-mak",
+    "en": "Don't worry about it (Egypt, Levant)",
+    "ex": "— آسف! — ولا يهمك.",
+    "exEn": "— Sorry! — Don't worry about it."
+  },
+  {
+    "ar": "معلش",
+    "say": "ma-'LESH",
+    "en": "Never mind / sorry / it's OK (Egypt, Levant)",
+    "ex": "معلش، اتأخرت.",
+    "exEn": "Sorry, I'm late."
+  },
+  {
+    "ar": "إيه الأخبار؟",
+    "say": "eh il-akh-BAAR",
+    "en": "What's new? / What's up? (Egypt)",
+    "ex": "أهلا! إيه الأخبار؟",
+    "exEn": "Hey! What's new?"
+  },
+  {
+    "ar": "شو الأخبار؟",
+    "say": "shoo il-akh-BAAR",
+    "en": "What's new? / What's up? (Levant)",
+    "ex": "مرحبا! شو الأخبار؟",
+    "exEn": "Hi! What's up?"
+  },
+  {
+    "ar": "إزيك؟",
+    "say": "iz-ZAY-yak / iz-ZAY-yik",
+    "en": "How are you? (Egypt; -ak to a man, -ik to a woman)",
+    "ex": "أهلا يا سارة، إزيك؟",
+    "exEn": "Hi Sara, how are you?"
+  },
+  {
+    "ar": "كيفك؟",
+    "say": "KEE-fak / KEE-fik",
+    "en": "How are you? (Levant; -ak to a man, -ik to a woman)",
+    "ex": "مرحبا، كيفك؟",
+    "exEn": "Hi, how are you?"
+  },
+  {
+    "ar": "عادي",
+    "say": "'AA-dee",
+    "en": "Normal, no big deal, whatever",
+    "ex": "— زعلان؟ — لا، عادي.",
+    "exEn": "— Upset? — No, it's fine."
+  },
+  {
+    "ar": "يا سلام",
+    "say": "ya sa-LAAM",
+    "en": "Wow! How wonderful! (or sarcastic: oh, sure!)",
+    "ex": "يا سلام، الأكل ده تحفة!",
+    "exEn": "Wow, this food is amazing!"
+  },
+  {
+    "ar": "تحفة",
+    "say": "TOH-fa",
+    "en": "Amazing, a masterpiece (Egypt)",
+    "ex": "الفيلم تحفة!",
+    "exEn": "The movie is amazing!"
+  },
+  {
+    "ar": "جامد",
+    "say": "GAA-mid",
+    "en": "Awesome, intense (Egypt — literally 'solid')",
+    "ex": "الحفلة كانت جامدة.",
+    "exEn": "The party was awesome."
+  },
+  {
+    "ar": "صاحبي",
+    "say": "SAA-Hbee",
+    "en": "My friend, buddy (Egypt, Levant)",
+    "ex": "ده صاحبي من المدرسة.",
+    "exEn": "He's my buddy from school. (Egypt)"
+  },
+  {
+    "ar": "يا جماعة",
+    "say": "ya ga-MAA-'a",
+    "en": "Hey guys, everyone (Egypt says ga-, others ja-)",
+    "ex": "يا جماعة، يلا!",
+    "exEn": "Come on, guys!"
+  },
+  {
+    "ar": "بجد؟",
+    "say": "be-GAD",
+    "en": "Seriously? For real? (Egypt)",
+    "ex": "بجد؟ مش مصدق!",
+    "exEn": "Seriously? I can't believe it!"
+  },
+  {
+    "ar": "خلينا",
+    "say": "khal-LEE-na",
+    "en": "Let's… (Egypt, Levant)",
+    "ex": "خلينا نروح السينما.",
+    "exEn": "Let's go to the movies."
+  },
+  {
+    "ar": "فلوس",
+    "say": "fu-LOOS",
+    "en": "Money (spoken, everywhere)",
+    "ex": "ما معي فلوس.",
+    "exEn": "I don't have money on me. (Levant)"
+  },
+  {
+    "ar": "شغل",
+    "say": "SHUGH-l",
+    "en": "Work, job (spoken)",
+    "ex": "عندي شغل بكرة.",
+    "exEn": "I have work tomorrow."
+  },
+  {
+    "ar": "زهقان / زهقانة",
+    "say": "zah-'AAN / zah-'AA-na",
+    "en": "Bored, fed up (man / woman) (Egypt)",
+    "ex": "أنا زهقان، يلا نطلع.",
+    "exEn": "I'm bored, let's go out."
+  },
+  {
+    "ar": "تعبان / تعبانة",
+    "say": "ta'-BAAN / ta'-BAA-na",
+    "en": "Tired (man / woman) (spoken, everywhere)",
+    "ex": "أنا تعبان، هنام بدري.",
+    "exEn": "I'm tired, I'll sleep early. (Egypt)"
+  },
+  {
+    "ar": "مبروك",
+    "say": "mab-ROOK",
+    "en": "Congratulations! (reply: الله يبارك فيك)",
+    "ex": "مبروك على الشغل الجديد!",
+    "exEn": "Congrats on the new job!"
+  },
+  {
+    "ar": "الله يعطيك العافية",
+    "say": "al-lah ya'-TEEK il-'AAF-ya",
+    "en": "Thanks for your hard work ('God give you strength') (Levant, Gulf)",
+    "ex": "شكرا، الله يعطيك العافية.",
+    "exEn": "Thanks, appreciate your hard work."
+  },
+  {
+    "ar": "أكيد",
+    "say": "a-KEED",
+    "en": "Of course, for sure",
+    "ex": "— جاي؟ — أكيد!",
+    "exEn": "— Coming? — For sure!"
+  },
+  {
+    "ar": "يا ريت",
+    "say": "ya REET",
+    "en": "I wish! / If only!",
+    "ex": "— رايح إجازة؟ — يا ريت!",
+    "exEn": "— Going on vacation? — I wish!"
+  },
+  {
+    "ar": "على راسي",
+    "say": "'a-la RAA-see",
+    "en": "Gladly, with pleasure ('on my head')",
+    "ex": "— ممكن تساعدني؟ — على راسي!",
+    "exEn": "— Can you help me? — Gladly!"
+  },
+  {
+    "ar": "بس",
+    "say": "bass",
+    "en": "Just / only / but / enough!",
+    "ex": "قهوة بس، شكرا.",
+    "exEn": "Just coffee, thanks."
+  },
+  {
+    "ar": "حرام عليك",
+    "say": "Ha-RAAM 'a-LEEK",
+    "en": "That's so unfair! Have a heart!",
+    "ex": "حرام عليك، ده كتير!",
+    "exEn": "Come on, that's too much!"
+  },
+  {
+    "ar": "صح؟",
+    "say": "SaH",
+    "en": "Right? (asking someone to agree)",
+    "ex": "حلو، صح؟",
+    "exEn": "Nice, right?"
+  }
+]

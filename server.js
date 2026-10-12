@@ -65,7 +65,7 @@ function renderPage(L) { return `<!doctype html>
   .voices button { margin-top: 0; padding: 4px 10px; font-size: 14px; color: #111; background: #f4f4f4;
     border: 1px solid #ddd; border-radius: 6px; -webkit-appearance: none; appearance: none; }
   .speaker button.on { background: #222; color: #fff; border-color: #222; }
-${L.navCss}</style></head>
+${L.navCss}${L.extraCss || ""}</style></head>
 <body>
 ${L.nav}  <h1>${L.name} ⇄ English</h1>
   <div class="speaker">I am:
@@ -372,7 +372,15 @@ ${L.sectionsHtml}
     if (m.endsWith("ен") && f === m.slice(0, -2) + "на") return true;   // должен/должна, согласен/согласна
     if (LANG === "fr") return frGenderPair(m, f);
     if (LANG === "es" || LANG === "it" || LANG === "pt") return roGenderPair(m, f);
+    if (LANG === "ar") return arGenderPair(m, f);
     return false;
+  }
+  // Arabic: متعب/متعبة، تفضل/تفضلي، تصبح/تصبحين، حبيبي/حبيبتي (ignoring short-vowel marks and ؟ ،)
+  function arGenderPair(m, f) {
+    const c = w => w.replace(/[\u064B-\u065F\u0670؟،!.]/g, "");
+    m = c(m); f = c(f);
+    if (!m || m === f) return false;
+    return f === m + "ة" || f === m + "ي" || f === m + "ين" || (m.endsWith("ي") && f === m.slice(0, -1) + "تي");
   }
   // Spanish / Italian / Portuguese: cansado/cansada, señor/señora, signore/signora, alemão/alemã, el/la, o/a…
   const RO_PAIRS = { "el": "la", "un": "una", "il": "la", "lo": "la", "o": "a", "do": "da", "no": "na", "ao": "à", "um": "uma",
@@ -447,6 +455,18 @@ ${L.sectionsHtml}
     out.scrollIntoView({ behavior: "smooth", block: "center" });
   }
   function speakText(t, lang) {
+    if (LANG === "ar" && (!lang || lang === "ar")) {
+      // Arabic cards can mix in Latin letters (Arabizi, names): each run of text in its own voice
+      const runs = []; let cur = null;
+      for (const ch of String(t || "")) {
+        const isAr = ch >= "؀" && ch <= "ۿ", isLat = /[a-z]/i.test(ch);
+        const lg = isAr ? "ar-SA" : isLat ? "en-US" : null;
+        if (lg && (!cur || cur.lang !== lg)) { cur = { lang: lg, text: "" }; runs.push(cur); }
+        if (!cur) { cur = { lang: "ar-SA", text: "" }; runs.push(cur); }
+        cur.text += ch;
+      }
+      return speakParts(runs);
+    }
     if (LANG !== "ru") {
       // French and English look alike, so the caller says which language this is
       if (!String(t || "").trim()) return;
@@ -513,8 +533,8 @@ ${L.sectionsHtml}
   // ---- Microsoft online voices: fixed per gender, so always the same voice ----
   let online = false;
   let player = null;
-  const ONLINE = { m: { ru: "Dmitry", fr: "Henri", zh: "Yunxi", es: "Jorge", it: "Diego", pt: "Antonio", en: "Guy" },
-                   f: { ru: "Svetlana", fr: "Denise", zh: "Xiaoxiao", es: "Dalia", it: "Elsa", pt: "Francisca", en: "Jenny" } };
+  const ONLINE = { m: { ru: "Dmitry", fr: "Henri", zh: "Yunxi", es: "Jorge", it: "Diego", pt: "Antonio", ar: "Hamed", en: "Guy" },
+                   f: { ru: "Svetlana", fr: "Denise", zh: "Xiaoxiao", es: "Dalia", it: "Elsa", pt: "Francisca", ar: "Zariyah", en: "Jenny" } };
   fetch("/tts-status").then(r => r.json()).then(s => { online = !!s.ok; showVoices(); }).catch(() => {});
 
   // ---- Voice matches the speaker's gender, and stays locked ----
@@ -523,7 +543,7 @@ ${L.sectionsHtml}
     "samantha", "karen", "moira", "tessa", "victoria", "allison", "ava", "susan", "zoe", "nicky", "kate",
     "serena", "fiona", "veena", "zira", "aria", "jenny", "hazel", "libby", "sonia", "michelle", "emma",
     "amélie", "amelie", "audrey", "aurélie", "aurelie", "marie", "denise", "julie", "hortense", "eloise",
-    "vivienne", "céline", "celine", "google français",
+    "vivienne", "céline", "celine", "google français", "laila", "mariam", "maryam", "zariyah", "salma", "hoda", "amina",
     "paulina", "monica", "mónica", "dalia", "elvira", "marisol", "google español", "alice", "federica", "elsa",
     "isabella", "google italiano", "luciana", "joana", "francisca", "thalita", "fernanda", "google português",
     "tingting", "ting-ting", "meijia", "mei-jia", "sinji", "sin-ji", "lili", "yaoyao", "huihui", "xiaoxiao", "xiaoyi", "yushu", "yu-shu", "google 普通话",
@@ -531,7 +551,7 @@ ${L.sectionsHtml}
   var MALE = ["yuri", "pavel", "dmitry", "maxim", "daniel", "alex", "fred", "aaron", "arthur", "gordon",
     "oliver", "tom", "rishi", "reed", "eddy", "ralph", "david", "mark", "guy", "george", "ryan",
     "christopher", "eric", "roger", "steffan", "brian", "thomas", "jacques", "henri", "paul", "remy", "rémy",
-    "nicolas", "jorge", "diego", "alvaro", "álvaro", "juan", "luca", "cosimo", "giuseppe", "antonio", "duarte", "felipe",
+    "nicolas", "jorge", "diego", "alvaro", "álvaro", "juan", "luca", "cosimo", "giuseppe", "antonio", "duarte", "felipe", "maged", "majed", "tarik", "hamed", "shakir", "naayf", "hamdan",
     "kangkang", "yunxi", "yunjian", "yunyang", "li-mu", "limu", "male"];
 
   function voiceGender(v) {
@@ -561,7 +581,8 @@ ${L.sectionsHtml}
     const off = (LANG === "fr" && vl.startsWith("fr") && !vl.startsWith("fr-fr")) ||
                 (LANG === "zh" && vl.startsWith("zh") && !vl.startsWith("zh-cn")) ||        // and Mainland over Taiwan/HK voices
                 (LANG === "es" && vl.startsWith("es") && !/^es-(mx|us|419)/.test(vl)) ||     // Latin American Spanish voices first
-                (LANG === "pt" && vl.startsWith("pt") && !vl.startsWith("pt-br")) ? 0.5 : 0;
+                (LANG === "pt" && vl.startsWith("pt") && !vl.startsWith("pt-br")) ||
+                (LANG === "ar" && vl.startsWith("ar") && !vl.startsWith("ar-sa")) ? 0.5 : 0;
     if (n.includes("premium") || n.includes("enhanced")) return 0 + off;
     return 1 + off;
   }
@@ -779,6 +800,7 @@ ${L.sectionsHtml}
   let importedNote = "";
 
   function startApp() {           // start up once everything above is defined
+    if (CFG.rtl) ["input", "out", "ph-" + LANG].forEach(id => { const el = document.getElementById(id); if (el) el.setAttribute("dir", "auto"); });
     setGender(gender);
     setYou(you);
     setListener(listener);
@@ -805,6 +827,11 @@ const FR = require("./lang-fr.js");
 const ZH = require("./lang-zh.js");
 // Spanish, Italian and Portuguese share one translate pipeline (translateRomance below)
 const ROMANCE = { es: require("./lang-es.js"), it: require("./lang-it.js"), pt: require("./lang-pt.js") };
+const AR = require("./lang-ar.js");
+// Arabic reads right to left: each text box and card follows the direction of its own text
+const RTL_CSS = "  #out, .rs-word, .rs-ex, .ph-text div { unicode-bidi: plaintext; text-align: start; }\n" +
+  "  #out { font-size: 24px; } .rs-word { font-size: 24px; } .rs-ex { font-size: 18px; }\n" +
+  "  .rs-say { unicode-bidi: isolate; direction: ltr; display: inline-block; }\n";
 const LANG_LIST = [
   { code: "ru", name: "Russian", flag: "🇷🇺", short: "RU ⇄ EN", path: "/", app: "ru-en", keyPrefix: "",
     youT: "ты", youV: "вы", phEx: "Без шуток", phrasesUrl: "/phrases", listening: "Слушаю",
@@ -839,8 +866,11 @@ const LANG_LIST = [
   { code: "pt", name: "Portuguese", flag: "🇧🇷", short: "PT ⇄ EN", path: "/pt", app: "pt-en", keyPrefix: "pt_",
     youT: "você", youV: "senhor(a)", phEx: "De boa", phrasesUrl: "/pt/phrases", listening: "Estou ouvindo",
     decks: ROMANCE.pt.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
+  { code: "ar", name: "Arabic", flag: "🇸🇦", short: "AR ⇄ EN", path: "/ar", app: "ar-en", keyPrefix: "ar_",
+    youT: "أنت", youV: "حضرتك", phEx: "يلا", phrasesUrl: "/ar/phrases", listening: "أسمعك", rtl: true, extraCss: RTL_CSS,
+    decks: AR.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
 ];
-const LOCALES = { ru: "ru-RU", fr: "fr-FR", zh: "zh-CN", es: "es-MX", it: "it-IT", pt: "pt-BR", en: "en-US" };
+const LOCALES = { ru: "ru-RU", fr: "fr-FR", zh: "zh-CN", es: "es-MX", it: "it-IT", pt: "pt-BR", ar: "ar-SA", en: "en-US" };
 
 function langNav(cur) {
   return '  <nav class="langs">' + LANG_LIST.map(l =>
@@ -861,7 +891,7 @@ function sectionsHtml(decks) {
 
 const PAGES = {};
 for (const l of LANG_LIST) {
-  const cfg = { name: l.name, short: l.short, app: l.app, path: l.path, phrasesUrl: l.phrasesUrl, listening: l.listening,
+  const cfg = { name: l.name, short: l.short, app: l.app, path: l.path, phrasesUrl: l.phrasesUrl, listening: l.listening, rtl: !!l.rtl,
     locales: LOCALES, decks: l.decks.map(d => ({ url: d.url, list: d.list, count: d.count })),
     apps: Object.fromEntries(LANG_LIST.map(x => [x.app, x.path])) };
   PAGES[l.path] = renderPage(Object.assign({}, l, {
@@ -1082,7 +1112,7 @@ function protectTitles(text) {
 }
 
 function restoreTitles(out, titles, to) {
-  const [open, close] = to === "ru" ? ["«", "»"] : to === "fr" ? ["« ", " »"] : to === "zh" ? ["《", "》"] : ["“", "”"];
+  const [open, close] = to === "ru" ? ["«", "»"] : to === "fr" ? ["« ", " »"] : to === "zh" ? ["《", "》"] : to === "ar" ? ["«", "»"] : ["“", "”"];
   return out
     .replace(/ZQX(\d+)/g, (_, i) => open + titles[+i] + close)
     // Google sometimes lowercases the start of a sentence next to a placeholder ("? мне")
@@ -1119,9 +1149,9 @@ async function google(text, from, to) {
 // Install once in this folder:  npm install msedge-tts
 const TTS_VOICES = {
   m: { ru: "ru-RU-DmitryNeural",   fr: "fr-FR-HenriNeural",  zh: "zh-CN-YunxiNeural",    es: "es-MX-JorgeNeural",
-       it: "it-IT-DiegoNeural", pt: "pt-BR-AntonioNeural",   en: "en-US-GuyNeural" },
+       it: "it-IT-DiegoNeural", pt: "pt-BR-AntonioNeural",   ar: "ar-SA-HamedNeural",  en: "en-US-GuyNeural" },
   f: { ru: "ru-RU-SvetlanaNeural", fr: "fr-FR-DeniseNeural", zh: "zh-CN-XiaoxiaoNeural", es: "es-MX-DaliaNeural",
-       it: "it-IT-ElsaNeural",  pt: "pt-BR-FranciscaNeural", en: "en-US-JennyNeural" },
+       it: "it-IT-ElsaNeural",  pt: "pt-BR-FranciscaNeural", ar: "ar-SA-ZariyahNeural", en: "en-US-JennyNeural" },
 };
 let edge = null;
 import("msedge-tts")
@@ -1682,6 +1712,47 @@ async function translateRomance(code, body, arg) {
   return { out, from, to, say: say.filter(p => /[A-Za-zÀ-ÿ0-9]/.test(p[1])) };
 }
 
+// ---- Arabic: decks, starter phrases and the translate pipeline ----
+const AR_SECTIONS = {};
+for (const d of AR.DECKS) AR_SECTIONS[d.url] = loadList(d.file, d.data);
+const phrasesAr = loadList("phrases-ar.json", AR.STARTER_PHRASES);
+
+// Arabic letters make it easy: any in the message → Arabic to English
+function arDirection(text, hint, userPhrases) {
+  if (hint === "en" || hint === "ar") return hint;
+  const bare = s => norm(s).trim().replace(/[.!?…,؟،]+$/, "").trim().toLowerCase();
+  const whole = bare(text);
+  if (userPhrases.some(p => bare(p.en) === whole)) return "en";
+  return AR.grammar.hasArabic(text) ? "ar" : "en";
+}
+
+async function translateAr(body, arg) {
+  const text = arg("q").slice(0, 5000);
+  const userPhrases = cleanPhrases(body.phrases, "ar") || phrasesAr;
+  if (!text.trim()) return { out: "", from: "en", to: "ar", say: [] };
+  const from = arDirection(text, arg("from"), userPhrases);
+  const to = from === "ar" ? "en" : "ar";
+  const { text: safe0, titles } = protectTitles(text);
+  const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
+  let out;
+  if (/^\s*ZQP0\s*[.!?…؟]*\s*$/.test(safe) && hits.length === 1) out = safe;     // the whole message is one of your phrases
+  else out = await google(safe, from, to);
+  const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
+  if (!ok) out = await google(text, from, to);                    // placeholder got mangled → plain translation
+  else out = restoreTitles(out, titles, to);
+  if (to === "ar") {
+    out = AR.grammar.setFormality(out, arg("y") === "v" ? "v" : "t", arg("l") === "f" ? "f" : "m");
+    if (arg("g") === "f") out = AR.grammar.makeFemale(out);
+  }
+  if (ok) out = restorePhrases(out, hits, to, CAP_FR);            // last, so nothing rewrites your wording
+  if (ok && hits.length === 1 && /^\s*ZQP0\s*$/.test(safe)) out = hits[0][to];
+  // English output: Arabic punctuation (؟ ، ؛) back to normal punctuation
+  if (to === "en") out = out.replace(/؟/g, "?").replace(/،\s*/g, ", ").replace(/؛/g, ";");
+  // Arabic in the Arabic voice, any English (names, titles) in the English voice
+  const say = to === "ar" ? AR.grammar.voiceParts(out) : [["en", out]];
+  return { out, from, to, say };
+}
+
 function readBody(req) {
   return new Promise((resolve, reject) => {
     let b = "";
@@ -1702,6 +1773,14 @@ http.createServer(async (req, res) => {
   if (rp) {
     res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
     return res.end(JSON.stringify(ROMANCE_PHRASES[rp[1]]));
+  }
+  if (AR_SECTIONS[u.pathname]) {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(AR_SECTIONS[u.pathname]));
+  }
+  if (u.pathname === "/ar/phrases") {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(phrasesAr));
   }
   if (ZH_SECTIONS[u.pathname]) {
     res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
@@ -1748,9 +1827,9 @@ http.createServer(async (req, res) => {
       try { body = JSON.parse(await readBody(req)) || {}; } catch (e) { res.writeHead(400); return res.end(); }
     }
     const arg = k => (typeof body[k] === "string" ? body[k] : u.searchParams.get(k)) || "";
-    if (arg("lang") === "fr" || arg("lang") === "zh" || ROMANCE[arg("lang")]) {
+    if (arg("lang") === "fr" || arg("lang") === "zh" || arg("lang") === "ar" || ROMANCE[arg("lang")]) {
       try {
-        const r = arg("lang") === "zh" ? await translateZh(body, arg) : arg("lang") === "fr" ? await translateFr(body, arg)
+        const r = arg("lang") === "ar" ? await translateAr(body, arg) : arg("lang") === "zh" ? await translateZh(body, arg) : arg("lang") === "fr" ? await translateFr(body, arg)
           : await translateRomance(arg("lang"), body, arg);
         res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
         res.end(JSON.stringify(r));

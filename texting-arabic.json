@@ -1,0 +1,210 @@
+[
+  {
+    "ar": "3 / 7 / 2 / 5",
+    "say": "'ayn / Haa' / hamza / khaa'",
+    "speak": "ع، ح، ء، خ",
+    "en": "Arabizi: numbers stand for Arabic sounds — 3 = ع, 7 = ح, 2 = ء (a catch), 5 = خ",
+    "ex": "ya3ni, 7abibi, la2, 5alas",
+    "exEn": "like, buddy, no, done"
+  },
+  {
+    "ar": "7abibi",
+    "say": "Ha-BEE-bee",
+    "speak": "حبيبي",
+    "en": "Habibi, my dear (7 = ح)",
+    "ex": "shukran 7abibi",
+    "exEn": "thanks buddy"
+  },
+  {
+    "ar": "ya3ni",
+    "say": "YA'-nee",
+    "speak": "يعني",
+    "en": "Like, I mean (3 = ع)",
+    "ex": "ya3ni mesh 3aref",
+    "exEn": "like, I don't know"
+  },
+  {
+    "ar": "isa",
+    "say": "in-SHAA-al-lah",
+    "speak": "إن شاء الله",
+    "en": "Hopefully, God willing (إن شاء الله)",
+    "ex": "ashoofak bokra isa",
+    "exEn": "see you tomorrow hopefully"
+  },
+  {
+    "ar": "msa",
+    "say": "ma-SHAA-al-lah",
+    "speak": "ما شاء الله",
+    "en": "Wow, how wonderful (ما شاء الله)",
+    "ex": "msa 7elwa el sora",
+    "exEn": "wow, the photo is nice"
+  },
+  {
+    "ar": "5alas",
+    "say": "kha-LAAS",
+    "speak": "خلاص",
+    "en": "Done, OK, enough (5 = خ)",
+    "ex": "5alas, yalla",
+    "exEn": "ok, let's go"
+  },
+  {
+    "ar": "yalla",
+    "say": "YAL-la",
+    "speak": "يلا",
+    "en": "Let's go, come on",
+    "ex": "yalla bina",
+    "exEn": "let's go"
+  },
+  {
+    "ar": "tamam",
+    "say": "ta-MAAM",
+    "speak": "تمام",
+    "en": "OK, perfect",
+    "ex": "tamam, ashoofak",
+    "exEn": "ok, see you"
+  },
+  {
+    "ar": "la2",
+    "say": "LA'",
+    "speak": "لأ",
+    "en": "No (2 = the little catch at the end)",
+    "ex": "la2 mesh ha2dar",
+    "exEn": "no, I can't"
+  },
+  {
+    "ar": "aywa",
+    "say": "AY-wa",
+    "speak": "أيوه",
+    "en": "Yes, yeah (Egypt, Levant)",
+    "ex": "aywa ana gay",
+    "exEn": "yeah, I'm coming"
+  },
+  {
+    "ar": "ma3lesh",
+    "say": "ma-'LESH",
+    "speak": "معلش",
+    "en": "Sorry, never mind",
+    "ex": "ma3lesh, nsit",
+    "exEn": "sorry, I forgot"
+  },
+  {
+    "ar": "wlh",
+    "say": "WAL-lah",
+    "speak": "والله",
+    "en": "I swear, really (والله)",
+    "ex": "wlh ma 3ref",
+    "exEn": "I swear I don't know"
+  },
+  {
+    "ar": "tb",
+    "say": "TAY-yib",
+    "speak": "طيب",
+    "en": "OK, alright (طيب)",
+    "ex": "tb, bokra",
+    "exEn": "ok, tomorrow"
+  },
+  {
+    "ar": "هههه",
+    "say": "ha-ha-ha-ha",
+    "speak": "هاهاها",
+    "en": "Hahaha / LOL (each ه is a 'ha')",
+    "ex": "هههههه حلوة",
+    "exEn": "hahaha good one"
+  },
+  {
+    "ar": "mar7aba",
+    "say": "MAR-Ha-ba",
+    "speak": "مرحبا",
+    "en": "Hi (مرحبا)",
+    "ex": "mar7aba, kifak?",
+    "exEn": "hi, how are you?"
+  },
+  {
+    "ar": "salam",
+    "say": "sa-LAAM",
+    "speak": "سلام",
+    "en": "Hi / bye (short for السلام عليكم)",
+    "ex": "salam, ashoofak ba3dein",
+    "exEn": "bye, see you later"
+  },
+  {
+    "ar": "shukran",
+    "say": "SHUK-ran",
+    "speak": "شكرا",
+    "en": "Thanks",
+    "ex": "shukran ktir",
+    "exEn": "thanks a lot (Levant)"
+  },
+  {
+    "ar": "3afwan",
+    "say": "'AF-wan",
+    "speak": "عفوا",
+    "en": "You're welcome",
+    "ex": "3afwan, ay wa2t",
+    "exEn": "you're welcome, anytime"
+  },
+  {
+    "ar": "kifak",
+    "say": "KEE-fak",
+    "speak": "كيفك",
+    "en": "How are you? (Levant)",
+    "ex": "mar7aba, kifak?",
+    "exEn": "hi, how are you?"
+  },
+  {
+    "ar": "ezayak",
+    "say": "iz-ZAY-yak",
+    "speak": "إزيك",
+    "en": "How are you? (Egypt)",
+    "ex": "ezayak ya basha?",
+    "exEn": "how are you, boss?"
+  },
+  {
+    "ar": "w enta?",
+    "say": "w IN-ta",
+    "speak": "وانت؟",
+    "en": "And you? (w enti? to a woman)",
+    "ex": "kwayes, w enta?",
+    "exEn": "good, and you?"
+  },
+  {
+    "ar": "mesh 3aref",
+    "say": "mish 'AA-rif",
+    "speak": "مش عارف",
+    "en": "I don't know (Egypt; 3arfa for a woman)",
+    "ex": "mesh 3aref wallahi",
+    "exEn": "honestly I don't know"
+  },
+  {
+    "ar": "b7bk",
+    "say": "ba-Hib-BAK",
+    "speak": "بحبك",
+    "en": "I love you (spoken Arabic)",
+    "ex": "tesba7 3ala 5eir, b7bk",
+    "exEn": "good night, love you"
+  },
+  {
+    "ar": "bas",
+    "say": "bass",
+    "speak": "بس",
+    "en": "Just / but / enough",
+    "ex": "bas keda?",
+    "exEn": "that's it?"
+  },
+  {
+    "ar": "shway w raje3",
+    "say": "SHWAY w RAA-ji'",
+    "speak": "شوي وراجع",
+    "en": "Be right back (Levant)",
+    "ex": "shway w raje3",
+    "exEn": "brb"
+  },
+  {
+    "ar": "tesba7 3ala 5eir",
+    "say": "tis-BAH 'a-la KHAYR",
+    "speak": "تصبح على خير",
+    "en": "Good night (tesba7i to a woman)",
+    "ex": "yalla, tesba7 3ala 5eir",
+    "exEn": "ok, good night"
+  }
+]

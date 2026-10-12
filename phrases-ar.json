@@ -1,0 +1,296 @@
+[
+  {
+    "en": "yes",
+    "ar": "نعم",
+    "alone": true
+  },
+  {
+    "en": "no",
+    "ar": "لا",
+    "alone": true
+  },
+  {
+    "en": "thanks",
+    "ar": "شكراً!",
+    "alone": true
+  },
+  {
+    "en": "hi",
+    "ar": "أهلاً يا ريس!",
+    "alone": true
+  },
+  {
+    "en": "hot dog",
+    "ar": "يا سلام!",
+    "alone": true
+  },
+  {
+    "en": "You got this",
+    "ar": "قدها وقدود"
+  },
+  {
+    "en": "Sup",
+    "ar": "شو الأخبار؟"
+  },
+  {
+    "en": "Yep",
+    "ar": "أيوه"
+  },
+  {
+    "en": "Nope",
+    "ar": "لأ"
+  },
+  {
+    "en": "No worries",
+    "ar": "ولا يهمك"
+  },
+  {
+    "en": "Bro",
+    "ar": "يا صاحبي"
+  },
+  {
+    "en": "Bruh",
+    "ar": "يا رجل",
+    "oneWay": true
+  },
+  {
+    "en": "Dude",
+    "ar": "يا عم"
+  },
+  {
+    "en": "Fr",
+    "ar": "بجد",
+    "oneWay": true
+  },
+  {
+    "en": "For real?",
+    "ar": "بجد؟"
+  },
+  {
+    "en": "Deadass",
+    "ar": "والله العظيم",
+    "oneWay": true
+  },
+  {
+    "en": "No cap",
+    "ar": "بدون كذب"
+  },
+  {
+    "en": "Ngl",
+    "ar": "بصراحة",
+    "oneWay": true
+  },
+  {
+    "en": "Tbh",
+    "ar": "بصراحة يعني",
+    "oneWay": true
+  },
+  {
+    "en": "Imo",
+    "ar": "برأيي"
+  },
+  {
+    "en": "Idk",
+    "ar": "ما بعرف",
+    "oneWay": true
+  },
+  {
+    "en": "Omg",
+    "ar": "يا الله",
+    "oneWay": true
+  },
+  {
+    "en": "Lol",
+    "ar": "ههههه"
+  },
+  {
+    "en": "Lmao",
+    "ar": "هههههههه"
+  },
+  {
+    "en": "I'm dead",
+    "ar": "مت من الضحك"
+  },
+  {
+    "en": "I can't even",
+    "ar": "ما عندي كلام"
+  },
+  {
+    "en": "What's up?",
+    "ar": "إيه الأخبار؟"
+  },
+  {
+    "en": "What's new?",
+    "ar": "شو الجديد؟"
+  },
+  {
+    "en": "What's good?",
+    "ar": "كيف الأحوال؟"
+  },
+  {
+    "en": "Long time no see",
+    "ar": "من زمان!"
+  },
+  {
+    "en": "Spill the tea",
+    "ar": "احكي كل شي"
+  },
+  {
+    "en": "For sure",
+    "ar": "أكيد",
+    "oneWay": true
+  },
+  {
+    "en": "Highkey",
+    "ar": "كتير",
+    "oneWay": true
+  },
+  {
+    "en": "Lowkey",
+    "ar": "شوي",
+    "oneWay": true
+  },
+  {
+    "en": "That's sus",
+    "ar": "في شي غريب"
+  },
+  {
+    "en": "Sus",
+    "ar": "مشبوه",
+    "oneWay": true
+  },
+  {
+    "en": "That's cap",
+    "ar": "كلام فاضي"
+  },
+  {
+    "en": "You're capping",
+    "ar": "كذب!"
+  },
+  {
+    "en": "No way",
+    "ar": "مستحيل!",
+    "oneWay": true
+  },
+  {
+    "en": "That's fire",
+    "ar": "تحفة!"
+  },
+  {
+    "en": "It's fire",
+    "ar": "نار!",
+    "oneWay": true
+  },
+  {
+    "en": "That's lit",
+    "ar": "جامد جدا"
+  },
+  {
+    "en": "That's crazy",
+    "ar": "شي مجنون"
+  },
+  {
+    "en": "That's mid",
+    "ar": "عادي",
+    "oneWay": true
+  },
+  {
+    "en": "Cringe",
+    "ar": "محرج",
+    "oneWay": true
+  },
+  {
+    "en": "That's chill",
+    "ar": "رايق",
+    "oneWay": true
+  },
+  {
+    "en": "All good",
+    "ar": "كله تمام"
+  },
+  {
+    "en": "Good vibes",
+    "ar": "طاقة حلوة",
+    "oneWay": true
+  },
+  {
+    "en": "Vibe",
+    "ar": "جو",
+    "oneWay": true
+  },
+  {
+    "en": "The GOAT",
+    "ar": "الأسطورة"
+  },
+  {
+    "en": "Rizz",
+    "ar": "كاريزما",
+    "oneWay": true
+  },
+  {
+    "en": "On god",
+    "ar": "والله",
+    "oneWay": true
+  },
+  {
+    "en": "My bad",
+    "ar": "غلطتي"
+  },
+  {
+    "en": "Say less",
+    "ar": "تم",
+    "oneWay": true
+  },
+  {
+    "en": "I got you",
+    "ar": "على راسي"
+  },
+  {
+    "en": "I'm down",
+    "ar": "أنا موافق"
+  },
+  {
+    "en": "Let's go",
+    "ar": "يلا!"
+  },
+  {
+    "en": "Wanna hang out?",
+    "ar": "نطلع سوا؟"
+  },
+  {
+    "en": "Hit me up",
+    "ar": "كلمني"
+  },
+  {
+    "en": "Chill out",
+    "ar": "على مهلك"
+  },
+  {
+    "en": "Touch grass",
+    "ar": "اطلع شم هوا"
+  },
+  {
+    "en": "See ya",
+    "ar": "سلام"
+  },
+  {
+    "en": "see you later",
+    "ar": "أشوفك بعدين!"
+  },
+  {
+    "en": "Catch you later",
+    "ar": "نتكلم بعدين"
+  },
+  {
+    "en": "what's your birthday",
+    "ar": "متى عيد ميلادك؟"
+  },
+  {
+    "en": "How do you eat?",
+    "ar": "شو نظامك بالأكل؟"
+  },
+  {
+    "en": "that's a catchphrase",
+    "ar": "هذه عبارتي المشهورة!"
+  }
+]

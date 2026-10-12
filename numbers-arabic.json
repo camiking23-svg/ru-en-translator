@@ -1,0 +1,311 @@
+[
+  {
+    "ar": "٠١٢٣٤٥٦٧٨٩",
+    "say": "0 1 2 3 4 5 6 7 8 9",
+    "speak": "صفر، واحد، اثنان، ثلاثة، أربعة، خمسة، ستة، سبعة، ثمانية، تسعة",
+    "en": "Eastern Arabic digits — used on prices and signs in Egypt and the Gulf (numbers read left to right!)",
+    "ex": "السعر ٢٥ جنيه.",
+    "exEn": "The price is 25 pounds."
+  },
+  {
+    "ar": "صفر",
+    "say": "SIFR",
+    "en": "0 — zero (where the word 'zero' comes from)",
+    "ex": "صفر درجة.",
+    "exEn": "Zero degrees."
+  },
+  {
+    "ar": "واحد",
+    "say": "WAA-Hid",
+    "en": "1 — one",
+    "ex": "قهوة واحدة من فضلك.",
+    "exEn": "One coffee, please."
+  },
+  {
+    "ar": "اثنان",
+    "say": "ith-NAAN (spoken: it-NAYN / tnayn)",
+    "en": "2 — two",
+    "ex": "تذكرتان من فضلك.",
+    "exEn": "Two tickets, please."
+  },
+  {
+    "ar": "ثلاثة",
+    "say": "tha-LAA-tha (spoken: ta-LAA-ta)",
+    "en": "3 — three",
+    "ex": "طاولة لثلاثة أشخاص.",
+    "exEn": "A table for three."
+  },
+  {
+    "ar": "أربعة",
+    "say": "AR-ba-'a",
+    "en": "4 — four",
+    "ex": "الطابق الرابع.",
+    "exEn": "The fourth floor."
+  },
+  {
+    "ar": "خمسة",
+    "say": "KHAM-sa",
+    "en": "5 — five",
+    "ex": "خمس دقائق.",
+    "exEn": "Five minutes."
+  },
+  {
+    "ar": "ستة",
+    "say": "SIT-ta",
+    "en": "6 — six",
+    "ex": "نلتقي الساعة السادسة.",
+    "exEn": "We meet at six."
+  },
+  {
+    "ar": "سبعة",
+    "say": "SAB-'a",
+    "en": "7 — seven",
+    "ex": "سبعة أيام في الأسبوع.",
+    "exEn": "Seven days a week."
+  },
+  {
+    "ar": "ثمانية",
+    "say": "tha-MAA-ni-ya",
+    "en": "8 — eight",
+    "ex": "القطار الساعة الثامنة.",
+    "exEn": "The train is at eight."
+  },
+  {
+    "ar": "تسعة",
+    "say": "TIS-'a",
+    "en": "9 — nine",
+    "ex": "الساعة التاسعة.",
+    "exEn": "Nine o'clock."
+  },
+  {
+    "ar": "عشرة",
+    "say": "'ASH-ra",
+    "en": "10 — ten",
+    "ex": "عشرة دراهم.",
+    "exEn": "Ten dirhams."
+  },
+  {
+    "ar": "أحد عشر",
+    "say": "a-HA-da 'A-shar (spoken: Hi-DAA-shar)",
+    "en": "11 — eleven",
+    "ex": "المتجر يفتح الساعة الحادية عشرة.",
+    "exEn": "The shop opens at eleven."
+  },
+  {
+    "ar": "اثنا عشر",
+    "say": "ith-NA 'A-shar (spoken: it-NAA-shar)",
+    "en": "12 — twelve",
+    "ex": "اثنا عشر شهرا في السنة.",
+    "exEn": "Twelve months in a year."
+  },
+  {
+    "ar": "خمسة عشر",
+    "say": "KHAM-sa-ta 'A-shar (spoken: kham-STAA-shar)",
+    "en": "15 — fifteen",
+    "ex": "بعد خمس عشرة دقيقة.",
+    "exEn": "In fifteen minutes."
+  },
+  {
+    "ar": "عشرون",
+    "say": "'ish-ROON (spoken: 'ish-REEN)",
+    "en": "20 — twenty",
+    "ex": "عشرون ريالا.",
+    "exEn": "Twenty riyals."
+  },
+  {
+    "ar": "واحد وعشرون",
+    "say": "WAA-Hid wa 'ish-ROON",
+    "en": "21 — twenty-one (said 'one and twenty' — ones come first!)",
+    "ex": "عمري واحد وعشرون عاما.",
+    "exEn": "I'm twenty-one."
+  },
+  {
+    "ar": "ثلاثون",
+    "say": "tha-laa-THOON",
+    "en": "30 — thirty",
+    "ex": "ثلاثون دقيقة بالمترو.",
+    "exEn": "Thirty minutes by metro."
+  },
+  {
+    "ar": "أربعون",
+    "say": "ar-ba-'OON",
+    "en": "40 — forty",
+    "ex": "أربعون درجة! الجو حار.",
+    "exEn": "Forty degrees! It's hot."
+  },
+  {
+    "ar": "خمسون",
+    "say": "kham-SOON",
+    "en": "50 — fifty",
+    "ex": "خمسون جنيها.",
+    "exEn": "Fifty pounds."
+  },
+  {
+    "ar": "مئة",
+    "say": "MI-'a (spoken: MEE-ya)",
+    "en": "100 — one hundred",
+    "ex": "مئة درهم.",
+    "exEn": "A hundred dirhams."
+  },
+  {
+    "ar": "ألف",
+    "say": "ALF",
+    "en": "1,000 — one thousand",
+    "ex": "ألف شكر!",
+    "exEn": "A thousand thanks!"
+  },
+  {
+    "ar": "بكم؟ / كم السعر؟",
+    "say": "BI-kam / kam as-SI'R",
+    "en": "How much? / What's the price?",
+    "ex": "كم سعر هذا؟",
+    "exEn": "What's the price of this?"
+  },
+  {
+    "ar": "غالي",
+    "say": "GHAA-lee",
+    "en": "Expensive",
+    "ex": "هذا غالي جدا.",
+    "exEn": "This is very expensive."
+  },
+  {
+    "ar": "رخيص",
+    "say": "ra-KHEES",
+    "en": "Cheap",
+    "ex": "السوق هنا رخيص.",
+    "exEn": "The market here is cheap."
+  },
+  {
+    "ar": "آخر سعر؟",
+    "say": "AA-khir SI'R",
+    "en": "Your best price? ('last price' — bargaining in markets)",
+    "ex": "آخر سعر كم؟",
+    "exEn": "What's your final price?"
+  },
+  {
+    "ar": "ريال / جنيه / درهم / دينار",
+    "say": "ri-YAAL / gi-NAYH / DIR-ham / dee-NAAR",
+    "en": "Riyal (Saudi, Qatar) / pound (Egypt) / dirham (UAE, Morocco) / dinar (Jordan, Kuwait)",
+    "ex": "كم الثمن بالدرهم؟",
+    "exEn": "How much is it in dirhams?"
+  },
+  {
+    "ar": "كم الساعة؟",
+    "say": "kam as-SAA-'a",
+    "en": "What time is it?",
+    "ex": "عذرا، كم الساعة الآن؟",
+    "exEn": "Excuse me, what time is it now?"
+  },
+  {
+    "ar": "الساعة الثالثة",
+    "say": "as-SAA-'a ath-THAA-li-tha",
+    "en": "It's three o'clock",
+    "ex": "الساعة الثالثة تماما.",
+    "exEn": "It's exactly three o'clock."
+  },
+  {
+    "ar": "الساعة الخامسة",
+    "say": "as-SAA-'a al-KHAA-mi-sa",
+    "en": "Five o'clock / at five",
+    "ex": "نلتقي الساعة الخامسة.",
+    "exEn": "Let's meet at five."
+  },
+  {
+    "ar": "ونصف / وربع / إلا ربعا",
+    "say": "wa NISF / wa RUB' / IL-la RUB'-an",
+    "en": "Half past / quarter past / quarter to",
+    "ex": "الساعة الثانية ونصف.",
+    "exEn": "It's half past two."
+  },
+  {
+    "ar": "الظهر",
+    "say": "adh-DHUHR",
+    "en": "Noon (also the midday prayer time)",
+    "ex": "نتغدى بعد الظهر.",
+    "exEn": "We have lunch after noon."
+  },
+  {
+    "ar": "منتصف الليل",
+    "say": "mun-TA-saf al-LAYL",
+    "en": "Midnight",
+    "ex": "المطعم مفتوح حتى منتصف الليل.",
+    "exEn": "The restaurant is open until midnight."
+  },
+  {
+    "ar": "بعد نصف ساعة",
+    "say": "BA'-da nisf SAA-'a",
+    "en": "In half an hour",
+    "ex": "سأصل بعد نصف ساعة.",
+    "exEn": "I'll arrive in half an hour."
+  },
+  {
+    "ar": "اليوم / غدا / أمس",
+    "say": "al-YAWM / GHA-dan / AMS",
+    "en": "Today / tomorrow / yesterday (spoken: بكرة BUK-ra = tomorrow)",
+    "ex": "أراك غدا.",
+    "exEn": "See you tomorrow."
+  },
+  {
+    "ar": "صباحا / مساء",
+    "say": "sa-BAA-Han / ma-SAA-'an",
+    "en": "In the morning / in the evening (a.m. / p.m.)",
+    "ex": "الساعة الثامنة مساء.",
+    "exEn": "8 p.m."
+  },
+  {
+    "ar": "يوم الأحد",
+    "say": "yawm al-A-Had",
+    "en": "Sunday — the work week starts Sunday in many Arab countries",
+    "ex": "نبدأ العمل يوم الأحد.",
+    "exEn": "We start work on Sunday."
+  },
+  {
+    "ar": "يوم الجمعة",
+    "say": "yawm al-JUM-'a",
+    "en": "Friday — the weekly day off (weekend is often Friday–Saturday)",
+    "ex": "المحلات مغلقة صباح الجمعة.",
+    "exEn": "Shops are closed Friday morning."
+  },
+  {
+    "ar": "الأول / الثاني / الثالث",
+    "say": "al-AW-wal / ath-THAA-nee / ath-THAA-lith",
+    "en": "First / second / third",
+    "ex": "هذه زيارتي الأولى.",
+    "exEn": "This is my first visit."
+  },
+  {
+    "ar": "نصف",
+    "say": "NISF",
+    "en": "Half",
+    "ex": "نصف كيلو من فضلك.",
+    "exEn": "Half a kilo, please."
+  },
+  {
+    "ar": "مرة / مرتين",
+    "say": "MAR-ra / mar-RA-tayn",
+    "en": "Once / twice",
+    "ex": "زرت مصر مرتين.",
+    "exEn": "I've visited Egypt twice."
+  },
+  {
+    "ar": "كم عمرك؟",
+    "say": "kam 'UM-ruk",
+    "en": "How old are you?",
+    "ex": "— كم عمرك؟ — ثلاثون سنة.",
+    "exEn": "— How old are you? — Thirty."
+  },
+  {
+    "ar": "كيلو",
+    "say": "KEE-loo",
+    "en": "A kilo (markets sell by the kilo)",
+    "ex": "كيلو طماطم من فضلك.",
+    "exEn": "A kilo of tomatoes, please."
+  },
+  {
+    "ar": "دقيقة",
+    "say": "da-QEE-qa",
+    "en": "A minute (دقيقة واحدة = one moment)",
+    "ex": "دقيقة من فضلك.",
+    "exEn": "One moment, please."
+  }
+]

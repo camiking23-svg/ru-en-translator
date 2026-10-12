@@ -1,0 +1,233 @@
+[
+  {
+    "ar": "السلام عليكم",
+    "say": "as-sa-LAA-mu 'a-LAY-kum",
+    "en": "Peace be upon you — the standard greeting, right with anyone",
+    "ex": "السلام عليكم، كيف حالكم؟",
+    "exEn": "Peace be upon you, how are you all?"
+  },
+  {
+    "ar": "وعليكم السلام",
+    "say": "wa-'a-LAY-ku-mus-sa-LAAM",
+    "en": "And peace be upon you — the reply",
+    "ex": "— السلام عليكم. — وعليكم السلام.",
+    "exEn": "— Peace be upon you. — And upon you, peace."
+  },
+  {
+    "ar": "صباح الخير",
+    "say": "sa-BAAH al-KHAYR",
+    "en": "Good morning (reply: صباح النور sa-BAAH an-NOOR)",
+    "ex": "صباح الخير يا أستاذ أحمد.",
+    "exEn": "Good morning, Mr. Ahmad."
+  },
+  {
+    "ar": "مساء الخير",
+    "say": "ma-SAA' al-KHAYR",
+    "en": "Good evening (reply: مساء النور ma-SAA' an-NOOR)",
+    "ex": "مساء الخير، طاولة لشخصين من فضلك.",
+    "exEn": "Good evening, a table for two, please."
+  },
+  {
+    "ar": "أهلا وسهلا",
+    "say": "AH-lan wa SAH-lan",
+    "en": "Welcome! (a warm hello to guests)",
+    "ex": "أهلا وسهلا، تفضل بالدخول.",
+    "exEn": "Welcome, please come in."
+  },
+  {
+    "ar": "كيف حالك؟",
+    "say": "KAY-fa HAA-luk",
+    "en": "How are you? (standard Arabic)",
+    "ex": "مرحبا، كيف حالك اليوم؟",
+    "exEn": "Hello, how are you today?"
+  },
+  {
+    "ar": "بخير، والحمد لله",
+    "say": "bi-KHAYR, wal-HAM-du lil-LAAH",
+    "en": "Fine, thank God — the usual answer",
+    "ex": "— كيف حالك؟ — بخير، والحمد لله.",
+    "exEn": "— How are you? — Fine, thank God."
+  },
+  {
+    "ar": "تشرفنا",
+    "say": "ta-shar-RAF-na",
+    "en": "Pleased to meet you ('we are honored')",
+    "ex": "أنا كامي. تشرفنا!",
+    "exEn": "I'm Cami. Pleased to meet you!"
+  },
+  {
+    "ar": "من فضلك",
+    "say": "min FAD-lak / FAD-lik",
+    "en": "Please (-ak to a man, -ik to a woman)",
+    "ex": "قهوة من فضلك.",
+    "exEn": "A coffee, please."
+  },
+  {
+    "ar": "لو سمحت",
+    "say": "law sa-MAHT / sa-MAH-tee",
+    "en": "Excuse me / please (-t to a man, -ti to a woman)",
+    "ex": "لو سمحت، أين المحطة؟",
+    "exEn": "Excuse me, where is the station?"
+  },
+  {
+    "ar": "شكرا جزيلا",
+    "say": "SHUK-ran ja-ZEE-lan",
+    "en": "Thank you very much",
+    "ex": "شكرا جزيلا على مساعدتك.",
+    "exEn": "Thank you very much for your help."
+  },
+  {
+    "ar": "عفوا",
+    "say": "'AF-wan",
+    "en": "You're welcome / excuse me",
+    "ex": "— شكرا! — عفوا.",
+    "exEn": "— Thanks! — You're welcome."
+  },
+  {
+    "ar": "لا شكر على واجب",
+    "say": "la SHUKR 'a-la WAA-jib",
+    "en": "No need to thank me ('no thanks for a duty')",
+    "ex": "— شكرا على المساعدة. — لا شكر على واجب.",
+    "exEn": "— Thanks for the help. — No need to thank me."
+  },
+  {
+    "ar": "آسف / آسفة",
+    "say": "AA-sif / AA-si-fa",
+    "en": "I'm sorry (man / woman)",
+    "ex": "آسف على التأخير.",
+    "exEn": "Sorry for being late."
+  },
+  {
+    "ar": "عذرا",
+    "say": "'UDH-ran",
+    "en": "Pardon me / excuse me (formal)",
+    "ex": "عذرا، لم أفهم.",
+    "exEn": "Pardon me, I didn't understand."
+  },
+  {
+    "ar": "تفضل / تفضلي",
+    "say": "ta-FAD-dal / ta-FAD-da-lee",
+    "en": "Please, go ahead / come in / here you go (to a man / to a woman)",
+    "ex": "تفضل، اجلس.",
+    "exEn": "Please, have a seat."
+  },
+  {
+    "ar": "حضرتك",
+    "say": "Had-RE-tak / Had-RE-tik",
+    "en": "You (respectful, in speech — to elders, staff, strangers)",
+    "ex": "حضرتك من أين؟",
+    "exEn": "Where are you from, sir?"
+  },
+  {
+    "ar": "يا أستاذ / يا أستاذة",
+    "say": "ya us-TAAZ / ya us-TAA-za",
+    "en": "Sir / Ma'am (to a man / to a woman) — polite address",
+    "ex": "يا أستاذ، لو سمحت!",
+    "exEn": "Excuse me, sir!"
+  },
+  {
+    "ar": "يا سيدي / يا سيدتي",
+    "say": "ya SAY-yi-dee / ya say-YI-da-tee",
+    "en": "Sir / Madam (to a man / to a woman) — very formal",
+    "ex": "شكرا يا سيدي.",
+    "exEn": "Thank you, sir."
+  },
+  {
+    "ar": "هل يمكنك مساعدتي؟",
+    "say": "hal yum-KI-nuk mu-saa-'a-DA-tee",
+    "en": "Could you help me?",
+    "ex": "عذرا، هل يمكنك مساعدتي؟",
+    "exEn": "Excuse me, could you help me?"
+  },
+  {
+    "ar": "أود…",
+    "say": "a-WADD",
+    "en": "I would like… (more polite than أريد, 'I want')",
+    "ex": "أود أن أحجز طاولة.",
+    "exEn": "I would like to book a table."
+  },
+  {
+    "ar": "هل تتكلم الإنجليزية؟",
+    "say": "hal ta-ta-KAL-lam al-in-ji-LEE-zee-ya",
+    "en": "Do you speak English?",
+    "ex": "عذرا، هل تتكلم الإنجليزية؟",
+    "exEn": "Excuse me, do you speak English?"
+  },
+  {
+    "ar": "لا أفهم",
+    "say": "la AF-ham",
+    "en": "I don't understand",
+    "ex": "آسف، لا أفهم.",
+    "exEn": "Sorry, I don't understand."
+  },
+  {
+    "ar": "هل يمكنك أن تعيد؟",
+    "say": "hal yum-KI-nuk an tu-'EED",
+    "en": "Could you repeat that?",
+    "ex": "عذرا، هل يمكنك أن تعيد ببطء؟",
+    "exEn": "Sorry, could you repeat that slowly?"
+  },
+  {
+    "ar": "الحمد لله",
+    "say": "al-HAM-du lil-LAAH",
+    "en": "Praise God / thank goodness",
+    "ex": "وصلنا بالسلامة، الحمد لله.",
+    "exEn": "We arrived safely, thank God."
+  },
+  {
+    "ar": "بالهناء والشفاء",
+    "say": "bil-ha-NAA' wash-shi-FAA'",
+    "en": "Enjoy your meal (formal)",
+    "ex": "تفضلوا، بالهناء والشفاء.",
+    "exEn": "Here you go, enjoy your meal."
+  },
+  {
+    "ar": "في صحتك",
+    "say": "fee SIH-Ha-tak",
+    "en": "Cheers! / To your health",
+    "ex": "في صحتك يا صديقي!",
+    "exEn": "Cheers, my friend!"
+  },
+  {
+    "ar": "ألف مبروك",
+    "say": "alf mab-ROOK",
+    "en": "Many congratulations ('a thousand congratulations')",
+    "ex": "ألف مبروك على الزواج!",
+    "exEn": "Many congratulations on your wedding!"
+  },
+  {
+    "ar": "مع السلامة",
+    "say": "ma'a as-sa-LAA-ma",
+    "en": "Goodbye ('go with safety')",
+    "ex": "شكرا على كل شيء، مع السلامة.",
+    "exEn": "Thanks for everything, goodbye."
+  },
+  {
+    "ar": "إلى اللقاء",
+    "say": "i-lal-li-QAA'",
+    "en": "See you / goodbye (formal)",
+    "ex": "إلى اللقاء، وشكرا.",
+    "exEn": "Goodbye, and thank you."
+  },
+  {
+    "ar": "تصبح على خير / تصبحين على خير",
+    "say": "tus-BIH 'a-la KHAYR / tus-bi-HEE-na 'a-la KHAYR",
+    "en": "Good night (to a man / to a woman)",
+    "ex": "تصبح على خير، أراك غدا.",
+    "exEn": "Good night, see you tomorrow."
+  },
+  {
+    "ar": "من دواعي سروري",
+    "say": "min da-WAA-'ee su-ROO-ree",
+    "en": "It's my pleasure",
+    "ex": "— شكرا للدعوة. — من دواعي سروري.",
+    "exEn": "— Thanks for the invitation. — My pleasure."
+  },
+  {
+    "ar": "مع خالص التحيات",
+    "say": "ma'a KHAA-lis at-ta-Hee-YAAT",
+    "en": "With best regards (email or letter sign-off)",
+    "ex": "مع خالص التحيات، كامي",
+    "exEn": "Best regards, Cami"
+  }
+]

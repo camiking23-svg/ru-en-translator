@@ -1,0 +1,177 @@
+[
+  {
+    "ar": "طاولة لشخصين من فضلك",
+    "say": "TAA-wi-la li-shakh-SAYN min FAD-lak",
+    "en": "A table for two, please",
+    "ex": "مساء الخير، طاولة لشخصين من فضلك.",
+    "exEn": "Good evening, a table for two, please."
+  },
+  {
+    "ar": "القائمة من فضلك",
+    "say": "al-QAA-'i-ma min FAD-lak",
+    "en": "The menu, please (المنيو al-MEE-noo in speech)",
+    "ex": "لو سمحت، القائمة من فضلك.",
+    "exEn": "Excuse me, the menu, please."
+  },
+  {
+    "ar": "ماذا تنصح؟",
+    "say": "MAA-dha tan-SAH",
+    "en": "What do you recommend?",
+    "ex": "أول مرة هنا، ماذا تنصح؟",
+    "exEn": "It's my first time here, what do you recommend?"
+  },
+  {
+    "ar": "أريد…",
+    "say": "u-REED",
+    "en": "I want… / I'll have…",
+    "ex": "أريد شاورما دجاج من فضلك.",
+    "exEn": "I'll have a chicken shawarma, please."
+  },
+  {
+    "ar": "أنا نباتي / نباتية",
+    "say": "A-na na-BAA-tee / na-baa-TEE-ya",
+    "en": "I'm vegetarian (man / woman)",
+    "ex": "أنا نباتي، هل عندكم أطباق بدون لحم؟",
+    "exEn": "I'm vegetarian, do you have dishes without meat?"
+  },
+  {
+    "ar": "لدي حساسية من…",
+    "say": "LA-day-ya Ha-saa-SEE-ya min",
+    "en": "I'm allergic to…",
+    "ex": "لدي حساسية من الفول السوداني.",
+    "exEn": "I'm allergic to peanuts."
+  },
+  {
+    "ar": "بدون…",
+    "say": "bi-DOON",
+    "en": "Without…",
+    "ex": "شاورما بدون ثوم من فضلك.",
+    "exEn": "Shawarma without garlic, please."
+  },
+  {
+    "ar": "هل هذا حار؟",
+    "say": "hal HAA-dha HAARR",
+    "en": "Is this spicy?",
+    "ex": "هل هذا الطبق حار؟",
+    "exEn": "Is this dish spicy?"
+  },
+  {
+    "ar": "حلال",
+    "say": "Ha-LAAL",
+    "en": "Halal (permitted, prepared the Islamic way)",
+    "ex": "هل اللحم حلال؟",
+    "exEn": "Is the meat halal?"
+  },
+  {
+    "ar": "ماء",
+    "say": "MAA'",
+    "en": "Water (مية MAY-ya in speech)",
+    "ex": "زجاجة ماء من فضلك.",
+    "exEn": "A bottle of water, please."
+  },
+  {
+    "ar": "قهوة عربية",
+    "say": "QAH-wa 'a-ra-BEE-ya",
+    "en": "Arabic coffee — light, with cardamom, in tiny cups",
+    "ex": "تفضل، قهوة عربية.",
+    "exEn": "Here you go, Arabic coffee."
+  },
+  {
+    "ar": "شاي بالنعناع",
+    "say": "shaay bin-na'-NAA'",
+    "en": "Mint tea",
+    "ex": "كوب شاي بالنعناع من فضلك.",
+    "exEn": "A cup of mint tea, please."
+  },
+  {
+    "ar": "عصير",
+    "say": "'a-SEER",
+    "en": "Juice (fresh juice stands are everywhere)",
+    "ex": "عصير برتقال من فضلك.",
+    "exEn": "An orange juice, please."
+  },
+  {
+    "ar": "خبز",
+    "say": "KHUBZ",
+    "en": "Bread (عيش 'AYSH in Egypt)",
+    "ex": "ممكن خبز إضافي؟",
+    "exEn": "Could we have extra bread?"
+  },
+  {
+    "ar": "حمص",
+    "say": "HUM-mus",
+    "en": "Hummus",
+    "ex": "صحن حمص وفلافل.",
+    "exEn": "A plate of hummus and falafel."
+  },
+  {
+    "ar": "فلافل",
+    "say": "fa-LAA-fil",
+    "en": "Falafel (طعمية ta'-MEE-ya in Egypt)",
+    "ex": "سندويشة فلافل من فضلك.",
+    "exEn": "A falafel sandwich, please."
+  },
+  {
+    "ar": "شاورما",
+    "say": "SHAA-wir-ma",
+    "en": "Shawarma",
+    "ex": "شاورما لحم بدون بصل.",
+    "exEn": "Beef shawarma without onion."
+  },
+  {
+    "ar": "مقبلات / مزة",
+    "say": "mu-qab-bi-LAAT / MAZ-za",
+    "en": "Appetizers / mezze (small shared plates)",
+    "ex": "نبدأ بالمزة.",
+    "exEn": "Let's start with the mezze."
+  },
+  {
+    "ar": "لذيذ!",
+    "say": "la-DHEEDH",
+    "en": "Delicious!",
+    "ex": "الأكل لذيذ جدا!",
+    "exEn": "The food is really delicious!"
+  },
+  {
+    "ar": "أنا جائع",
+    "say": "A-na JAA-'i'",
+    "en": "I'm hungry (جائعة JAA-'i-'a for a woman)",
+    "ex": "أنا جائع، هيا نأكل.",
+    "exEn": "I'm hungry, let's eat."
+  },
+  {
+    "ar": "سفري",
+    "say": "SAF-ree",
+    "en": "To go / takeaway (Levant, Gulf — تيك أواي in Egypt)",
+    "ex": "اثنين شاورما سفري.",
+    "exEn": "Two shawarmas to go."
+  },
+  {
+    "ar": "صحتين",
+    "say": "SAH-tayn",
+    "en": "Enjoy! ('two healths' — said when serving or eating)",
+    "ex": "تفضل، صحتين!",
+    "exEn": "Here you go, enjoy!"
+  },
+  {
+    "ar": "الحساب من فضلك",
+    "say": "al-Hi-SAAB min FAD-lak",
+    "en": "The check, please",
+    "ex": "لو سمحت، الحساب من فضلك.",
+    "exEn": "Excuse me, the check, please."
+  },
+  {
+    "ar": "هل يمكنني الدفع بالبطاقة؟",
+    "say": "hal yum-ki-NU-nee ad-DAF' bil-bi-TAA-qa",
+    "en": "Can I pay by card?",
+    "ex": "هل يمكنني الدفع بالبطاقة أم نقدا فقط؟",
+    "exEn": "Can I pay by card, or only cash?"
+  },
+  {
+    "ar": "الأكل كان رائعا",
+    "say": "al-AKL kaa-na RAA-'i-'an",
+    "en": "The food was wonderful",
+    "ex": "شكرا، الأكل كان رائعا!",
+    "exEn": "Thanks, the food was wonderful!"
+  }
+]

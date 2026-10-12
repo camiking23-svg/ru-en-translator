@@ -1,0 +1,184 @@
+[
+  {
+    "ar": "أين…؟",
+    "say": "AY-na",
+    "en": "Where is…?",
+    "ex": "أين المحطة من فضلك؟",
+    "exEn": "Where is the station, please?"
+  },
+  {
+    "ar": "كيف أصل إلى…؟",
+    "say": "KAY-fa A-sil i-la",
+    "en": "How do I get to…?",
+    "ex": "كيف أصل إلى السوق؟",
+    "exEn": "How do I get to the market?"
+  },
+  {
+    "ar": "هل هو بعيد؟",
+    "say": "hal hu-wa ba-'EED",
+    "en": "Is it far?",
+    "ex": "هل الفندق بعيد من هنا؟",
+    "exEn": "Is the hotel far from here?"
+  },
+  {
+    "ar": "يمين / يسار / على طول",
+    "say": "ya-MEEN / ya-SAAR / 'a-la TOOL",
+    "en": "Right / left / straight ahead",
+    "ex": "امش على طول ثم يمين.",
+    "exEn": "Go straight, then right."
+  },
+  {
+    "ar": "محطة المترو",
+    "say": "ma-HAT-tat al-MET-ro",
+    "en": "The metro station",
+    "ex": "أين أقرب محطة مترو؟",
+    "exEn": "Where's the nearest metro station?"
+  },
+  {
+    "ar": "تذكرة واحدة من فضلك",
+    "say": "tadh-KI-ra WAA-Hi-da min FAD-lak",
+    "en": "One ticket, please",
+    "ex": "تذكرة واحدة إلى الإسكندرية من فضلك.",
+    "exEn": "One ticket to Alexandria, please."
+  },
+  {
+    "ar": "ذهاب وعودة",
+    "say": "dha-HAAB wa 'AW-da",
+    "en": "Round trip (ذهاب فقط = one way)",
+    "ex": "تذكرة ذهاب وعودة من فضلك.",
+    "exEn": "A round-trip ticket, please."
+  },
+  {
+    "ar": "متى يغادر القطار؟",
+    "say": "MA-ta yu-GHAA-dir al-qi-TAAR",
+    "en": "When does the train leave?",
+    "ex": "متى يغادر القطار القادم؟",
+    "exEn": "When does the next train leave?"
+  },
+  {
+    "ar": "إلى… من فضلك",
+    "say": "I-la… min FAD-lak",
+    "en": "To…, please (to a taxi driver)",
+    "ex": "إلى المطار من فضلك.",
+    "exEn": "To the airport, please."
+  },
+  {
+    "ar": "كم الأجرة؟",
+    "say": "kam al-UJ-ra",
+    "en": "How much is the fare? (agree before the ride)",
+    "ex": "كم الأجرة إلى الفندق؟",
+    "exEn": "How much is the fare to the hotel?"
+  },
+  {
+    "ar": "لدي حجز باسم…",
+    "say": "LA-day-ya Hajz bi-SMI",
+    "en": "I have a reservation under the name…",
+    "ex": "مرحبا، لدي حجز باسم كامي.",
+    "exEn": "Hello, I have a reservation under the name Cami."
+  },
+  {
+    "ar": "هل الفطور مشمول؟",
+    "say": "hal al-fu-TOOR mash-MOOL",
+    "en": "Is breakfast included?",
+    "ex": "هل الفطور مشمول في السعر؟",
+    "exEn": "Is breakfast included in the price?"
+  },
+  {
+    "ar": "ما كلمة سر الواي فاي؟",
+    "say": "maa KA-li-mat sirr al-wai-fai",
+    "en": "What's the wifi password?",
+    "ex": "عذرا، ما كلمة سر الواي فاي؟",
+    "exEn": "Excuse me, what's the wifi password?"
+  },
+  {
+    "ar": "أين الحمام؟",
+    "say": "AY-na al-Ham-MAAM",
+    "en": "Where's the restroom?",
+    "ex": "لو سمحت، أين الحمام؟",
+    "exEn": "Excuse me, where's the restroom?"
+  },
+  {
+    "ar": "صيدلية",
+    "say": "say-da-LEE-ya",
+    "en": "Pharmacy",
+    "ex": "هل توجد صيدلية قريبة؟",
+    "exEn": "Is there a pharmacy nearby?"
+  },
+  {
+    "ar": "عندي صداع",
+    "say": "'IN-dee su-DAA'",
+    "en": "I have a headache",
+    "ex": "عندي صداع، هل عندك دواء؟",
+    "exEn": "I have a headache, do you have any medicine?"
+  },
+  {
+    "ar": "النجدة!",
+    "say": "an-NAJ-da",
+    "en": "Help! (emergency)",
+    "ex": "النجدة! اتصلوا بالإسعاف!",
+    "exEn": "Help! Call an ambulance!"
+  },
+  {
+    "ar": "اتصلوا بالإسعاف!",
+    "say": "it-ta-SI-loo bil-is-'AAF",
+    "en": "Call an ambulance! (emergency numbers differ by country — look yours up before you travel)",
+    "ex": "حدث حادث، اتصلوا بالإسعاف!",
+    "exEn": "There's been an accident, call an ambulance!"
+  },
+  {
+    "ar": "أنا تائه / تائهة",
+    "say": "A-na TAA-'ih / TAA-'i-ha",
+    "en": "I'm lost (man / woman)",
+    "ex": "عذرا، أنا تائه. أين وسط البلد؟",
+    "exEn": "Excuse me, I'm lost. Where is downtown?"
+  },
+  {
+    "ar": "لا أتكلم العربية جيدا",
+    "say": "la a-ta-KAL-lam al-'a-ra-BEE-ya JAY-yi-dan",
+    "en": "I don't speak Arabic well",
+    "ex": "آسف، لا أتكلم العربية جيدا.",
+    "exEn": "Sorry, I don't speak Arabic well."
+  },
+  {
+    "ar": "ببطء من فضلك",
+    "say": "bi-BUT' min FAD-lak",
+    "en": "Slowly, please",
+    "ex": "هل يمكنك أن تتكلم ببطء من فضلك؟",
+    "exEn": "Could you speak slowly, please?"
+  },
+  {
+    "ar": "أتفرج فقط",
+    "say": "a-ta-FAR-raj FA-qat",
+    "en": "I'm just looking (in shops)",
+    "ex": "شكرا، أتفرج فقط.",
+    "exEn": "Thanks, I'm just looking."
+  },
+  {
+    "ar": "بكم هذا؟",
+    "say": "BI-kam HAA-dha",
+    "en": "How much is this?",
+    "ex": "بكم هذا الوشاح؟",
+    "exEn": "How much is this scarf?"
+  },
+  {
+    "ar": "هل يمكنني تجربته؟",
+    "say": "hal yum-ki-NU-nee taj-ri-BA-tuh",
+    "en": "Can I try it on?",
+    "ex": "هذا القميص جميل، هل يمكنني تجربته؟",
+    "exEn": "This shirt is nice, can I try it on?"
+  },
+  {
+    "ar": "هل يوجد صراف آلي قريب؟",
+    "say": "hal YOO-jad sar-RAAF AA-lee qa-REEB",
+    "en": "Is there an ATM nearby?",
+    "ex": "عذرا، هل يوجد صراف آلي قريب؟",
+    "exEn": "Excuse me, is there an ATM nearby?"
+  },
+  {
+    "ar": "مفتوح / مغلق",
+    "say": "maf-TOOH / MUGH-laq",
+    "en": "Open / Closed (on signs)",
+    "ex": "المتحف مغلق يوم الجمعة.",
+    "exEn": "The museum is closed on Friday."
+  }
+]

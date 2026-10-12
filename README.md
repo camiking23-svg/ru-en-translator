@@ -1,9 +1,9 @@
 # RU ⇄ EN Translator
 
-Russian, French, Mandarin, Spanish, Italian and Portuguese ⇄ English translator for your phone: male/female voices, casual/formal "you", your own slang list,
+Russian, French, Mandarin, Spanish, Italian, Portuguese and Arabic ⇄ English translator for your phone: male/female voices, casual/formal "you", your own slang list,
 favorites, and learning sections (slang, formal, food, texting, travel, proverbs, numbers).
 
-- **Russian** is at the main address (`/`), **French** at `/fr`, **Mandarin** at `/zh`, **Spanish** at `/es`, **Italian** at `/it`, **Portuguese** at `/pt`.
+- **Russian** is at the main address (`/`), **French** at `/fr`, **Mandarin** at `/zh`, **Spanish** at `/es`, **Italian** at `/it`, **Portuguese** at `/pt`, **Arabic** at `/ar`.
   The flag buttons at the top switch between them.
 
 - **Run at home:** `node server.js`, then open `http://<your-PC-address>:3000` on your phone.
@@ -76,7 +76,7 @@ Upload the changed file(s) to the same GitHub repository (**Add file → Upload 
 
 ## Good to know
 - **Free plan sleeps** after about 15 minutes idle, so the first open afterwards can take up to a minute. A paid plan (about $7/month) keeps it awake.
-- **Each phone keeps its own Favorites and My phrases.** New phones start with `phrases.json` (Russian), `phrases-fr.json` (French), `phrases-zh.json` (Mandarin), `phrases-es.json`, `phrases-it.json` or `phrases-pt.json`. Nothing a phone changes is saved on the server.
+- **Each phone keeps its own Favorites and My phrases.** New phones start with `phrases.json` (Russian), `phrases-fr.json` (French), `phrases-zh.json` (Mandarin), `phrases-es.json`, `phrases-it.json`, `phrases-pt.json` or `phrases-ar.json`. Nothing a phone changes is saved on the server.
 - **Each language has its own** My phrases, Favorites, casual/formal setting, Talking to setting and share link. "I am" is shared.
 - **French tu/vous:** the toggle rewrites "you", verbs, commands and possessives (ton/ta ↔ votre). French "vous" is treated as one person,
   so Talking to also applies in vous mode (vous êtes prête). Google picks tu or vous itself, so the toggle overrides it.
@@ -93,3 +93,8 @@ Upload the changed file(s) to the same GitHub repository (**Add file → Upload 
 - **Portuguese** is Brazilian. você ↔ o senhor / a senhora (picked from Talking to); the verbs stay the same, the pronoun and its
   contractions change (para você → para a senhora, de você → do senhor), te → lhe, and casual commands become polite (Olha → Olhe).
 - For all three, I am makes "I'm tired" agree (cansada, stanca, cansada) and Talking to makes "you" agree, in both casual and formal.
+- **Arabic** translations are Modern Standard Arabic (understood everywhere); the slang and texting decks use everyday
+  spoken words marked Egypt / Levant / Gulf. Arabic changes "you" by gender, so Talking to: Female rewrites
+  هل تريد → هل تريدين, مستعد → مستعدة, اجلس → اجلسي. The formal button uses حضرتك, the respectful spoken "you".
+  Text boxes and cards switch to right-to-left automatically. Files: `lang-ar.js`, `ar-grammar.js`, `phrases-ar.json`
+  and the seven `*-arabic.json` / `arabic-slang.json` decks.
