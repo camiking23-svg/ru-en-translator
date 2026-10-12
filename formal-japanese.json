@@ -1,0 +1,233 @@
+[
+  {
+    "ja": "おはようございます",
+    "say": "ohayō gozaimasu",
+    "en": "Good morning (polite)",
+    "ex": "おはようございます。今日もよろしくお願いします。",
+    "exEn": "Good morning. I look forward to working with you today."
+  },
+  {
+    "ja": "こんにちは",
+    "say": "konnichiwa",
+    "en": "Hello / good afternoon",
+    "ex": "こんにちは、はじめまして。",
+    "exEn": "Hello, nice to meet you."
+  },
+  {
+    "ja": "こんばんは",
+    "say": "konbanwa",
+    "en": "Good evening",
+    "ex": "こんばんは。二人です。",
+    "exEn": "Good evening. Two people."
+  },
+  {
+    "ja": "はじめまして",
+    "say": "hajimemashite",
+    "en": "Nice to meet you (the first thing you say when introduced)",
+    "ex": "はじめまして、カミです。",
+    "exEn": "Nice to meet you, I'm Cami."
+  },
+  {
+    "ja": "よろしくお願いします",
+    "say": "yoroshiku onegai shimasu",
+    "en": "Pleased to meet you / I'm counting on you (said after introductions and requests)",
+    "ex": "カミです。よろしくお願いします。",
+    "exEn": "I'm Cami. Pleased to meet you."
+  },
+  {
+    "ja": "ありがとうございます",
+    "say": "arigatō gozaimasu",
+    "en": "Thank you (polite)",
+    "ex": "ご親切にありがとうございます。",
+    "exEn": "Thank you for your kindness."
+  },
+  {
+    "ja": "どういたしまして",
+    "say": "dō itashimashite",
+    "en": "You're welcome",
+    "ex": "— ありがとうございます。 — どういたしまして。",
+    "exEn": "— Thank you. — You're welcome."
+  },
+  {
+    "ja": "すみません",
+    "say": "sumimasen",
+    "en": "Excuse me / sorry / thank you (the most useful word in Japan)",
+    "ex": "すみません、駅はどこですか？",
+    "exEn": "Excuse me, where is the station?"
+  },
+  {
+    "ja": "ごめんなさい",
+    "say": "gomen nasai",
+    "en": "I'm sorry (a real apology)",
+    "ex": "遅れてごめんなさい。",
+    "exEn": "I'm sorry I'm late."
+  },
+  {
+    "ja": "申し訳ありません",
+    "say": "mōshiwake arimasen",
+    "en": "I'm very sorry (very formal — you'll hear staff say it)",
+    "ex": "大変申し訳ありません。",
+    "exEn": "We are terribly sorry."
+  },
+  {
+    "ja": "お願いします",
+    "say": "onegai shimasu",
+    "en": "Please (when asking for something)",
+    "ex": "これをお願いします。",
+    "exEn": "This one, please."
+  },
+  {
+    "ja": "どうぞ",
+    "say": "dōzo",
+    "en": "Please, go ahead, here you are",
+    "ex": "どうぞ、座ってください。",
+    "exEn": "Please, have a seat."
+  },
+  {
+    "ja": "大丈夫です",
+    "say": "daijōbu desu",
+    "en": "I'm OK / no thanks / that's fine",
+    "ex": "— 袋は要りますか？ — 大丈夫です。",
+    "exEn": "— Do you need a bag? — No, I'm fine."
+  },
+  {
+    "ja": "結構です",
+    "say": "kekkō desu",
+    "en": "No, thank you (polite refusal)",
+    "ex": "いいえ、結構です。",
+    "exEn": "No, thank you."
+  },
+  {
+    "ja": "〜さん",
+    "say": "-san",
+    "en": "Mr. / Ms. — added after someone's name (never your own)",
+    "ex": "田中さん、こんにちは。",
+    "exEn": "Hello, Mr. / Ms. Tanaka."
+  },
+  {
+    "ja": "〜様",
+    "say": "-sama",
+    "en": "Very respectful 'Mr. / Ms.' (on letters, from staff to customers)",
+    "ex": "カミ様、お待ちしておりました。",
+    "exEn": "Ms. Cami, we've been expecting you."
+  },
+  {
+    "ja": "お元気ですか？",
+    "say": "o-genki desu ka",
+    "en": "How are you? (when you haven't seen someone for a while)",
+    "ex": "お久しぶりです。お元気ですか？",
+    "exEn": "Long time no see. How are you?"
+  },
+  {
+    "ja": "おかげさまで",
+    "say": "okage sama de",
+    "en": "I'm well, thank you ('thanks to you')",
+    "ex": "— お元気ですか？ — はい、おかげさまで。",
+    "exEn": "— How are you? — Very well, thank you."
+  },
+  {
+    "ja": "いただきます",
+    "say": "itadakimasu",
+    "en": "Said before eating ('I humbly receive')",
+    "ex": "いただきます！",
+    "exEn": "Let's eat! (said before a meal)"
+  },
+  {
+    "ja": "ごちそうさまでした",
+    "say": "gochisō sama deshita",
+    "en": "Said after eating — thanks for the meal (say it to restaurant staff too)",
+    "ex": "ごちそうさまでした。美味しかったです。",
+    "exEn": "Thank you for the meal. It was delicious."
+  },
+  {
+    "ja": "お邪魔します",
+    "say": "o-jama shimasu",
+    "en": "Said when entering someone's home ('sorry to intrude')",
+    "ex": "お邪魔します。素敵なお家ですね。",
+    "exEn": "Thanks for having me. What a lovely home."
+  },
+  {
+    "ja": "失礼します",
+    "say": "shitsurei shimasu",
+    "en": "Excuse me (entering or leaving an office, room or call)",
+    "ex": "失礼します。入ってもいいですか？",
+    "exEn": "Excuse me. May I come in?"
+  },
+  {
+    "ja": "お疲れ様です",
+    "say": "otsukare sama desu",
+    "en": "Thanks for your hard work (greeting coworkers, staff)",
+    "ex": "お疲れ様です。お先に失礼します。",
+    "exEn": "Good work today. I'll be heading out first."
+  },
+  {
+    "ja": "お大事に",
+    "say": "o-daiji ni",
+    "en": "Take care / get well soon",
+    "ex": "風邪ですか？お大事に。",
+    "exEn": "A cold? Get well soon."
+  },
+  {
+    "ja": "気をつけて",
+    "say": "ki o tsukete",
+    "en": "Take care, be careful (when someone leaves)",
+    "ex": "気をつけて帰ってください。",
+    "exEn": "Get home safely."
+  },
+  {
+    "ja": "もう一度お願いします",
+    "say": "mō ichido onegai shimasu",
+    "en": "One more time, please",
+    "ex": "すみません、もう一度お願いします。",
+    "exEn": "Sorry, could you say that again?"
+  },
+  {
+    "ja": "ゆっくり話してください",
+    "say": "yukkuri hanashite kudasai",
+    "en": "Please speak slowly",
+    "ex": "すみません、ゆっくり話してください。",
+    "exEn": "Sorry, please speak slowly."
+  },
+  {
+    "ja": "わかりません",
+    "say": "wakarimasen",
+    "en": "I don't understand / I don't know",
+    "ex": "すみません、日本語がわかりません。",
+    "exEn": "Sorry, I don't understand Japanese."
+  },
+  {
+    "ja": "英語を話せますか？",
+    "say": "eigo o hanasemasu ka",
+    "en": "Can you speak English?",
+    "ex": "すみません、英語を話せますか？",
+    "exEn": "Excuse me, can you speak English?"
+  },
+  {
+    "ja": "いらっしゃいませ",
+    "say": "irasshaimase",
+    "en": "Welcome! (staff shout this when you enter — no reply needed)",
+    "ex": "いらっしゃいませ！何名様ですか？",
+    "exEn": "Welcome! How many people?"
+  },
+  {
+    "ja": "少々お待ちください",
+    "say": "shōshō o-machi kudasai",
+    "en": "Please wait a moment (you'll hear this from staff)",
+    "ex": "少々お待ちください。",
+    "exEn": "Just a moment, please."
+  },
+  {
+    "ja": "かしこまりました",
+    "say": "kashikomarimashita",
+    "en": "Certainly, understood (staff to customers)",
+    "ex": "かしこまりました。",
+    "exEn": "Certainly."
+  },
+  {
+    "ja": "さようなら",
+    "say": "sayōnara",
+    "en": "Goodbye (a bit final — 'またね' with friends, '失礼します' at work)",
+    "ex": "先生、さようなら。",
+    "exEn": "Goodbye, teacher."
+  }
+]

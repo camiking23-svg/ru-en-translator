@@ -1,0 +1,329 @@
+[
+  {
+    "en": "yes",
+    "ja": "はい",
+    "alone": true
+  },
+  {
+    "en": "no",
+    "ja": "いいえ",
+    "alone": true
+  },
+  {
+    "en": "thanks",
+    "ja": "ありがとう！",
+    "alone": true
+  },
+  {
+    "en": "hi",
+    "ja": "どうも、社長！",
+    "alone": true
+  },
+  {
+    "en": "hot dog",
+    "ja": "マジか！",
+    "alone": true
+  },
+  {
+    "en": "You got this",
+    "ja": "頑張って！",
+    "oneWay": true
+  },
+  {
+    "en": "Sup",
+    "ja": "元気？",
+    "oneWay": true
+  },
+  {
+    "en": "Yep",
+    "ja": "うん",
+    "oneWay": true
+  },
+  {
+    "en": "Nope",
+    "ja": "ううん",
+    "oneWay": true
+  },
+  {
+    "en": "No worries",
+    "ja": "大丈夫",
+    "oneWay": true
+  },
+  {
+    "en": "Bro",
+    "ja": "兄弟",
+    "oneWay": true
+  },
+  {
+    "en": "Bruh",
+    "ja": "おいおい",
+    "oneWay": true
+  },
+  {
+    "en": "Dude",
+    "ja": "なあ",
+    "oneWay": true
+  },
+  {
+    "en": "Fr",
+    "ja": "マジで",
+    "oneWay": true
+  },
+  {
+    "en": "For real?",
+    "ja": "マジで？",
+    "oneWay": true
+  },
+  {
+    "en": "Deadass",
+    "ja": "ガチで",
+    "oneWay": true
+  },
+  {
+    "en": "No cap",
+    "ja": "嘘じゃない",
+    "oneWay": true
+  },
+  {
+    "en": "Ngl",
+    "ja": "正直",
+    "oneWay": true
+  },
+  {
+    "en": "Tbh",
+    "ja": "ぶっちゃけ",
+    "oneWay": true
+  },
+  {
+    "en": "Imo",
+    "ja": "個人的には",
+    "oneWay": true
+  },
+  {
+    "en": "Idk",
+    "ja": "わかんない",
+    "oneWay": true
+  },
+  {
+    "en": "Omg",
+    "ja": "うそ！",
+    "oneWay": true
+  },
+  {
+    "en": "Lol",
+    "ja": "笑",
+    "oneWay": true
+  },
+  {
+    "en": "Lmao",
+    "ja": "www",
+    "oneWay": true
+  },
+  {
+    "en": "I'm dead",
+    "ja": "ウケる",
+    "oneWay": true
+  },
+  {
+    "en": "I can't even",
+    "ja": "言葉が出ない",
+    "oneWay": true
+  },
+  {
+    "en": "What's up?",
+    "ja": "最近どう？"
+  },
+  {
+    "en": "What's new?",
+    "ja": "何か新しいことある？"
+  },
+  {
+    "en": "What's good?",
+    "ja": "調子どう？"
+  },
+  {
+    "en": "Long time no see",
+    "ja": "久しぶり！"
+  },
+  {
+    "en": "Spill the tea",
+    "ja": "詳しく教えて",
+    "oneWay": true
+  },
+  {
+    "en": "For sure",
+    "ja": "もちろん",
+    "oneWay": true
+  },
+  {
+    "en": "Highkey",
+    "ja": "めっちゃ",
+    "oneWay": true
+  },
+  {
+    "en": "Lowkey",
+    "ja": "ちょっと",
+    "oneWay": true
+  },
+  {
+    "en": "That's sus",
+    "ja": "怪しい",
+    "oneWay": true
+  },
+  {
+    "en": "Sus",
+    "ja": "怪しい",
+    "oneWay": true
+  },
+  {
+    "en": "That's cap",
+    "ja": "嘘でしょ",
+    "oneWay": true
+  },
+  {
+    "en": "You're capping",
+    "ja": "嘘つき",
+    "oneWay": true
+  },
+  {
+    "en": "No way",
+    "ja": "ありえない！",
+    "oneWay": true
+  },
+  {
+    "en": "That's fire",
+    "ja": "最高！",
+    "oneWay": true
+  },
+  {
+    "en": "It's fire",
+    "ja": "神！",
+    "oneWay": true
+  },
+  {
+    "en": "That's lit",
+    "ja": "盛り上がってる！",
+    "oneWay": true
+  },
+  {
+    "en": "That's crazy",
+    "ja": "やばい",
+    "oneWay": true
+  },
+  {
+    "en": "That's mid",
+    "ja": "微妙",
+    "oneWay": true
+  },
+  {
+    "en": "Cringe",
+    "ja": "痛い",
+    "oneWay": true
+  },
+  {
+    "en": "That's chill",
+    "ja": "いい感じ",
+    "oneWay": true
+  },
+  {
+    "en": "All good",
+    "ja": "大丈夫だよ",
+    "oneWay": true
+  },
+  {
+    "en": "Good vibes",
+    "ja": "いい雰囲気",
+    "oneWay": true
+  },
+  {
+    "en": "Vibe",
+    "ja": "ノリ",
+    "oneWay": true
+  },
+  {
+    "en": "The GOAT",
+    "ja": "レジェンド",
+    "oneWay": true
+  },
+  {
+    "en": "Rizz",
+    "ja": "モテ力",
+    "oneWay": true
+  },
+  {
+    "en": "On god",
+    "ja": "マジで",
+    "oneWay": true
+  },
+  {
+    "en": "My bad",
+    "ja": "ごめん",
+    "oneWay": true
+  },
+  {
+    "en": "Say less",
+    "ja": "了解",
+    "oneWay": true
+  },
+  {
+    "en": "I got you",
+    "ja": "任せて",
+    "oneWay": true
+  },
+  {
+    "en": "I'm down",
+    "ja": "乗った！",
+    "oneWay": true
+  },
+  {
+    "en": "Let's go",
+    "ja": "行こう！",
+    "oneWay": true
+  },
+  {
+    "en": "Wanna hang out?",
+    "ja": "遊ばない？"
+  },
+  {
+    "en": "Hit me up",
+    "ja": "連絡して",
+    "oneWay": true
+  },
+  {
+    "en": "Chill out",
+    "ja": "落ち着いて",
+    "oneWay": true
+  },
+  {
+    "en": "Touch grass",
+    "ja": "外の空気を吸ってきな",
+    "oneWay": true
+  },
+  {
+    "en": "See ya",
+    "ja": "またね",
+    "oneWay": true
+  },
+  {
+    "en": "see you later",
+    "ja": "また後で！",
+    "oneWay": true
+  },
+  {
+    "en": "Catch you later",
+    "ja": "じゃあね",
+    "oneWay": true
+  },
+  {
+    "en": "what's your birthday",
+    "ja": "誕生日いつ？"
+  },
+  {
+    "en": "How do you eat?",
+    "ja": "普段どんな食事してる？"
+  },
+  {
+    "en": "that's a catchphrase",
+    "ja": "それ、私の口癖！"
+  }
+]

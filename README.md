@@ -1,9 +1,9 @@
 # RU ⇄ EN Translator
 
-Russian, French, Mandarin, Spanish, Italian, Portuguese and Arabic ⇄ English translator for your phone: male/female voices, casual/formal "you", your own slang list,
+Russian, French, Mandarin, Spanish, Italian, Portuguese, Arabic and Japanese ⇄ English translator for your phone: male/female voices, casual/formal "you", your own slang list,
 favorites, and learning sections (slang, formal, food, texting, travel, proverbs, numbers).
 
-- **Russian** is at the main address (`/`), **French** at `/fr`, **Mandarin** at `/zh`, **Spanish** at `/es`, **Italian** at `/it`, **Portuguese** at `/pt`, **Arabic** at `/ar`.
+- **Russian** is at the main address (`/`), **French** at `/fr`, **Mandarin** at `/zh`, **Spanish** at `/es`, **Italian** at `/it`, **Portuguese** at `/pt`, **Arabic** at `/ar`, **Japanese** at `/ja`.
   The flag buttons at the top switch between them.
 
 - **Run at home:** `node server.js`, then open `http://<your-PC-address>:3000` on your phone.
@@ -76,7 +76,7 @@ Upload the changed file(s) to the same GitHub repository (**Add file → Upload 
 
 ## Good to know
 - **Free plan sleeps** after about 15 minutes idle, so the first open afterwards can take up to a minute. A paid plan (about $7/month) keeps it awake.
-- **Each phone keeps its own Favorites and My phrases.** New phones start with `phrases.json` (Russian), `phrases-fr.json` (French), `phrases-zh.json` (Mandarin), `phrases-es.json`, `phrases-it.json`, `phrases-pt.json` or `phrases-ar.json`. Nothing a phone changes is saved on the server.
+- **Each phone keeps its own Favorites and My phrases.** New phones start with `phrases.json` (Russian), `phrases-fr.json` (French), `phrases-zh.json` (Mandarin), `phrases-es.json`, `phrases-it.json`, `phrases-pt.json`, `phrases-ar.json` or `phrases-ja.json`. Nothing a phone changes is saved on the server.
 - **Each language has its own** My phrases, Favorites, casual/formal setting, Talking to setting and share link. "I am" is shared.
 - **French tu/vous:** the toggle rewrites "you", verbs, commands and possessives (ton/ta ↔ votre). French "vous" is treated as one person,
   so Talking to also applies in vous mode (vous êtes prête). Google picks tu or vous itself, so the toggle overrides it.
@@ -98,3 +98,7 @@ Upload the changed file(s) to the same GitHub repository (**Add file → Upload 
   هل تريد → هل تريدين, مستعد → مستعدة, اجلس → اجلسي. The formal button uses حضرتك, the respectful spoken "you".
   Text boxes and cards switch to right-to-left automatically. Files: `lang-ar.js`, `ar-grammar.js`, `phrases-ar.json`
   and the seven `*-arabic.json` / `arabic-slang.json` decks.
+- **Japanese** starts on polite (です・ます) — right with staff, strangers and anyone older. The casual (タメ口) button
+  rewrites sentence endings to the plain form for friends: 行きます → 行く, 食べましょう → 食べよう, 待ってください → 待って.
+  Japanese has no male/female word endings, so I am / Talking to only pick the voices (Keita / Nanami).
+  Files: `lang-ja.js`, `ja-grammar.js`, `phrases-ja.json` and the seven `*-japanese.json` / `japanese-slang.json` decks.

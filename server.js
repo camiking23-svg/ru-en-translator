@@ -134,7 +134,8 @@ ${L.sectionsHtml}
 
   // Casual ты or formal вы, kept the same through the whole translation
   let you = "t";
-  try { you = localStorage.getItem(LK + "you") || "t"; } catch (e) {}
+  if (CFG.defYou) you = CFG.defYou;                    // Japanese starts polite
+  try { you = localStorage.getItem(LK + "you") || CFG.defYou || "t"; } catch (e) {}
   function setYou(y) {
     you = y;
     try { localStorage.setItem(LK + "you", y); } catch (e) {}
@@ -533,8 +534,8 @@ ${L.sectionsHtml}
   // ---- Microsoft online voices: fixed per gender, so always the same voice ----
   let online = false;
   let player = null;
-  const ONLINE = { m: { ru: "Dmitry", fr: "Henri", zh: "Yunxi", es: "Jorge", it: "Diego", pt: "Antonio", ar: "Hamed", en: "Guy" },
-                   f: { ru: "Svetlana", fr: "Denise", zh: "Xiaoxiao", es: "Dalia", it: "Elsa", pt: "Francisca", ar: "Zariyah", en: "Jenny" } };
+  const ONLINE = { m: { ru: "Dmitry", fr: "Henri", zh: "Yunxi", es: "Jorge", it: "Diego", pt: "Antonio", ar: "Hamed", ja: "Keita", en: "Guy" },
+                   f: { ru: "Svetlana", fr: "Denise", zh: "Xiaoxiao", es: "Dalia", it: "Elsa", pt: "Francisca", ar: "Zariyah", ja: "Nanami", en: "Jenny" } };
   fetch("/tts-status").then(r => r.json()).then(s => { online = !!s.ok; showVoices(); }).catch(() => {});
 
   // ---- Voice matches the speaker's gender, and stays locked ----
@@ -543,7 +544,7 @@ ${L.sectionsHtml}
     "samantha", "karen", "moira", "tessa", "victoria", "allison", "ava", "susan", "zoe", "nicky", "kate",
     "serena", "fiona", "veena", "zira", "aria", "jenny", "hazel", "libby", "sonia", "michelle", "emma",
     "amélie", "amelie", "audrey", "aurélie", "aurelie", "marie", "denise", "julie", "hortense", "eloise",
-    "vivienne", "céline", "celine", "google français", "laila", "mariam", "maryam", "zariyah", "salma", "hoda", "amina",
+    "vivienne", "céline", "celine", "google français", "laila", "mariam", "maryam", "zariyah", "salma", "hoda", "amina", "kyoko", "o-ren", "nanami", "ayumi", "haruka", "sayaka", "google 日本語",
     "paulina", "monica", "mónica", "dalia", "elvira", "marisol", "google español", "alice", "federica", "elsa",
     "isabella", "google italiano", "luciana", "joana", "francisca", "thalita", "fernanda", "google português",
     "tingting", "ting-ting", "meijia", "mei-jia", "sinji", "sin-ji", "lili", "yaoyao", "huihui", "xiaoxiao", "xiaoyi", "yushu", "yu-shu", "google 普通话",
@@ -551,7 +552,7 @@ ${L.sectionsHtml}
   var MALE = ["yuri", "pavel", "dmitry", "maxim", "daniel", "alex", "fred", "aaron", "arthur", "gordon",
     "oliver", "tom", "rishi", "reed", "eddy", "ralph", "david", "mark", "guy", "george", "ryan",
     "christopher", "eric", "roger", "steffan", "brian", "thomas", "jacques", "henri", "paul", "remy", "rémy",
-    "nicolas", "jorge", "diego", "alvaro", "álvaro", "juan", "luca", "cosimo", "giuseppe", "antonio", "duarte", "felipe", "maged", "majed", "tarik", "hamed", "shakir", "naayf", "hamdan",
+    "nicolas", "jorge", "diego", "alvaro", "álvaro", "juan", "luca", "cosimo", "giuseppe", "antonio", "duarte", "felipe", "maged", "majed", "tarik", "hamed", "shakir", "naayf", "hamdan", "otoya", "hattori", "keita", "ichiro",
     "kangkang", "yunxi", "yunjian", "yunyang", "li-mu", "limu", "male"];
 
   function voiceGender(v) {
@@ -582,7 +583,8 @@ ${L.sectionsHtml}
                 (LANG === "zh" && vl.startsWith("zh") && !vl.startsWith("zh-cn")) ||        // and Mainland over Taiwan/HK voices
                 (LANG === "es" && vl.startsWith("es") && !/^es-(mx|us|419)/.test(vl)) ||     // Latin American Spanish voices first
                 (LANG === "pt" && vl.startsWith("pt") && !vl.startsWith("pt-br")) ||
-                (LANG === "ar" && vl.startsWith("ar") && !vl.startsWith("ar-sa")) ? 0.5 : 0;
+                (LANG === "ar" && vl.startsWith("ar") && !vl.startsWith("ar-sa")) ||
+                (LANG === "ja" && !vl.startsWith("ja")) ? 0.5 : 0;
     if (n.includes("premium") || n.includes("enhanced")) return 0 + off;
     return 1 + off;
   }
@@ -828,6 +830,7 @@ const ZH = require("./lang-zh.js");
 // Spanish, Italian and Portuguese share one translate pipeline (translateRomance below)
 const ROMANCE = { es: require("./lang-es.js"), it: require("./lang-it.js"), pt: require("./lang-pt.js") };
 const AR = require("./lang-ar.js");
+const JA = require("./lang-ja.js");
 // Arabic reads right to left: each text box and card follows the direction of its own text
 const RTL_CSS = "  #out, .rs-word, .rs-ex, .ph-text div { unicode-bidi: plaintext; text-align: start; }\n" +
   "  #out { font-size: 24px; } .rs-word { font-size: 24px; } .rs-ex { font-size: 18px; }\n" +
@@ -869,8 +872,11 @@ const LANG_LIST = [
   { code: "ar", name: "Arabic", flag: "🇸🇦", short: "AR ⇄ EN", path: "/ar", app: "ar-en", keyPrefix: "ar_",
     youT: "أنت", youV: "حضرتك", phEx: "يلا", phrasesUrl: "/ar/phrases", listening: "أسمعك", rtl: true, extraCss: RTL_CSS,
     decks: AR.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
+  { code: "ja", name: "Japanese", flag: "🇯🇵", short: "JA ⇄ EN", path: "/ja", app: "ja-en", keyPrefix: "ja_",
+    youT: "タメ口", youV: "です・ます", phEx: "マジで", phrasesUrl: "/ja/phrases", listening: "聞いています", defYou: "v",
+    decks: JA.DECKS.map(d => ({ id: d.id, list: d.list, count: d.count, url: d.url, title: d.title, help: d.help })) },
 ];
-const LOCALES = { ru: "ru-RU", fr: "fr-FR", zh: "zh-CN", es: "es-MX", it: "it-IT", pt: "pt-BR", ar: "ar-SA", en: "en-US" };
+const LOCALES = { ru: "ru-RU", fr: "fr-FR", zh: "zh-CN", es: "es-MX", it: "it-IT", pt: "pt-BR", ar: "ar-SA", ja: "ja-JP", en: "en-US" };
 
 function langNav(cur) {
   return '  <nav class="langs">' + LANG_LIST.map(l =>
@@ -891,7 +897,7 @@ function sectionsHtml(decks) {
 
 const PAGES = {};
 for (const l of LANG_LIST) {
-  const cfg = { name: l.name, short: l.short, app: l.app, path: l.path, phrasesUrl: l.phrasesUrl, listening: l.listening, rtl: !!l.rtl,
+  const cfg = { name: l.name, short: l.short, app: l.app, path: l.path, phrasesUrl: l.phrasesUrl, listening: l.listening, rtl: !!l.rtl, defYou: l.defYou || "",
     locales: LOCALES, decks: l.decks.map(d => ({ url: d.url, list: d.list, count: d.count })),
     apps: Object.fromEntries(LANG_LIST.map(x => [x.app, x.path])) };
   PAGES[l.path] = renderPage(Object.assign({}, l, {
@@ -1112,7 +1118,7 @@ function protectTitles(text) {
 }
 
 function restoreTitles(out, titles, to) {
-  const [open, close] = to === "ru" ? ["«", "»"] : to === "fr" ? ["« ", " »"] : to === "zh" ? ["《", "》"] : to === "ar" ? ["«", "»"] : ["“", "”"];
+  const [open, close] = to === "ru" ? ["«", "»"] : to === "fr" ? ["« ", " »"] : to === "zh" ? ["《", "》"] : to === "ar" ? ["«", "»"] : to === "ja" ? ["「", "」"] : ["“", "”"];
   return out
     .replace(/ZQX(\d+)/g, (_, i) => open + titles[+i] + close)
     // Google sometimes lowercases the start of a sentence next to a placeholder ("? мне")
@@ -1149,9 +1155,9 @@ async function google(text, from, to) {
 // Install once in this folder:  npm install msedge-tts
 const TTS_VOICES = {
   m: { ru: "ru-RU-DmitryNeural",   fr: "fr-FR-HenriNeural",  zh: "zh-CN-YunxiNeural",    es: "es-MX-JorgeNeural",
-       it: "it-IT-DiegoNeural", pt: "pt-BR-AntonioNeural",   ar: "ar-SA-HamedNeural",  en: "en-US-GuyNeural" },
+       it: "it-IT-DiegoNeural", pt: "pt-BR-AntonioNeural",   ar: "ar-SA-HamedNeural",  ja: "ja-JP-KeitaNeural",  en: "en-US-GuyNeural" },
   f: { ru: "ru-RU-SvetlanaNeural", fr: "fr-FR-DeniseNeural", zh: "zh-CN-XiaoxiaoNeural", es: "es-MX-DaliaNeural",
-       it: "it-IT-ElsaNeural",  pt: "pt-BR-FranciscaNeural", ar: "ar-SA-ZariyahNeural", en: "en-US-JennyNeural" },
+       it: "it-IT-ElsaNeural",  pt: "pt-BR-FranciscaNeural", ar: "ar-SA-ZariyahNeural", ja: "ja-JP-NanamiNeural", en: "en-US-JennyNeural" },
 };
 let edge = null;
 import("msedge-tts")
@@ -1257,7 +1263,7 @@ function phraseRegex(p) {
   const core = norm(p).trim().replace(/[.!?…,]+$/, "").replace(/^[¿¡]+/, "");
   const body = core.split(/\s+/).map(reEscape).join("\\s+");
   // Chinese: no spaces between words, so no word-edge check (and its own end punctuation is optional)
-  if (/[\u3400-\u9fff]/.test(core)) return new RegExp(core.replace(/[。！？，～]+$/, "").split(/\s+/).map(reEscape).join("\\s*"), "giu");
+  if (/[\u3040-\u30ff\u3400-\u9fff]/.test(core)) return new RegExp(core.replace(/[。！？，～]+$/, "").split(/\s+/).map(reEscape).join("\\s*"), "giu");
   return new RegExp("(?<![\\p{L}\\p{N}'])" + body + "(?![\\p{L}\\p{N}'])", "giu");
 }
 
@@ -1753,6 +1759,44 @@ async function translateAr(body, arg) {
   return { out, from, to, say };
 }
 
+// ---- Japanese: decks, starter phrases and the translate pipeline ----
+const JA_SECTIONS = {};
+for (const d of JA.DECKS) JA_SECTIONS[d.url] = loadList(d.file, d.data);
+const phrasesJa = loadList("phrases-ja.json", JA.STARTER_PHRASES);
+
+// Kana or kanji in the message → Japanese to English
+function jaDirection(text, hint, userPhrases) {
+  if (hint === "en" || hint === "ja") return hint;
+  const bare = s => norm(s).trim().replace(/[.!?…,。！？、]+$/, "").trim().toLowerCase();
+  const whole = bare(text);
+  if (userPhrases.some(p => bare(p.en) === whole)) return "en";
+  return JA.grammar.hasJapanese(text) ? "ja" : "en";
+}
+
+async function translateJa(body, arg) {
+  const text = arg("q").slice(0, 5000);
+  const userPhrases = cleanPhrases(body.phrases, "ja") || phrasesJa;
+  if (!text.trim()) return { out: "", from: "en", to: "ja", say: [] };
+  const from = jaDirection(text, arg("from"), userPhrases);
+  const to = from === "ja" ? "en" : "ja";
+  const { text: safe0, titles } = protectTitles(text);
+  const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
+  let out;
+  if (/^\s*ZQP0\s*[.!?…。！？]*\s*$/.test(safe) && hits.length === 1) out = safe;   // the whole message is one of your phrases
+  else out = await google(safe, from, to);
+  const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
+  if (!ok) out = await google(text, from, to);                    // placeholder got mangled → plain translation
+  else out = restoreTitles(out, titles, to);
+  // polite です・ます (the default) or casual plain form
+  if (to === "ja") out = JA.grammar.setFormality(out, arg("y") === "t" ? "t" : "v");
+  if (ok) out = restorePhrases(out, hits, to, CAP_FR);            // last, so nothing rewrites your wording
+  if (ok && hits.length === 1 && /^\s*ZQP0\s*$/.test(safe)) out = hits[0][to];
+  // English output: Japanese punctuation back to normal punctuation
+  if (to === "en") out = out.replace(/。/g, ". ").replace(/、/g, ", ").replace(/？/g, "?").replace(/！/g, "!").replace(/[「」]/g, '"').replace(/ +$/, "").replace(/ {2,}/g, " ");
+  const say = to === "ja" ? JA.grammar.voiceParts(out) : [["en", out]];
+  return { out, from, to, say };
+}
+
 function readBody(req) {
   return new Promise((resolve, reject) => {
     let b = "";
@@ -1773,6 +1817,14 @@ http.createServer(async (req, res) => {
   if (rp) {
     res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
     return res.end(JSON.stringify(ROMANCE_PHRASES[rp[1]]));
+  }
+  if (JA_SECTIONS[u.pathname]) {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(JA_SECTIONS[u.pathname]));
+  }
+  if (u.pathname === "/ja/phrases") {
+    res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    return res.end(JSON.stringify(phrasesJa));
   }
   if (AR_SECTIONS[u.pathname]) {
     res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
@@ -1827,9 +1879,9 @@ http.createServer(async (req, res) => {
       try { body = JSON.parse(await readBody(req)) || {}; } catch (e) { res.writeHead(400); return res.end(); }
     }
     const arg = k => (typeof body[k] === "string" ? body[k] : u.searchParams.get(k)) || "";
-    if (arg("lang") === "fr" || arg("lang") === "zh" || arg("lang") === "ar" || ROMANCE[arg("lang")]) {
+    if (arg("lang") === "fr" || arg("lang") === "zh" || arg("lang") === "ar" || arg("lang") === "ja" || ROMANCE[arg("lang")]) {
       try {
-        const r = arg("lang") === "ar" ? await translateAr(body, arg) : arg("lang") === "zh" ? await translateZh(body, arg) : arg("lang") === "fr" ? await translateFr(body, arg)
+        const r = arg("lang") === "ja" ? await translateJa(body, arg) : arg("lang") === "ar" ? await translateAr(body, arg) : arg("lang") === "zh" ? await translateZh(body, arg) : arg("lang") === "fr" ? await translateFr(body, arg)
           : await translateRomance(arg("lang"), body, arg);
         res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
         res.end(JSON.stringify(r));

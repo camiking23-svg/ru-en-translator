@@ -1,0 +1,282 @@
+[
+  {
+    "ja": "やばい",
+    "say": "yabai",
+    "en": "Crazy, awesome — or terrible (it depends on the tone!)",
+    "ex": "このラーメン、やばい！",
+    "exEn": "This ramen is insane!"
+  },
+  {
+    "ja": "マジで",
+    "say": "maji de",
+    "en": "Seriously, for real",
+    "ex": "マジで？信じられない！",
+    "exEn": "For real? I can't believe it!"
+  },
+  {
+    "ja": "すごい",
+    "say": "sugoi",
+    "en": "Amazing, wow (works almost anywhere)",
+    "ex": "すごい景色だね！",
+    "exEn": "What an amazing view!"
+  },
+  {
+    "ja": "めっちゃ",
+    "say": "meccha",
+    "en": "Super, really (from Kansai, now everywhere)",
+    "ex": "めっちゃ美味しい！",
+    "exEn": "Super tasty!"
+  },
+  {
+    "ja": "超",
+    "say": "chō",
+    "en": "Super, ultra",
+    "ex": "超かわいい！",
+    "exEn": "Super cute!"
+  },
+  {
+    "ja": "それな",
+    "say": "sore na",
+    "en": "Right?! Exactly! (agreeing)",
+    "ex": "— 月曜日って最悪。 — それな。",
+    "exEn": "— Mondays are the worst. — So true."
+  },
+  {
+    "ja": "ウケる",
+    "say": "ukeru",
+    "en": "That's hilarious, LOL",
+    "ex": "その話、ウケる！",
+    "exEn": "That story's hilarious!"
+  },
+  {
+    "ja": "エモい",
+    "say": "emoi",
+    "en": "Emotional, nostalgic, moving",
+    "ex": "この曲、エモい。",
+    "exEn": "This song hits me right in the feels."
+  },
+  {
+    "ja": "ガチ",
+    "say": "gachi",
+    "en": "Seriously, for real, hardcore",
+    "ex": "ガチで疲れた。",
+    "exEn": "I'm seriously exhausted."
+  },
+  {
+    "ja": "なるほど",
+    "say": "naruhodo",
+    "en": "I see, that makes sense",
+    "ex": "なるほど、わかった！",
+    "exEn": "I see, got it!"
+  },
+  {
+    "ja": "まあまあ",
+    "say": "māmā",
+    "en": "So-so, not bad",
+    "ex": "— 映画どうだった？ — まあまあ。",
+    "exEn": "— How was the movie? — So-so."
+  },
+  {
+    "ja": "微妙",
+    "say": "bimyō",
+    "en": "Meh, iffy (literally 'subtle')",
+    "ex": "この服、ちょっと微妙。",
+    "exEn": "This outfit is kind of meh."
+  },
+  {
+    "ja": "ドンマイ",
+    "say": "donmai",
+    "en": "Don't worry about it, never mind (from 'don't mind')",
+    "ex": "ドンマイ、次がんばろう！",
+    "exEn": "Don't sweat it, let's do better next time!"
+  },
+  {
+    "ja": "お疲れ",
+    "say": "otsukare",
+    "en": "Good work / see ya (casual 'thanks for your effort')",
+    "ex": "お疲れ！また明日。",
+    "exEn": "Good work! See you tomorrow."
+  },
+  {
+    "ja": "ありえない",
+    "say": "arienai",
+    "en": "No way, unbelievable",
+    "ex": "財布忘れた。ありえない！",
+    "exEn": "I forgot my wallet. Unbelievable!"
+  },
+  {
+    "ja": "だるい",
+    "say": "darui",
+    "en": "Ugh, sluggish, can't be bothered",
+    "ex": "今日は月曜日でだるい。",
+    "exEn": "It's Monday and I feel so sluggish."
+  },
+  {
+    "ja": "ムカつく",
+    "say": "mukatsuku",
+    "en": "That's so annoying, it pisses me off",
+    "ex": "あの人、ムカつく！",
+    "exEn": "That person is so annoying!"
+  },
+  {
+    "ja": "かわいい",
+    "say": "kawaii",
+    "en": "Cute (used for almost everything)",
+    "ex": "この犬、かわいい！",
+    "exEn": "This dog is so cute!"
+  },
+  {
+    "ja": "かっこいい",
+    "say": "kakkoii",
+    "en": "Cool, good-looking",
+    "ex": "そのジャケット、かっこいい！",
+    "exEn": "That jacket is cool!"
+  },
+  {
+    "ja": "イケメン",
+    "say": "ikemen",
+    "en": "A hot guy, good-looking man",
+    "ex": "あの店員さん、イケメンだね。",
+    "exEn": "That clerk is really good-looking."
+  },
+  {
+    "ja": "ダサい",
+    "say": "dasai",
+    "en": "Lame, uncool, tacky",
+    "ex": "その帽子、ちょっとダサい。",
+    "exEn": "That hat is kind of lame."
+  },
+  {
+    "ja": "懐かしい",
+    "say": "natsukashii",
+    "en": "That brings back memories, so nostalgic",
+    "ex": "この曲、懐かしい！",
+    "exEn": "This song brings back memories!"
+  },
+  {
+    "ja": "推し",
+    "say": "oshi",
+    "en": "Your favorite (idol, character, member)",
+    "ex": "私の推しはこの人！",
+    "exEn": "This is my fave!"
+  },
+  {
+    "ja": "ぶっちゃけ",
+    "say": "bucchake",
+    "en": "Honestly, to be frank",
+    "ex": "ぶっちゃけ、あまり好きじゃない。",
+    "exEn": "Honestly, I don't really like it."
+  },
+  {
+    "ja": "ワンチャン",
+    "say": "wanchan",
+    "en": "Maybe, there's a chance (from 'one chance')",
+    "ex": "ワンチャン間に合うかも。",
+    "exEn": "We might just make it."
+  },
+  {
+    "ja": "神",
+    "say": "kami",
+    "en": "Godly, amazing (literally 'god')",
+    "ex": "このゲーム、神！",
+    "exEn": "This game is amazing!"
+  },
+  {
+    "ja": "ノリ",
+    "say": "nori",
+    "en": "The vibe, going with the flow",
+    "ex": "ノリがいいね！",
+    "exEn": "You're so fun / good vibes!"
+  },
+  {
+    "ja": "飲み会",
+    "say": "nomikai",
+    "en": "A drinking party (with coworkers or friends)",
+    "ex": "金曜日に飲み会があるよ。",
+    "exEn": "There's a drinking party on Friday."
+  },
+  {
+    "ja": "バイト",
+    "say": "baito",
+    "en": "Part-time job (from German Arbeit)",
+    "ex": "今日はバイトがある。",
+    "exEn": "I have my part-time job today."
+  },
+  {
+    "ja": "ドタキャン",
+    "say": "dotakyan",
+    "en": "Bailing at the last minute",
+    "ex": "友達にドタキャンされた。",
+    "exEn": "My friend bailed on me last minute."
+  },
+  {
+    "ja": "ぼっち",
+    "say": "botchi",
+    "en": "Alone, a loner (joking)",
+    "ex": "今日はぼっちでランチ。",
+    "exEn": "Lunch alone today."
+  },
+  {
+    "ja": "リア充",
+    "say": "riajū",
+    "en": "Someone with a busy, happy real life",
+    "ex": "週末も予定いっぱい、リア充だね。",
+    "exEn": "Plans all weekend? Living your best life."
+  },
+  {
+    "ja": "キモい",
+    "say": "kimoi",
+    "en": "Gross, creepy (rude — use carefully)",
+    "ex": "虫、キモい！",
+    "exEn": "Bugs are gross!"
+  },
+  {
+    "ja": "うまい",
+    "say": "umai",
+    "en": "Delicious / skillful (more casual than 美味しい)",
+    "ex": "これ、うまい！",
+    "exEn": "This is so good!"
+  },
+  {
+    "ja": "腹減った",
+    "say": "hara hetta",
+    "en": "I'm starving (casual, a bit rough — 'お腹すいた' is softer)",
+    "ex": "腹減った、何か食べよう。",
+    "exEn": "I'm starving, let's eat something."
+  },
+  {
+    "ja": "お腹すいた",
+    "say": "onaka suita",
+    "en": "I'm hungry (casual, works for anyone)",
+    "ex": "お腹すいた！ご飯行こう。",
+    "exEn": "I'm hungry! Let's go eat."
+  },
+  {
+    "ja": "了解",
+    "say": "ryōkai",
+    "en": "Got it, roger",
+    "ex": "了解、すぐ行く！",
+    "exEn": "Got it, on my way!"
+  },
+  {
+    "ja": "じゃあね",
+    "say": "jā ne",
+    "en": "See ya, bye (with friends)",
+    "ex": "じゃあね、また明日！",
+    "exEn": "Bye, see you tomorrow!"
+  },
+  {
+    "ja": "陽キャ",
+    "say": "yōkya",
+    "en": "An outgoing, life-of-the-party person (opposite: 陰キャ inkya, an introvert)",
+    "ex": "彼女は陽キャだね。",
+    "exEn": "She's such an extrovert."
+  },
+  {
+    "ja": "草",
+    "say": "kusa",
+    "en": "LOL (literally 'grass' — from www)",
+    "ex": "それは草。",
+    "exEn": "That's hilarious."
+  }
+]

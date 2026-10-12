@@ -1,0 +1,310 @@
+[
+  {
+    "ja": "一",
+    "say": "ichi",
+    "en": "1 — one",
+    "ex": "一枚ください。",
+    "exEn": "One ticket, please."
+  },
+  {
+    "ja": "二",
+    "say": "ni",
+    "en": "2 — two",
+    "ex": "二人です。",
+    "exEn": "Two people."
+  },
+  {
+    "ja": "三",
+    "say": "san",
+    "en": "3 — three",
+    "ex": "三番線です。",
+    "exEn": "It's track three."
+  },
+  {
+    "ja": "四",
+    "say": "yon (or shi — sounds like 'death', so often avoided)",
+    "en": "4 — four",
+    "ex": "四時に会いましょう。",
+    "exEn": "Let's meet at four."
+  },
+  {
+    "ja": "五",
+    "say": "go",
+    "en": "5 — five",
+    "ex": "五分待ってください。",
+    "exEn": "Please wait five minutes."
+  },
+  {
+    "ja": "六",
+    "say": "roku",
+    "en": "6 — six",
+    "ex": "六時です。",
+    "exEn": "It's six o'clock."
+  },
+  {
+    "ja": "七",
+    "say": "nana (or shichi)",
+    "en": "7 — seven",
+    "ex": "七時に起きます。",
+    "exEn": "I get up at seven."
+  },
+  {
+    "ja": "八",
+    "say": "hachi",
+    "en": "8 — eight (lucky — it widens toward the bottom)",
+    "ex": "八階です。",
+    "exEn": "It's the eighth floor."
+  },
+  {
+    "ja": "九",
+    "say": "kyū (ku sounds like 'suffering', so often avoided)",
+    "en": "9 — nine",
+    "ex": "九時に閉まります。",
+    "exEn": "It closes at nine."
+  },
+  {
+    "ja": "十",
+    "say": "jū",
+    "en": "10 — ten",
+    "ex": "十分かかります。",
+    "exEn": "It takes ten minutes."
+  },
+  {
+    "ja": "十一",
+    "say": "jū-ichi",
+    "en": "11 — eleven (ten-one)",
+    "ex": "十一時です。",
+    "exEn": "It's eleven o'clock."
+  },
+  {
+    "ja": "二十",
+    "say": "ni-jū",
+    "en": "20 — twenty (two-ten)",
+    "ex": "二十歳です。",
+    "exEn": "I'm twenty. (二十歳 is read hatachi)"
+  },
+  {
+    "ja": "百",
+    "say": "hyaku",
+    "en": "100 — one hundred",
+    "ex": "百円ショップ",
+    "exEn": "100-yen shop"
+  },
+  {
+    "ja": "千",
+    "say": "sen",
+    "en": "1,000 — one thousand",
+    "ex": "千円です。",
+    "exEn": "It's a thousand yen."
+  },
+  {
+    "ja": "万",
+    "say": "man",
+    "en": "10,000 — ten thousand (big numbers count in 万)",
+    "ex": "一万円札",
+    "exEn": "A 10,000-yen bill"
+  },
+  {
+    "ja": "〜円",
+    "say": "-en",
+    "en": "Yen",
+    "ex": "これは五百円です。",
+    "exEn": "This is 500 yen."
+  },
+  {
+    "ja": "いくらですか？",
+    "say": "ikura desu ka",
+    "en": "How much is it?",
+    "ex": "すみません、これはいくらですか？",
+    "exEn": "Excuse me, how much is this?"
+  },
+  {
+    "ja": "高い / 安い",
+    "say": "takai / yasui",
+    "en": "Expensive / cheap",
+    "ex": "ちょっと高いですね。",
+    "exEn": "It's a bit expensive."
+  },
+  {
+    "ja": "一つ / 二つ / 三つ",
+    "say": "hitotsu / futatsu / mittsu",
+    "en": "One / two / three (of something — the easy way to order)",
+    "ex": "これを二つください。",
+    "exEn": "Two of these, please."
+  },
+  {
+    "ja": "一人 / 二人",
+    "say": "hitori / futari",
+    "en": "One person / two people",
+    "ex": "一人です。",
+    "exEn": "Just one person."
+  },
+  {
+    "ja": "〜枚",
+    "say": "-mai",
+    "en": "Counter for flat things (tickets, plates, shirts)",
+    "ex": "切符を二枚ください。",
+    "exEn": "Two tickets, please."
+  },
+  {
+    "ja": "〜本",
+    "say": "-hon / -bon / -pon",
+    "en": "Counter for long things (bottles, umbrellas, trains)",
+    "ex": "ビールを一本ください。",
+    "exEn": "One bottle of beer, please."
+  },
+  {
+    "ja": "何時ですか？",
+    "say": "nan-ji desu ka",
+    "en": "What time is it?",
+    "ex": "すみません、今何時ですか？",
+    "exEn": "Excuse me, what time is it now?"
+  },
+  {
+    "ja": "〜時",
+    "say": "-ji",
+    "en": "…o'clock (四時 yo-ji, 七時 shichi-ji, 九時 ku-ji)",
+    "ex": "三時に会いましょう。",
+    "exEn": "Let's meet at three."
+  },
+  {
+    "ja": "半",
+    "say": "han",
+    "en": "Half past (三時半 = 3:30)",
+    "ex": "二時半です。",
+    "exEn": "It's 2:30."
+  },
+  {
+    "ja": "〜分",
+    "say": "-fun / -pun",
+    "en": "Minutes (五分 go-fun, 十分 juppun)",
+    "ex": "あと十分です。",
+    "exEn": "Ten more minutes."
+  },
+  {
+    "ja": "午前 / 午後",
+    "say": "gozen / gogo",
+    "en": "a.m. / p.m.",
+    "ex": "午後三時",
+    "exEn": "3 p.m."
+  },
+  {
+    "ja": "今日 / 明日 / 昨日",
+    "say": "kyō / ashita / kinō",
+    "en": "Today / tomorrow / yesterday",
+    "ex": "明日また来ます。",
+    "exEn": "I'll come again tomorrow."
+  },
+  {
+    "ja": "月曜日",
+    "say": "getsuyōbi",
+    "en": "Monday (moon-day; 火 Tue, 水 Wed, 木 Thu, 金 Fri, 土 Sat)",
+    "ex": "月曜日は休みです。",
+    "exEn": "Closed on Mondays."
+  },
+  {
+    "ja": "日曜日",
+    "say": "nichiyōbi",
+    "en": "Sunday (sun-day)",
+    "ex": "日曜日に行きます。",
+    "exEn": "I'll go on Sunday."
+  },
+  {
+    "ja": "〜月",
+    "say": "-gatsu",
+    "en": "Month: 一月 ichigatsu = January … 九月 kugatsu = September",
+    "ex": "九月に日本に行きます。",
+    "exEn": "I'm going to Japan in September."
+  },
+  {
+    "ja": "〜日",
+    "say": "-nichi",
+    "en": "Day of the month (1st–10th are special: 一日 tsuitachi, 二日 futsuka, 三日 mikka…)",
+    "ex": "十五日に着きます。",
+    "exEn": "I arrive on the 15th."
+  },
+  {
+    "ja": "何泊ですか？",
+    "say": "nan-paku desu ka",
+    "en": "How many nights? (hotel)",
+    "ex": "— 何泊ですか？ — 三泊です。",
+    "exEn": "— How many nights? — Three nights."
+  },
+  {
+    "ja": "〜番",
+    "say": "-ban",
+    "en": "Number … (一番 = number one, also 'the best')",
+    "ex": "三番出口",
+    "exEn": "Exit number 3"
+  },
+  {
+    "ja": "〜階",
+    "say": "-kai / -gai",
+    "en": "Floor (一階 ikkai = ground floor, 地下 chika = basement)",
+    "ex": "トイレは二階です。",
+    "exEn": "The restroom is on the 2nd floor."
+  },
+  {
+    "ja": "〜歳",
+    "say": "-sai",
+    "en": "Years old",
+    "ex": "三十歳です。",
+    "exEn": "I'm thirty."
+  },
+  {
+    "ja": "零 / ゼロ",
+    "say": "rei / zero",
+    "en": "Zero",
+    "ex": "ゼロ番線",
+    "exEn": "Track zero"
+  },
+  {
+    "ja": "〜分の一",
+    "say": "… bun no ichi",
+    "en": "One …th (三分の一 = one third)",
+    "ex": "ピザの三分の一",
+    "exEn": "A third of the pizza"
+  },
+  {
+    "ja": "半分",
+    "say": "hanbun",
+    "en": "Half",
+    "ex": "半分にしてください。",
+    "exEn": "Please make it half."
+  },
+  {
+    "ja": "全部で",
+    "say": "zenbu de",
+    "en": "Altogether, in total",
+    "ex": "全部でいくらですか？",
+    "exEn": "How much is it altogether?"
+  },
+  {
+    "ja": "〜割引",
+    "say": "-waribiki",
+    "en": "…% off (二割引 = 20% off)",
+    "ex": "三割引です。",
+    "exEn": "It's 30% off."
+  },
+  {
+    "ja": "税込 / 税抜",
+    "say": "zeikomi / zeinuki",
+    "en": "Tax included / before tax (on price tags)",
+    "ex": "税込千百円",
+    "exEn": "1,100 yen including tax"
+  },
+  {
+    "ja": "〜回",
+    "say": "-kai",
+    "en": "Times (一回 = once, 二回 = twice)",
+    "ex": "もう一回お願いします。",
+    "exEn": "One more time, please."
+  },
+  {
+    "ja": "〜個",
+    "say": "-ko",
+    "en": "Counter for small objects (one piece, one item)",
+    "ex": "三個ください。",
+    "exEn": "Three pieces, please."
+  }
+]

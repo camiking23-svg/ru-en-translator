@@ -1,0 +1,210 @@
+[
+  {
+    "ja": "w / www",
+    "say": "warai",
+    "speak": "笑",
+    "en": "LOL — w is short for 笑 (warai, 'laugh'); more w = funnier",
+    "ex": "それ面白いwww",
+    "exEn": "that's so funny lol"
+  },
+  {
+    "ja": "笑",
+    "say": "warai",
+    "speak": "笑",
+    "en": "LOL (the kanji for 'laugh')",
+    "ex": "寝坊した笑",
+    "exEn": "I overslept lol"
+  },
+  {
+    "ja": "草",
+    "say": "kusa",
+    "speak": "草",
+    "en": "LOL (www looks like grass)",
+    "ex": "草生える",
+    "exEn": "lmao"
+  },
+  {
+    "ja": "りょ",
+    "say": "ryo",
+    "speak": "了解",
+    "en": "OK, got it (short for 了解)",
+    "ex": "りょ！",
+    "exEn": "k!"
+  },
+  {
+    "ja": "おけ",
+    "say": "oke",
+    "speak": "オッケー",
+    "en": "OK",
+    "ex": "おけ、7時ね",
+    "exEn": "ok, 7 then"
+  },
+  {
+    "ja": "あざす",
+    "say": "azasu",
+    "speak": "ありがとうございます",
+    "en": "Thx (casual, from ありがとうございます)",
+    "ex": "あざす！助かった",
+    "exEn": "thx! that helped"
+  },
+  {
+    "ja": "ありがと",
+    "say": "arigato",
+    "speak": "ありがとう",
+    "en": "Thanks (casual)",
+    "ex": "ありがと〜",
+    "exEn": "thanks~"
+  },
+  {
+    "ja": "おつ",
+    "say": "otsu",
+    "speak": "お疲れ",
+    "en": "Good job / later (short for お疲れ)",
+    "ex": "今日おつ！",
+    "exEn": "good work today!"
+  },
+  {
+    "ja": "おは",
+    "say": "oha",
+    "speak": "おはよう",
+    "en": "Morning (short for おはよう)",
+    "ex": "おは〜",
+    "exEn": "morning~"
+  },
+  {
+    "ja": "おやすみ",
+    "say": "oyasumi",
+    "speak": "おやすみ",
+    "en": "Good night",
+    "ex": "おやすみ、また明日",
+    "exEn": "night, see you tomorrow"
+  },
+  {
+    "ja": "とりま",
+    "say": "torima",
+    "speak": "とりあえず",
+    "en": "For now, anyway (short for とりあえず)",
+    "ex": "とりま駅集合で",
+    "exEn": "meet at the station for now"
+  },
+  {
+    "ja": "あーね",
+    "say": "ā ne",
+    "speak": "あーね",
+    "en": "Ahh I see (casual, young)",
+    "ex": "あーね、そういうこと",
+    "exEn": "ahh, I get it"
+  },
+  {
+    "ja": "それな",
+    "say": "sore na",
+    "speak": "それな",
+    "en": "Ikr, exactly",
+    "ex": "それな〜",
+    "exEn": "ikr"
+  },
+  {
+    "ja": "マジ？",
+    "say": "maji",
+    "speak": "マジ？",
+    "en": "For real?",
+    "ex": "マジ？やば",
+    "exEn": "for real? crazy"
+  },
+  {
+    "ja": "既読スルー",
+    "say": "kidoku surū",
+    "speak": "既読スルー",
+    "en": "Left on read (読 = read)",
+    "ex": "既読スルーされた…",
+    "exEn": "they left me on read…"
+  },
+  {
+    "ja": "なう",
+    "say": "nau",
+    "speak": "なう",
+    "en": "Right now (from English 'now')",
+    "ex": "渋谷なう",
+    "exEn": "in Shibuya rn"
+  },
+  {
+    "ja": "よろ",
+    "say": "yoro",
+    "speak": "よろしく",
+    "en": "Thanks in advance / please (short for よろしく)",
+    "ex": "明日よろ！",
+    "exEn": "see you tmrw, thx!"
+  },
+  {
+    "ja": "あけおめ",
+    "say": "akeome",
+    "speak": "あけましておめでとう",
+    "en": "Happy New Year! (short for あけましておめでとう)",
+    "ex": "あけおめ！ことよろ！",
+    "exEn": "happy new year! here's to this year!"
+  },
+  {
+    "ja": "ことよろ",
+    "say": "kotoyoro",
+    "speak": "今年もよろしく",
+    "en": "'Let's have a great year together' (New Year's)",
+    "ex": "あけおめことよろ",
+    "exEn": "HNY, let's make it a good one"
+  },
+  {
+    "ja": "ググる",
+    "say": "guguru",
+    "speak": "ググる",
+    "en": "To google it",
+    "ex": "ググって！",
+    "exEn": "google it!"
+  },
+  {
+    "ja": "(^_^)",
+    "say": "kaomoji",
+    "speak": "にこにこ",
+    "en": "Smile — Japanese 'face marks' (kaomoji) read upright",
+    "ex": "ありがとう(^_^)",
+    "exEn": "thanks :)"
+  },
+  {
+    "ja": "(T_T)",
+    "say": "kaomoji",
+    "speak": "えーん",
+    "en": "Crying face",
+    "ex": "テスト落ちた(T_T)",
+    "exEn": "failed the test :'("
+  },
+  {
+    "ja": "〜",
+    "say": "(a wavy line)",
+    "speak": "ね",
+    "en": "A wavy line makes a word sound softer / stretched out",
+    "ex": "おはよ〜",
+    "exEn": "morniiing"
+  },
+  {
+    "ja": "ガチ",
+    "say": "gachi",
+    "speak": "ガチ",
+    "en": "Seriously, for real",
+    "ex": "ガチで眠い",
+    "exEn": "seriously sleepy"
+  },
+  {
+    "ja": "じゃね",
+    "say": "ja ne",
+    "speak": "じゃあね",
+    "en": "See ya",
+    "ex": "またね、じゃね〜",
+    "exEn": "see ya~"
+  },
+  {
+    "ja": "いいね",
+    "say": "ii ne",
+    "speak": "いいね",
+    "en": "Nice / sounds good / 'like'",
+    "ex": "それいいね！",
+    "exEn": "that sounds great!"
+  }
+]

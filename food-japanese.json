@@ -1,0 +1,177 @@
+[
+  {
+    "ja": "何名様ですか？",
+    "say": "nan-mei sama desu ka",
+    "en": "How many people? (what staff ask you)",
+    "ex": "— 何名様ですか？ — 二人です。",
+    "exEn": "— How many? — Two."
+  },
+  {
+    "ja": "二人です",
+    "say": "futari desu",
+    "en": "Two people (一人 hitori = one, 三人 sannin = three)",
+    "ex": "二人です。禁煙席をお願いします。",
+    "exEn": "Two people. Non-smoking, please."
+  },
+  {
+    "ja": "英語のメニューはありますか？",
+    "say": "eigo no menyū wa arimasu ka",
+    "en": "Do you have an English menu?",
+    "ex": "すみません、英語のメニューはありますか？",
+    "exEn": "Excuse me, do you have an English menu?"
+  },
+  {
+    "ja": "おすすめは何ですか？",
+    "say": "osusume wa nan desu ka",
+    "en": "What do you recommend?",
+    "ex": "初めてです。おすすめは何ですか？",
+    "exEn": "It's my first time. What do you recommend?"
+  },
+  {
+    "ja": "これをください",
+    "say": "kore o kudasai",
+    "en": "This one, please (point at the menu!)",
+    "ex": "すみません、これをください。",
+    "exEn": "Excuse me, this one, please."
+  },
+  {
+    "ja": "〜をお願いします",
+    "say": "… o onegai shimasu",
+    "en": "…, please (polite ordering)",
+    "ex": "ラーメンを二つお願いします。",
+    "exEn": "Two ramen, please."
+  },
+  {
+    "ja": "お冷",
+    "say": "o-hiya",
+    "en": "Cold water (free in restaurants — often self-serve)",
+    "ex": "お冷をお願いします。",
+    "exEn": "Some water, please."
+  },
+  {
+    "ja": "生ビール",
+    "say": "nama bīru",
+    "en": "Draft beer (just say 'nama')",
+    "ex": "とりあえず生で！",
+    "exEn": "A draft beer to start!"
+  },
+  {
+    "ja": "乾杯！",
+    "say": "kanpai",
+    "en": "Cheers!",
+    "ex": "お疲れ様でした！乾杯！",
+    "exEn": "Great job, everyone! Cheers!"
+  },
+  {
+    "ja": "美味しい！",
+    "say": "oishii",
+    "en": "Delicious!",
+    "ex": "これ、すごく美味しいです！",
+    "exEn": "This is really delicious!"
+  },
+  {
+    "ja": "〜アレルギーがあります",
+    "say": "… arerugī ga arimasu",
+    "en": "I have a … allergy",
+    "ex": "そばアレルギーがあります。",
+    "exEn": "I have a buckwheat allergy."
+  },
+  {
+    "ja": "肉は食べられません",
+    "say": "niku wa taberaremasen",
+    "en": "I can't eat meat",
+    "ex": "すみません、肉は食べられません。",
+    "exEn": "Sorry, I can't eat meat."
+  },
+  {
+    "ja": "ベジタリアンです",
+    "say": "bejitarian desu",
+    "en": "I'm vegetarian (fish-based dashi broth is in a lot of dishes!)",
+    "ex": "ベジタリアンです。だしは魚ですか？",
+    "exEn": "I'm vegetarian. Is the broth made with fish?"
+  },
+  {
+    "ja": "辛いですか？",
+    "say": "karai desu ka",
+    "en": "Is it spicy?",
+    "ex": "このカレーは辛いですか？",
+    "exEn": "Is this curry spicy?"
+  },
+  {
+    "ja": "〜抜きで",
+    "say": "… nuki de",
+    "en": "Without… (わさび抜き = no wasabi)",
+    "ex": "わさび抜きでお願いします。",
+    "exEn": "No wasabi, please."
+  },
+  {
+    "ja": "お任せで",
+    "say": "o-makase de",
+    "en": "Chef's choice (at sushi counters)",
+    "ex": "お任せでお願いします。",
+    "exEn": "Chef's choice, please."
+  },
+  {
+    "ja": "食券",
+    "say": "shokken",
+    "en": "Meal ticket — buy it from the machine at the door (ramen and udon shops)",
+    "ex": "食券はあちらです。",
+    "exEn": "The ticket machine is over there."
+  },
+  {
+    "ja": "定食",
+    "say": "teishoku",
+    "en": "Set meal (main + rice + miso soup + sides)",
+    "ex": "焼き魚定食をください。",
+    "exEn": "The grilled fish set meal, please."
+  },
+  {
+    "ja": "居酒屋",
+    "say": "izakaya",
+    "en": "Japanese pub (small plates and drinks)",
+    "ex": "今夜、居酒屋に行きませんか？",
+    "exEn": "Want to go to an izakaya tonight?"
+  },
+  {
+    "ja": "お箸",
+    "say": "o-hashi",
+    "en": "Chopsticks (never stand them upright in rice)",
+    "ex": "お箸をもう一膳お願いします。",
+    "exEn": "Another pair of chopsticks, please."
+  },
+  {
+    "ja": "お持ち帰りで",
+    "say": "o-mochikaeri de",
+    "en": "To go (テイクアウト also works)",
+    "ex": "お持ち帰りでお願いします。",
+    "exEn": "To go, please."
+  },
+  {
+    "ja": "店内で",
+    "say": "tennai de",
+    "en": "To eat here",
+    "ex": "— 店内でお召し上がりですか？ — はい、店内で。",
+    "exEn": "— Eating in? — Yes, here."
+  },
+  {
+    "ja": "お会計をお願いします",
+    "say": "o-kaikei o onegai shimasu",
+    "en": "The check, please (you usually pay at the register — no tipping!)",
+    "ex": "すみません、お会計をお願いします。",
+    "exEn": "Excuse me, the check, please."
+  },
+  {
+    "ja": "カードで払えますか？",
+    "say": "kādo de haraemasu ka",
+    "en": "Can I pay by card?",
+    "ex": "カードで払えますか？現金しかないですか？",
+    "exEn": "Can I pay by card? Or is it cash only?"
+  },
+  {
+    "ja": "現金のみ",
+    "say": "genkin nomi",
+    "en": "Cash only (common sign — carry yen)",
+    "ex": "この店は現金のみです。",
+    "exEn": "This shop is cash only."
+  }
+]

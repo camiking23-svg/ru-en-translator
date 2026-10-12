@@ -1,0 +1,184 @@
+[
+  {
+    "ja": "〜はどこですか？",
+    "say": "… wa doko desu ka",
+    "en": "Where is…?",
+    "ex": "すみません、駅はどこですか？",
+    "exEn": "Excuse me, where is the station?"
+  },
+  {
+    "ja": "〜へはどうやって行きますか？",
+    "say": "… e wa dō yatte ikimasu ka",
+    "en": "How do I get to…?",
+    "ex": "浅草へはどうやって行きますか？",
+    "exEn": "How do I get to Asakusa?"
+  },
+  {
+    "ja": "遠いですか？",
+    "say": "tōi desu ka",
+    "en": "Is it far?",
+    "ex": "ここから遠いですか？",
+    "exEn": "Is it far from here?"
+  },
+  {
+    "ja": "右 / 左 / まっすぐ",
+    "say": "migi / hidari / massugu",
+    "en": "Right / left / straight ahead",
+    "ex": "まっすぐ行って、右です。",
+    "exEn": "Go straight, then it's on the right."
+  },
+  {
+    "ja": "駅",
+    "say": "eki",
+    "en": "Station",
+    "ex": "一番近い駅はどこですか？",
+    "exEn": "Where's the nearest station?"
+  },
+  {
+    "ja": "切符",
+    "say": "kippu",
+    "en": "Ticket (most people tap an IC card like Suica instead)",
+    "ex": "京都までの切符を一枚ください。",
+    "exEn": "One ticket to Kyoto, please."
+  },
+  {
+    "ja": "ICカード",
+    "say": "ai-shī kādo",
+    "en": "Tap-to-pay transit card (Suica, PASMO, ICOCA) — also works in shops",
+    "ex": "ICカードにチャージしたいです。",
+    "exEn": "I'd like to top up my IC card."
+  },
+  {
+    "ja": "〜行きの電車はどれですか？",
+    "say": "… yuki no densha wa dore desu ka",
+    "en": "Which train goes to…?",
+    "ex": "新宿行きの電車はどれですか？",
+    "exEn": "Which train goes to Shinjuku?"
+  },
+  {
+    "ja": "何番線ですか？",
+    "say": "nan-ban sen desu ka",
+    "en": "Which platform/track?",
+    "ex": "大阪行きは何番線ですか？",
+    "exEn": "Which track is the train to Osaka?"
+  },
+  {
+    "ja": "乗り換え",
+    "say": "norikae",
+    "en": "Transfer / change trains",
+    "ex": "どこで乗り換えますか？",
+    "exEn": "Where do I change trains?"
+  },
+  {
+    "ja": "新幹線",
+    "say": "shinkansen",
+    "en": "Bullet train",
+    "ex": "新幹線で京都に行きます。",
+    "exEn": "I'm taking the bullet train to Kyoto."
+  },
+  {
+    "ja": "〜までお願いします",
+    "say": "… made onegai shimasu",
+    "en": "To…, please (to a taxi driver — doors open automatically!)",
+    "ex": "このホテルまでお願いします。",
+    "exEn": "To this hotel, please."
+  },
+  {
+    "ja": "予約しています",
+    "say": "yoyaku shite imasu",
+    "en": "I have a reservation",
+    "ex": "カミの名前で予約しています。",
+    "exEn": "I have a reservation under the name Cami."
+  },
+  {
+    "ja": "朝食は付いていますか？",
+    "say": "chōshoku wa tsuite imasu ka",
+    "en": "Is breakfast included?",
+    "ex": "この部屋は朝食は付いていますか？",
+    "exEn": "Is breakfast included with this room?"
+  },
+  {
+    "ja": "Wi-Fiのパスワードは何ですか？",
+    "say": "waifai no pasuwādo wa nan desu ka",
+    "en": "What's the wifi password?",
+    "ex": "すみません、Wi-Fiのパスワードは何ですか？",
+    "exEn": "Excuse me, what's the wifi password?"
+  },
+  {
+    "ja": "トイレはどこですか？",
+    "say": "toire wa doko desu ka",
+    "en": "Where's the restroom?",
+    "ex": "すみません、トイレはどこですか？",
+    "exEn": "Excuse me, where's the restroom?"
+  },
+  {
+    "ja": "薬局",
+    "say": "yakkyoku",
+    "en": "Pharmacy (ドラッグストア = drugstore)",
+    "ex": "近くに薬局はありますか？",
+    "exEn": "Is there a pharmacy nearby?"
+  },
+  {
+    "ja": "頭が痛いです",
+    "say": "atama ga itai desu",
+    "en": "I have a headache (〜が痛い = my … hurts)",
+    "ex": "頭が痛いです。薬はありますか？",
+    "exEn": "I have a headache. Do you have medicine?"
+  },
+  {
+    "ja": "助けて！",
+    "say": "tasukete",
+    "en": "Help! (emergency)",
+    "ex": "助けて！誰か！",
+    "exEn": "Help! Somebody!"
+  },
+  {
+    "ja": "救急車を呼んでください",
+    "say": "kyūkyūsha o yonde kudasai",
+    "en": "Please call an ambulance (119 = ambulance/fire, 110 = police)",
+    "ex": "大変です！救急車を呼んでください！",
+    "exEn": "It's an emergency! Please call an ambulance!"
+  },
+  {
+    "ja": "道に迷いました",
+    "say": "michi ni mayoimashita",
+    "en": "I'm lost",
+    "ex": "すみません、道に迷いました。",
+    "exEn": "Excuse me, I'm lost."
+  },
+  {
+    "ja": "写真を撮ってもいいですか？",
+    "say": "shashin o totte mo ii desu ka",
+    "en": "May I take a photo? (ask in temples and shops)",
+    "ex": "すみません、写真を撮ってもいいですか？",
+    "exEn": "Excuse me, may I take a photo?"
+  },
+  {
+    "ja": "見ているだけです",
+    "say": "mite iru dake desu",
+    "en": "I'm just looking (in shops)",
+    "ex": "ありがとうございます、見ているだけです。",
+    "exEn": "Thank you, I'm just looking."
+  },
+  {
+    "ja": "試着してもいいですか？",
+    "say": "shichaku shite mo ii desu ka",
+    "en": "May I try it on?",
+    "ex": "これ、試着してもいいですか？",
+    "exEn": "May I try this on?"
+  },
+  {
+    "ja": "免税できますか？",
+    "say": "menzei dekimasu ka",
+    "en": "Can I get it tax-free? (bring your passport)",
+    "ex": "パスポートがあります。免税できますか？",
+    "exEn": "I have my passport. Can I get it tax-free?"
+  },
+  {
+    "ja": "コインロッカー",
+    "say": "koin rokkā",
+    "en": "Coin lockers (at stations — great for luggage)",
+    "ex": "コインロッカーはどこですか？",
+    "exEn": "Where are the coin lockers?"
+  }
+]

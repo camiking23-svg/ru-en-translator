@@ -1,15 +1,17 @@
 # Translator roadmap
 
-Live now: 🇷🇺 Russian · 🇫🇷 French · 🇨🇳 Mandarin · 🇲🇽 Spanish · 🇮🇹 Italian · 🇧🇷 Portuguese · 🇸🇦 Arabic (after this push)
+Live now: 🇷🇺 Russian · 🇫🇷 French · 🇨🇳 Mandarin · 🇲🇽 Spanish · 🇮🇹 Italian · 🇧🇷 Portuguese · 🇸🇦 Arabic · 🇯🇵 Japanese (after this push)
 
 ## ✅ Arabic — built
 Modern Standard Arabic translations at `/ar`, right-to-left layout, Hamed / Zariyah voices, male/female "you"
 (listener) and "I" (speaker) forms, حضرتك for the formal button, seven decks + 67 starter phrases.
 
-## 📌 Next up: Japanese (for the trip, around September next year)
-- With months to spare so there's time to practise with it before the trip.
-- Lean toward the polite traveler: the polite -masu / -desu forms by default, with casual speech secondary.
-- The travel, food, numbers and polite-phrases decks matter most.
+## ✅ Japanese — built (for the September trip)
+Polite です・ます by default with a casual タメ口 button, Keita / Nanami voices, seven decks weighted to travel
+(trains and IC cards, ordering, ticket machines, tax-free shopping, emergencies) + 67 starter phrases.
+Practise with the Polite, Food, Travel and Numbers decks before you go.
+
+## 📌 Next up: (open — say the word)
 
 ## 📌 Offline version (idea, parked)
 - Replace the one Google Translate call with a translation model running on your own always-on machine. Everything else stays the same.
