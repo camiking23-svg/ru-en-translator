@@ -1146,7 +1146,7 @@ function translit(ru) {
 
 async function google(text, from, to) {
   const g = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" + from + "&tl=" + to + "&dt=t&q=" + encodeURIComponent(text);
-  const d = await (await fetch(g, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" } })).json();
+  const r = await fetch(g, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" } }); if (!r.ok) throw new Error("Google Translate request failed: " + r.status); const d = await r.json();
   return d[0].map(s => s[0]).join("");
 }
 
@@ -1575,7 +1575,7 @@ const phrasesFr = loadList("phrases-fr.json", FR.STARTER_PHRASES_FR);
 // Google's guess at the language ("fr", "en"…)
 async function googleDetect(text) {
   const g = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=" + encodeURIComponent(text.slice(0, 500));
-  const d = await (await fetch(g, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" } })).json();
+  const r = await fetch(g, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" } }); if (!r.ok) throw new Error("Google Translate request failed: " + r.status); const d = await r.json();
   return typeof d[2] === "string" ? d[2] : "";
 }
 
