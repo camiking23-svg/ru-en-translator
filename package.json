@@ -11,6 +11,6 @@
     "node": ">=20"
   },
   "dependencies": {
-    "msedge-tts": "^2.0.9"
+    "msedge-tts": "^2.1.1"
   }
 }
