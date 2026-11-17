@@ -1144,7 +1144,7 @@ function translit(ru) {
   return s[0].toUpperCase() + s.slice(1);
 }
 
-async function google(text, from, to) {
+/* MyMemory backup translator (no key needed): used when Google Translate fails, e.g. HTTP 429. Returns a plain string, like google(). */ async function myMemory(text, from, to) { const m = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text) + "&langpair=" + from + "|" + to; const r = await fetch(m, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" } }); if (!r.ok) throw new Error("MyMemory request failed: " + r.status); const d = await r.json(); const out = d && d.responseData && d.responseData.translatedText; if (!d || Number(d.responseStatus) !== 200 || typeof out !== "string" || !out.trim() || /QUERY LENGTH LIMIT EXCEEDED|INVALID EMAIL/i.test(out)) throw new Error("MyMemory request failed: bad response"); return out; } async function translateWithFallback(text, from, to) { try { return await google(text, from, to); } catch (e) { const out = await myMemory(text, from, to); console.log("Translate fallback: MyMemory used"); return out; } } async function google(text, from, to) {
   const g = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" + from + "&tl=" + to + "&dt=t&q=" + encodeURIComponent(text);
   const r = await fetch(g, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" } }); if (!r.ok) throw new Error("Google Translate request failed: " + r.status); const d = await r.json();
   return d[0].map(s => s[0]).join("");
@@ -1905,11 +1905,11 @@ http.createServer(async (req, res) => {
       if (/^\s*ZQP0\s*[.!?…]*\s*$/.test(safe) && hits.length === 1) {
         out = safe;                                  // the whole message is one of your phrases
       } else {
-        out = await google(safe, from, to);
+        out = await translateWithFallback(safe, from, to);
       }
       const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
       if (!ok) {
-        out = await google(text, from, to);          // placeholder got mangled → plain translation
+        out = await translateWithFallback(text, from, to);          // placeholder got mangled → plain translation
       } else {
         out = restoreTitles(out, titles, to);
       }
