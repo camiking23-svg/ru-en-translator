@@ -1144,7 +1144,7 @@ function translit(ru) {
   return s[0].toUpperCase() + s.slice(1);
 }
 
-/* MyMemory backup translator (no key needed): used when Google Translate fails, e.g. HTTP 429. Returns a plain string, like google(). */ async function myMemory(text, from, to) { const m = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text) + "&langpair=" + from + "|" + to; const r = await fetch(m, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" } }); if (!r.ok) throw new Error("MyMemory request failed: " + r.status); const d = await r.json(); const out = d && d.responseData && d.responseData.translatedText; if (!d || Number(d.responseStatus) !== 200 || typeof out !== "string" || !out.trim() || /QUERY LENGTH LIMIT EXCEEDED|INVALID EMAIL/i.test(out)) throw new Error("MyMemory request failed: bad response"); return out; } async function translateWithFallback(text, from, to) { try { return await google(text, from, to); } catch (e) { const out = await myMemory(text, from, to); console.log("Translate fallback: MyMemory used"); return out; } } async function google(text, from, to) {
+/* Azure Translator (primary when AZURE_TRANSLATOR_KEY is set). Returns a plain string, like google(). */ async function azureTranslate(text, from, to) { const key = process.env.AZURE_TRANSLATOR_KEY; const region = process.env.AZURE_TRANSLATOR_REGION; if (!key || !region) throw new Error("Azure Translator not configured"); const url = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=" + encodeURIComponent(from) + "&to=" + encodeURIComponent(to); const r = await fetch(url, { method: "POST", headers: { "Ocp-Apim-Subscription-Key": key, "Ocp-Apim-Subscription-Region": region, "Content-Type": "application/json" }, body: JSON.stringify([{ Text: text }]) }); if (!r.ok) throw new Error("Azure Translator request failed: " + r.status); const d = await r.json(); const out = d && d[0] && d[0].translations && d[0].translations[0] && d[0].translations[0].text; if (typeof out !== "string" || !out.trim()) throw new Error("Azure Translator request failed: bad response"); return out; } /* MyMemory backup translator (no key needed): used when Google Translate fails, e.g. HTTP 429. Returns a plain string, like google(). */ async function myMemory(text, from, to) { const m = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text) + "&langpair=" + from + "|" + to; const r = await fetch(m, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" } }); if (!r.ok) throw new Error("MyMemory request failed: " + r.status); const d = await r.json(); const out = d && d.responseData && d.responseData.translatedText; if (!d || Number(d.responseStatus) !== 200 || typeof out !== "string" || !out.trim() || /QUERY LENGTH LIMIT EXCEEDED|INVALID EMAIL/i.test(out)) throw new Error("MyMemory request failed: bad response"); return out; } async function translateWithFallback(text, from, to) { if (process.env.AZURE_TRANSLATOR_KEY) { try { const azureOut = await azureTranslate(text, from, to); console.log("Translate provider: Azure"); return azureOut; } catch (e) {} } try { return await google(text, from, to); } catch (e) { const out = await myMemory(text, from, to); console.log("Translate fallback: MyMemory used"); return out; } } async function google(text, from, to) {
   const g = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" + from + "&tl=" + to + "&dt=t&q=" + encodeURIComponent(text);
   const r = await fetch(g, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" } }); if (!r.ok) throw new Error("Google Translate request failed: " + r.status); const d = await r.json();
   return d[0].map(s => s[0]).join("");
@@ -1601,9 +1601,9 @@ async function translateFr(body, arg) {
   const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
   let out;
   if (/^\s*ZQP0\s*[.!?…]*\s*$/.test(safe) && hits.length === 1) out = safe;     // the whole message is one of your phrases
-  else out = await google(safe, from, to);
+  else out = await translateWithFallback(safe, from, to);
   const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
-  if (!ok) out = await google(text, from, to);                                     // placeholder got mangled → plain translation
+  if (!ok) out = await translateWithFallback(text, from, to);                                     // placeholder got mangled → plain translation
   else out = restoreTitles(out, titles, to);
   if (to === "fr") {
     out = FR.grammar.setFormality(out, arg("y") === "v" ? "v" : "t", arg("l") === "f" ? "f" : "m");
@@ -1650,9 +1650,9 @@ async function translateZh(body, arg) {
   const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
   let out;
   if (/^\s*ZQP0\s*[.!?…。！？]*\s*$/.test(safe) && hits.length === 1) out = safe;   // the whole message is one of your phrases
-  else out = await google(safe, g(from), g(to));
+  else out = await translateWithFallback(safe, g(from), g(to));
   const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
-  if (!ok) out = await google(text, g(from), g(to));               // placeholder got mangled → plain translation
+  if (!ok) out = await translateWithFallback(text, g(from), g(to));               // placeholder got mangled → plain translation
   else out = restoreTitles(out, titles, to);
   if (to === "zh") out = ZH.grammar.setFormality(out, arg("y") === "v" ? "v" : "t");
   if (ok) out = restorePhrases(out, hits, to, CAP_FR);             // last, so nothing rewrites your wording
@@ -1694,9 +1694,9 @@ async function translateRomance(code, body, arg) {
   const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
   let out;
   if (/^\s*ZQP0\s*[.!?…]*\s*$/.test(safe) && hits.length === 1) out = safe;     // the whole message is one of your phrases
-  else out = await google(safe, from, to);
+  else out = await translateWithFallback(safe, from, to);
   const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
-  if (!ok) out = await google(text, from, to);                                     // placeholder got mangled → plain translation
+  if (!ok) out = await translateWithFallback(text, from, to);                                     // placeholder got mangled → plain translation
   else out = restoreTitles(out, titles, to);
   if (to === code) {
     out = L.grammar.setFormality(out, arg("y") === "v" ? "v" : "t", arg("l") === "f" ? "f" : "m");
@@ -1742,9 +1742,9 @@ async function translateAr(body, arg) {
   const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
   let out;
   if (/^\s*ZQP0\s*[.!?…؟]*\s*$/.test(safe) && hits.length === 1) out = safe;     // the whole message is one of your phrases
-  else out = await google(safe, from, to);
+  else out = await translateWithFallback(safe, from, to);
   const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
-  if (!ok) out = await google(text, from, to);                    // placeholder got mangled → plain translation
+  if (!ok) out = await translateWithFallback(text, from, to);                    // placeholder got mangled → plain translation
   else out = restoreTitles(out, titles, to);
   if (to === "ar") {
     out = AR.grammar.setFormality(out, arg("y") === "v" ? "v" : "t", arg("l") === "f" ? "f" : "m");
@@ -1783,9 +1783,9 @@ async function translateJa(body, arg) {
   const { text: safe, hits } = protectPhrases(safe0, from, userPhrases, to);
   let out;
   if (/^\s*ZQP0\s*[.!?…。！？]*\s*$/.test(safe) && hits.length === 1) out = safe;   // the whole message is one of your phrases
-  else out = await google(safe, from, to);
+  else out = await translateWithFallback(safe, from, to);
   const ok = titles.every((_, i) => out.includes("ZQX" + i)) && hits.every((_, i) => out.includes("ZQP" + i));
-  if (!ok) out = await google(text, from, to);                    // placeholder got mangled → plain translation
+  if (!ok) out = await translateWithFallback(text, from, to);                    // placeholder got mangled → plain translation
   else out = restoreTitles(out, titles, to);
   // polite です・ます (the default) or casual plain form
   if (to === "ja") out = JA.grammar.setFormality(out, arg("y") === "t" ? "t" : "v");
